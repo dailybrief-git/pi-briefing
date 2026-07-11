@@ -1,0 +1,61 @@
+{
+  "_note": "anti-repetition memory",
+  "stories": [
+    {
+      "id": "fca-final-crypto-rules",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "FCA publishes final UK cryptoasset regulatory regime, diverging from EU MiCA",
+      "status": "active"
+    },
+    {
+      "id": "uk-heatwave-record",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "UK hits 8th day above 34°C this year, a new record",
+      "status": "active"
+    },
+    {
+      "id": "stripe-agent-cards",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Stripe + Cross River Bank launch AI-agent virtual card issuance",
+      "status": "active"
+    },
+    {
+      "id": "revolut-ai-trading",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Revolut X integrates Claude/Gemini/Cursor for AI-driven crypto trading",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-live",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "OpenAI ships GPT-5.6 Sol preview and GPT-Live voice models",
+      "status": "active"
+    },
+    {
+      "id": "stablecoin-volume-record",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Stablecoin volume hits record $1.79tn in June 2026",
+      "status": "active"
+    },
+    {
+      "id": "saas-multiple-bifurcation",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Vertical AI-native SaaS multiples diverge sharply from lagging sales-automation software",
+      "status": "active"
+    },
+    {
+      "id": "ai-native-seed-surge",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "AI-native seed rounds growing 100-150% YoY while Series A funding stays flat",
+      "status": "active"
+    }
+  ]
+}

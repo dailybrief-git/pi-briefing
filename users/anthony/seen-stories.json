@@ -1,0 +1,54 @@
+{
+  "_note": "anti-repetition memory",
+  "stories": [
+    {
+      "id": "thailand-visa-30-day-cut",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "Thailand cuts visa-free stays to 30 days for 45+ nationalities, mandatory TDAC",
+      "status": "active"
+    },
+    {
+      "id": "solid-state-battery-dendrite-fix",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Root-cause mechanism of solid-state battery short-circuits identified",
+      "status": "active"
+    },
+    {
+      "id": "spacexai-grok-4-5-beta",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "SpaceXAI's Grok 4.5 model in private beta at SpaceX and Tesla",
+      "status": "active"
+    },
+    {
+      "id": "hydrogen-perovskite-catalyst",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Birmingham perovskite catalyst enables lower-temperature hydrogen production",
+      "status": "active"
+    },
+    {
+      "id": "tat-h2-campaign-cluster",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "TAT running GCC wellness, European, and Agoda demand campaigns for H2 2026",
+      "status": "active"
+    },
+    {
+      "id": "us-hotel-chains-thailand-entry",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "US hotel groups entering Thailand via local-partner JV model, Chiang Mai named",
+      "status": "active"
+    },
+    {
+      "id": "china-outbound-summer-rebound",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Chinese outbound bookings double YoY; Chiang Mai 4th in Agoda H1 search rankings",
+      "status": "active"
+    }
+  ]
+}
