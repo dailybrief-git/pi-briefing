@@ -331,19 +331,26 @@ def build_user_prompt(profile, seen, template, digest_text, dt):
 
 def generate(profile, seen, template, digest_text, dt):
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
-    log("calling Anthropic model %s ..." % MODEL)
-    resp = client.messages.create(
+    log("calling Anthropic model %s (streaming) ..." % MODEL)
+    # Stream: the SDK refuses a non-streaming request when max_tokens is large
+    # enough that the response could take a while, so we stream and accumulate.
+    parts = []
+    with client.messages.stream(
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_user_prompt(
             profile, seen, template, digest_text, dt)}],
-    )
-    if resp.stop_reason == "max_tokens":
+    ) as stream:
+        for chunk in stream.text_stream:
+            parts.append(chunk)
+        final = stream.get_final_message()
+    if final.stop_reason == "max_tokens":
         die("model hit max_tokens - output truncated, refusing to publish. "
             "Raise MAX_TOKENS.")
-    parts = [b.text for b in resp.content if getattr(b, "type", "") == "text"]
-    return "".join(parts)
+    text = "".join(parts)
+    log("received %d chars from model" % len(text))
+    return text
 
 
 # ---------------------------------------------------------------- parse/check -
