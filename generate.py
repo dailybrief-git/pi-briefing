@@ -46,7 +46,7 @@ import anthropic
 MODEL = os.environ.get("MODEL", "claude-sonnet-5")
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")
 SEARCH_MAX = int(os.environ.get("SEARCH_MAX", "22"))
-MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "32000"))
+MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "16000"))
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 TIMEZONE = "Asia/Bangkok"
 
@@ -264,17 +264,22 @@ Dashboard - a personalised daily briefing, NOT a news aggregator. It answers \
 Follow these rules exactly:
 
 DESIGN / OUTPUT
-- Produce a COMPLETE, self-contained HTML page in the identical visual style, \
-structure, CSS and JavaScript as the TEMPLATE you are given. Reuse the \
-template's <style> and <script> blocks verbatim except for the date-stamped \
-values below. Do not redesign anything.
-- Update every date-stamped value to TODAY: the <title>, the eyebrow line, the \
-<h1>/masthead date and lead paragraph, and the localStorage key \
-(const KEY='pi-feedback-YYYY-MM-DD'). The feedback <script> block, the \
-"Tune feed" controls and the "Copy feedback for Claude" button MUST remain \
-present and functional - never drop them.
-- In the footer, keep a small credit line "Search powered by the Brave Search \
-API" (this attribution is required by the search provider).
+- Produce a COMPLETE HTML page matching the TEMPLATE's structure and CSS \
+classes exactly. Do not redesign anything.
+- To keep your output compact, DO NOT reproduce the large CSS or JavaScript. In \
+the <head>, where the stylesheet belongs, output the bare token __PI_STYLE__ on \
+its own line (no <style> tag, no CSS at all). Immediately before </body>, where \
+the script belongs, output the bare token __PI_SCRIPT__ on its own line (no \
+<script> tag, no JS at all). These two tokens are placeholders that get \
+replaced automatically with the real style and feedback script - so the "Tune \
+feed" controls and "Copy feedback for Claude" button come back automatically; \
+do not write them yourself.
+- Write everything else in FULL: the <head> meta and <title>, the sidebar nav, \
+the masthead (eyebrow, <h1>, lead paragraph), the attention-budget bar, every \
+briefing section with its cards, the right rail, and the footer.
+- Set the <title> and the masthead date and lead paragraph to TODAY. In the \
+footer, keep a small credit line "Search powered by the Brave Search API" \
+(required by the search provider).
 - Keep the attention budget bar honest and in sync with the actual number of \
 cards you output. Empty sections are allowed - say so, never pad.
 
@@ -363,6 +368,29 @@ def extract(text, begin, end, what):
     return text[i + len(begin):j].strip()
 
 
+def extract_static_blocks(template):
+    """Pull the full <style>...</style> and <script>...</script> blocks out of
+    the template so we can inject them where the model left placeholders."""
+    style = re.search(r"<style>.*?</style>", template, re.S)
+    script = re.search(r"<script>.*?</script>", template, re.S)
+    if not style or not script:
+        die("template is missing its <style> or <script> block")
+    return style.group(0), script.group(0)
+
+
+def inject_static(html, template, date_iso):
+    """Replace the model's __PI_STYLE__ / __PI_SCRIPT__ placeholders with the
+    real CSS and feedback JS, then stamp today's date into the feedback key."""
+    if "__PI_STYLE__" not in html or "__PI_SCRIPT__" not in html:
+        die("model output is missing the __PI_STYLE__/__PI_SCRIPT__ placeholders")
+    style_block, script_block = extract_static_blocks(template)
+    html = html.replace("__PI_STYLE__", style_block, 1)
+    html = html.replace("__PI_SCRIPT__", script_block, 1)
+    # The injected script carries yesterday's localStorage key - restamp it.
+    html = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}", "pi-feedback-" + date_iso, html)
+    return html
+
+
 def validate_html(html, dt):
     date_iso = dt.strftime("%Y-%m-%d")
     if not html.lstrip().startswith("<!DOCTYPE html"):
@@ -425,6 +453,7 @@ def main():
 
     html = extract(raw, HTML_BEGIN, HTML_END, "HTML")
     state_json = extract(raw, STATE_BEGIN, STATE_END, "STATE")
+    html = inject_static(html, template, date_iso)
     validate_html(html, dt)
     seen, run_summary = merge_state(seen, state_json, dt)
 
