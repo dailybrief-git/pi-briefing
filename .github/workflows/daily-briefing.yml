@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate today's briefing
+      - name: Generate briefings (all users)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name  "pi-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add dashboard_latest.html dashboard_*.html seen-stories.json
+          git add users
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
@@ -49,9 +49,18 @@ jobs:
 
       - name: Publish to GitHub Pages (gh-pages branch)
         run: |
-          mkdir -p _site
-          cp dashboard_latest.html _site/index.html
-          cp dashboard_*.html _site/ 2>/dev/null || true
+          rm -rf _site && mkdir -p _site
+          for d in users/*/ ; do
+            name=$(basename "$d")
+            [ -f "$d/dashboard_latest.html" ] || continue
+            mkdir -p "_site/$name"
+            cp "$d/dashboard_latest.html" "_site/$name/index.html"
+            cp "$d"/dashboard_*.html "_site/$name/" 2>/dev/null || true
+          done
+          # Keep Anthony's existing root bookmark working.
+          if [ -f users/anthony/dashboard_latest.html ]; then
+            cp users/anthony/dashboard_latest.html _site/index.html
+          fi
           cd _site
           git init -q
           git config user.name  "pi-briefing-bot"
