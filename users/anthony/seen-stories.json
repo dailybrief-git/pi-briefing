@@ -91,6 +91,48 @@
       "section": "opportunities",
       "summary": "Tomorrowland 2026 seen lifting Thai hospitality stocks",
       "status": "active"
+    },
+    {
+      "id": "bangkok-chiangmai-hsr-eec-talks",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Joint committee to meet 15 Jul on Bangkok-Chiang Mai HSR cost terms, escalating to EEC by August",
+      "status": "active"
+    },
+    {
+      "id": "centara-vandon-resort-launch",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Centara unveils new bayfront resort Van Don, opening Q4 2026",
+      "status": "active"
+    },
+    {
+      "id": "amazon-aws-rng-network-breakthrough",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Amazon debuts RNG data-center network hierarchy for AWS",
+      "status": "active"
+    },
+    {
+      "id": "quantum-battery-prototype-australia",
+      "first_briefed": "2026-07-11",
+      "section": "gems",
+      "summary": "Australian researchers demo working quantum battery prototype",
+      "status": "active"
+    },
+    {
+      "id": "ispace-starship-moon-cargo-deal",
+      "first_briefed": "2026-07-11",
+      "section": "startups",
+      "summary": "ispace pays $50M for Starship lunar cargo slot, unveils Lunar Access Integrator service",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cyber-speaker-tease",
+      "first_briefed": "2026-07-11",
+      "section": "companies",
+      "summary": "Tesla teases wireless Cyber Speaker in promo video",
+      "status": "active"
     }
   ]
 }

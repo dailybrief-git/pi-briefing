@@ -98,6 +98,55 @@
       "section": "opportunities",
       "summary": "Ex-DeepMind trio's EquiLibre Technologies raises $500M+ Series A applying poker RL to quant trading",
       "status": "active"
+    },
+    {
+      "id": "nvidia-vera-rubin-liquid-cooling",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Nvidia unveils Vera Rubin platform with 100% liquid-cooled AI infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "thought-machine-100m-revenue",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "London fintech Thought Machine crosses $100m FY2025 revenue",
+      "status": "active"
+    },
+    {
+      "id": "ollama-65m-raise",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Ollama raises $65m for open-source AI developer platform",
+      "status": "active"
+    },
+    {
+      "id": "circle-usdc-overtakes-tether",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "USDC gaining transaction share on Tether amid record stablecoin volume",
+      "status": "active"
+    },
+    {
+      "id": "house-of-lords-stablecoin-report",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "House of Lords committee publishes report on UK stablecoin regulation",
+      "status": "active"
+    },
+    {
+      "id": "revolut-usdt-delist-mica",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "Revolut preparing to delist USDT to comply with MiCA",
+      "status": "active"
+    },
+    {
+      "id": "wiz-ghostapproval-ai-coding-attack",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "Wiz discloses GhostApproval attack method against AI coding assistants",
+      "status": "active"
     }
   ]
 }
