@@ -30,6 +30,7 @@ import re
 import sys
 import time
 import datetime
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -191,34 +192,45 @@ def build_queries(profile):
 # ------------------------------------------------------------- brave search --
 
 def brave_search(query, token, count=5):
-    params = urllib.parse.urlencode(
-        {"q": query, "count": count, "freshness": "pw", "country": "th"}
-    )
-    req = urllib.request.Request(
-        BRAVE_ENDPOINT + "?" + params,
-        headers={
-            "Accept": "application/json",
-            "X-Subscription-Token": token,
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-    except Exception as e:  # network / rate-limit / http error
-        log("  search failed for %r: %s" % (query, e))
-        return []
-    results = (data.get("web") or {}).get("results") or []
-    out = []
-    for r in results[:count]:
-        out.append(
-            {
-                "title": r.get("title", ""),
-                "url": r.get("url", ""),
-                "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
-                "age": r.get("age") or r.get("page_age") or "",
-            }
-        )
-    return out
+    """Query Brave. Try with a freshness bias first; if the request is rejected
+    for any reason, retry with only the essential params so one bad optional
+    parameter can never wipe out the whole run."""
+    headers = {"Accept": "application/json", "X-Subscription-Token": token}
+    attempts = [
+        {"q": query, "count": count, "freshness": "pw"},
+        {"q": query, "count": count},
+    ]
+    for params in attempts:
+        url = BRAVE_ENDPOINT + "?" + urllib.parse.urlencode(params)
+        try:
+            with urllib.request.urlopen(
+                urllib.request.Request(url, headers=headers), timeout=30
+            ) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode("utf-8", "ignore")[:300]
+            except Exception:
+                pass
+            log("  search HTTP %s for %r: %s" % (e.code, query, body))
+            continue
+        except Exception as e:
+            log("  search failed for %r: %s" % (query, e))
+            continue
+        results = (data.get("web") or {}).get("results") or []
+        out = []
+        for r in results[:count]:
+            out.append(
+                {
+                    "title": r.get("title", ""),
+                    "url": r.get("url", ""),
+                    "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
+                    "age": r.get("age") or r.get("page_age") or "",
+                }
+            )
+        return out
+    return []
 
 
 def gather_results(queries, token):
