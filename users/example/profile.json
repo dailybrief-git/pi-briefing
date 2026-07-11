@@ -1,0 +1,94 @@
+{
+  "_note": "Example profile — a different persona to prove the pipeline tailors to each person. Safe to delete or replace with a real friend's profile.",
+  "owner_name": "Sam",
+  "location": {
+    "country": "United Kingdom",
+    "region": "London"
+  },
+  "business": {
+    "sectors": ["fintech", "B2B SaaS"],
+    "watch_topics": [
+      "UK and EU fintech regulation",
+      "payments and open banking developments",
+      "SaaS funding and valuations",
+      "interest rates and their effect on startup funding"
+    ]
+  },
+  "personal_interests": [
+    "cycling",
+    "Premier League football",
+    "specialty coffee",
+    "photography",
+    "electronic music",
+    "hiking"
+  ],
+  "intelligence_topics": [
+    "AI agents and developer tooling",
+    "cybersecurity and data privacy",
+    "digital currencies and stablecoins",
+    "energy transition and grid tech"
+  ],
+  "company_watchlist": {
+    "_note": "Innovation announcements, breakthroughs, new products only — never earnings/stock/exec news.",
+    "companies": ["Stripe", "Nvidia", "OpenAI", "Revolut"]
+  },
+  "startup_radar": {
+    "_note": "New businesses, launches, funding, novel models. Test: 'huh, that's a clever business'.",
+    "spaces": [
+      "AI developer tools",
+      "climate and clean energy",
+      "vertical SaaS",
+      "consumer fintech",
+      "any genuinely novel business model worth knowing about"
+    ]
+  },
+  "deprioritize": [
+    "celebrity gossip",
+    "political commentary not tied to a concrete policy change",
+    "crypto price speculation"
+  ],
+  "learned_preferences": [],
+  "source_preferences": {
+    "_note": "'News before it's news' is additive, not exclusive — big mainstream stories that matter still belong.",
+    "also_scan_early_sources": [
+      "primary research: papers, preprints, university/lab press releases",
+      "specialist and trade publications",
+      "niche newsletters, substacks, expert blogs",
+      "YouTube talks/interviews with researchers, founders, operators",
+      "prediction markets and other early quantitative signals",
+      "regional/local sources for the UK"
+    ],
+    "avoid": [
+      "re-briefing a mainstream story running unchanged for days",
+      "stories whose only novelty is that another outlet repeated them"
+    ]
+  },
+  "prediction_markets": {
+    "_note": "When a briefed story has a live market, show its probability as a chip. Label as 'crowd forecast', never fact. If a figure can't be sourced with a date, skip it.",
+    "topics": [
+      "AI milestones and model releases",
+      "Bank of England / Fed rate decisions",
+      "UK politics and policy with market impact"
+    ]
+  },
+  "podcasts": {
+    "_note": "Summarise new episodes only, with an underlying idea, a relevance line, and a listen/skim verdict.",
+    "shows": [
+      "Acquired",
+      "Lenny's Podcast",
+      "The Rest Is Money"
+    ]
+  },
+  "alert_topics": [
+    "major UK transport or weather disruption",
+    "significant fintech regulatory changes",
+    "major security breaches affecting SaaS tools"
+  ],
+  "attention_budget": {
+    "major_developments": 3,
+    "opportunities": 3,
+    "hidden_gems": 3,
+    "interest_stories": 3,
+    "alerts": 2
+  }
+}
