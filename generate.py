@@ -43,7 +43,7 @@ import anthropic
 MODEL = os.environ.get("MODEL", "claude-sonnet-5")
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")
 SEARCH_MAX = int(os.environ.get("SEARCH_MAX", "22"))
-MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "16000"))
+MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "26000"))
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 TIMEZONE = "Asia/Bangkok"
 
@@ -237,7 +237,10 @@ Dashboard - a personalised daily briefing, NOT a news aggregator. It answers \
 "what changed that matters to me?" not "what's the latest news?".
 
 Return the briefing as a single JSON object - ONLY the content, no HTML. A \
-program renders it into the page, so keep it compact and stop when done.
+program renders it into the page, so keep it compact and stop when done. Be \
+substantive but disciplined: a few tight sentences per text field, not essays. \
+The whole briefing must fit comfortably and you MUST finish with valid closing \
+JSON braces - never trail off mid-object.
 
 EDITORIAL RULES
 - Respect the profile's attention_budget. End complete, never pad. Empty \
