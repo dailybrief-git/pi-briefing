@@ -51,7 +51,7 @@ TIMEZONE = "Asia/Bangkok"
 
 JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
-REQUIRED_MARKERS = ["Tune feed", "Copy feedback for Claude", "budget-track"]
+REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track"]
 MIN_HTML_LEN = 20000
 
 # id, H2 heading, section note, accent css-var, wwuw summary label, relevance label
