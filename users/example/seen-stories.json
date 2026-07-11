@@ -56,6 +56,48 @@
       "section": "opportunities",
       "summary": "AI-native seed rounds growing 100-150% YoY while Series A funding stays flat",
       "status": "active"
+    },
+    {
+      "id": "revolut-pragma-ai-brain",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Revolut's internal AI system PRAGMA unifies fraud, credit and personalisation across 70m users",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-cerebras-inference",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "GPT-5.6 Sol targets 750 tok/s via Cerebras wafer-scale compute, claimed 15x GPU speedup",
+      "status": "active"
+    },
+    {
+      "id": "fca-bond-tape-horizon-scan",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "FCA launches UK bond consolidated tape and Emerging Technology Horizon Scan, proposes penalties framework changes",
+      "status": "active"
+    },
+    {
+      "id": "open-banking-economics-shift",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Open banking debate shifting from data access to data pricing/monetization",
+      "status": "active"
+    },
+    {
+      "id": "startup-funding-concentration-h1-2026",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "H1 2026's $510bn funding record concentrated in OpenAI/Anthropic mega-rounds",
+      "status": "active"
+    },
+    {
+      "id": "equilibre-quant-ai-raise",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Ex-DeepMind trio's EquiLibre Technologies raises $500M+ Series A applying poker RL to quant trading",
+      "status": "active"
     }
   ]
 }
