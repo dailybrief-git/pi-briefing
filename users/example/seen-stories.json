@@ -147,6 +147,48 @@
       "section": "alerts",
       "summary": "Wiz discloses GhostApproval attack method against AI coding assistants",
       "status": "active"
+    },
+    {
+      "id": "nvidia-doca-bluefield-security",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Nvidia unveils DOCA security innovations for BlueField-4 STX, secure storage for agentic AI factories",
+      "status": "active"
+    },
+    {
+      "id": "visa-threat-intel-platform",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Visa launches threat intelligence platform for fraud and cyber defence",
+      "status": "active"
+    },
+    {
+      "id": "uk-blockchain-listings-momentum",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "London edging up as listing venue for blockchain-native fintechs post-FCA crypto rules",
+      "status": "active"
+    },
+    {
+      "id": "lemfi-wealth8-acquisition",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "LemFi gets regulatory approval to acquire investment platform Wealth8",
+      "status": "active"
+    },
+    {
+      "id": "signicat-trusttech-identity",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Signicat and TrustTech partner on reusable digital identity for EU wallets",
+      "status": "active"
+    },
+    {
+      "id": "venezuela-stablecoin-sanctions",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Venezuela sanctions activity cited as real-world stablecoin proof-of-concept",
+      "status": "active"
     }
   ]
 }
