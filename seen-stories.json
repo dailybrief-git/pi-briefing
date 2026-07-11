@@ -1,0 +1,712 @@
+{
+  "_note": "Anti-repetition memory for the daily briefing generator. Each entry is an event the dashboard has already covered. Do NOT re-brief a story unless there is a genuine development beyond 'still true' \\u2014 record the development as a new entry referencing the original. Prune entries older than ~30 days unless still active.",
+  "stories": [
+    {
+      "id": "chiang-mai-flood-lull-then-reload-8-jul",
+      "first_briefed": "2026-07-08",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-flood-watch-through-9-jul: national rain finally stepping DOWN — TMD has rain decreasing countrywide, only isolated heavy rain left over North/upper NE through 9 Jul (first genuine step-down in a week). BUT same forecast has the monsoon trough dropping back across Myanmar/Laos/upper Vietnam 10-13 Jul with 'more rains' + isolated heavy rain North again — a 1-2 day lull between two wet spells, not an all-clear. Also rougher seas (Andaman/upper Gulf 1-2m, >2m in thundershowers) and a second system Typhoon Bavi being watched. Watch: whether 10-13 Jul band firms into a fresh advisory, DDPM/Geology bulletins, Ping River levels, Bavi track.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-airport-24bn-decade-expansion",
+      "first_briefed": "2026-07-08",
+      "section": "opportunities",
+      "summary": "MANDATORY Chiang-Mai-infra yield: AOT's funded 10-year Chiang Mai International expansion — capacity 8M -> 16.5M pax by 2029 -> 20M ultimately; Phase 1 (feasibility/EIA + runways/taxiways/both terminals/aprons/roads/utilities) ~฿24bn, works starting 2026 to 2029; Phase 2 2030-33 to full capacity + ~31 flights/hr. Alongside: Central Pattana ฿1.2bn 30-yr transformation of airport retail/transit zone; Chiang Mai in Transport Ministry's ฿359.8bn slate of 11 national megaprojects for 2026. Funded/phased, not a target. Hypothesis: slow-burn capacity tailwind for CM hospitality but build-phase disruption risk. Watch: Phase-1 construction timeline/terminal phasing, whether new intl capacity matches source markets. Never briefed before.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-unesco-itb-berlin-branding",
+      "first_briefed": "2026-07-08",
+      "section": "opportunities-tier2",
+      "summary": "Chiang Mai working the demand side of long-haul: accelerating heritage-site landscaping ahead of a UNESCO World Heritage assessment + municipality joining ITB Berlin trade show for first time to court European operators. Aligns with TAT high-value/long-haul pivot. Source: Bangkok Post 'Chiang Mai tourism in flux' — RECENCY UNCERTAIN (ITB Berlin is typically March; treat dates as approximate), flagged as such in card."
+    },
+    {
+      "id": "gpt56-sol-cerebras-750-tps",
+      "first_briefed": "2026-07-08",
+      "section": "major",
+      "summary": "DEVELOPMENT of openai-gpt56-sol-govt-gated-release: OpenAI confirmed it will run GPT-5.6 'Sol' on Cerebras wafer-scale hardware at up to 750 tokens/sec, live in July for select customers first — ~10x faster than the 40-120 tok/s GPU streaming range on the same weights. Practical angle for Anthony: speed is what makes multi-step AI agents (voice concierge, booking triage, ops copilot) usable in a live loop rather than a demo. Backed by a disclosed ~$20bn Cerebras inference deal, distinct from the Nvidia lane. Uncertain: access capped 'as capacity expands', still on the govt release gate, ~3T/150B params are third-party estimates, fast-lane pricing unstated. Watch: wider access + price, whether other labs chase wafer-scale, hospitality-software adoption.",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-cosmos-3-physical-ai-omnimodel",
+      "first_briefed": "2026-07-08",
+      "section": "major-tier2",
+      "summary": "Surfaced (not new — launched 1 Jun GTC Taipei, never briefed): NVIDIA Cosmos 3, leaderboard-topping fully-open foundation model for physical AI — one model across text/image/video/sound/action for synthetic training data + robot control policies. The 'world-model' layer under the robotics wave, not a chatbot. Low direct relevance for Anthony; robotics-capped, tier-2. Distinct from nvidia-isaac-gr00t-open-models (07-03)."
+    },
+    {
+      "id": "proxima-fusion-411m-google-rwe",
+      "first_briefed": "2026-07-08",
+      "section": "startup-radar",
+      "summary": "Proxima Fusion (Munich) closed €411M/$468M on 7 Jul — led by XTX Ventures + East X Ventures, Google + utility RWE strategic; ~€2.4B valuation; Europe's best-funded fusion startup. Clever = a STELLARATOR bet (harder to build, steadier than tokamak) with a utility on the cap table; targets Europe's first commercial fusion plant + demonstrator early 2030s; cash into HTS magnet production. Clean-energy space. Long-horizon signal that private fusion money is backing the less-hyped design.",
+      "status": "active"
+    },
+    {
+      "id": "nscale-900m-debt-datacentre",
+      "first_briefed": "2026-07-08",
+      "section": "startup-radar-tier2",
+      "summary": "Nscale (UK AI infra) lined up a $900M revolving credit facility (JPM/Goldman/Morgan Stanley/BofA/Deutsche) to accelerate datacentre buildout across US/Europe/APAC. Picks-and-shovels; notable it's debt not equity funding the buildout."
+    },
+    {
+      "id": "mowito-3m-robotic-arm-foundation-models",
+      "first_briefed": "2026-07-08",
+      "section": "startup-radar-tier2",
+      "summary": "Mowito $3M pre-seed (Version One Ventures) for foundation models for industrial robotic arms — same 'manipulation is the last hard problem' thesis as CarbonSix. Robotics-capped, tier-2."
+    },
+    {
+      "id": "deaf1-exercise-muscle-aging-switch",
+      "first_briefed": "2026-07-08",
+      "section": "gems",
+      "summary": "Duke-NUS (+ Singapore General Hospital, Cardiff), Nature Aging: exercise lowers a gene DEAF1, letting older muscle clear damage, repair and hold strength — a molecular 'reset switch' explaining why exercise reverses muscle aging. Distinct from ucla-ndrg1-muscle-aging-brake (07-05, different gene/brake); together building a druggable molecular map of muscle aging. Longevity-research lane, peer-reviewed not just PR. ScienceDaily rel. 23 Jun.",
+      "status": "active"
+    },
+    {
+      "id": "arxiv-entropy-biological-proper-time-aging",
+      "first_briefed": "2026-07-08",
+      "section": "gems",
+      "summary": "Early-June arXiv preprint (2606.23279): theoretical framework treating aging as entropy-normalized 'biological proper time' with repair as bifurcation points that can slow/reset the internal clock. Pure theory, no experiment/therapy, may not survive peer review — surfaced as a pre-mainstream mechanism-level early signal (physicists giving longevity a rigorous notion of biological time). Marker to watch, not a result."
+    },
+    {
+      "id": "starship-flight-13-date-31-jul-v3",
+      "first_briefed": "2026-07-08",
+      "section": "interest",
+      "summary": "DEVELOPMENT of starship-flight-13-v3-second-prep: working target date now ~31 Jul; flies two brand-new V3 vehicles (Super Heavy B20 + Ship 40, Raptor 3); Ship 40 completed 60-sec static fire 1 Jul. Repeats Flight 12's suborbital profile, goal = reliable V3 booster after rocky debut. Launch itself is a new story.",
+      "status": "active"
+    },
+    {
+      "id": "polymarket-fed-hike-48pct-8-jul",
+      "first_briefed": "2026-07-08",
+      "section": "market-signals",
+      "summary": "Polymarket 'Fed rate hike in 2026' flat at ~48% as of 8 Jul (unchanged vs 7 Jul), still below a 50% flip so no signal asserted; within it timing leans October ~44% / September ~37%. 'No change at July FOMC' ~80-84%, flat. No market moved >=5pts. Next catalyst 14 Jul CPI. Crowd forecast. Empty-ish panel = correct. Re-brief if hike market crosses 50% or moves >=5pts.",
+      "status": "active"
+    },
+    {
+      "id": "tesla-giga-texas-scaling-reveal-7-jul",
+      "first_briefed": "2026-07-07 (evening update)",
+      "section": "company-news",
+      "summary": "RESOLUTION of tesla-giga-texas-cool-news-teaser-7-jul: Moravy's teased 7 Jul 'cool news' landed as a substantive scaling update tied to the filed 5.2M sq ft Giga Texas expansion — Cybercab lines running at 90%+ automation (~150 units, mostly FSD training); first Optimus production line landed at Fremont (40 lines planned); Terafab North semiconductor campus (2M sq ft, 2nm) tool-install Q3 2026, first silicon early 2027. Real capacity/line data point, not marketing. Source: Podcast Alpha (Moravy interview).",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-realtime-2.1-release",
+      "first_briefed": "2026-07-07 (evening update)",
+      "section": "major-tier2",
+      "summary": "OpenAI released gpt-realtime-2.1 + mini for low-latency voice/multimodal — ~25% lower p95 latency, better noise handling, stronger tool use/instruction following. Not a frontier leap; the practical layer that makes an affordable voice concierge/phone-agent viable for small hospitality ops. Source: LLM-Stats updates log."
+    },
+    {
+      "id": "chiang-mai-flood-watch-through-9-jul",
+      "first_briefed": "2026-07-07",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-48hr-flood-watch-6-jul: the 48hr HII window rolled forward rather than lifting. Monsoon trough repositioned north (Myanmar/lower China/upper Vietnam) 7-9 Jul; TMD keeps isolated heavy-to-very-heavy rain over North + upper NE through 9 Jul; Chiang Mai special accumulated-rain watch (99.4mm trigger) still standing. Maysak faded but the trough kept the tap on. Watch: extension past 9 Jul or province step-down; DDPM/Geology landslide bulletins for northern provinces; Ping River levels.",
+      "status": "active"
+    },
+    {
+      "id": "tat-second-half-campaign-33m-outlook",
+      "first_briefed": "2026-07-07",
+      "section": "opportunities",
+      "summary": "TAT launched an intensified H2 tourism campaign as arrivals edge up, and re-based its full-year 2026 outlook to ~33M foreign visitors (+0.1% on 2025) — first public whole-year trim vs earlier ambitions. Strategy: lean on long-haul + high-value; chase 2.55M Indian arrivals ('Healing'/wedding/VFR); offset ASEAN regional weakness (-14% Jan-May). Distinct from China-specific downgrades (tat-china-target-cut, atta-chinese-forecast-7m-cut). Watch: whether H2 India/long-haul push shows in bookings.",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-sol-govt-gated-release",
+      "first_briefed": "2026-07-07",
+      "section": "major",
+      "summary": "Surfaced (released 26 Jun, never in feed): OpenAI previewed GPT-5.6 'Sol', its most capable cybersecurity model, restricted to ~20 vetted partners AT US GOVERNMENT REQUEST (briefed officials, shared partner names); Terra/Luna + GA 'coming weeks'. Notable part is the governance mechanism (first government-coordinated named-partner gate for a dual-use frontier model), not raw capability. OpenAI says Sol does NOT cross its 'Cyber Critical' threshold; benchmarks vendor-supplied. Watch: whether GA keeps the gate, whether other labs copy the pattern.",
+      "status": "active"
+    },
+    {
+      "id": "claude-fable5-export-control-suspend-restore",
+      "first_briefed": "2026-07-07",
+      "section": "major-tier2",
+      "summary": "US export-control directive forced Anthropic to suspend Claude Fable 5 + Mythos 5 globally on 12 Jun (reportedly first frontier models switched off by regulatory order, not fault); Commerce Dept lifted it 1 Jul, restoring Fable 5 after 18 days offline. Framed for Anthony as: model availability now carries policy-risk, not just uptime — second-source plan is cheap insurance. Source: LLM-Stats updates log."
+    },
+    {
+      "id": "tesla-giga-texas-cool-news-teaser-7-jul",
+      "first_briefed": "2026-07-07",
+      "section": "company-news",
+      "summary": "Tesla VP Lars Moravy publicly teased 7 Jul for 'cool news' on Giga Texas scaling (plant confirmed to build next-gen Roadster). Teaser only, watch-item not result. Watch: whether it's a real capacity/line data point or marketing.",
+      "status": "active"
+    },
+    {
+      "id": "truffle-hospitality-back-of-house-os",
+      "first_briefed": "2026-07-07",
+      "section": "startup-radar",
+      "summary": "Truffle — pitched as first AI-native OS for hospitality back-of-house (restaurants/cafes/bars); thesis: venues run on disconnected systems bleeding money via stockouts + food waste. Clever = targets unglamorous ops/margin-leak layer. Directly in Anthony's hospitality world. Source: Tech Startups roundup 2 Jul."
+    },
+    {
+      "id": "carbonsix-40m-robotic-hands-factories",
+      "first_briefed": "2026-07-07",
+      "section": "startup-radar-tier2",
+      "summary": "CarbonSix $40M Series A (co-led DSC Investment + LB Investment, Korea) for AI-driven dexterous robotic hands + software for factories. Manipulation = the last hard automation problem; money flowing to hands not arms. Robotics-capped, kept tier-2."
+    },
+    {
+      "id": "long-lived-families-healthy-aging-gene",
+      "first_briefed": "2026-07-07",
+      "section": "gems",
+      "summary": "ScienceDaily (rel. 21 Jun): study of exceptional-longevity families found a rare genetic signature tied to healthspan (staying healthy longer), not just lifespan. Family-cohort correlation, not a therapy. Longevity research lane. Never briefed."
+    },
+    {
+      "id": "optical-centrifuge-molecules-superfluid",
+      "first_briefed": "2026-07-07",
+      "section": "gems",
+      "summary": "ScienceDaily: physicists built an optical centrifuge that precisely spins single molecules inside a superfluid helium droplet — a first; novel quantum-scale control tool, no near-term application. Underreported fundamental-science find."
+    },
+    {
+      "id": "f1-belgian-gp-spa-preview-antonelli-25pt",
+      "first_briefed": "2026-07-07",
+      "section": "interest",
+      "summary": "Forward-looking: next F1 round is Belgian GP at Spa 17-19 Jul. Antonelli still leads but buffer over Russell cut 43->25 after Silverstone. Spa (great drivers' circuit, often wet) = first pressure test of the rookie's title run. Race result is a new story.",
+      "status": "active"
+    },
+    {
+      "id": "polymarket-fed-hike-48pct-7-jul",
+      "first_briefed": "2026-07-07",
+      "section": "market-signals",
+      "summary": "Polymarket 'Fed rate hike in 2026' ~48% as of 7 Jul — closest thing to a live signal, creeping toward a 50% flip (Warsh Fed lifted 2026 PCE view to 3.6%, nine officials favour >=1 hike) but has NOT crossed 50, so no signal asserted. Zero-cuts-2026 ~79.8%, July no-change ~84% — flat vs baselines. Crowd forecast. Re-brief if hike market crosses 50% or moves >=5pts.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-48hr-flood-watch-6-jul",
+      "first_briefed": "2026-07-06",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-flash-flood-5-jul: national rain warning stepped DOWN (TMD has rain decreasing in Central/East/South) but risk concentrated on the North — HII placed Chiang Mai + Bueng Kan under a specific 48-hour accumulated-rain flood watch; Samoeng Tai flagged ~99mm. Isolated heavy rain North/upper NE through 6 Jul; Maysak landfall southern China 6 Jul should starve monsoon feed. Next development: whether 48hr window extends/lifts 7 Jul, DDPM North bulletin.",
+      "status": "active"
+    },
+    {
+      "id": "atta-chinese-forecast-7m-cut",
+      "first_briefed": "2026-07-06",
+      "section": "opportunities",
+      "summary": "Association of Thai Travel Agents (ATTA) cut its 2026 Chinese-arrivals working forecast from ~9M to ~7M (4 Jun statement, surfaced now). Drivers: damaged safety image among Chinese travellers + higher travel costs from Middle-East-linked oil prices. Third downgrade in a week alongside TAT target cut (6.73M->5M) and the 90->30 extension review. Distinct from tat-china-target-cut (govt target) — this is the trade's planning number. Watch: forward Chinese booking pace vs 7M view.",
+      "status": "active"
+    },
+    {
+      "id": "china-solid-state-battery-standard-released",
+      "first_briefed": "2026-07-06",
+      "section": "major",
+      "summary": "DEVELOPMENT of china-solid-state-battery-standard: China RELEASED its first national GB/T solid-state EV battery standard (terminology + classification) July 2026 as pilot mass-production spins up; BYD/Geely/Chery/GAC/Dongfeng/FAW running installation trials; sample cells 260-500 Wh/kg (supplier-reported). Standard = definition, not mass availability. Watch: first certified cells in a production vehicle, Japan/Korea timeline responses.",
+      "status": "active"
+    },
+    {
+      "id": "glm-5-2-open-model-top-coding",
+      "first_briefed": "2026-07-06",
+      "section": "major-tier2",
+      "summary": "Surfaced (not new — released 16 Jun): Z.ai MIT-licensed GLM-5.2 tops GPT-5.5 on coding — 62.1 SWE-bench Pro (vs 58.6), 81 Terminal-Bench 2.1, near Claude Opus 4.8 on long-horizon, ~1/6th API cost. Caveat: hosted API carries China data-handling risk; open weights self-run don't. Backs the 'Chinese open models at frontier' theme (see longcat-2-benchmarks-chip-cluster)."
+    },
+    {
+      "id": "tesla-robotaxi-miami-fifth-city",
+      "first_briefed": "2026-07-06",
+      "section": "company-news",
+      "summary": "Tesla launched driverless Robotaxi in Miami (~3 Jul), its 5th city; targeting a dozen US states by year-end. Deployment-footprint expansion / new-capability line, not earnings. Watch: next city, incident record in denser traffic."
+    },
+    {
+      "id": "function-health-298m-series-b",
+      "first_briefed": "2026-07-06",
+      "section": "startup-radar",
+      "summary": "Function Health $298M Series B — single-handedly lifted longevity funding market average over the past year. Clever model: flat annual membership for whole-body (100+ biomarker) lab testing => recurring consumer revenue + data moat. Consumer-longevity subscription template."
+    },
+    {
+      "id": "basis-health-anti-inflammatory-meal-sub",
+      "first_briefed": "2026-07-06",
+      "section": "startup-radar",
+      "summary": "BASIS Health — subscription meal delivery built entirely around a health thesis (organic, low-temp-cooked, anti-inflammatory, gluten-free, no seed oils/microplastics). Food-as-medicine packaged as recurring consumer service; constraints are the product."
+    },
+    {
+      "id": "sleep-growth-hormone-brain-circuit",
+      "first_briefed": "2026-07-06",
+      "section": "gems",
+      "summary": "Researchers mapped the brain circuitry linking deep (slow-wave) sleep to growth-hormone release, showing mutual regulation. ScienceDaily 5 Jul. Longevity-adjacent mechanism (sleep quality gating recovery/aging)."
+    },
+    {
+      "id": "eth-zurich-light-switch-cancer-dormancy",
+      "first_briefed": "2026-07-06",
+      "section": "gems",
+      "summary": "ETH Zurich built a light-activated molecular switch that selectively destroys the stress-hormone receptors cancer cells use to enter a dormant, treatment-evading state. ScienceDaily 5 Jul. Novel mechanism, lab-stage."
+    },
+    {
+      "id": "f1-british-gp-leclerc-win-antonelli-dnf",
+      "first_briefed": "2026-07-06",
+      "section": "interest",
+      "summary": "RESULT of f1-british-gp-antonelli-pole: Leclerc won a dramatic British GP (first Silverstone win, 9th career), finished under safety car after Verstappen went off/retired. Antonelli led then hit lap-41 left-front wheel-shield failure, ran off track repeatedly, 5s track-limits penalty, finished 9th. Russell 2nd, Hamilton 3rd. Antonelli title lead collapses 43pts -> 25pts over Russell. Next: next race.",
+      "status": "active"
+    },
+    {
+      "id": "starship-flight-13-v3-second-prep",
+      "first_briefed": "2026-07-06",
+      "section": "interest",
+      "summary": "SpaceX nearing Starship Flight 13 — 2nd flight of the 124m V3 vehicle (Raptor 3). Ship 40 completed static fire; short prelaunch burn posted this month; no firm date. First real test of V3 after rocky debut. Launch itself is a new story.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-flash-flood-5-jul",
+      "first_briefed": "2026-07-05",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of tmd-36-province-flood-warning-4-jul: overnight rain produced actual flash flooding in Chiang Mai city (Khaosod); TMD keeps heavy/very heavy rain over North, upper NE, Andaman west coast through 5 Jul (last flagged day of window); Maysak landfall southern China 4-6 Jul. Next development: Monday province step-down/all-clear or escalation.",
+      "status": "active"
+    },
+    {
+      "id": "chinese-visa-extension-90-to-30",
+      "first_briefed": "2026-07-05",
+      "section": "opportunities",
+      "summary": "Tourism & Sports Ministry weighing cut of Chinese in-country visa EXTENSION from 90 to 30 days (avg Chinese stay <15 days, extension seen as excessive / anti-semi-residence). Distinct from visa-free-cut-60-to-30-days. Proposal, not law, no effective date. Arrivals soft: total foreign arrivals -3.3% YoY 12.9M mid-May, Chinese numbers positive. Watch: move to cabinet, effective date.",
+      "status": "active"
+    },
+    {
+      "id": "longcat-2-benchmarks-chip-cluster",
+      "first_briefed": "2026-07-05",
+      "section": "major",
+      "summary": "DEVELOPMENT of meituan-longcat-2-open-source: public benchmarks landed — 59.5% SWE-bench Pro (vs GPT-5.5 58.6%), 70.8% Terminal-Bench; ~48B active/token; trained on 50,000-card cluster of domestic Chinese ASICs. Benchmarks Meituan-reported, independent evals thin. Watch: third-party evals, chip line ID."
+    },
+    {
+      "id": "claude-enterprise-admin-analytics",
+      "first_briefed": "2026-07-05",
+      "section": "major-tier2",
+      "summary": "Anthropic shipped Claude Enterprise admin analytics (3 Jul): org/team spend caps, per-group model entitlements, effort defaults, real-time spend alerts. Response to tokenmaxxing budget blowouts."
+    },
+    {
+      "id": "crunchbase-h1-2026-vc-510b",
+      "first_briefed": "2026-07-05",
+      "section": "major-tier2",
+      "summary": "Crunchbase H1 2026: record $510B global VC in 6 months; OpenAI + Anthropic alone $217B (43%). Signal is concentration vs later-stage AI apps."
+    },
+    {
+      "id": "amazon-leo-third-largest-constellation",
+      "first_briefed": "2026-07-05",
+      "section": "company-news",
+      "summary": "Amazon Leo (ex-Kuiper) past 375 sats after Atlas V put up 29 more (2 Jul) — now third-largest constellation. FCC 30 Jul 50%-deployed deadline; Amazon requested extension. Watch: extension ruling, deadline."
+    },
+    {
+      "id": "meta-compute-live",
+      "first_briefed": "2026-07-05",
+      "section": "company-news",
+      "summary": "DEVELOPMENT of meta-cloud-excess-ai-compute: 'Meta Compute' business now live, leasing idle datacentre capacity + model access to outside clients. Watch: first customers, pricing."
+    },
+    {
+      "id": "together-ai-800m-series-c",
+      "first_briefed": "2026-07-05",
+      "section": "startup-radar",
+      "summary": "Together AI $800M Series C, post-money ~$8.3B (2 Jul roundup) — infra for enterprises running open-weight models (LongCat/DeepSeek/GLM). Picks-and-shovels for the open-model wave."
+    },
+    {
+      "id": "queue-autonomous-pharmacy-robot",
+      "first_briefed": "2026-07-05",
+      "section": "startup-radar",
+      "summary": "Queue $12.6M for a fully autonomous prescription-filling pharmacy robot (2 Jul roundup). Clever: high-volume, rules-heavy, labour-short vertical, deployment-ready."
+    },
+    {
+      "id": "ucla-ndrg1-muscle-aging-brake",
+      "first_briefed": "2026-07-05",
+      "section": "gems",
+      "summary": "UCLA: protein NDRG1 accumulates in aged muscle stem cells and stalls repair-mode switch after injury — druggable mechanism for slow muscle healing with age. ScienceDaily 3 Jul. Longevity research."
+    },
+    {
+      "id": "marine-cloud-brightening-el-nino",
+      "first_briefed": "2026-07-05",
+      "section": "gems",
+      "summary": "Modelling study: targeted marine-cloud-brightening over eastern Pacific could measurably weaken El Niño cycle (not geoengineering broadly, this specific patch). ScienceDaily 3 Jul. Contested, far from deployment."
+    },
+    {
+      "id": "f1-british-gp-antonelli-pole",
+      "first_briefed": "2026-07-05",
+      "section": "interest",
+      "summary": "DEVELOPMENT of f1-silverstone-sprint-antonelli-win: Antonelli pole for British GP 1:28.111, 5th pole of season, edged Leclerc +0.175, Hamilton 3rd, Russell 4th, Verstappen 7th. Race Sun 5 Jul 21:00 Thai. Race RESULT is a new story."
+    },
+    {
+      "id": "america250-sail4th-parade-of-ships",
+      "first_briefed": "2026-07-05",
+      "section": "interest",
+      "summary": "America250 Sail4th 'Parade of Ships' (4 Jul): largest international tall-ships/naval fleet in NY Harbor since 1976 Operation Sail. Maritime spectacle."
+    },
+    {
+      "id": "polymarket-antonelli-61pct-5-jul",
+      "first_briefed": "2026-07-05",
+      "section": "market-signals",
+      "summary": "Polymarket F1 drivers' champion Antonelli ~61% as of 5 Jul (vs 59% 4 Jul) — inside noise band, shown inline on race card, not as a moved signal. No market moved >=5pts since 4 Jul baseline."
+    },
+    {
+      "id": "tmd-36-province-flood-warning-4-jul",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of maysak-monsoon-extension-6-jul: TMD Sat bulletin widens warning to 36 provinces; Chiang Mai explicitly named for heavy rain; very heavy rain Nong Khai/Bueng Kan/Nakhon Phanom; Bangkok 70%; Chon Buri roads flooded. Maysak landfall southern China 4-6 Jul. Next development: province step-down/all-clear, DDPM update, or escalation.",
+      "status": "active"
+    },
+    {
+      "id": "nominee-crackdown-ai-screening-33-firms",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "opportunities",
+      "summary": "DEVELOPMENT of chiang-mai-tourism-crackdown-taskforce: DBD + Dept of Tourism using AI/linked databases to detect nominees; Jan-Jun inspections in Chiang Mai/Phuket/Chon Buri/Krabi/Bangkok flagged 33 firms, 4 tour licences revoked, 29 under investigation; real-time director-change alerts + income/tax screening planned. Watch: prosecutions, screening rules taking effect.",
+      "status": "active"
+    },
+    {
+      "id": "meituan-longcat-2-open-source",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "major",
+      "summary": "Meituan open-sourced LongCat-2.0 (30 Jun): 1.6T MoE, 1M context, MIT license, formerly 'Owl Alpha' atop OpenRouter; first trillion-scale model trained/served entirely on Chinese chips. Watch: independent evals, chip-stack disclosure."
+    },
+    {
+      "id": "grok-45-private-beta",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "major-tier2",
+      "summary": "Grok 4.5 (1.5T V9 + Cursor data) private beta at SpaceX/Tesla since 28 Jun; Musk claims ~Opus parity, unverified. Public release/benchmarks are a new story."
+    },
+    {
+      "id": "tesla-model-y-l-us-launch",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "company-news",
+      "summary": "Six-seat Model Y L (2-2-2 layout) added to US line-up (~3 Jul, specialist press)."
+    },
+    {
+      "id": "joulent-1-75b-ai-energy-infra",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "startup-radar",
+      "summary": "Joulent (Houston) $1.75B strategic financing for AI-compute energy infrastructure — week's biggest round."
+    },
+    {
+      "id": "loyal-100m-dog-longevity-series-c",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "startup-radar",
+      "summary": "Loyal $100M Series C led by Age1 for FDA-track dog-longevity drugs."
+    },
+    {
+      "id": "polymarket-antonelli-59pct-4-jul",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "market-signals",
+      "summary": "Polymarket F1 drivers' champion: Antonelli 59% as of 4 Jul (panel baseline). Re-brief on ±5pt move or major swing."
+    },
+    {
+      "id": "polymarket-fed-zero-cuts-78pct-4-jul",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "market-signals",
+      "summary": "Polymarket: 78% zero Fed cuts in 2026; 80% no change in July, as of 4 Jul (panel baseline). Re-brief on ±5pt move."
+    },
+    {
+      "id": "c14-perovskite-betavoltaic-record",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "gems",
+      "summary": "Carbon-14 betavoltaic with perovskite absorber hits record 10.79% conversion efficiency (Carbon Energy, Wiley) vs <4% prior practical ceiling."
+    },
+    {
+      "id": "primordial-black-hole-gw-hint",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "gems",
+      "summary": "Anomalous gravitational-wave signal revives primordial-black-hole hypothesis (ScienceDaily 2 Jul). Confirmation/paper is a new story."
+    },
+    {
+      "id": "f1-silverstone-sprint-antonelli-win",
+      "first_briefed": "2026-07-04 (evening update)",
+      "section": "interest",
+      "summary": "DEVELOPMENT of f1-silverstone-hamilton-sprint-pole: Antonelli passed Hamilton lap 8/17 to win the sprint; lead over Russell now 43 pts. Sunday GP result is a new story."
+    },
+    {
+      "id": "maysak-monsoon-extension-6-jul",
+      "first_briefed": "2026-07-04",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of tmd-heavy-rain-window-extended-5-jul: Tropical Storm Maysak named, strengthening SW monsoon; 15 red-zone provinces 3-4 Jul; heavy rain in upper North/NE now extended through 6 Jul. Next development: Maysak landfall track 4-6 Jul, DDPM watch update, or all-clear.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-tourism-crackdown-taskforce",
+      "first_briefed": "2026-07-04",
+      "section": "opportunities",
+      "summary": "188-officer joint task force auditing Chiang Mai hotels/licences/nominee structures; 2 Hotel Act violations, 3 immigration breaches, 11 fake-address companies found; TM30 enforcement tightening. Watch: legal proceedings, audit expansion.",
+      "status": "active — re-brief on arrests, new audit rounds, or policy change"
+    },
+    {
+      "id": "thailand-h1-15m-arrivals-china-leads",
+      "first_briefed": "2026-07-04",
+      "section": "opportunities",
+      "summary": "DEVELOPMENT of tat-china-target-cut-vs-real-rebound: 15.4M foreign arrivals by 20 Jun, China top source 2.5M+ (+17% YoY). Next development: July monthly data."
+    },
+    {
+      "id": "apptronik-apollo-2-robot-park",
+      "first_briefed": "2026-07-04",
+      "section": "major",
+      "summary": "Apptronik unveiled Apollo 2 + 90,000 sq ft Robot Park training facility in Austin (30 Jun); data feeds DeepMind Gemini Robotics. Watch: Apollo 3 commercial launch, Mercedes/GXO paid orders."
+    },
+    {
+      "id": "humanoid-capital-wave-2026",
+      "first_briefed": "2026-07-04",
+      "section": "major",
+      "summary": "Cluster: $55.8B robotics funding YTD 2026 (Dealroom); Neura Series C up to $1.4B at ~$7B; Agility Robotics proposed listing ~$2.5B. Watch: Agility listing filing/terms."
+    },
+    {
+      "id": "mcgill-phonon-burst-device",
+      "first_briefed": "2026-07-04",
+      "section": "gems",
+      "summary": "McGill millikelvin device emits controlled phonon bursts from electrons in atoms-thick crystal; behaviour beyond current theory; path to phonon lasers. ScienceDaily 26 Jun."
+    },
+    {
+      "id": "quantum-arrow-of-time-energy-harvest",
+      "first_briefed": "2026-07-04",
+      "section": "gems",
+      "summary": "Quantum control makes system appear to run backward in time; energy harvested from measurement process. ScienceDaily 25 Jun."
+    },
+    {
+      "id": "f1-silverstone-hamilton-sprint-pole",
+      "first_briefed": "2026-07-04",
+      "section": "interest",
+      "summary": "DEVELOPMENT of silverstone-fp1-hamilton: Hamilton sprint pole 1:28.376, 0.011s over Antonelli; Verstappen 3rd, Russell 5th. Sprint result Sat + GP result Sun are new stories."
+    },
+    {
+      "id": "katalyst-link-swift-boost-launch",
+      "first_briefed": "2026-07-04",
+      "section": "interest",
+      "summary": "Katalyst Space LINK robotic servicer launched 3 Jul on Pegasus XL air-dropped from L-1011 Stargazer; mission to boost NASA Swift telescope orbit. Docking/boost result is a new story."
+    },
+    {
+      "id": "meta-cloud-excess-ai-compute",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "company-news",
+      "summary": "Meta building cloud business to sell excess AI compute (announced 1 Jul). Watch: launch details, first customers."
+    },
+    {
+      "id": "spacex-starmind-orbital-ai-constellation",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "company-news",
+      "summary": "SpaceX 'Starmind' AI satellite constellation named, target 1M orbital compute nodes; Tesla-SpaceX Terafab chip JV alongside. Watch: first Starmind launches, Terafab site."
+    },
+    {
+      "id": "tesla-roadster-august-demo-spacex-package",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "company-news",
+      "summary": "Next-gen Roadster public demo set for August 2026 incl. SpaceX cold-gas thruster package. The August demo itself is a new story."
+    },
+    {
+      "id": "dirty-gut-probiotic-chocolate",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "startup-radar",
+      "summary": "DIRTY GUT probiotic chocolate bites launched (Mar 2026), US retail expansion late 2026."
+    },
+    {
+      "id": "california-cultured-cell-cocoa-gras",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "startup-radar",
+      "summary": "California Cultured first GRAS filing for cell-cultured cocoa powder; ingredient launch planned 2026. Celleste Bio (Mondelez) racing on cultured cocoa butter."
+    },
+    {
+      "id": "solar-foods-commercial-air-protein",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "startup-radar",
+      "summary": "Solar Foods opened first commercial-scale air-protein (Solein) facility; GEA backing for Factory 02."
+    },
+    {
+      "id": "abt263-senolytic-skin-healing",
+      "first_briefed": "2026-07-04 (afternoon add-on)",
+      "section": "gems",
+      "summary": "Senolytic ABT-263 wound dressing reverses skin-aging aspects, speeds healing in aged/diabetic models (first longevity-topic item). Junevity cell-reset first-in-human trials H2 2026 — trial start is a new story."
+    },
+    {
+      "id": "thailand-365-day-tourism-strategy",
+      "first_briefed": "2026-07-04",
+      "section": "opportunities-tier2",
+      "summary": "Government 365-day tourism push to flatten seasonality and spread income beyond major cities."
+    },
+    {
+      "id": "thailand-flood-watch-43-provinces",
+      "first_briefed": "2026-07-03",
+      "section": "alerts",
+      "summary": "43 provinces under flood/landslide watch from strengthened SW monsoon; Phuket flash flooding, Chiang Rai/Phayao warnings. Watch: extension past 3 Jul, Phuket/Krabi worsening.",
+      "status": "active — re-brief only on extension, escalation, or all-clear"
+    },
+    {
+      "id": "tmd-heavy-rain-window-extended-5-jul",
+      "first_briefed": "2026-07-03 (evening update)",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of thailand-flood-watch-43-provinces: TMD heavy-rain/flash-flood risk window extended through 5 Jul; fresh DDPM flash-flood warning for Chiang Khong. Next development: formal DDPM watch extension, escalation, or all-clear.",
+      "status": "active"
+    },
+    {
+      "id": "meta-watermelon-gpt55-claim",
+      "first_briefed": "2026-07-03 (evening update)",
+      "section": "major",
+      "summary": "Meta AI chief Wang told staff in-training model 'Watermelon' matches GPT-5.5 on benchmarks, ~10x compute of April model. Unconfirmed internal claim. Watch: public benchmarks or release date."
+    },
+    {
+      "id": "magnon-lifetime-100x-quantum",
+      "first_briefed": "2026-07-03 (evening update)",
+      "section": "gems",
+      "summary": "Magnon lifetimes extended ~100x to 18µs in ultra-pure YIG at 30mK — path to coin-sized quantum computers. Science Advances, May 2026."
+    },
+    {
+      "id": "americas-cup-french-ac75-relaunch-naples-hq",
+      "first_briefed": "2026-07-03 (evening update)",
+      "section": "interest",
+      "summary": "French challenger relaunched modified AC75 (1 Jul); Naples Immacolatella HQ deal signed; Naples preliminary regatta 24–27 Sep. Regatta result in Sep is a new story."
+    },
+    {
+      "id": "tat-china-target-cut-vs-real-rebound",
+      "first_briefed": "2026-07-03",
+      "section": "opportunities",
+      "summary": "TAT cut 2026 Chinese-arrival target 6.73M→5M; actual arrivals ~2.5M by 20 Jun, +17% YoY."
+    },
+    {
+      "id": "visa-free-cut-60-to-30-days",
+      "first_briefed": "2026-07-03",
+      "section": "opportunities",
+      "summary": "Cabinet approved 60→30 day visa-exemption rollback (19 May). Watch: Royal Gazette publication date (effective +15 days)."
+    },
+    {
+      "id": "tat-zhong-tai-yi-jia-qin-campaign",
+      "first_briefed": "2026-07-03",
+      "section": "opportunities",
+      "summary": "TAT China campaign calendar: Jan mega fam trip, Feb CNY, Mar Shanghai roadshow."
+    },
+    {
+      "id": "qualcomm-tenstorrent-talks",
+      "first_briefed": "2026-07-03",
+      "section": "major",
+      "summary": "Qualcomm in early talks to acquire Tenstorrent $8-10B. Watch: deal confirmation/price."
+    },
+    {
+      "id": "un-ai-governance-dialogue-geneva",
+      "first_briefed": "2026-07-03",
+      "section": "major",
+      "summary": "UN Global Dialogue on AI Governance, Geneva 6 Jul. NOTE: Anthony rated this type irrelevant — learned_preferences now excludes governance process stories."
+    },
+    {
+      "id": "penn-polariton-computing",
+      "first_briefed": "2026-07-03",
+      "section": "gems",
+      "summary": "Penn hybrid light-matter (polariton) particle for beyond-silicon computing."
+    },
+    {
+      "id": "ames-ductgpt-rare-earth-free-magnets",
+      "first_briefed": "2026-07-03",
+      "section": "gems",
+      "summary": "Ames Lab physics-trained AI hunting rare-earth-free permanent magnets."
+    },
+    {
+      "id": "f1-2026-antonelli-championship-lead",
+      "first_briefed": "2026-07-03",
+      "section": "interest",
+      "summary": "Antonelli leads 171pts (+40 over Russell) after 8/22 rounds. British GP Silverstone 5 Jul — race result itself is a NEW story when it happens."
+    },
+    {
+      "id": "middle-east-arrivals-down-25pct",
+      "first_briefed": "2026-07-03",
+      "section": "opportunities-tier2",
+      "summary": "Middle East arrivals to Thailand -24.9% first 5 months of 2026."
+    },
+    {
+      "id": "thailand-value-driven-growth-strategy",
+      "first_briefed": "2026-07-03",
+      "section": "opportunities-tier2",
+      "summary": "Government 2026 pivot from mass arrivals to high-value experiences."
+    },
+    {
+      "id": "claude-sonnet-5-release",
+      "first_briefed": "2026-07-03",
+      "section": "major-tier2",
+      "summary": "Anthropic released Claude Sonnet 5 on 30 June."
+    },
+    {
+      "id": "nvidia-isaac-gr00t-open-models",
+      "first_briefed": "2026-07-03",
+      "section": "major-tier2",
+      "summary": "NVIDIA Isaac GR00T open robotics models + Cosmos world models."
+    },
+    {
+      "id": "china-solid-state-battery-standard",
+      "first_briefed": "2026-07-03",
+      "section": "gems-tier2",
+      "summary": "China finalising first national solid-state EV battery standard."
+    },
+    {
+      "id": "dalian-composite-electrolyte-84pct",
+      "first_briefed": "2026-07-03",
+      "section": "gems-tier2",
+      "summary": "Dalian Institute composite electrolyte: 84% capacity after 350 cycles."
+    },
+    {
+      "id": "silverstone-fp1-hamilton",
+      "first_briefed": "2026-07-03",
+      "section": "interest-tier2",
+      "summary": "Hamilton fastest FP1 Silverstone sprint weekend. Sprint Sat, race Sun 5 Jul."
+    },
+    {
+      "id": "asteroid-double-flyby-july",
+      "first_briefed": "2026-07-03",
+      "section": "interest-tier2",
+      "summary": "Hayabusa2 Torifune flyby + Tianwen-2 Kamoʻoalewa sampling this month."
+    },
+    {
+      "id": "new-air-force-one-first-flight",
+      "first_briefed": "2026-07-03",
+      "section": "interest-tier2",
+      "summary": "Converted 747-8i first presidential mission 1 Jul."
+    },
+    {
+      "id": "chiang-mai-bavi-bypass-rain-window-10-14-jul",
+      "first_briefed": "2026-07-09",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-flood-lull-then-reload-8-jul: Typhoon Bavi confirmed to bypass Thailand (track into Taiwan/China 10-12 Jul); TMD's own 10-14 Jul heavy-rain/flash-flood window for North/Northeast still active."
+    },
+    {
+      "id": "nominee-crackdown-national-escalation-aug1",
+      "first_briefed": "2026-07-09",
+      "section": "opportunities",
+      "summary": "Commerce Ministry escalating nominee-business crackdown nationally; stricter registration rules take effect 1 Aug; Chiang Mai named as target province alongside Bangkok/Phuket/Chon Buri/Surat Thani. 33 firms flagged nationally."
+    },
+    {
+      "id": "agility-robotics-spac-2-5b",
+      "first_briefed": "2026-07-09",
+      "section": "major",
+      "summary": "Agility Robotics SPAC merger ~$2.5B valuation, $620M+ raised - largest capital raise in humanoid robotics history. Robotics-capped major story."
+    },
+    {
+      "id": "glm-5-2-china-catchup-narrative",
+      "first_briefed": "2026-07-09",
+      "section": "major-tier2",
+      "summary": "Surfaced (released 13 Jun, never briefed): Zhipu GLM-5.2 rivals Claude Opus 4.8 on coding benchmarks at ~1/5 cost, fuels China-catching-up-in-AI narrative."
+    },
+    {
+      "id": "tesla-grok-fsd-driving-decisions",
+      "first_briefed": "2026-07-09",
+      "section": "company-news",
+      "summary": "Tesla VP confirmed Grok will begin taking FSD driving commands (not just conversational), targeted ~Sept 2026."
+    },
+    {
+      "id": "meta-muse-image-launch",
+      "first_briefed": "2026-07-09",
+      "section": "company-news",
+      "summary": "Meta launched Muse Image (first in-house AI image model) 7 Jul across Meta AI/Instagram/WhatsApp; pulls Instagram account as style context. Muse Video preview-only."
+    },
+    {
+      "id": "nox4-nfe2l2-muscle-aging-sulforaphane",
+      "first_briefed": "2026-07-09",
+      "section": "gems",
+      "summary": "Fight Aging! digest: restoring NOX4 or activating NFE2L2 (triggerable via sulforaphane) corrects aged skeletal muscle decline. Complements DEAF1 finding from 8 Jul."
+    },
+    {
+      "id": "meta-brain2qwerty-v2",
+      "first_briefed": "2026-07-09",
+      "section": "gems",
+      "summary": "Meta FAIR's Brain2Qwerty v2: non-invasive (MEG) brain-to-text system, 61% avg word accuracy. Underreported vs Muse launches same week."
+    },
+    {
+      "id": "starship-flight-13-date-moved-14-jul",
+      "first_briefed": "2026-07-09",
+      "section": "interest",
+      "summary": "DEVELOPMENT of starship-flight-13-v3-second-prep / starship-flight-13-date-31-jul-v3: target date moved up from ~31 Jul to 14 Jul; static fire complete."
+    },
+    {
+      "id": "americas-cup-38-no-us-team",
+      "first_briefed": "2026-07-09",
+      "section": "interest",
+      "summary": "5 challenger teams for Louis Vuitton 38th America's Cup, none American - first time in 175-year history. Final match Naples Jul 2027."
+    },
+    {
+      "id": "chiang-mai-rain-window-midwindow-11-jul",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-bavi-bypass-rain-window-10-14-jul: now INSIDE the window. TMD 24h forecast has isolated heavy rain across Mae Hong Son/Chiang Mai/Chiang Rai/Phayao/Nan/Uttaradit; flash-flood/landslide caution along waterways near foothills/lowlands (Samoeng still). Typhoon Bavi making landfall eastern Fujian China 11-12 Jul, TMD confirms no Thai impact (fully resolved). Marine: upper Andaman 2-4m, >4m in thundershowers. Watch: whether TMD/DDPM upgrades 10-14 Jul language into a formal Chiang-Mai-named advisory; Ping River levels; monsoon re-intensification after Bavi clears.",
+      "status": "active"
+    },
+    {
+      "id": "thai-copayment-revival-india-eu-visa-11-jul",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "MANDATORY Thai/Chiang-Mai sweep yield (upside): Tourism & Sports Ministry drafting new phase of state co-payment ('half-half') scheme for H2 - ~THB3,000/person for initial 1M entitlements, via Paotang app, bookings expected Q4 2026 (funded from 2027 central budget starting 1 Oct; 50:50 or 60:40 split TBD; seeking THB3bn). Alongside: revival plans include PROPOSED 15-day visa exemption for Indian travellers + 30-day exemption for all EU countries, and a domestic push discounting ~1M hotel room-nights. Hypothesis: demand-side counterweight to soft China; co-payment lifts domestic occupancy (Chiang Mai leans on Thai weekenders off-peak), EU/India exemption plays to TAT long-haul/high-value pivot. Check: co-payment terms/eligibility for independents, actual visa effective dates (proposals not law), whether THB3bn clears. Distinct from earlier stimulus/365-day items.",
+      "status": "active"
+    }
+  ]
+}

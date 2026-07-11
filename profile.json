@@ -1,0 +1,117 @@
+{
+  "_note": "Edit freely. This drives what the dashboard treats as relevant. Nothing here is locked in — it was drafted from the examples in your concept doc, not confirmed with you directly.",
+  "location": {
+    "country": "Thailand",
+    "region": "Chiang Mai",
+    "note": "Set 2026-07-07 from Anthony's feedback (assumed 'Shanghai' in dictated message meant Chiang Mai — confirm if wrong)."
+  },
+  "business": {
+    "sectors": ["hospitality", "tourism"],
+    "watch_topics": [
+      "Chinese outbound tourism trends",
+      "Thai visa and entry policy",
+      "Thai tourism authority (TAT) campaigns",
+      "weather disruption affecting tourist regions",
+      "Thai business news with tourism/hospitality relevance",
+      "Chiang Mai infrastructure: airport upgrades/expansion, road projects, major subsidies, government initiatives affecting tourism"
+    ]
+  },
+  "personal_interests": [
+    "Formula 1",
+    "America's Cup",
+    "classic cars",
+    "aviation",
+    "space",
+    "architecture",
+    "wine",
+    "technology",
+    "RC boats",
+    "design"
+  ],
+  "intelligence_topics": [
+    "AI capability breakthroughs (new models, research results, hardware) — concrete advances, not policy process",
+    "battery technology",
+    "renewable energy",
+    "robotics (cap ~1 story/day unless genuinely major — 4 Jul feedback: slightly overweighted)",
+    "longevity & anti-aging: new research, findings, treatment/product/service trends"
+  ],
+  "company_watchlist": {
+    "_note": "Added 2026-07-04. 'Company News' rail panel — innovation announcements, breakthroughs, new products/capabilities ONLY. Explicitly NOT: earnings reports, stock moves, executive changes, routine corporate/PR news.",
+    "companies": ["Tesla", "SpaceX", "Amazon", "Meta/Facebook"]
+  },
+  "startup_radar": {
+    "_note": "Added 2026-07-04. 'Startup Radar' rail panel — new startups, launches, funding rounds, and novel business models. Deliberately loose scope: the test is 'huh, that's a clever business' — general interest in new business ideas, not just investable ones.",
+    "spaces": [
+      "functional food & supplements (e.g. medical chocolate)",
+      "solar & clean energy",
+      "AI applications",
+      "longevity/health products & services",
+      "hospitality & eco-tourism innovation",
+      "any genuinely novel business model worth knowing about"
+    ]
+  },
+  "deprioritize": [
+    "celebrity gossip",
+    "domestic politics commentary not tied to policy change",
+    "governance/diplomacy process stories (summits, dialogues, talks) with no binding outcome and no direct impact on Thailand tourism or my interests"
+  ],
+  "learned_preferences": [
+    {
+      "date": "2026-07-07",
+      "feedback": "Very little Thai news beyond weather alerts and some TAT items. Keep checking Thai outlets; specifically watch Chiang Mai infrastructure (airport upgrades, tourism, major subsidies, government initiatives, road infrastructure) — direct business impact. No separate local-news card for now; still tuning.",
+      "rule": "Every run, explicitly query Thai outlets (Bangkok Post, The Nation, Thai PBS, Chiang Mai CityNews, TAT newsroom) for Thai business news and Chiang Mai infrastructure/policy developments. Route findings into existing sections (Opportunities for demand/infrastructure upside, Alerts for disruption). Absence of news is acceptable — never pad — but the searches must happen. Do NOT add a dedicated local-news card unless Anthony asks again."
+    },
+    {
+      "date": "2026-07-03",
+      "feedback": "LESS: 'UN Global Dialogue on AI Governance' — totally irrelevant, no direct impact, no action for me. Would much rather see an AI breakthrough.",
+      "rule": "Exclude AI governance/policy meeting coverage unless it produces a binding decision that directly affects Anthony's business or tech he uses. Fill Intelligence slots with concrete capability/research breakthroughs instead."
+    }
+  ],
+  "source_preferences": {
+    "_note": "Added 2026-07-03, clarified same day: 'news before it's news' is ADDITIVE, not exclusive. Major mainstream stories that genuinely matter still belong in the briefing — the goal is to ALSO stay ahead of public news, not to ignore it.",
+    "also_scan_early_sources": [
+      "primary research: papers, preprints (arXiv, bioRxiv), university/lab press releases",
+      "specialist and trade publications",
+      "niche newsletters, substacks, and expert blogs",
+      "YouTube talks/interviews with researchers, founders, operators",
+      "prediction markets and other early quantitative signals",
+      "regional/local sources for Thailand stories (often ahead of international coverage)"
+    ],
+    "avoid": [
+      "re-briefing a mainstream story that has been running unchanged for days (staleness is the problem, not the outlet)",
+      "stories whose only novelty is that another outlet repeated them"
+    ],
+    "balance": "A big mainstream story with real relevance always earns its slot. Early-signal stories compete for the remaining slots — aim for a visible share of the briefing (especially Hidden Gems and tier-2) coming from pre-mainstream sources.",
+    "exception": "Alerts and Thai policy/visa stories should still use official and established sources (TMD, TAT, Royal Gazette, major Thai outlets) — accuracy beats earliness when the story is operational."
+  },
+  "prediction_markets": {
+    "_note": "Added 2026-07-04. Two uses: (1) INLINE — when a briefed story has a live Polymarket market, show its probability as a chip next to the confidence chip ('Market: 68% ▲3'); (2) 'Market Signals' rail panel — only markets that MOVED meaningfully (±5pts/week or crossed 50%) in Anthony's topic areas. Never a static odds list. Data constraint: Polymarket API and site are unreachable from the pipeline — get odds via web search (news coverage citing Polymarket, cached snippets); always state the as-of date; if a figure can't be verified with a dated source, skip it rather than guess. Label as 'crowd forecast', never as fact.",
+    "topics": [
+      "AI (major model releases, AGI timelines, company milestones)",
+      "macro affecting travel/tourism (Fed cuts, recession odds, oil prices)",
+      "geopolitics with Thailand/Asia tourism impact",
+      "F1 championship odds",
+      "space milestones (Starship, Mars timelines)"
+    ]
+  },
+  "podcasts": {
+    "_note": "Podcast Digest section: summarize new episodes only, with an 'underlying idea', a relevance line only when genuine, a listen/skim verdict, and a source-confidence label (transcript vs show notes).",
+    "shows": [
+      "The Diary of a CEO (Steven Bartlett)",
+      "My First Million (Sam Parr & Shaan Puri)",
+      "Sandeep Swadia | theMITmonk (YouTube, irregular uploads)"
+    ]
+  },
+  "alert_topics": [
+    "severe weather in Thailand",
+    "travel disruption in Thailand",
+    "major regulatory or visa changes affecting tourism"
+  ],
+  "attention_budget": {
+    "major_developments": 3,
+    "opportunities": 3,
+    "hidden_gems": 3,
+    "interest_stories": 3,
+    "alerts": 2
+  }
+}
