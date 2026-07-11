@@ -3,33 +3,30 @@
 Personal Intelligence Dashboard - daily briefing generator.
 
 Runs unattended on GitHub Actions. Steps:
-  1. Load profile.json, seen-stories.json and the previous day's HTML (used as
-     the visual template).
+  1. Load profile.json, seen-stories.json and the previous day's HTML (used for
+     its static chrome: <style>, sidebar, feedback <script>).
   2. Fetch fresh results from the Brave Search API for queries derived from the
      profile (Thai/Chiang Mai sweep is mandatory every run).
-  3. Ask the Anthropic API to write today's briefing as a complete HTML page
-     (same design as the template) plus a machine-readable state delta.
-  4. Validate the output hard. If anything looks wrong, exit non-zero WITHOUT
-     writing anything, so the workflow never publishes a broken page.
-  5. Write dashboard_YYYY-MM-DD.html + dashboard_latest.html and update
-     seen-stories.json.
+  3. Ask the Anthropic API to return the briefing as COMPACT JSON - just the
+     content, no HTML. (This is what keeps runs fast and stops the model from
+     ever running away trying to reproduce a whole HTML page.)
+  4. Deterministically render that JSON into the full HTML page in Python.
+  5. Validate hard; if anything looks wrong, exit non-zero WITHOUT writing, so
+     the workflow never publishes a broken page.
+  6. Write dashboard_YYYY-MM-DD.html + dashboard_latest.html, update seen-stories.
 
-Secrets come from environment variables (set as GitHub Actions secrets):
-  ANTHROPIC_API_KEY   - required
-  BRAVE_API_KEY       - required
-Optional env:
-  MODEL               - Anthropic model id (default below)
-  OUTPUT_DIR          - where files are written (default: current dir)
-  SEARCH_MAX          - max Brave queries per run (default 22)
-  MAX_TOKENS          - Anthropic max output tokens (default 32000)
+Secrets come from environment variables (GitHub Actions secrets):
+  ANTHROPIC_API_KEY, BRAVE_API_KEY   - required
+Optional env: MODEL, OUTPUT_DIR, SEARCH_MAX, MAX_TOKENS
 """
 
+import datetime
+import html as htmllib
 import json
 import os
 import re
 import sys
 import time
-import datetime
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -50,13 +47,21 @@ MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "16000"))
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 TIMEZONE = "Asia/Bangkok"
 
-HTML_BEGIN, HTML_END = "===HTML_BEGIN===", "===HTML_END==="
-STATE_BEGIN, STATE_END = "===STATE_BEGIN===", "===STATE_END==="
+JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
-# Sentinels that must survive into the generated page. If any is missing the
-# page is broken (this is exactly how earlier truncation bugs were caught).
 REQUIRED_MARKERS = ["Tune feed", "Copy feedback for Claude", "budget-track"]
 MIN_HTML_LEN = 20000
+
+# id, H2 heading, section note, accent css-var, wwuw summary label, relevance label
+SECTIONS = [
+    ("alerts", "Alerts", "Bypasses the normal briefing", "alert",
+     "Why it matters / what to watch", "Relevance"),
+    ("opportunities", "Your Opportunities", "Hypotheses, not predictions",
+     "opportunity", "Hypothesis &amp; what to check", "Relevance"),
+    ("major", "Major Developments", "What / why / uncertain / watch", "major",
+     "What / why / uncertain / watch", "Impact on you"),
+]
+REL_CLASS = {"High": "rel-high", "Med": "rel-med", "Low": "rel-low"}
 
 
 def log(msg):
@@ -71,9 +76,6 @@ def die(msg):
 # ------------------------------------------------------------- load state ----
 
 def salvage_seen(text):
-    """Recover a truncated seen-stories.json by collecting only the complete
-    story objects and dropping any incomplete trailing one. Anti-repetition
-    memory should degrade gracefully, never crash the run."""
     note = ""
     m = re.search(r'"_note"\s*:\s*"((?:[^"\\]|\\.)*)"', text)
     if m:
@@ -130,20 +132,13 @@ def load_inputs():
 def now_bangkok():
     if ZoneInfo:
         return datetime.datetime.now(ZoneInfo(TIMEZONE))
-    # Fallback: UTC+7 fixed offset.
     return datetime.datetime.utcnow() + datetime.timedelta(hours=7)
 
 
 # ------------------------------------------------------------ build queries --
 
 def build_queries(profile):
-    """Prioritised, de-duplicated query list. Thai/Chiang Mai sweep first
-    (mandatory per the learned-preferences rule), then intelligence, then the
-    lighter-interest topics."""
-    q = []
-
-    # 1. Mandatory Thai / Chiang Mai sweep (operational + demand-side).
-    q += [
+    q = [
         "Thailand tourism news this week",
         "Chiang Mai airport OR infrastructure OR road project 2026",
         "Thailand visa policy change tourism 2026",
@@ -152,39 +147,24 @@ def build_queries(profile):
         "Thailand hospitality hotel business news",
         "Chinese outbound tourism Thailand trend 2026",
     ]
-
-    # 2. Intelligence topics.
     for t in profile.get("intelligence_topics", []):
         term = t.split(" (")[0].split(" — ")[0].strip()
         q.append(term + " breakthrough 2026")
-
-    # 3. Company watchlist (innovation only).
     for c in profile.get("company_watchlist", {}).get("companies", []):
         q.append(c + " new product OR breakthrough announcement")
-
-    # 4. Startup radar spaces.
     for s in profile.get("startup_radar", {}).get("spaces", [])[:3]:
-        term = s.split(" (")[0].strip()
-        q.append(term + " startup launch funding 2026")
-
-    # 5. Personal interests (lighter weight, a rotating handful).
+        q.append(s.split(" (")[0].strip() + " startup launch funding 2026")
     weekday = now_bangkok().weekday()
     interests = profile.get("personal_interests", [])
     if interests:
         pick = [interests[(weekday + i) % len(interests)] for i in range(4)]
         q += [p + " latest news 2026" for p in pick]
-
-    # 6. Podcasts (new-episode discovery).
     for show in profile.get("podcasts", {}).get("shows", []):
-        name = show.split(" (")[0].strip()
-        q.append(name + " latest episode")
-
-    # De-dupe preserving order, then cap.
+        q.append(show.split(" (")[0].strip() + " latest episode")
     seen_q, out = set(), []
     for item in q:
-        k = item.lower()
-        if k not in seen_q:
-            seen_q.add(k)
+        if item.lower() not in seen_q:
+            seen_q.add(item.lower())
             out.append(item)
     return out[:SEARCH_MAX]
 
@@ -192,9 +172,6 @@ def build_queries(profile):
 # ------------------------------------------------------------- brave search --
 
 def brave_search(query, token, count=5):
-    """Query Brave. Try with a freshness bias first; if the request is rejected
-    for any reason, retry with only the essential params so one bad optional
-    parameter can never wipe out the whole run."""
     headers = {"Accept": "application/json", "X-Subscription-Token": token}
     attempts = [
         {"q": query, "count": count, "freshness": "pw"},
@@ -221,14 +198,12 @@ def brave_search(query, token, count=5):
         results = (data.get("web") or {}).get("results") or []
         out = []
         for r in results[:count]:
-            out.append(
-                {
-                    "title": r.get("title", ""),
-                    "url": r.get("url", ""),
-                    "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
-                    "age": r.get("age") or r.get("page_age") or "",
-                }
-            )
+            out.append({
+                "title": r.get("title", ""),
+                "url": r.get("url", ""),
+                "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
+                "age": r.get("age") or r.get("page_age") or "",
+            })
         return out
     return []
 
@@ -240,7 +215,7 @@ def gather_results(queries, token):
         hits = brave_search(query, token)
         if hits:
             digest.append({"query": query, "results": hits})
-        time.sleep(1.1)  # stay under Brave's ~1 req/sec free-tier limit
+        time.sleep(1.1)
     return digest
 
 
@@ -261,169 +236,380 @@ SYSTEM_PROMPT = """You are the generator for Anthony's Personal Intelligence \
 Dashboard - a personalised daily briefing, NOT a news aggregator. It answers \
 "what changed that matters to me?" not "what's the latest news?".
 
-Follow these rules exactly:
+Return the briefing as a single JSON object - ONLY the content, no HTML. A \
+program renders it into the page, so keep it compact and stop when done.
 
-DESIGN / OUTPUT
-- Produce a COMPLETE HTML page matching the TEMPLATE's structure and CSS \
-classes exactly. Do not redesign anything.
-- To keep your output compact, DO NOT reproduce the large CSS or JavaScript. In \
-the <head>, where the stylesheet belongs, output the bare token __PI_STYLE__ on \
-its own line (no <style> tag, no CSS at all). Immediately before </body>, where \
-the script belongs, output the bare token __PI_SCRIPT__ on its own line (no \
-<script> tag, no JS at all). These two tokens are placeholders that get \
-replaced automatically with the real style and feedback script - so the "Tune \
-feed" controls and "Copy feedback for Claude" button come back automatically; \
-do not write them yourself.
-- Write everything else in FULL: the <head> meta and <title>, the sidebar nav, \
-the masthead (eyebrow, <h1>, lead paragraph), the attention-budget bar, every \
-briefing section with its cards, the right rail, and the footer.
-- Set the <title> and the masthead date and lead paragraph to TODAY. In the \
-footer, keep a small credit line "Search powered by the Brave Search API" \
-(required by the search provider).
-- Keep the attention budget bar honest and in sync with the actual number of \
-cards you output. Empty sections are allowed - say so, never pad.
+EDITORIAL RULES
+- Respect the profile's attention_budget. End complete, never pad. Empty \
+sections/panels are fine - use the "empty" field to say so honestly.
+- Cluster duplicate coverage into ONE card per event. Label confidence. Frame \
+Opportunities as hypotheses, not predictions.
+- Anti-repetition: you are given stories already briefed. Do NOT re-brief one \
+unless there is a genuine development; if so, write it as a development.
+- Honour learned_preferences, the deprioritise list, the source philosophy, and \
+the mandatory Thai/Chiang Mai sweep.
+- Only state a fact a provided search result supports. Use REAL source URLs from \
+the results. Never invent a URL, statistic, or market figure.
+- Text fields may contain light inline HTML: <b>...</b> for emphasis and \
+<a href="URL" target="_blank">label</a> for inline links. Nothing else.
 
-EDITORIAL
-- Respect the attention budget in the profile. End the briefing complete, not \
-an infinite feed.
-- Cluster duplicate coverage into ONE card per event. Label confidence \
-(established fact vs. speculation vs. forecast). Frame Opportunities as \
-hypotheses, not predictions.
-- Anti-repetition: you are given the stories already briefed. Do NOT re-brief \
-one unless there is a genuine development beyond "still true"; if there is, \
-write it as a development that references the prior story.
-- Honour the profile's learned_preferences, deprioritise list, source \
-philosophy ("news before it's news", but big relevant mainstream stories still \
-count) and the mandatory Thai/Chiang Mai sweep.
-- Only include a fact if a provided search result supports it. Link real source \
-URLs from the search results. Never invent a URL, a statistic, or a market \
-figure. If you cannot verify something, leave it out.
+JSON SHAPE (omit any field you have no content for; use [] for empty lists):
+{
+ "lead": "one rich paragraph for the masthead - today's summary, may use <b>",
+ "sections": {
+   "alerts":        {"cards": [CARD, ...]},
+   "opportunities": {"cards": [CARD, ...], "more": [MOREITEM, ...]},
+   "major":         {"cards": [CARD, ...], "more": [MOREITEM, ...]}
+ },
+ "podcasts": [PODCARD, ...],
+ "rail": {
+   "today":     [{"time":"19 Jul","color":"interest","what":"...","sub":"..."}],
+   "companies": {"items":[GEM, ...], "empty":"text if none, else omit"},
+   "startups":  {"items":[GEM, ...], "empty":"..."},
+   "markets":   {"items":[GEM, ...], "empty":"..."},
+   "gems":      {"items":[GEM, ...]},
+   "interest":  [{"icon":"🚀","title":"...","body":"... <a ...>src</a>"}]
+ },
+ "footer": "closing footer paragraph, may use <br> and <b>",
+ "seen_add": [{"id":"kebab-slug","first_briefed":"YYYY-MM-DD","section":"major",
+               "summary":"one line","status":"active"}],
+ "run_summary": "2-3 sentences: what led, what was empty"
+}
+CARD = {"mode":"AI capability","relevance":"High|Med|Low","confidence":"Primary \
+- OpenAI","market":"68% ▲3 (optional)","headline":"...","summary":"optional \
+paragraph","wwuw":[{"k":"What","v":"..."},{"k":"Why","v":"..."}],"sources":\
+[{"label":"OpenAI","url":"https://..."}]}
+PODCARD = {"mode":"Diary of a CEO","confidence":"Show notes","headline":"...",\
+"summary":"...","verdict":{"label":"Worth a listen","rel":"Med"},"verdict_conf":\
+"Confidence: show-notes based","sources":[{"label":"...","url":"..."}]}
+MOREITEM = {"title":"...","body":"paragraph, may include inline <a> sources"}
+GEM = {"mode":"Tesla (optional)","accent":"company (optional)","conf":"Company \
+posts, 10 Jul","title":"...","body":"paragraph, may include inline <a> sources"}
+color/accent values: alert opportunity major company startup market gem interest \
+podcast muted.
 
-RESPONSE FORMAT - output EXACTLY this and nothing else:
-===HTML_BEGIN===
-<!DOCTYPE html> ... entire page ... </html>
-===HTML_END===
-===STATE_BEGIN===
-{"add": [{"id": "kebab-slug", "first_briefed": "YYYY-MM-DD", "section": \
-"alerts|opportunities|major|gems|interest|companies|startups|markets|podcasts", \
-"summary": "one line on what was briefed", "status": "active|closed"}], \
-"run_summary": "2-3 sentence note on what led today and what was empty"}
-===STATE_END==="""
+Output EXACTLY this and nothing else:
+===JSON_BEGIN===
+{ ...the object... }
+===JSON_END==="""
 
 
-def build_user_prompt(profile, seen, template, digest_text, dt):
+def build_user_prompt(profile, seen, digest_text, dt):
     date_iso = dt.strftime("%Y-%m-%d")
-    date_human = dt.strftime("%A, %-d %B %Y") if os.name != "nt" else dt.strftime("%A, %d %B %Y")
+    if os.name != "nt":
+        date_human = dt.strftime("%A, %-d %B %Y")
+    else:
+        date_human = dt.strftime("%A, %d %B %Y")
     return (
-        "TODAY is %s (%s), timezone Asia/Bangkok, Chiang Mai.\n\n"
+        "TODAY is %s (%s), Asia/Bangkok, Chiang Mai.\n\n"
         "=== PROFILE (what is relevant; obey learned_preferences) ===\n%s\n\n"
         "=== ALREADY BRIEFED (anti-repetition memory) ===\n%s\n\n"
         "=== FRESH SEARCH RESULTS (your only sourced facts) ===\n%s\n\n"
-        "=== TEMPLATE (reuse this exact design; restyle nothing) ===\n%s\n\n"
-        "Now produce today's briefing in the required response format."
-        % (
-            date_human,
-            date_iso,
-            json.dumps(profile, ensure_ascii=False, indent=1),
-            json.dumps(seen, ensure_ascii=False)[:12000],
-            digest_text,
-            template,
-        )
-    )
+        "Now produce today's briefing JSON in the required format."
+        % (date_human, date_iso,
+           json.dumps(profile, ensure_ascii=False, indent=1),
+           json.dumps(seen, ensure_ascii=False)[:12000], digest_text))
 
 
 # ------------------------------------------------------------ call anthropic --
 
-def generate(profile, seen, template, digest_text, dt):
+def generate(profile, seen, digest_text, dt):
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
     log("calling Anthropic model %s (streaming) ..." % MODEL)
-    # Stream: the SDK refuses a non-streaming request when max_tokens is large
-    # enough that the response could take a while, so we stream and accumulate.
     parts = []
     with client.messages.stream(
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_user_prompt(
-            profile, seen, template, digest_text, dt)}],
+            profile, seen, digest_text, dt)}],
     ) as stream:
         for chunk in stream.text_stream:
             parts.append(chunk)
         final = stream.get_final_message()
     if final.stop_reason == "max_tokens":
-        die("model hit max_tokens - output truncated, refusing to publish. "
-            "Raise MAX_TOKENS.")
+        die("model hit max_tokens - refusing to publish. Raise MAX_TOKENS.")
     text = "".join(parts)
     log("received %d chars from model" % len(text))
     return text
 
 
-# ---------------------------------------------------------------- parse/check -
+def parse_json(raw):
+    i = raw.find(JSON_BEGIN)
+    j = raw.rfind(JSON_END)
+    if i != -1 and j != -1 and j > i:
+        blob = raw[i + len(JSON_BEGIN):j].strip()
+    else:
+        # fall back to the outermost braces
+        a, b = raw.find("{"), raw.rfind("}")
+        if a == -1 or b == -1 or b < a:
+            die("no JSON object found in model output")
+        blob = raw[a:b + 1]
+    try:
+        return json.loads(blob)
+    except Exception as e:
+        die("model output is not valid JSON: %s" % e)
 
-def extract(text, begin, end, what):
-    i = text.find(begin)
-    j = text.find(end)
-    if i == -1 or j == -1 or j < i:
-        die("could not find %s delimiters in model output" % what)
-    return text[i + len(begin):j].strip()
+
+# --------------------------------------------------------------- rendering ---
+
+def _sources(srcs):
+    if not srcs:
+        return ""
+    links = "".join(
+        '<a href="%s" target="_blank">%s</a>\n' % (s.get("url", "#"), s.get("label", "link"))
+        for s in srcs)
+    return '<div class="sources">%s</div>' % links
 
 
-def extract_static_blocks(template):
-    """Pull the full <style>...</style> and <script>...</script> blocks out of
-    the template so we can inject them where the model left placeholders."""
+def _chip_rel(relevance, label):
+    if not relevance:
+        return ""
+    cls = REL_CLASS.get(relevance, "rel-med")
+    return '<span class="chip %s">%s: %s</span>' % (cls, label, relevance)
+
+
+def render_card(card, accent, wwuw_label, rel_label, is_alert=False):
+    pulse = '<span class="pulse"></span>' if is_alert else ""
+    chips = ['<span class="chip mode" style="--accent:var(--%s)">%s%s</span>'
+             % (accent, pulse, card.get("mode", ""))]
+    chips.append(_chip_rel(card.get("relevance"), rel_label))
+    if card.get("market"):
+        chips.append('<span class="chip mkt">Market: %s</span>' % card["market"])
+    if card.get("confidence"):
+        chips.append('<span class="chip conf">%s</span>' % card["confidence"])
+    parts = ['<div class="card">', '<div class="chips">%s</div>' % "".join(c for c in chips if c)]
+    parts.append("<h3>%s</h3>" % card.get("headline", ""))
+    if card.get("summary"):
+        parts.append('<p class="summary">%s</p>' % card["summary"])
+    rows = card.get("wwuw") or []
+    if rows:
+        rr = "".join('<div class="wwuw-row"><div class="k">%s</div><div class="v">%s</div></div>'
+                     % (r.get("k", ""), r.get("v", "")) for r in rows)
+        parts.append('<details class="wwuw" open><summary><span class="tri">&#9654;</span> %s</summary>%s</details>'
+                     % (wwuw_label, rr))
+    parts.append(_sources(card.get("sources")))
+    parts.append("</div>")
+    return "".join(parts)
+
+
+def render_podcard(card):
+    chips = '<span class="chip mode" style="--accent:var(--podcast)">%s</span>' % card.get("mode", "")
+    if card.get("confidence"):
+        chips += '<span class="chip conf">%s</span>' % card["confidence"]
+    v = card.get("verdict") or {}
+    verdict = ""
+    if v:
+        cls = REL_CLASS.get(v.get("rel"), "rel-med")
+        verdict = ('<p class="summary" style="margin-top:8px;">'
+                   '<span class="chip %s" style="margin-right:6px;">%s</span>'
+                   '<span class="chip conf">%s</span></p>'
+                   % (cls, v.get("label", ""), card.get("verdict_conf", "")))
+    return ('<div class="card"><div class="chips">%s</div><h3>%s</h3>'
+            '<p class="summary">%s</p>%s%s</div>'
+            % (chips, card.get("headline", ""), card.get("summary", ""),
+               verdict, _sources(card.get("sources"))))
+
+
+def render_more(items):
+    if not items:
+        return ""
+    n = len(items)
+    body = "".join('<div class="more-item"><h4>%s</h4><p>%s</p></div>'
+                   % (it.get("title", ""), it.get("body", "")) for it in items)
+    return ('<details class="more"><summary><span class="tri">&#9654;</span> '
+            'More if you have time <span class="n">%d item%s</span></summary>%s</details>'
+            % (n, "" if n == 1 else "s", body))
+
+
+def render_section(sec_id, h2, note, accent, wwuw_label, rel_label, data):
+    cards = data.get("cards") or []
+    body = "".join(render_card(c, accent, wwuw_label, rel_label, sec_id == "alerts")
+                   for c in cards)
+    if not cards and not data.get("more"):
+        body = '<div class="empty">Nothing cleared the bar today.</div>'
+    body += render_more(data.get("more"))
+    return ('<section class="%s" id="%s"><div class="section-head"><div class="dot">'
+            '</div><h2>%s</h2><div class="section-note">%s</div></div>%s</section>'
+            % (sec_id, sec_id, h2, note, body))
+
+
+def render_podcasts(cards):
+    body = "".join(render_podcard(c) for c in cards) if cards else \
+        '<div class="empty">No new episodes since the last brief.</div>'
+    return ('<section class="podcasts" id="podcasts"><div class="section-head">'
+            '<div class="dot"></div><h2>Podcast Digest</h2>'
+            '<div class="section-note">Your shows &mdash; new episodes only</div></div>%s</section>'
+            % body)
+
+
+def render_gem(item):
+    chips = []
+    if item.get("mode"):
+        chips.append('<span class="chip mode" style="--accent:var(--%s)">%s</span>'
+                     % (item.get("accent", "gem"), item["mode"]))
+    if item.get("conf"):
+        chips.append('<span class="chip conf">%s</span>' % item["conf"])
+    chip_html = '<div class="chips">%s</div>' % "".join(chips) if chips else ""
+    return ('<div class="gem-item">%s<h4>%s</h4><p>%s</p></div>'
+            % (chip_html, item.get("title", ""), item.get("body", "")))
+
+
+def render_gem_panel(panel_id, title, accent, data):
+    items = (data or {}).get("items") or []
+    if items:
+        body = "".join(render_gem(it) for it in items)
+    else:
+        body = ('<div class="empty" style="margin:0;">%s</div>'
+                % (data or {}).get("empty", "Nothing cleared the bar today."))
+    dot = ('<div class="dot" style="width:8px;height:8px;border-radius:50%%;'
+           'background:var(--%s)"></div>' % accent)
+    return ('<div class="panel %s" id="%s"><div class="panel-head">%s<h2>%s</h2></div>%s</div>'
+            % (panel_id, panel_id, dot, title, body))
+
+
+def render_today(items):
+    rows = "".join(
+        '<div class="today-item"><div class="time">%s</div>'
+        '<div class="bar" style="background:var(--%s)"></div>'
+        '<div class="what">%s<small>%s</small></div></div>'
+        % (it.get("time", ""), it.get("color", "muted"), it.get("what", ""), it.get("sub", ""))
+        for it in (items or []))
+    return ('<div class="panel"><div class="panel-head"><h2>Today &amp; Ahead</h2></div>%s</div>'
+            % rows)
+
+
+def render_interest(items):
+    body = "".join(
+        '<div class="interest-item"><div class="interest-row">'
+        '<div class="icon-tile" style="background:rgba(157,143,224,.14)">%s</div>'
+        '<div><h4>%s</h4><p>%s</p></div></div></div>'
+        % (it.get("icon", "&#9733;"), it.get("title", ""), it.get("body", ""))
+        for it in (items or []))
+    if not body:
+        body = '<div class="empty" style="margin:0;">Nothing light to share today.</div>'
+    return ('<div class="panel interest" id="interest"><div class="panel-head">'
+            '<div class="dot" style="width:8px;height:8px;border-radius:50%%;'
+            'background:var(--interest)"></div><h2>Interest &mdash; no analysis needed</h2></div>%s</div>'
+            % body)
+
+
+def render_budget(counts, budget):
+    order = [
+        ("alert", "Alerts", "%d/%d" % (counts["alert"], budget.get("alerts", 0))),
+        ("opportunity", "Opportunities", "%d/%d" % (counts["opportunity"], budget.get("opportunities", 0))),
+        ("major", "Major", "%d/%d" % (counts["major"], budget.get("major_developments", 0))),
+        ("company", "Company news", "%d" % counts["company"]),
+        ("startup", "Startup radar", "%d" % counts["startup"]),
+        ("market", "Market signals", "%d moved" % counts["market"]),
+        ("gem", "Hidden gems", "%d/%d" % (counts["gem"], budget.get("hidden_gems", 0))),
+        ("interest", "Interest", "%d/%d" % (counts["interest"], budget.get("interest_stories", 0))),
+        ("podcast", "Podcasts", "%d new" % counts["podcast"]),
+    ]
+    total = sum(counts.values()) or 1
+    track = "".join('<span style="width:%d%%;background:var(--%s)"></span>'
+                    % (round(100 * counts[k] / total), k) for k, _, _ in order)
+    legend = "".join(
+        '<span class="item"><span class="swatch" style="background:var(--%s)"></span>%s <b>%s</b></span>'
+        % (k, label, val) for k, label, val in order)
+    empties = sum(1 for k in counts if counts[k] == 0)
+    status = "&#10003; %d stories &middot; %d sections empty by design" % (sum(counts.values()), empties)
+    return ('<div class="budget"><div class="budget-top"><span class="label">Attention budget</span>'
+            '<span class="status">%s</span></div><div class="budget-track">%s</div>'
+            '<div class="budget-legend">%s</div></div>' % (status, track, legend))
+
+
+def render_page(data, template, dt, profile):
     style = re.search(r"<style>.*?</style>", template, re.S)
     script = re.search(r"<script>.*?</script>", template, re.S)
-    if not style or not script:
-        die("template is missing its <style> or <script> block")
-    return style.group(0), script.group(0)
+    sidebar = re.search(r'<aside class="sidebar">.*?</aside>', template, re.S)
+    if not (style and script and sidebar):
+        die("template missing <style>, <script> or sidebar")
+    style, sidebar = style.group(0), sidebar.group(0)
+    script = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}",
+                    "pi-feedback-" + dt.strftime("%Y-%m-%d"), script.group(0))
+
+    sections = data.get("sections") or {}
+    rail = data.get("rail") or {}
+    podcasts = data.get("podcasts") or []
+    counts = {
+        "alert": len((sections.get("alerts") or {}).get("cards") or []),
+        "opportunity": len((sections.get("opportunities") or {}).get("cards") or []),
+        "major": len((sections.get("major") or {}).get("cards") or []),
+        "company": len((rail.get("companies") or {}).get("items") or []),
+        "startup": len((rail.get("startups") or {}).get("items") or []),
+        "market": len((rail.get("markets") or {}).get("items") or []),
+        "gem": len((rail.get("gems") or {}).get("items") or []),
+        "interest": len(rail.get("interest") or []),
+        "podcast": len(podcasts),
+    }
+
+    main_sections = "".join(
+        render_section(sid, h2, note, accent, wl, rl, sections.get(sid) or {})
+        for sid, h2, note, accent, wl, rl in SECTIONS)
+    main_sections += render_podcasts(podcasts)
+
+    rail_html = (render_today(rail.get("today"))
+                 + render_gem_panel("companies", "Company News", "company", rail.get("companies"))
+                 + render_gem_panel("startups", "Startup Radar", "startup", rail.get("startups"))
+                 + render_gem_panel("markets", "Market Signals", "market", rail.get("markets"))
+                 + render_gem_panel("gems", "Hidden Gems", "gem", rail.get("gems"))
+                 + render_interest(rail.get("interest")))
+
+    weekday = dt.strftime("%A")
+    if os.name != "nt":
+        date_title = dt.strftime("%-d %B %Y")
+    else:
+        date_title = dt.strftime("%d %B %Y")
+    eyebrow = "Personal Intelligence &middot; %s Morning Brief" % weekday
+    footer = ('<footer><div><span class="done"><span class="check">&#10003;</span> '
+              '%s brief complete.</span></div>%s</footer>'
+              % (weekday, data.get("footer", "")))
+
+    return (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
+        '<meta charset="UTF-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+        '<title>PI &mdash; Daily Briefing &middot; %s</title>\n%s\n</head>\n<body>\n'
+        '<div class="app">\n%s\n<div class="main" id="top">\n'
+        '<header class="masthead"><div class="eyebrow">%s</div>'
+        '<h1>Morning, Anthony</h1><div class="subhead">%s</div>%s</header>\n'
+        '<div class="grid"><div class="briefing">%s%s</div>'
+        '<aside class="rail">%s</aside></div>\n</div>\n</div>\n%s\n</body>\n</html>\n'
+        % (date_title, style, sidebar, eyebrow, data.get("lead", ""),
+           render_budget(counts, profile.get("attention_budget", {})),
+           main_sections, footer, rail_html, script))
 
 
-def inject_static(html, template, date_iso):
-    """Replace the model's __PI_STYLE__ / __PI_SCRIPT__ placeholders with the
-    real CSS and feedback JS, then stamp today's date into the feedback key."""
-    if "__PI_STYLE__" not in html or "__PI_SCRIPT__" not in html:
-        die("model output is missing the __PI_STYLE__/__PI_SCRIPT__ placeholders")
-    style_block, script_block = extract_static_blocks(template)
-    html = html.replace("__PI_STYLE__", style_block, 1)
-    html = html.replace("__PI_SCRIPT__", script_block, 1)
-    # The injected script carries yesterday's localStorage key - restamp it.
-    html = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}", "pi-feedback-" + date_iso, html)
-    return html
-
+# ------------------------------------------------------------- validate ------
 
 def validate_html(html, dt):
     date_iso = dt.strftime("%Y-%m-%d")
     if not html.lstrip().startswith("<!DOCTYPE html"):
         die("HTML does not start with <!DOCTYPE html>")
     if not html.rstrip().endswith("</html>"):
-        die("HTML does not end with </html> (likely truncated)")
+        die("HTML does not end with </html>")
     if len(html) < MIN_HTML_LEN:
         die("HTML suspiciously short (%d chars)" % len(html))
     for m in REQUIRED_MARKERS:
         if m not in html:
             die("HTML missing required marker: %r" % m)
     if ("pi-feedback-" + date_iso) not in html:
-        die("HTML feedback key not stamped with today's date (%s)" % date_iso)
+        die("feedback key not stamped with today's date (%s)" % date_iso)
     log("HTML validated: %d chars" % len(html))
 
 
-def merge_state(seen, state_json, dt):
-    try:
-        state = json.loads(state_json)
-    except Exception as e:
-        die("STATE block is not valid JSON: %s" % e)
-    add = state.get("add", [])
+def merge_state(seen, add, dt):
     existing = {s.get("id") for s in seen.get("stories", [])}
-    for item in add:
+    for item in add or []:
         if item.get("id") and item["id"] not in existing:
             seen.setdefault("stories", []).append(item)
-    # Prune entries whose first_briefed is older than 30 days.
     cutoff = (dt.date() - datetime.timedelta(days=30)).isoformat()
     seen["stories"] = [
         s for s in seen.get("stories", [])
         if str(s.get("first_briefed", "")) >= cutoff or s.get("status") == "active"
     ]
-    return seen, state.get("run_summary", "")
+    return seen
 
 
 # ----------------------------------------------------------------------- main -
@@ -440,34 +626,29 @@ def main():
     log("=== PI briefing run for %s (Asia/Bangkok) ===" % date_iso)
 
     profile, seen, template = load_inputs()
-
     queries = build_queries(profile)
     log("running %d searches" % len(queries))
     digest = gather_results(queries, brave)
     if not digest:
-        die("no search results at all - aborting rather than publishing an "
-            "empty/hallucinated briefing")
+        die("no search results at all - aborting rather than publishing empty")
     digest_text = results_to_text(digest)
 
-    raw = generate(profile, seen, template, digest_text, dt)
-
-    html = extract(raw, HTML_BEGIN, HTML_END, "HTML")
-    state_json = extract(raw, STATE_BEGIN, STATE_END, "STATE")
-    html = inject_static(html, template, date_iso)
+    raw = generate(profile, seen, digest_text, dt)
+    data = parse_json(raw)
+    html = render_page(data, template, dt, profile)
     validate_html(html, dt)
-    seen, run_summary = merge_state(seen, state_json, dt)
+    seen = merge_state(seen, data.get("seen_add"), dt)
 
     dated = os.path.join(OUTPUT_DIR, "dashboard_%s.html" % date_iso)
-    latest = os.path.join(OUTPUT_DIR, "dashboard_latest.html")
     with open(dated, "w", encoding="utf-8") as f:
         f.write(html)
-    with open(latest, "w", encoding="utf-8") as f:
+    with open(os.path.join(OUTPUT_DIR, "dashboard_latest.html"), "w", encoding="utf-8") as f:
         f.write(html)
     with open(os.path.join(OUTPUT_DIR, "seen-stories.json"), "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
 
     log("wrote %s and dashboard_latest.html" % os.path.basename(dated))
-    log("run summary: " + (run_summary or "(none)"))
+    log("run summary: " + (data.get("run_summary") or "(none)"))
     log("=== done ===")
 
 
