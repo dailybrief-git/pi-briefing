@@ -707,6 +707,62 @@
       "section": "opportunities",
       "summary": "MANDATORY Thai/Chiang-Mai sweep yield (upside): Tourism & Sports Ministry drafting new phase of state co-payment ('half-half') scheme for H2 - ~THB3,000/person for initial 1M entitlements, via Paotang app, bookings expected Q4 2026 (funded from 2027 central budget starting 1 Oct; 50:50 or 60:40 split TBD; seeking THB3bn). Alongside: revival plans include PROPOSED 15-day visa exemption for Indian travellers + 30-day exemption for all EU countries, and a domestic push discounting ~1M hotel room-nights. Hypothesis: demand-side counterweight to soft China; co-payment lifts domestic occupancy (Chiang Mai leans on Thai weekenders off-peak), EU/India exemption plays to TAT long-haul/high-value pivot. Check: co-payment terms/eligibility for independents, actual visa effective dates (proposals not law), whether THB3bn clears. Distinct from earlier stimulus/365-day items.",
       "status": "active"
+    },
+    {
+      "id": "thailand-visa-free-30day-cut",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "Cabinet-approved cut of visa-free stay from 60 to 30 days for most nationalities, pending Royal Gazette; conflicting reports on current status.",
+      "status": "active"
+    },
+    {
+      "id": "chiang-mai-typhoon-bavi-resolved",
+      "first_briefed": "2026-07-11",
+      "section": "alerts",
+      "summary": "DEVELOPMENT of chiang-mai-flood-lull-then-reload-8-jul: TMD confirms Typhoon Bavi will not track into Thailand, closing the 8 Jul second-system watch.",
+      "status": "active"
+    },
+    {
+      "id": "tat-gcc-healing-luxury-campaign",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "TAT's 'Healing is the New Luxury' GCC wellness campaign targets 600k+ Middle East visitors by year-end; part of H2 long-haul push.",
+      "status": "active"
+    },
+    {
+      "id": "china-tourism-search-vs-arrivals-mixed",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "China climbs to #3 in Thailand accommodation searches (+38% YoY) per Agoda, but Thaiger reports arrivals recovery still incomplete — conflicting reads.",
+      "status": "active"
+    },
+    {
+      "id": "us-hotel-giants-thailand-scouting",
+      "first_briefed": "2026-07-11",
+      "section": "opportunities",
+      "summary": "Large US hotel/motel groups reported quietly scouting Thailand for the first time in decades; no named deals yet.",
+      "status": "active"
+    },
+    {
+      "id": "spacexai-grok45-coding-model",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Reported private-beta Grok 4.5 coding model (V9, ~1.5T params) running inside SpaceX/Tesla, built with Cursor-derived data.",
+      "status": "active"
+    },
+    {
+      "id": "solid-state-battery-dendrite-fix",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Research identifies and addresses the lithium-dendrite ceramic-cracking mechanism behind solid-state battery short circuits.",
+      "status": "active"
+    },
+    {
+      "id": "tesla-dry-electrode-70pct-emissions-berlin-startups",
+      "first_briefed": "2026-07-11",
+      "section": "major",
+      "summary": "Tesla confirms dry-electrode process cuts battery production emissions ~70% at mass-production scale; opens Giga Berlin to outside startups for 4680 bottleneck.",
+      "status": "active"
     }
   ]
 }
