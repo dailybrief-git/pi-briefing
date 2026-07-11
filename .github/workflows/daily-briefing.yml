@@ -61,6 +61,10 @@ jobs:
           if [ -f users/anthony/dashboard_latest.html ]; then
             cp users/anthony/dashboard_latest.html _site/index.html
           fi
+          # Publish the onboarding questionnaire at a shareable URL.
+          if [ -f onboarding.html ]; then
+            cp onboarding.html _site/onboarding.html
+          fi
           cd _site
           git init -q
           git config user.name  "pi-briefing-bot"
