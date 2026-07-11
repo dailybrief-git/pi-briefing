@@ -42,6 +42,8 @@ import anthropic
 
 MODEL = os.environ.get("MODEL", "claude-sonnet-5")
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", ".")
+USERS_DIR = os.path.join(OUTPUT_DIR, "users")
+TEMPLATE_PATH = os.environ.get("TEMPLATE", os.path.join(OUTPUT_DIR, "template.html"))
 SEARCH_MAX = int(os.environ.get("SEARCH_MAX", "22"))
 MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "26000"))
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
@@ -64,13 +66,16 @@ SECTIONS = [
 REL_CLASS = {"High": "rel-high", "Med": "rel-med", "Low": "rel-low"}
 
 
+class PipelineError(Exception):
+    pass
+
+
 def log(msg):
     print(msg, flush=True)
 
 
 def die(msg):
-    log("FATAL: " + msg)
-    sys.exit(1)
+    raise PipelineError(msg)
 
 
 # ------------------------------------------------------------- load state ----
@@ -109,24 +114,44 @@ def salvage_seen(text):
     return {"_note": note, "stories": stories}
 
 
-def load_inputs():
-    def read(path):
-        p = os.path.join(OUTPUT_DIR, path)
-        if not os.path.exists(p):
-            die("missing required file: " + path)
-        with open(p, "r", encoding="utf-8") as f:
-            return f.read()
+def read_template():
+    path = TEMPLATE_PATH
+    if not os.path.exists(path):
+        alt = os.path.join(OUTPUT_DIR, "dashboard_latest.html")
+        if os.path.exists(alt):
+            path = alt
+        else:
+            die("no template found (looked for %s)" % TEMPLATE_PATH)
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
 
-    profile = json.loads(read("profile.json"))
-    seen_raw = read("seen-stories.json")
-    try:
-        seen = json.loads(seen_raw)
-    except Exception as e:
-        log("seen-stories.json invalid (%s) - salvaging complete entries" % e)
-        seen = salvage_seen(seen_raw)
-        log("salvaged %d stories" % len(seen.get("stories", [])))
-    template = read("dashboard_latest.html")
-    return profile, seen, template
+
+def discover_users():
+    if not os.path.isdir(USERS_DIR):
+        die("no users/ directory found at %s" % USERS_DIR)
+    names = sorted(
+        d for d in os.listdir(USERS_DIR)
+        if os.path.isfile(os.path.join(USERS_DIR, d, "profile.json")))
+    if not names:
+        die("no users found under users/ (each needs a profile.json)")
+    return names
+
+
+def load_user(name):
+    base = os.path.join(USERS_DIR, name)
+    with open(os.path.join(base, "profile.json"), "r", encoding="utf-8") as f:
+        profile = json.load(f)
+    seen_path = os.path.join(base, "seen-stories.json")
+    if os.path.exists(seen_path):
+        raw = open(seen_path, "r", encoding="utf-8").read()
+        try:
+            seen = json.loads(raw)
+        except Exception as e:
+            log("  seen-stories.json invalid (%s) - salvaging" % e)
+            seen = salvage_seen(raw)
+    else:
+        seen = {"_note": "anti-repetition memory", "stories": []}
+    return profile, seen
 
 
 def now_bangkok():
@@ -138,15 +163,20 @@ def now_bangkok():
 # ------------------------------------------------------------ build queries --
 
 def build_queries(profile):
-    q = [
-        "Thailand tourism news this week",
-        "Chiang Mai airport OR infrastructure OR road project 2026",
-        "Thailand visa policy change tourism 2026",
-        "Tourism Authority of Thailand TAT campaign 2026",
-        "Chiang Mai weather flood warning TMD",
-        "Thailand hospitality hotel business news",
-        "Chinese outbound tourism Thailand trend 2026",
-    ]
+    q = []
+    loc = profile.get("location", {}) or {}
+    country = loc.get("country") or ""
+    place = loc.get("region") or country
+    biz = profile.get("business", {}) or {}
+    # Local / business sweep, derived from this person's own profile.
+    if country:
+        q.append("%s news this week" % country)
+    for t in (biz.get("watch_topics") or [])[:5]:
+        q.append(t)
+    for s in (biz.get("sectors") or [])[:2]:
+        q.append(("%s %s business news" % (place, s)) if place else ("%s business news" % s))
+    if place:
+        q.append("%s infrastructure OR policy development 2026" % place)
     for t in profile.get("intelligence_topics", []):
         term = t.split(" (")[0].split(" — ")[0].strip()
         q.append(term + " breakthrough 2026")
@@ -522,6 +552,19 @@ def render_budget(counts, budget):
             '<div class="budget-legend">%s</div></div>' % (status, track, legend))
 
 
+def _sidebar_foot(profile):
+    loc = profile.get("location", {}) or {}
+    where = ", ".join(x for x in [loc.get("region") or loc.get("city") or "",
+                                  loc.get("country") or ""] if x) or "&mdash;"
+    sectors = profile.get("business", {}).get("sectors", []) or []
+    sect = " &amp; ".join(s.title() for s in sectors) if sectors else "&mdash;"
+    interests = profile.get("personal_interests", []) or []
+    ints = " &middot; ".join(interests[:4]) if interests else "&mdash;"
+    return ('<div class="sidebar-foot"><div class="profile-line"><b>%s</b></div>'
+            '<div class="profile-line">%s</div>'
+            '<div class="profile-line">%s</div></div>' % (where, sect, ints))
+
+
 def render_page(data, template, dt, profile):
     style = re.search(r"<style>.*?</style>", template, re.S)
     script = re.search(r"<script>.*?</script>", template, re.S)
@@ -529,6 +572,8 @@ def render_page(data, template, dt, profile):
     if not (style and script and sidebar):
         die("template missing <style>, <script> or sidebar")
     style, sidebar = style.group(0), sidebar.group(0)
+    sidebar = re.sub(r'<div class="sidebar-foot">.*?</aside>',
+                     _sidebar_foot(profile) + "</aside>", sidebar, flags=re.S)
     script = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}",
                     "pi-feedback-" + dt.strftime("%Y-%m-%d"), script.group(0))
 
@@ -565,6 +610,7 @@ def render_page(data, template, dt, profile):
     else:
         date_title = dt.strftime("%d %B %Y")
     eyebrow = "Personal Intelligence &middot; %s Morning Brief" % weekday
+    greet = "Morning, %s" % profile.get("owner_name", "there")
     footer = ('<footer><div><span class="done"><span class="check">&#10003;</span> '
               '%s brief complete.</span></div>%s</footer>'
               % (weekday, data.get("footer", "")))
@@ -576,10 +622,10 @@ def render_page(data, template, dt, profile):
         '<title>PI &mdash; Daily Briefing &middot; %s</title>\n%s\n</head>\n<body>\n'
         '<div class="app">\n%s\n<div class="main" id="top">\n'
         '<header class="masthead"><div class="eyebrow">%s</div>'
-        '<h1>Morning, Anthony</h1><div class="subhead">%s</div>%s</header>\n'
+        '<h1>%s</h1><div class="subhead">%s</div>%s</header>\n'
         '<div class="grid"><div class="briefing">%s%s</div>'
         '<aside class="rail">%s</aside></div>\n</div>\n</div>\n%s\n</body>\n</html>\n'
-        % (date_title, style, sidebar, eyebrow, data.get("lead", ""),
+        % (date_title, style, sidebar, eyebrow, greet, data.get("lead", ""),
            render_budget(counts, profile.get("attention_budget", {})),
            main_sections, footer, rail_html, script))
 
@@ -617,23 +663,14 @@ def merge_state(seen, add, dt):
 
 # ----------------------------------------------------------------------- main -
 
-def main():
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        die("ANTHROPIC_API_KEY not set")
-    brave = os.environ.get("BRAVE_API_KEY")
-    if not brave:
-        die("BRAVE_API_KEY not set")
-
-    dt = now_bangkok()
-    date_iso = dt.strftime("%Y-%m-%d")
-    log("=== PI briefing run for %s (Asia/Bangkok) ===" % date_iso)
-
-    profile, seen, template = load_inputs()
+def run_user(name, template, brave, dt):
+    log("--- user: %s ---" % name)
+    profile, seen = load_user(name)
     queries = build_queries(profile)
-    log("running %d searches" % len(queries))
+    log("  running %d searches" % len(queries))
     digest = gather_results(queries, brave)
     if not digest:
-        die("no search results at all - aborting rather than publishing empty")
+        die("no search results - skipping %s" % name)
     digest_text = results_to_text(digest)
 
     raw = generate(profile, seen, digest_text, dt)
@@ -642,18 +679,45 @@ def main():
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
 
-    dated = os.path.join(OUTPUT_DIR, "dashboard_%s.html" % date_iso)
-    with open(dated, "w", encoding="utf-8") as f:
-        f.write(html)
-    with open(os.path.join(OUTPUT_DIR, "dashboard_latest.html"), "w", encoding="utf-8") as f:
-        f.write(html)
-    with open(os.path.join(OUTPUT_DIR, "seen-stories.json"), "w", encoding="utf-8") as f:
+    base = os.path.join(USERS_DIR, name)
+    date_iso = dt.strftime("%Y-%m-%d")
+    for fn in ("dashboard_%s.html" % date_iso, "dashboard_latest.html"):
+        with open(os.path.join(base, fn), "w", encoding="utf-8") as f:
+            f.write(html)
+    with open(os.path.join(base, "seen-stories.json"), "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
+    log("  published %s (%d chars) - %s"
+        % (name, len(html), data.get("run_summary") or ""))
 
-    log("wrote %s and dashboard_latest.html" % os.path.basename(dated))
-    log("run summary: " + (data.get("run_summary") or "(none)"))
-    log("=== done ===")
+
+def main():
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        die("ANTHROPIC_API_KEY not set")
+    brave = os.environ.get("BRAVE_API_KEY")
+    if not brave:
+        die("BRAVE_API_KEY not set")
+
+    dt = now_bangkok()
+    log("=== PI briefing run for %s (Asia/Bangkok) ===" % dt.strftime("%Y-%m-%d"))
+    template = read_template()
+    users = discover_users()
+    log("users: %s" % ", ".join(users))
+
+    ok = []
+    for name in users:
+        try:
+            run_user(name, template, brave, dt)
+            ok.append(name)
+        except Exception as e:
+            log("WARNING: user '%s' failed, keeping its previous page: %s" % (name, e))
+    if not ok:
+        die("all %d user(s) failed - nothing published" % len(users))
+    log("=== done: published %d/%d (%s) ===" % (len(ok), len(users), ", ".join(ok)))
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except PipelineError as e:
+        log("FATAL: %s" % e)
+        sys.exit(1)
