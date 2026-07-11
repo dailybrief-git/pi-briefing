@@ -1,0 +1,62 @@
+name: Daily briefing
+
+on:
+  schedule:
+    # 06:00 Asia/Bangkok = 23:00 UTC the previous day.
+    - cron: "0 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate today's briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
+        run: python generate.py
+
+      - name: Commit updated state back to main
+        run: |
+          git config user.name  "pi-briefing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add dashboard_latest.html dashboard_*.html seen-stories.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Briefing $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Publish to GitHub Pages (gh-pages branch)
+        run: |
+          mkdir -p _site
+          cp dashboard_latest.html _site/index.html
+          cp dashboard_*.html _site/ 2>/dev/null || true
+          cd _site
+          git init -q
+          git config user.name  "pi-briefing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish $(date -u +%Y-%m-%d)"
+          git branch -M gh-pages
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
