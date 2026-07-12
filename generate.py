@@ -754,11 +754,11 @@ def render_page(data, template, dt, profile, user_id):
         '<div class="app">\n%s\n<div class="main" id="top">\n'
         '<header class="masthead"><div class="eyebrow">%s</div>'
         '<h1>%s</h1><div class="subhead">%s</div>%s</header>\n'
-        '<div class="grid"><div class="briefing">%s%s</div>'
-        '<aside class="rail">%s</aside></div>\n</div>\n</div>\n%s\n</body>\n</html>\n'
+        '<div class="grid"><div class="briefing">%s</div>'
+        '<aside class="rail">%s</aside></div>\n%s\n</div>\n</div>\n%s\n</body>\n</html>\n'
         % (date_title, style, sidebar, eyebrow, greet, data.get("lead", ""),
            render_budget(counts, profile.get("attention_budget", {})),
-           main_sections, footer, rail_html, script))
+           main_sections, rail_html, footer, script))
 
 
 # ------------------------------------------------------------- validate ------

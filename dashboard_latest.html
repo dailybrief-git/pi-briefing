@@ -274,9 +274,27 @@
     display:inline-flex;align-items:center;justify-content:center;font-size:11px;
   }
 
+  .mobile-nav-toggle{
+    display:none;position:fixed;top:14px;left:14px;z-index:70;
+    width:38px;height:38px;border-radius:9px;
+    background:var(--panel);border:1px solid var(--border2);
+    align-items:center;justify-content:center;cursor:pointer;
+  }
+  .mobile-nav-toggle svg{width:18px;height:18px;color:var(--text);}
+  .sidebar-backdrop{
+    display:none;position:fixed;inset:0;background:rgba(6,10,16,.6);z-index:59;
+  }
+  .sidebar-backdrop.show{display:block;}
+
   @media (max-width:1080px){
     .grid{grid-template-columns:1fr;}
-    .sidebar{display:none;}
+    .sidebar{
+      position:fixed;top:0;left:0;z-index:60;
+      transform:translateX(-100%);transition:transform .25s ease;
+    }
+    .sidebar.open{transform:translateX(0);}
+    .mobile-nav-toggle{display:flex;}
+    .main{padding-top:70px;}
   }
 
   .modal-overlay{
@@ -898,6 +916,24 @@ var GOOGLE_FORM_ENTRY_CHANGES = 'entry.287169611';
       clipboardFallback('user: '+(window.PROFILE_USER||'unknown')+'\n'+changesText,'Copied \u2014 send this to the dashboard owner.');
     });
   };
+})();
+
+(function(){
+  var sidebar=document.querySelector('.sidebar');
+  if(!sidebar)return;
+  var backdrop=document.createElement('div');
+  backdrop.className='sidebar-backdrop';
+  document.body.appendChild(backdrop);
+  var toggle=document.createElement('button');
+  toggle.type='button';toggle.className='mobile-nav-toggle';
+  toggle.setAttribute('aria-label','Menu');
+  toggle.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+  document.body.appendChild(toggle);
+  function openNav(){sidebar.classList.add('open');backdrop.classList.add('show');}
+  function closeNav(){sidebar.classList.remove('open');backdrop.classList.remove('show');}
+  toggle.onclick=function(){sidebar.classList.contains('open')?closeNav():openNav();};
+  backdrop.onclick=closeNav;
+  sidebar.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeNav);});
 })();
 </script>
 </body>
