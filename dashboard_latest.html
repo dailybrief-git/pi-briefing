@@ -278,6 +278,37 @@
     .grid{grid-template-columns:1fr;}
     .sidebar{display:none;}
   }
+
+  .modal-overlay{
+    position:fixed;inset:0;background:rgba(6,10,16,.72);
+    display:none;align-items:center;justify-content:center;z-index:50;padding:20px;
+  }
+  .modal-overlay.show{display:flex;}
+  .modal-panel{
+    background:var(--panel);border:1px solid var(--border2);border-radius:14px;
+    width:100%;max-width:560px;max-height:85vh;overflow-y:auto;padding:22px 24px;
+  }
+  .modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;}
+  .modal-head h3{margin:0;font-size:16px;color:var(--text);}
+  .modal-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;line-height:1;padding:2px 6px;}
+  .modal-close:hover{color:var(--text);}
+  .modal-sub{color:var(--muted);font-size:12.5px;margin-bottom:18px;}
+  .plist-group{margin-bottom:18px;}
+  .plist-group h4{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--faint);margin:0 0 8px;font-weight:600;}
+  .plist{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+  .pchip{display:inline-flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:4px 6px 4px 12px;font-size:12.5px;color:var(--body);}
+  .pchip button{background:none;border:none;color:var(--faint);cursor:pointer;font-size:13px;width:16px;height:16px;line-height:1;border-radius:50%;}
+  .pchip button:hover{color:var(--alert);background:rgba(224,87,74,.14);}
+  .pchip.added{border-color:rgba(87,185,138,.4);color:var(--good);}
+  .padd-row{display:flex;gap:6px;}
+  .padd-row input{flex:1;font:inherit;font-size:12.5px;color:var(--text);background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none;}
+  .padd-row input:focus{border-color:var(--border2);}
+  .padd-row button{font:inherit;font-size:12.5px;font-weight:600;color:var(--body);background:var(--panel2);border:1px solid var(--border2);border-radius:6px;padding:6px 12px;cursor:pointer;}
+  .padd-row button:hover{color:var(--text);}
+  .modal-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px;padding-top:16px;border-top:1px solid var(--border);}
+  .modal-save{font:inherit;font-size:13px;font-weight:600;color:var(--bg);background:var(--good);border:none;border-radius:8px;padding:8px 18px;cursor:pointer;}
+  .modal-save:hover{opacity:.9;}
+  .modal-hint{color:var(--muted);font-size:11.5px;}
 </style>
 </head>
 <body>
@@ -341,9 +372,9 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
         Saved <span class="soon">soon</span>
       </a>
-      <a>
+      <a href="#" id="nav-profile">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-        Profile &amp; Settings <span class="soon">soon</span>
+        Profile &amp; Settings
       </a>
     </nav>
     <div class="sidebar-foot">
@@ -635,6 +666,7 @@
 </div>
 
 <script>
+var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"intelligence_topics":[],"deprioritize":[],"companies":[],"startup_spaces":[]};
 (function(){
   const KEY='pi-feedback-2026-07-11';
   const REASONS=['Not my world','No action for me','Too vague / process story','Old news','Wrong section'];
@@ -731,6 +763,108 @@
       });
     }
   });
+})();
+
+(function(){
+  var LABELS={
+    personal_interests:'Personal Interests',
+    intelligence_topics:'Intelligence Topics',
+    sectors:'Sectors',
+    watch_topics:'Watch Topics',
+    companies:'Company Watchlist',
+    startup_spaces:'Startup Radar Spaces',
+    deprioritize:'Deprioritize (avoid)'
+  };
+  var ORDER=['personal_interests','intelligence_topics','sectors','watch_topics','companies','startup_spaces','deprioritize'];
+  var dateMatch=document.documentElement.innerHTML.match(/pi-feedback-(\d{4}-\d{2}-\d{2})/);
+  var dateIso=dateMatch?dateMatch[1]:'unknown';
+  var PKEY='pi-profile-'+dateIso;
+
+  var pstate={};
+  try{pstate=JSON.parse(localStorage.getItem(PKEY))||{};}catch(e){}
+  ORDER.forEach(function(k){ if(!pstate[k])pstate[k]={removed:[],added:[]}; });
+  var psave=function(){try{localStorage.setItem(PKEY,JSON.stringify(pstate));}catch(e){}};
+
+  var overlay=document.createElement('div');
+  overlay.className='modal-overlay';
+  overlay.innerHTML=
+    '<div class="modal-panel">'+
+      '<div class="modal-head"><h3>Profile &amp; Settings</h3><button type="button" class="modal-close">&times;</button></div>'+
+      '<div class="modal-sub">Add or remove what the briefing looks for. Changes are copied as feedback for Claude to apply to your profile.</div>'+
+      '<div class="plist-groups"></div>'+
+      '<div class="modal-actions"><button type="button" class="modal-save">Save &amp; copy for Claude</button><div class="modal-hint"></div></div>'+
+    '</div>';
+  document.body.appendChild(overlay);
+  var groupsEl=overlay.querySelector('.plist-groups');
+  var hint=overlay.querySelector('.modal-hint');
+
+  function currentList(k){
+    var base=(window.PROFILE_LISTS&&window.PROFILE_LISTS[k])||[];
+    var s=pstate[k];
+    return base.filter(function(v){return s.removed.indexOf(v)===-1;}).concat(s.added);
+  }
+
+  function renderGroup(k){
+    var wrap=document.createElement('div');wrap.className='plist-group';
+    var list=document.createElement('div');list.className='plist';
+    currentList(k).forEach(function(v){
+      var isAdded=pstate[k].added.indexOf(v)!==-1;
+      var chip=document.createElement('span');
+      chip.className='pchip'+(isAdded?' added':'');
+      chip.innerHTML='<span></span><button type="button">&times;</button>';
+      chip.querySelector('span').textContent=v;
+      chip.querySelector('button').onclick=function(){
+        if(isAdded){pstate[k].added=pstate[k].added.filter(function(x){return x!==v;});}
+        else if(pstate[k].removed.indexOf(v)===-1){pstate[k].removed.push(v);}
+        psave();refresh();
+      };
+      list.appendChild(chip);
+    });
+    var addRow=document.createElement('div');addRow.className='padd-row';
+    addRow.innerHTML='<input type="text" placeholder="Add to '+LABELS[k].toLowerCase()+'&hellip;"><button type="button">Add</button>';
+    var input=addRow.querySelector('input'),btn=addRow.querySelector('button');
+    var doAdd=function(){
+      var v=input.value.trim();
+      if(!v)return;
+      if(currentList(k).indexOf(v)===-1)pstate[k].added.push(v);
+      input.value='';psave();refresh();
+    };
+    btn.onclick=doAdd;
+    input.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();doAdd();}};
+    var h4=document.createElement('h4');h4.textContent=LABELS[k];
+    wrap.appendChild(h4);wrap.appendChild(list);wrap.appendChild(addRow);
+    return wrap;
+  }
+
+  function refresh(){
+    groupsEl.innerHTML='';
+    ORDER.forEach(function(k){groupsEl.appendChild(renderGroup(k));});
+    var n=0;
+    ORDER.forEach(function(k){n+=pstate[k].added.length+pstate[k].removed.length;});
+    hint.textContent=n?(n+' change'+(n>1?'s':'')+' pending'):'';
+  }
+  refresh();
+
+  var navLink=document.getElementById('nav-profile');
+  if(navLink){
+    navLink.addEventListener('click',function(e){e.preventDefault();overlay.classList.add('show');});
+  }
+  overlay.querySelector('.modal-close').onclick=function(){overlay.classList.remove('show');};
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.classList.remove('show');});
+
+  overlay.querySelector('.modal-save').onclick=function(){
+    var lines=['Profile changes:'];
+    ORDER.forEach(function(k){
+      pstate[k].added.forEach(function(v){lines.push('- ADD '+k+': "'+v+'"');});
+      pstate[k].removed.forEach(function(v){lines.push('- REMOVE '+k+': "'+v+'"');});
+    });
+    if(lines.length===1){hint.textContent='No changes yet \u2014 add or remove something first.';return;}
+    var txt=lines.join('\n');
+    var done=function(){hint.textContent='Copied. Paste it into chat with Claude to update your profile.';};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done).catch(function(){prompt('Copy this:',txt);});
+    }else{prompt('Copy this:',txt);}
+  };
 })();
 </script>
 </body>

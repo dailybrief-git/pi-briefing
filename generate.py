@@ -51,7 +51,7 @@ TIMEZONE = "Asia/Bangkok"
 
 JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
-REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track"]
+REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track", "PROFILE_LISTS", "nav-profile"]
 MIN_HTML_LEN = 20000
 
 # id, H2 heading, section note, accent css-var, wwuw summary label, relevance label
@@ -565,6 +565,23 @@ def _sidebar_foot(profile):
             '<div class="profile-line">%s</div></div>' % (where, sect, ints))
 
 
+
+
+def _profile_lists(profile):
+    biz = profile.get("business", {}) or {}
+    cw = profile.get("company_watchlist", {}) or {}
+    sr = profile.get("startup_radar", {}) or {}
+    return {
+        "sectors": biz.get("sectors", []) or [],
+        "watch_topics": biz.get("watch_topics", []) or [],
+        "personal_interests": profile.get("personal_interests", []) or [],
+        "intelligence_topics": profile.get("intelligence_topics", []) or [],
+        "deprioritize": profile.get("deprioritize", []) or [],
+        "companies": cw.get("companies", []) or [],
+        "startup_spaces": sr.get("spaces", []) or [],
+    }
+
+
 def render_page(data, template, dt, profile):
     style = re.search(r"<style>.*?</style>", template, re.S)
     script = re.search(r"<script>.*?</script>", template, re.S)
@@ -576,6 +593,11 @@ def render_page(data, template, dt, profile):
                      _sidebar_foot(profile) + "</aside>", sidebar, flags=re.S)
     script = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}",
                     "pi-feedback-" + dt.strftime("%Y-%m-%d"), script.group(0))
+    profile_lists_json = json.dumps(_profile_lists(profile), ensure_ascii=False)
+    new_decl = "var PROFILE_LISTS = %s;" % profile_lists_json
+    script, n_sub = re.subn(r"var PROFILE_LISTS\s*=\s*\{.*?\};", new_decl, script, flags=re.S)
+    if not n_sub:
+        script = script.replace("<script>", "<script>\n" + new_decl, 1)
 
     sections = data.get("sections") or {}
     rail = data.get("rail") or {}
