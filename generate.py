@@ -51,7 +51,7 @@ TIMEZONE = "Asia/Bangkok"
 
 JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
-REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track", "PROFILE_LISTS", "nav-profile"]
+REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track", "PROFILE_LISTS", "PROFILE_USER", "nav-profile"]
 MIN_HTML_LEN = 20000
 
 # id, H2 heading, section note, accent css-var, wwuw summary label, relevance label
@@ -567,22 +567,157 @@ def _sidebar_foot(profile):
 
 
 
+# Editable list fields exposed in the Profile & Settings panel, and the
+# GitHub-Issues relay used to apply changes friends submit from their own
+# copy of the dashboard (the static page has no backend, so a labelled issue
+# is the write mechanism - see apply_pending_profile_issues below).
+PROFILE_LIST_PATHS = {
+    "personal_interests": ("personal_interests",),
+    "intelligence_topics": ("intelligence_topics",),
+    "sectors": ("business", "sectors"),
+    "watch_topics": ("business", "watch_topics"),
+    "companies": ("company_watchlist", "companies"),
+    "startup_spaces": ("startup_radar", "spaces"),
+    "deprioritize": ("deprioritize",),
+}
+
+GITHUB_API = "https://api.github.com"
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "dailybrief-git/pi-briefing")
+PROFILE_ISSUE_LABEL = "profile-change"
+
+
+def _get_list_ref(profile, path):
+    node = profile
+    for key in path[:-1]:
+        node = node.setdefault(key, {})
+    return node.setdefault(path[-1], [])
+
+
 def _profile_lists(profile):
-    biz = profile.get("business", {}) or {}
-    cw = profile.get("company_watchlist", {}) or {}
-    sr = profile.get("startup_radar", {}) or {}
-    return {
-        "sectors": biz.get("sectors", []) or [],
-        "watch_topics": biz.get("watch_topics", []) or [],
-        "personal_interests": profile.get("personal_interests", []) or [],
-        "intelligence_topics": profile.get("intelligence_topics", []) or [],
-        "deprioritize": profile.get("deprioritize", []) or [],
-        "companies": cw.get("companies", []) or [],
-        "startup_spaces": sr.get("spaces", []) or [],
+    return {field: list(_get_list_ref(profile, path))
+            for field, path in PROFILE_LIST_PATHS.items()}
+
+
+ISSUE_USER_RE = re.compile(r'^user:\s*(\S+)\s*$', re.M | re.I)
+ISSUE_LINE_RE = re.compile(r'^-\s*(ADD|REMOVE)\s+([a-zA-Z_]+)\s*:\s*"(.*?)"\s*$', re.M)
+
+
+def parse_profile_issue(body):
+    body = body or ""
+    m = ISSUE_USER_RE.search(body)
+    if not m:
+        return None, []
+    user = m.group(1).strip()
+    changes = [(a.upper(), f, v) for a, f, v in ISSUE_LINE_RE.findall(body)]
+    return user, changes
+
+
+def apply_profile_change(name, changes):
+    path = os.path.join(USERS_DIR, name, "profile.json")
+    if not os.path.isfile(path):
+        return ["user '%s' has no profile.json" % name], False
+    with open(path, "r", encoding="utf-8") as f:
+        profile = json.load(f)
+    results = []
+    changed = False
+    for action, field, value in changes:
+        if field not in PROFILE_LIST_PATHS:
+            results.append('rejected (unknown field "%s")' % field)
+            continue
+        lst = _get_list_ref(profile, PROFILE_LIST_PATHS[field])
+        if action == "ADD":
+            if value in lst:
+                results.append('skipped (already present) ADD %s: "%s"' % (field, value))
+            else:
+                lst.append(value)
+                results.append('applied ADD %s: "%s"' % (field, value))
+                changed = True
+        elif action == "REMOVE":
+            if value in lst:
+                lst.remove(value)
+                results.append('applied REMOVE %s: "%s"' % (field, value))
+                changed = True
+            else:
+                results.append('skipped (not found) REMOVE %s: "%s"' % (field, value))
+        else:
+            results.append('rejected (unknown action "%s")' % action)
+    if changed:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(profile, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+    return results, changed
+
+
+def _gh_request(method, path, token, body=None):
+    url = GITHUB_API + path
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": "Bearer " + token,
+        "X-GitHub-Api-Version": "2022-11-28",
     }
+    data = json.dumps(body).encode("utf-8") if body is not None else None
+    if data is not None:
+        headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(url, data=data, headers=headers, method=method)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            raw = resp.read()
+            return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as e:
+        try:
+            err = e.read().decode("utf-8", "ignore")[:300]
+        except Exception:
+            err = ""
+        log("  GitHub API %s %s -> HTTP %s: %s" % (method, path, e.code, err))
+        return None
+    except Exception as e:
+        log("  GitHub API %s %s failed: %s" % (method, path, e))
+        return None
 
 
-def render_page(data, template, dt, profile):
+def apply_pending_profile_issues(known_users, token):
+    """Best-effort: read open profile-change issues (filed by the dashboard's
+    Save button via an issues-only-scoped token embedded in the published
+    page), apply validated ones to the right user's profile.json, then
+    comment + close. Never raises - a problem here must not block publishing
+    the day's briefings."""
+    if not token:
+        log("no GH_TOKEN set - skipping profile-change issue processing")
+        return
+    try:
+        issues = _gh_request(
+            "GET",
+            "/repos/%s/issues?labels=%s&state=open&per_page=50"
+            % (GITHUB_REPO, PROFILE_ISSUE_LABEL),
+            token)
+        if not issues:
+            return
+        log("profile-change issues open: %d" % len(issues))
+        for issue in issues:
+            number = issue.get("number")
+            user, changes = parse_profile_issue(issue.get("body"))
+            if not user or not changes:
+                comment = ("Could not read this as a profile change (missing "
+                           "'user:' line or no ADD/REMOVE lines). Closing without changes.")
+            elif user not in known_users:
+                comment = ("Unknown user '%s' - no matching profile on this "
+                           "dashboard. Closing without changes." % user)
+            else:
+                results, changed = apply_profile_change(user, changes)
+                comment = ("Applied to %s's profile:\n" % user
+                           + "\n".join("- " + r for r in results))
+                if changed:
+                    comment += "\n\nWill show up in tomorrow's briefing."
+            _gh_request("POST", "/repos/%s/issues/%s/comments" % (GITHUB_REPO, number),
+                        token, {"body": comment})
+            _gh_request("PATCH", "/repos/%s/issues/%s" % (GITHUB_REPO, number),
+                        token, {"state": "closed"})
+            log("  issue #%s processed" % number)
+    except Exception as e:
+        log("WARNING: profile-change issue processing failed: %s" % e)
+
+
+def render_page(data, template, dt, profile, user_id):
     style = re.search(r"<style>.*?</style>", template, re.S)
     script = re.search(r"<script>.*?</script>", template, re.S)
     sidebar = re.search(r'<aside class="sidebar">.*?</aside>', template, re.S)
@@ -598,6 +733,15 @@ def render_page(data, template, dt, profile):
     script, n_sub = re.subn(r"var PROFILE_LISTS\s*=\s*\{.*?\};", new_decl, script, flags=re.S)
     if not n_sub:
         script = script.replace("<script>", "<script>\n" + new_decl, 1)
+    new_user_decl = "var PROFILE_USER = %s;" % json.dumps(user_id)
+    script, n_user = re.subn(r'var PROFILE_USER\s*=\s*"[^"]*";', new_user_decl, script, flags=re.S)
+    if not n_user:
+        script = script.replace("<script>", "<script>\n" + new_user_decl, 1)
+    submit_token = os.environ.get("ISSUES_WRITE_TOKEN", "")
+    new_token_decl = "var PROFILE_SUBMIT_TOKEN = %s;" % json.dumps(submit_token)
+    script, n_tok = re.subn(r'var PROFILE_SUBMIT_TOKEN\s*=\s*"[^"]*";', new_token_decl, script, flags=re.S)
+    if not n_tok:
+        script = script.replace("<script>", "<script>\n" + new_token_decl, 1)
 
     sections = data.get("sections") or {}
     rail = data.get("rail") or {}
@@ -697,7 +841,7 @@ def run_user(name, template, brave, dt):
 
     raw = generate(profile, seen, digest_text, dt)
     data = parse_json(raw)
-    html = render_page(data, template, dt, profile)
+    html = render_page(data, template, dt, profile, name)
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
 
@@ -724,6 +868,8 @@ def main():
     template = read_template()
     users = discover_users()
     log("users: %s" % ", ".join(users))
+
+    apply_pending_profile_issues(users, os.environ.get("GH_TOKEN"))
 
     ok = []
     for name in users:

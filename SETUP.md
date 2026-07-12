@@ -51,14 +51,46 @@ Optional: **Variables** tab → add `MODEL` if you ever want to change the writi
 model (defaults to `claude-sonnet-5`). Confirm the exact model id in
 console.anthropic.com if a run reports an unknown model.
 
-## 3. Turn on Actions and check Pages
+## 3. Add the profile-save token (one-time, for the Profile & Settings button)
+
+The dashboard's "Profile & Settings" panel lets anyone using the page (you or
+a friend you've shared it with) add/remove interests and topics without
+needing to talk to Claude. Since the page is static (GitHub Pages, no
+backend), the Save button has to write somewhere directly from the browser —
+it does this by filing a GitHub **Issue** on this repo (label
+`profile-change`), which the next daily run reads, applies to the right
+person's `profile.json`, then comments on and closes.
+
+This means a credential has to live inside the published page's JavaScript,
+visible to anyone who views source. To keep that safe, it's a **fine-grained
+token scoped to "Issues: write" only** — it cannot read or change any file,
+cannot see your other secrets, and can't do anything except open issues on
+this one repo. Worst case if it leaked further than intended: someone spams
+junk issues, which you can delete or turn off Issues entirely to stop.
+
+1. **github.com → Settings (your account, not the repo) → Developer settings
+   → Fine-grained tokens → Generate new token.**
+2. Name it something like `pi-briefing-profile-submit`. Resource owner: your
+   account. Repository access: **Only select repositories** → `pi-briefing`.
+3. Permissions → Repository permissions → **Issues: Read and write**. Leave
+   everything else as "No access."
+4. Generate, copy the token.
+5. Repo → **Settings → Secrets and variables → Actions → New repository
+   secret**, name it exactly `ISSUES_WRITE_TOKEN`, paste the value.
+
+That's it — `generate.py` bakes it into each day's published page automatically.
+Rotate any time by generating a new token and updating the secret; no code
+changes needed. If you ever want to turn the feature off, delete the secret —
+the button will fall back to copying the change to the clipboard instead.
+
+## 4. Turn on Actions and check Pages
 
 - **Actions tab:** if it says workflows are disabled, click to enable them.
 - **Settings → Pages:** source should be **Deploy from a branch → `gh-pages` /
   root** (this is likely already set — it's how your page is served today). The
   workflow republishes `gh-pages` each run.
 
-## 4. Do a test run
+## 5. Do a test run
 
 - **Actions tab → "Daily briefing" → Run workflow** (the `workflow_dispatch`
   button). This runs it immediately instead of waiting for 6 AM.

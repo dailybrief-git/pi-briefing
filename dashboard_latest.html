@@ -667,6 +667,8 @@
 
 <script>
 var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"intelligence_topics":[],"deprioritize":[],"companies":[],"startup_spaces":[]};
+var PROFILE_USER = "";
+var PROFILE_SUBMIT_TOKEN = "";
 (function(){
   const KEY='pi-feedback-2026-07-11';
   const REASONS=['Not my world','No action for me','Too vague / process story','Old news','Wrong section'];
@@ -790,9 +792,9 @@ var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"int
   overlay.innerHTML=
     '<div class="modal-panel">'+
       '<div class="modal-head"><h3>Profile &amp; Settings</h3><button type="button" class="modal-close">&times;</button></div>'+
-      '<div class="modal-sub">Add or remove what the briefing looks for. Changes are copied as feedback for Claude to apply to your profile.</div>'+
+      '<div class="modal-sub">Add or remove what the briefing looks for. Changes are submitted directly \u2014 they\u2019ll show up in tomorrow\u2019s briefing.</div>'+
       '<div class="plist-groups"></div>'+
-      '<div class="modal-actions"><button type="button" class="modal-save">Save &amp; copy for Claude</button><div class="modal-hint"></div></div>'+
+      '<div class="modal-actions"><button type="button" class="modal-save">Save changes</button><div class="modal-hint"></div></div>'+
     '</div>';
   document.body.appendChild(overlay);
   var groupsEl=overlay.querySelector('.plist-groups');
@@ -852,18 +854,56 @@ var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"int
   overlay.querySelector('.modal-close').onclick=function(){overlay.classList.remove('show');};
   overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.classList.remove('show');});
 
+  function clipboardFallback(txt,msg){
+    var done=function(){hint.textContent=msg;};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done).catch(function(){prompt('Copy this and send it to the dashboard owner:',txt);});
+    }else{prompt('Copy this and send it to the dashboard owner:',txt);}
+  }
+
   overlay.querySelector('.modal-save').onclick=function(){
-    var lines=['Profile changes:'];
+    var lines=[];
     ORDER.forEach(function(k){
       pstate[k].added.forEach(function(v){lines.push('- ADD '+k+': "'+v+'"');});
       pstate[k].removed.forEach(function(v){lines.push('- REMOVE '+k+': "'+v+'"');});
     });
-    if(lines.length===1){hint.textContent='No changes yet \u2014 add or remove something first.';return;}
-    var txt=lines.join('\n');
-    var done=function(){hint.textContent='Copied. Paste it into chat with Claude to update your profile.';};
-    if(navigator.clipboard&&navigator.clipboard.writeText){
-      navigator.clipboard.writeText(txt).then(done).catch(function(){prompt('Copy this:',txt);});
-    }else{prompt('Copy this:',txt);}
+    if(!lines.length){hint.textContent='No changes yet \u2014 add or remove something first.';return;}
+    var body='user: '+(window.PROFILE_USER||'unknown')+'\n'+lines.join('\n');
+    if(!window.PROFILE_SUBMIT_TOKEN){
+      hint.textContent='Saving isn\u2019t set up yet on this dashboard \u2014 copying instead.';
+      clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
+      return;
+    }
+    hint.textContent='Saving\u2026';
+    var saveBtn=overlay.querySelector('.modal-save');
+    saveBtn.disabled=true;
+    fetch('https://api.github.com/repos/dailybrief-git/pi-briefing/issues',{
+      method:'POST',
+      headers:{
+        'Authorization':'Bearer '+window.PROFILE_SUBMIT_TOKEN,
+        'Accept':'application/vnd.github+json',
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify({
+        title:'profile-change: '+(window.PROFILE_USER||'unknown'),
+        body:body,
+        labels:['profile-change']
+      })
+    }).then(function(r){
+      saveBtn.disabled=false;
+      if(r.ok){
+        ORDER.forEach(function(k){pstate[k]={removed:[],added:[]};});
+        psave();refresh();
+        hint.textContent='Saved \u2014 this will show up in tomorrow\u2019s briefing.';
+      }else{
+        hint.textContent='Could not save \u2014 copying instead so nothing is lost.';
+        clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
+      }
+    }).catch(function(){
+      saveBtn.disabled=false;
+      hint.textContent='Could not save (connection issue) \u2014 copying instead.';
+      clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
+    });
   };
 })();
 </script>
