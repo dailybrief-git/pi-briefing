@@ -301,6 +301,34 @@
       "section": "major",
       "summary": "H1 2026 stablecoin volume confirmed at $8.82tn; MiCA clarified to preserve individual USDT holding rights",
       "status": "active"
+    },
+    {
+      "id": "uk-pm-transition-burnham",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Chancellor signals economy handover as Andy Burnham tipped to become UK PM this month",
+      "status": "active"
+    },
+    {
+      "id": "stripe-agentic-commerce-crypto-rail",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Stripe extends agent-payments strategy with OpenUSD trademark filings and a crypto-native agent payment rail",
+      "status": "active"
+    },
+    {
+      "id": "mcp-10k-servers-milestone",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "MCP protocol passes 10,000 published servers, now integrated across major AI coding tools",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-coherent-texas-fab",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Coherent breaks ground on Texas indium-phosphide fab as part of Nvidia's supply chain buildout",
+      "status": "active"
     }
   ]
 }

@@ -371,6 +371,34 @@
       "section": "interest",
       "summary": "Thai teen equestrian champion applies AI to hippotherapy for disabled children",
       "status": "active"
+    },
+    {
+      "id": "canada-travel-advisory-bavi",
+      "first_briefed": "2026-07-12",
+      "section": "alerts",
+      "summary": "Canada issues global travel warning citing Typhoon Bavi risk for Thailand-adjacent region",
+      "status": "active"
+    },
+    {
+      "id": "tat-middle-east-flydubai-roadshow",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "TAT Dubai runs flydubai roadshow across UAE cities under wellness campaign",
+      "status": "active"
+    },
+    {
+      "id": "tesla-app-ai-opticaster",
+      "first_briefed": "2026-07-12",
+      "section": "companies",
+      "summary": "Tesla app update adds AI Opticaster, smart-breaker and smart-charging features",
+      "status": "active"
+    },
+    {
+      "id": "genisom-ai-icra-robotics",
+      "first_briefed": "2026-07-12",
+      "section": "startups",
+      "summary": "GENISOM AI debuts deployable robotics platforms at ICRA 2026",
+      "status": "active"
     }
   ]
 }
