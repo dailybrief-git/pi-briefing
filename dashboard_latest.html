@@ -668,7 +668,9 @@
 <script>
 var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"intelligence_topics":[],"deprioritize":[],"companies":[],"startup_spaces":[]};
 var PROFILE_USER = "";
-var PROFILE_SUBMIT_TOKEN = "";
+var GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfUDl70GFBSTlnRDqalzIWz8KpvTmTQuBpCb9C9gKY27To_mA/formResponse';
+var GOOGLE_FORM_ENTRY_USER = 'entry.1970668832';
+var GOOGLE_FORM_ENTRY_CHANGES = 'entry.287169611';
 (function(){
   const KEY='pi-feedback-2026-07-11';
   const REASONS=['Not my world','No action for me','Too vague / process story','Old news','Wrong section'];
@@ -868,41 +870,32 @@ var PROFILE_SUBMIT_TOKEN = "";
       pstate[k].removed.forEach(function(v){lines.push('- REMOVE '+k+': "'+v+'"');});
     });
     if(!lines.length){hint.textContent='No changes yet \u2014 add or remove something first.';return;}
-    var body='user: '+(window.PROFILE_USER||'unknown')+'\n'+lines.join('\n');
-    if(!window.PROFILE_SUBMIT_TOKEN){
-      hint.textContent='Saving isn\u2019t set up yet on this dashboard \u2014 copying instead.';
-      clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
-      return;
-    }
-    hint.textContent='Saving\u2026';
+    var changesText=lines.join('\n');
+    var params=new URLSearchParams();
+    params.set(GOOGLE_FORM_ENTRY_USER,window.PROFILE_USER||'unknown');
+    params.set(GOOGLE_FORM_ENTRY_CHANGES,changesText);
+    hint.textContent='Sending\u2026';
     var saveBtn=overlay.querySelector('.modal-save');
     saveBtn.disabled=true;
-    fetch('https://api.github.com/repos/dailybrief-git/pi-briefing/issues',{
+    // Google Forms' submit endpoint doesn't send CORS headers, so the
+    // response is opaque with mode:'no-cors' - we can't read success/failure
+    // from it, only whether the request itself went out. That's an inherent
+    // limit of client-side Forms submission, not a bug: say "sent", not
+    // "confirmed saved".
+    fetch(GOOGLE_FORM_URL,{
       method:'POST',
-      headers:{
-        'Authorization':'Bearer '+window.PROFILE_SUBMIT_TOKEN,
-        'Accept':'application/vnd.github+json',
-        'Content-Type':'application/json'
-      },
-      body:JSON.stringify({
-        title:'profile-change: '+(window.PROFILE_USER||'unknown'),
-        body:body,
-        labels:['profile-change']
-      })
-    }).then(function(r){
+      mode:'no-cors',
+      headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:params.toString()
+    }).then(function(){
       saveBtn.disabled=false;
-      if(r.ok){
-        ORDER.forEach(function(k){pstate[k]={removed:[],added:[]};});
-        psave();refresh();
-        hint.textContent='Saved \u2014 this will show up in tomorrow\u2019s briefing.';
-      }else{
-        hint.textContent='Could not save \u2014 copying instead so nothing is lost.';
-        clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
-      }
+      ORDER.forEach(function(k){pstate[k]={removed:[],added:[]};});
+      psave();refresh();
+      hint.textContent='Sent \u2014 this will show up in tomorrow\u2019s briefing.';
     }).catch(function(){
       saveBtn.disabled=false;
-      hint.textContent='Could not save (connection issue) \u2014 copying instead.';
-      clipboardFallback(body,'Copied \u2014 send this to the dashboard owner.');
+      hint.textContent='Could not send (connection issue) \u2014 copying instead.';
+      clipboardFallback('user: '+(window.PROFILE_USER||'unknown')+'\n'+changesText,'Copied \u2014 send this to the dashboard owner.');
     });
   };
 })();

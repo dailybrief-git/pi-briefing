@@ -51,37 +51,56 @@ Optional: **Variables** tab → add `MODEL` if you ever want to change the writi
 model (defaults to `claude-sonnet-5`). Confirm the exact model id in
 console.anthropic.com if a run reports an unknown model.
 
-## 3. Add the profile-save token (one-time, for the Profile & Settings button)
+## 3. Profile-save relay (Google Form, one-time setup)
 
 The dashboard's "Profile & Settings" panel lets anyone using the page (you or
 a friend you've shared it with) add/remove interests and topics without
-needing to talk to Claude. Since the page is static (GitHub Pages, no
-backend), the Save button has to write somewhere directly from the browser —
-it does this by filing a GitHub **Issue** on this repo (label
-`profile-change`), which the next daily run reads, applies to the right
-person's `profile.json`, then comments on and closes.
+needing to talk to Claude. The page is static (GitHub Pages, no backend), so
+the Save button needs somewhere public it can write to.
 
-This means a credential has to live inside the published page's JavaScript,
-visible to anyone who views source. To keep that safe, it's a **fine-grained
-token scoped to "Issues: write" only** — it cannot read or change any file,
-cannot see your other secrets, and can't do anything except open issues on
-this one repo. Worst case if it leaked further than intended: someone spams
-junk issues, which you can delete or turn off Issues entirely to stop.
+**We tried a GitHub-token-based approach first and it doesn't work** — even
+scoped down to "Issues: write" only, GitHub automatically revokes any of its
+own tokens it detects exposed in a public repo, regardless of push-protection
+settings. That's not configurable; a real GitHub credential can never safely
+live in a published page. So instead:
 
-1. **github.com → Settings (your account, not the repo) → Developer settings
-   → Fine-grained tokens → Generate new token.**
-2. Name it something like `pi-briefing-profile-submit`. Resource owner: your
-   account. Repository access: **Only select repositories** → `pi-briefing`.
-3. Permissions → Repository permissions → **Issues: Read and write**. Leave
-   everything else as "No access."
-4. Generate, copy the token.
-5. Repo → **Settings → Secrets and variables → Actions → New repository
-   secret**, name it exactly `ISSUES_WRITE_TOKEN`, paste the value.
+The Save button submits to a **Google Form**, whose submit endpoint is
+designed to be publicly POSTable — no credential involved at all. Responses
+land in a linked Google Sheet, published read-only as CSV (also no
+credential — a "published to web" link is just a public GET). Each day's run
+reads that CSV and applies whatever's there to the right person's
+`profile.json`. Re-processing the same row twice is harmless (adding
+something already there, or removing something already gone, is a no-op),
+so there's no "mark as done" bookkeeping and nothing sensitive anywhere in
+the loop.
 
-That's it — `generate.py` bakes it into each day's published page automatically.
-Rotate any time by generating a new token and updating the secret; no code
-changes needed. If you ever want to turn the feature off, delete the secret —
-the button will fall back to copying the change to the clipboard instead.
+This is already built into `dashboard_latest.html` and `generate.py` for
+Anthony's own form. If you ever need to rebuild it (a new form, a different
+dashboard fork, etc.):
+
+1. **forms.google.com** → new blank form → exactly two questions, in order:
+   "User" (Short answer), "Changes" (Paragraph).
+2. Open the live form → ⋮ menu → **Get pre-filled link** → fill in both
+   fields with anything → **Get link** → copy it. It contains
+   `entry.<ID>=...` for each field — those IDs go into the dashboard
+   template's `GOOGLE_FORM_ENTRY_USER` / `GOOGLE_FORM_ENTRY_CHANGES`
+   constants, and `/viewform` → `/formResponse` gives the submit URL for
+   `GOOGLE_FORM_URL`.
+3. Form editor → **Responses** tab → click the green Sheets icon to create a
+   linked spreadsheet.
+4. Open that spreadsheet → **File → Share → Publish to web** → pick the
+   response sheet, format **Comma-separated values (.csv)** → Publish → copy
+   the URL (ends `/pub?output=csv`).
+5. Repo → **Settings → Secrets and variables → Actions → Variables tab → New
+   repository variable** (a **Variable**, not a Secret — this URL isn't
+   sensitive, it's already meant to be public), name it exactly
+   `GOOGLE_SHEET_CSV_URL`, paste the value.
+
+One caveat inherent to this approach, not a bug: Google's Forms submit
+endpoint doesn't send CORS headers, so the page can't actually read back
+whether the submission succeeded — the button says "Sent," not "confirmed
+saved." If it's genuinely offline it falls back to copying the change to the
+clipboard instead, so nothing is silently lost.
 
 ## 4. Turn on Actions and check Pages
 
@@ -102,7 +121,7 @@ the button will fall back to copying the change to the clipboard instead.
   Pages CDN can serve the old copy for up to ~10 minutes after a run — give it a
   moment before deciding it didn't work.
 
-## 5. After it works
+## 6. After it works
 
 Nothing. It runs itself at 6 AM daily. Your feedback loop is unchanged: rate
 stories on the page, hit **Copy feedback for Claude**, paste into Cowork, and

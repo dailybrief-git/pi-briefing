@@ -20,8 +20,10 @@ Secrets come from environment variables (GitHub Actions secrets):
 Optional env: MODEL, OUTPUT_DIR, SEARCH_MAX, MAX_TOKENS
 """
 
+import csv
 import datetime
 import html as htmllib
+import io
 import json
 import os
 import re
@@ -581,9 +583,9 @@ PROFILE_LIST_PATHS = {
     "deprioritize": ("deprioritize",),
 }
 
-GITHUB_API = "https://api.github.com"
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "dailybrief-git/pi-briefing")
-PROFILE_ISSUE_LABEL = "profile-change"
+GOOGLE_SHEET_CSV_URL = os.environ.get("GOOGLE_SHEET_CSV_URL", "")
+
+CHANGE_LINE_RE = re.compile(r'^-\s*(ADD|REMOVE)\s+([a-zA-Z_]+)\s*:\s*"(.*?)"\s*$', re.M)
 
 
 def _get_list_ref(profile, path):
@@ -598,18 +600,8 @@ def _profile_lists(profile):
             for field, path in PROFILE_LIST_PATHS.items()}
 
 
-ISSUE_USER_RE = re.compile(r'^user:\s*(\S+)\s*$', re.M | re.I)
-ISSUE_LINE_RE = re.compile(r'^-\s*(ADD|REMOVE)\s+([a-zA-Z_]+)\s*:\s*"(.*?)"\s*$', re.M)
-
-
-def parse_profile_issue(body):
-    body = body or ""
-    m = ISSUE_USER_RE.search(body)
-    if not m:
-        return None, []
-    user = m.group(1).strip()
-    changes = [(a.upper(), f, v) for a, f, v in ISSUE_LINE_RE.findall(body)]
-    return user, changes
+def parse_changes_block(text):
+    return [(a.upper(), f, v) for a, f, v in CHANGE_LINE_RE.findall(text or "")]
 
 
 def apply_profile_change(name, changes):
@@ -648,73 +640,51 @@ def apply_profile_change(name, changes):
     return results, changed
 
 
-def _gh_request(method, path, token, body=None):
-    url = GITHUB_API + path
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "Authorization": "Bearer " + token,
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
-    data = json.dumps(body).encode("utf-8") if body is not None else None
-    if data is not None:
-        headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=data, headers=headers, method=method)
+def fetch_pending_sheet_rows(url):
+    """GET the published (world-readable, no auth) CSV export of the
+    profile-change Google Sheet. Returns data rows only (header stripped),
+    or [] on any problem - never raises."""
+    if not url:
+        return []
     try:
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            raw = resp.read()
-            return json.loads(raw) if raw else {}
-    except urllib.error.HTTPError as e:
-        try:
-            err = e.read().decode("utf-8", "ignore")[:300]
-        except Exception:
-            err = ""
-        log("  GitHub API %s %s -> HTTP %s: %s" % (method, path, e.code, err))
-        return None
+        with urllib.request.urlopen(url, timeout=20) as resp:
+            raw = resp.read().decode("utf-8", "replace")
     except Exception as e:
-        log("  GitHub API %s %s failed: %s" % (method, path, e))
-        return None
+        log("  could not fetch profile-change sheet: %s" % e)
+        return []
+    rows = list(csv.reader(io.StringIO(raw)))
+    return rows[1:] if len(rows) > 1 else []
 
 
-def apply_pending_profile_issues(known_users, token):
-    """Best-effort: read open profile-change issues (filed by the dashboard's
-    Save button via an issues-only-scoped token embedded in the published
-    page), apply validated ones to the right user's profile.json, then
-    comment + close. Never raises - a problem here must not block publishing
-    the day's briefings."""
-    if not token:
-        log("no GH_TOKEN set - skipping profile-change issue processing")
-        return
+def apply_pending_profile_submissions(known_users, csv_url):
+    """Best-effort: replay every row of the published Google Sheet
+    (Timestamp, User, Changes - one row per Save-button submission) through
+    apply_profile_change(). No per-row "already processed" bookkeeping is
+    needed: apply_profile_change() is idempotent (adding something already
+    present, or removing something already absent, is a no-op), so safely
+    replaying the whole sheet every day needs no extra state and no
+    write-back credential. Must never raise - a problem here can't be
+    allowed to block publishing the day's briefings."""
     try:
-        issues = _gh_request(
-            "GET",
-            "/repos/%s/issues?labels=%s&state=open&per_page=50"
-            % (GITHUB_REPO, PROFILE_ISSUE_LABEL),
-            token)
-        if not issues:
+        rows = fetch_pending_sheet_rows(csv_url)
+        if not rows:
             return
-        log("profile-change issues open: %d" % len(issues))
-        for issue in issues:
-            number = issue.get("number")
-            user, changes = parse_profile_issue(issue.get("body"))
+        log("profile-change sheet rows: %d" % len(rows))
+        for row in rows:
+            if len(row) < 3:
+                continue
+            user = (row[1] or "").strip()
+            changes = parse_changes_block(row[2])
             if not user or not changes:
-                comment = ("Could not read this as a profile change (missing "
-                           "'user:' line or no ADD/REMOVE lines). Closing without changes.")
-            elif user not in known_users:
-                comment = ("Unknown user '%s' - no matching profile on this "
-                           "dashboard. Closing without changes." % user)
-            else:
-                results, changed = apply_profile_change(user, changes)
-                comment = ("Applied to %s's profile:\n" % user
-                           + "\n".join("- " + r for r in results))
-                if changed:
-                    comment += "\n\nWill show up in tomorrow's briefing."
-            _gh_request("POST", "/repos/%s/issues/%s/comments" % (GITHUB_REPO, number),
-                        token, {"body": comment})
-            _gh_request("PATCH", "/repos/%s/issues/%s" % (GITHUB_REPO, number),
-                        token, {"state": "closed"})
-            log("  issue #%s processed" % number)
+                continue
+            if user not in known_users:
+                log("  skipping unknown user '%s' in profile-change sheet" % user)
+                continue
+            results, changed = apply_profile_change(user, changes)
+            if changed:
+                log("  applied profile changes for %s: %s" % (user, "; ".join(results)))
     except Exception as e:
-        log("WARNING: profile-change issue processing failed: %s" % e)
+        log("WARNING: profile-change sheet processing failed: %s" % e)
 
 
 def render_page(data, template, dt, profile, user_id):
@@ -737,11 +707,6 @@ def render_page(data, template, dt, profile, user_id):
     script, n_user = re.subn(r'var PROFILE_USER\s*=\s*"[^"]*";', new_user_decl, script, flags=re.S)
     if not n_user:
         script = script.replace("<script>", "<script>\n" + new_user_decl, 1)
-    submit_token = os.environ.get("ISSUES_WRITE_TOKEN", "")
-    new_token_decl = "var PROFILE_SUBMIT_TOKEN = %s;" % json.dumps(submit_token)
-    script, n_tok = re.subn(r'var PROFILE_SUBMIT_TOKEN\s*=\s*"[^"]*";', new_token_decl, script, flags=re.S)
-    if not n_tok:
-        script = script.replace("<script>", "<script>\n" + new_token_decl, 1)
 
     sections = data.get("sections") or {}
     rail = data.get("rail") or {}
@@ -869,7 +834,7 @@ def main():
     users = discover_users()
     log("users: %s" % ", ".join(users))
 
-    apply_pending_profile_issues(users, os.environ.get("GH_TOKEN"))
+    apply_pending_profile_submissions(users, GOOGLE_SHEET_CSV_URL)
 
     ok = []
     for name in users:
