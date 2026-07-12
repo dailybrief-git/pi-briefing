@@ -301,6 +301,76 @@
       "section": "interest",
       "summary": "Record heat threatens France's 2026 wine vintage",
       "status": "active"
+    },
+    {
+      "id": "spacexai-grok-4-5-public-launch",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Grok 4.5 moves from Tesla/SpaceX private beta to public launch",
+      "status": "active"
+    },
+    {
+      "id": "chinese-outbound-korea-competitive-squeeze",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Chinese outbound rebound favours Seoul/Busan, competitive risk to Thailand arrivals target",
+      "status": "active"
+    },
+    {
+      "id": "tesla-dry-electrode-70pct-emissions",
+      "first_briefed": "2026-07-12",
+      "section": "companies",
+      "summary": "Tesla dry-electrode process confirmed cutting Gigafactory Texas emissions ~70%",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-business-agent-launch",
+      "first_briefed": "2026-07-12",
+      "section": "companies",
+      "summary": "Meta launches global AI Business Agent and Meta One subscriptions",
+      "status": "active"
+    },
+    {
+      "id": "pie-ai-local-search-startup",
+      "first_briefed": "2026-07-12",
+      "section": "startups",
+      "summary": "Pie raises $19.5M Series A for AI local-business search visibility platform",
+      "status": "active"
+    },
+    {
+      "id": "core-automation-workflow-startup",
+      "first_briefed": "2026-07-12",
+      "section": "startups",
+      "summary": "Core Automation hits $1B valuation for enterprise workflow automation",
+      "status": "active"
+    },
+    {
+      "id": "locus-robotics-ai-breakthrough-award",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Locus Robotics wins 2026 AI Breakthrough Award for cognitive robotics",
+      "status": "active"
+    },
+    {
+      "id": "novos-core-longevity-supplement",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "NOVOS Core supplement claims epigenetic age-marker improvements",
+      "status": "active"
+    },
+    {
+      "id": "wine-auction-market-cooloff",
+      "first_briefed": "2026-07-12",
+      "section": "interest",
+      "summary": "Sotheby's/Christie's wine auction market cools post-boom",
+      "status": "active"
+    },
+    {
+      "id": "thai-ai-hippotherapy-equestrian",
+      "first_briefed": "2026-07-12",
+      "section": "interest",
+      "summary": "Thai teen equestrian champion applies AI to hippotherapy for disabled children",
+      "status": "active"
     }
   ]
 }

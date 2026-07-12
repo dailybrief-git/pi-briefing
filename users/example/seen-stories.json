@@ -287,6 +287,20 @@
       "section": "alerts",
       "summary": "Microsoft patches privilege-escalation flaw in Malware Protection Engine",
       "status": "active"
+    },
+    {
+      "id": "uk-infra-planning-reform",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "UK to scrap pre-application consultation rule for major infrastructure projects, cutting approval timelines up to 12 months",
+      "status": "active"
+    },
+    {
+      "id": "stablecoin-h1-total-mica-usdt-rights",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "H1 2026 stablecoin volume confirmed at $8.82tn; MiCA clarified to preserve individual USDT holding rights",
+      "status": "active"
     }
   ]
 }
