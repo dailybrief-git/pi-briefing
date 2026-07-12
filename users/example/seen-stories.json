@@ -238,6 +238,55 @@
       "section": "opportunities",
       "summary": "Coding agents adopt 'paper-replication' skill, gating completion on validation evidence",
       "status": "active"
+    },
+    {
+      "id": "fed-rate-hold-july-2026",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Fed holds rates for 4th consecutive meeting; 10-year yield 4.44%, SOFR 3.68%",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-studio-agent-upgrade",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Microsoft Copilot Studio ships agent evaluation, memory, orchestration upgrades",
+      "status": "active"
+    },
+    {
+      "id": "saas-valuation-bifurcation-named-winners",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "SaaS valuation split sharpens with named winners (Autodesk/Adobe) vs laggards (sales automation)",
+      "status": "active"
+    },
+    {
+      "id": "stablecoin-yield-bearing-bifurcation",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Yield-bearing/programmable stablecoins gaining share vs plain USDT/USDC",
+      "status": "active"
+    },
+    {
+      "id": "swiss-fintech-london-roadshow",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Ten Swiss fintech startups to roadshow in London, October 2026",
+      "status": "active"
+    },
+    {
+      "id": "open-payments-composable-infra",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Blog hypothesis: 'Open Payments' composable infrastructure as next layer beyond Open Banking",
+      "status": "active"
+    },
+    {
+      "id": "cve-2026-50656-patch",
+      "first_briefed": "2026-07-12",
+      "section": "alerts",
+      "summary": "Microsoft patches privilege-escalation flaw in Malware Protection Engine",
+      "status": "active"
     }
   ]
 }
