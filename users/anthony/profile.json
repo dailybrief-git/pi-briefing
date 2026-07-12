@@ -29,7 +29,8 @@
     "technology",
     "RC boats",
     "design",
-    "off grid living"
+    "off grid living",
+    "Jaguar Cars"
   ],
   "intelligence_topics": [
     "AI capability breakthroughs (new models, research results, hardware) — concrete advances, not policy process",
@@ -62,9 +63,9 @@
     ]
   },
   "deprioritize": [
-    "celebrity gossip",
     "domestic politics commentary not tied to policy change",
-    "governance/diplomacy process stories (summits, dialogues, talks) with no binding outcome and no direct impact on Thailand tourism or my interests"
+    "governance/diplomacy process stories (summits, dialogues, talks) with no binding outcome and no direct impact on Thailand tourism or my interests",
+    "American Politics"
   ],
   "learned_preferences": [
     {

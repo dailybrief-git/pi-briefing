@@ -371,6 +371,48 @@
       "section": "interest",
       "summary": "Tour de France 2026 Grand Départ in Spain, Pogačar-Vingegaard rivalry",
       "status": "active"
+    },
+    {
+      "id": "sba-peg-rate-hike-q3-2026",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "SBA Optional Peg Rate rises to 4.75% for Q3 2026, raising startup borrowing costs independent of Fed hold",
+      "status": "active"
+    },
+    {
+      "id": "saas-funding-growth-10x-dealroom",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Dealroom: SaaS VC funding grew ~10x in five years to $167.1bn in 2025",
+      "status": "active"
+    },
+    {
+      "id": "fireblocks-tokenized-deposit-forecast",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Fireblocks exec forecasts 20%+ of top transaction banks issuing tokenized deposits/stablecoins within a year",
+      "status": "active"
+    },
+    {
+      "id": "quiet-london-fintech-series-e",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Unnamed London fintech's £51m July 2025 Series E surfaces via filings",
+      "status": "active"
+    },
+    {
+      "id": "robusta-coffee-price-peak",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Robusta coffee hits 5-month high ($3,920/tonne) on weather/El Niño crop risk",
+      "status": "active"
+    },
+    {
+      "id": "tdf-pogacar-lead-widens",
+      "first_briefed": "2026-07-12",
+      "section": "interest",
+      "summary": "Pogačar extends Tour de France GC lead to ~3 minutes after Pyrenees stages",
+      "status": "active"
     }
   ]
 }
