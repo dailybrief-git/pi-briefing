@@ -154,6 +154,104 @@
       "section": "interest",
       "summary": "RIBA announces 32 winners of 2026 National Awards",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-unesco-heritage-bid",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Chiang Mai's UNESCO World Heritage bid enters crucial stage",
+      "status": "active"
+    },
+    {
+      "id": "thai-hotel-occupancy-budget-shift",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Hotel occupancy crisis amid Thai arrivals boom as budget travellers avoid traditional rooms",
+      "status": "active"
+    },
+    {
+      "id": "tat-israel-value-over-volume",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "TAT courts high-spending Israeli tourists under Value over Volume strategy",
+      "status": "active"
+    },
+    {
+      "id": "typhoon-bavi-thailand-rain-risk",
+      "first_briefed": "2026-07-12",
+      "section": "alerts",
+      "summary": "Typhoon Bavi bypasses Thailand but brings northern flash-flood risk",
+      "status": "active"
+    },
+    {
+      "id": "telomere-ncrna-blood-aging-reversal",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Telomere ncRNA blocking reverses blood/immune aging in research",
+      "status": "active"
+    },
+    {
+      "id": "ai-creativity-beats-humans-study",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Large study finds generative AI beats average humans on creativity tests",
+      "status": "active"
+    },
+    {
+      "id": "china-five-year-tourism-blueprint-190m",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "China's five-year plan targets 190M annual international visitors by 2030",
+      "status": "active"
+    },
+    {
+      "id": "tesla-model-y-l-us-launch",
+      "first_briefed": "2026-07-12",
+      "section": "companies",
+      "summary": "Tesla launches Model Y L Launch Series in US at $61,990",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-business-messaging-expansion",
+      "first_briefed": "2026-07-12",
+      "section": "companies",
+      "summary": "Meta expands AI business messaging across Messenger/WhatsApp/Instagram",
+      "status": "active"
+    },
+    {
+      "id": "quaise-energy-geothermal-funding",
+      "first_briefed": "2026-07-12",
+      "section": "startups",
+      "summary": "Quaise Energy raises $134M for deep-drilling geothermal tech",
+      "status": "active"
+    },
+    {
+      "id": "prometheus-physical-ai-funding",
+      "first_briefed": "2026-07-12",
+      "section": "startups",
+      "summary": "Bezos-backed Prometheus raises $12B Series B for physical AI robotics",
+      "status": "active"
+    },
+    {
+      "id": "sodium-ion-seawater-battery",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Sodium-ion battery breakthrough with seawater desalination side effect",
+      "status": "active"
+    },
+    {
+      "id": "plastic-waste-hydrogen-sunlight",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Sunlight-driven process converts plastic waste to hydrogen fuel",
+      "status": "active"
+    },
+    {
+      "id": "skin-longevity-reframe-trend",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Skincare industry rebrands anti-aging as longevity in 2026",
+      "status": "active"
     }
   ]
 }

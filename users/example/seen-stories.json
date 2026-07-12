@@ -189,6 +189,55 @@
       "section": "opportunities",
       "summary": "Venezuela sanctions activity cited as real-world stablecoin proof-of-concept",
       "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-work-atlas-sunset",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "OpenAI launches ChatGPT Work agent, sunsets Atlas browser, Codex into Responses API",
+      "status": "active"
+    },
+    {
+      "id": "revolut-pragma-performance-stats",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Revolut discloses PRAGMA performance metrics: 64.7% fraud detection lift, 16% credit risk, 41% recommendations",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-vera-rubin-45c-cooling",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Nvidia details 45°C liquid-cooling engineering behind Vera Rubin platform",
+      "status": "active"
+    },
+    {
+      "id": "fca-crypto-capital-requirements",
+      "first_briefed": "2026-07-12",
+      "section": "alerts",
+      "summary": "FCA cuts stablecoin issuer capital charge (K-SII) from 2% to 1%, renames safeguarding K-factor K-RCS",
+      "status": "active"
+    },
+    {
+      "id": "core-automation-unicorn",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Enterprise workflow-automation startup Core Automation reaches $1bn valuation on $100m seed",
+      "status": "active"
+    },
+    {
+      "id": "climentum-climate-fund",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "EIF backs Climentum Capital Fund II with €40m for European climate-tech seed investing",
+      "status": "active"
+    },
+    {
+      "id": "ai-agent-self-validation-skill",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "Coding agents adopt 'paper-replication' skill, gating completion on validation evidence",
+      "status": "active"
     }
   ]
 }
