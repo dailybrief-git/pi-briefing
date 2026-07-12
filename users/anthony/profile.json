@@ -7,12 +7,14 @@
     "note": "Set 2026-07-07 from Anthony's feedback (assumed 'Shanghai' in dictated message meant Chiang Mai — confirm if wrong)."
   },
   "business": {
-    "sectors": ["hospitality", "tourism"],
+    "sectors": [
+      "hospitality",
+      "tourism"
+    ],
     "watch_topics": [
       "Chinese outbound tourism trends",
       "Thai visa and entry policy",
       "Thai tourism authority (TAT) campaigns",
-      "weather disruption affecting tourist regions",
       "Thai business news with tourism/hospitality relevance",
       "Chiang Mai infrastructure: airport upgrades/expansion, road projects, major subsidies, government initiatives affecting tourism"
     ]
@@ -21,24 +23,29 @@
     "Formula 1",
     "America's Cup",
     "classic cars",
-    "aviation",
     "space",
     "architecture",
     "wine",
     "technology",
     "RC boats",
-    "design"
+    "design",
+    "off grid living"
   ],
   "intelligence_topics": [
     "AI capability breakthroughs (new models, research results, hardware) — concrete advances, not policy process",
     "battery technology",
     "renewable energy",
-    "robotics (cap ~1 story/day unless genuinely major — 4 Jul feedback: slightly overweighted)",
-    "longevity & anti-aging: new research, findings, treatment/product/service trends"
+    "longevity & anti-aging: new research, findings, treatment/product/service trends",
+    "new solar solutions"
   ],
   "company_watchlist": {
     "_note": "Added 2026-07-04. 'Company News' rail panel — innovation announcements, breakthroughs, new products/capabilities ONLY. Explicitly NOT: earnings reports, stock moves, executive changes, routine corporate/PR news.",
-    "companies": ["Tesla", "SpaceX", "Amazon", "Meta/Facebook"]
+    "companies": [
+      "Tesla",
+      "SpaceX",
+      "Amazon",
+      "Meta/Facebook"
+    ]
   },
   "startup_radar": {
     "_note": "Added 2026-07-04. 'Startup Radar' rail panel — new startups, launches, funding rounds, and novel business models. Deliberately loose scope: the test is 'huh, that's a clever business' — general interest in new business ideas, not just investable ones.",
@@ -48,7 +55,10 @@
       "AI applications",
       "longevity/health products & services",
       "hospitality & eco-tourism innovation",
-      "any genuinely novel business model worth knowing about"
+      "any genuinely novel business model worth knowing about",
+      "news app",
+      "personal intelligence app",
+      "new drinks related to coffee or chocolate"
     ]
   },
   "deprioritize": [
