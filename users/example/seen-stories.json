@@ -350,6 +350,27 @@
       "section": "gems",
       "summary": "Inovance unveils next-gen grid-scale energy storage at Intersolar Europe 2026",
       "status": "active"
+    },
+    {
+      "id": "uk-crypto-mica-no-passporting",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Legal analysis confirms UK crypto regime has no EU-style passporting vs MiCA",
+      "status": "active"
+    },
+    {
+      "id": "unicorn-minting-h1-2026",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Almost 90 new unicorns minted globally in H1 2026 per TechCrunch tally",
+      "status": "active"
+    },
+    {
+      "id": "tour-de-france-2026",
+      "first_briefed": "2026-07-12",
+      "section": "interest",
+      "summary": "Tour de France 2026 Grand Départ in Spain, Pogačar-Vingegaard rivalry",
+      "status": "active"
     }
   ]
 }
