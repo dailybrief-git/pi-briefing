@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: daily-briefing
@@ -33,6 +34,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
+          ISSUES_WRITE_TOKEN: ${{ secrets.ISSUES_WRITE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: python generate.py
 
       - name: Commit updated state back to main
