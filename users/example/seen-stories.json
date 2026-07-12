@@ -329,6 +329,27 @@
       "section": "gems",
       "summary": "Coherent breaks ground on Texas indium-phosphide fab as part of Nvidia's supply chain buildout",
       "status": "active"
+    },
+    {
+      "id": "salesforce-agentforce-valuation-paradox",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Salesforce Agentforce ARR hits $1.2bn (+205% YoY) while shares fall 37% YTD, sharpening SaaS-AI valuation debate",
+      "status": "active"
+    },
+    {
+      "id": "ai-electricity-grid-constraint",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "Analysis frames electricity, not GPUs, as AI's next scaling bottleneck",
+      "status": "active"
+    },
+    {
+      "id": "inovance-energy-storage-launch",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Inovance unveils next-gen grid-scale energy storage at Intersolar Europe 2026",
+      "status": "active"
     }
   ]
 }

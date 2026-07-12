@@ -399,6 +399,27 @@
       "section": "startups",
       "summary": "GENISOM AI debuts deployable robotics platforms at ICRA 2026",
       "status": "active"
+    },
+    {
+      "id": "aot-362bn-airport-expansion-chiangmai",
+      "first_briefed": "2026-07-12",
+      "section": "opportunities",
+      "summary": "AoT's ฿362bn expansion plan names Chiang Mai alongside Suvarnabhumi, Don Mueang, Phuket",
+      "status": "active"
+    },
+    {
+      "id": "longi-acm-solar-mass-production",
+      "first_briefed": "2026-07-12",
+      "section": "major",
+      "summary": "LONGi begins mass production of ACM solar cell technology",
+      "status": "active"
+    },
+    {
+      "id": "magnons-quantum-info-carriers",
+      "first_briefed": "2026-07-12",
+      "section": "gems",
+      "summary": "Magnons shown as viable quantum-information carriers",
+      "status": "active"
     }
   ]
 }
