@@ -34,7 +34,7 @@ jobs:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
           GOOGLE_SHEET_CSV_URL: ${{ vars.GOOGLE_SHEET_CSV_URL }}
-        run: python generate.py
+        run: python generate_thumbs.py
 
       - name: Commit updated state back to main
         run: |
