@@ -497,6 +497,83 @@
       "section": "interest",
       "summary": "Goodwood Festival of Speed: Ross Brawn, Christian Horner paddock returns",
       "status": "active"
+    },
+    {
+      "id": "bangkok-pub-fire-disaster",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "Bangkok pub fire kills 27, injures 18",
+      "status": "active"
+    },
+    {
+      "id": "myanmar-airstrikes-tak-border",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "Myanmar airstrikes reported intensifying near Thailand's Tak border",
+      "status": "active"
+    },
+    {
+      "id": "glm-5-2-china-ai-catchup",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "China's GLM-5.2 model fuels debate over closing gap with US frontier AI",
+      "status": "active"
+    },
+    {
+      "id": "meta-muse-spark-coding-model",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Meta ships Muse Spark 1.1 coding model, entering AI coding market",
+      "status": "active"
+    },
+    {
+      "id": "amphibian-bacterium-colorectal-tumor-cure",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Amphibian gut bacterium eliminates colorectal tumours in mice",
+      "status": "active"
+    },
+    {
+      "id": "thai-infra-private-financing-shift",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Thailand pushes private financing for ฿362bn airport/rail mega-projects incl. Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "donutlab-solidstate-ebike-battery",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Donut Lab solid-state e-bike battery: 186mi range, sub-10min charge",
+      "status": "active"
+    },
+    {
+      "id": "longevity-diet-mice-study",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Mouse study finds diet enabling more food intake with fat loss",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-concept-test",
+      "first_briefed": "2026-07-13",
+      "section": "companies",
+      "summary": "SpaceX trials new Starship concept, reportedly successful",
+      "status": "active"
+    },
+    {
+      "id": "f1-steiner-ai-safety-car",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Steiner urges FIA to use more AI in race control after British GP backlash",
+      "status": "active"
+    },
+    {
+      "id": "goodwood-fos-2026",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Goodwood Festival of Speed 2026 wraps with F1 grid attendance",
+      "status": "active"
     }
   ]
 }

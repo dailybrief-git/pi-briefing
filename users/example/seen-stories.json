@@ -469,6 +469,76 @@
       "section": "gems",
       "summary": "Swift reaffirms ISO 20022 payments migration deadline of November 2026",
       "status": "active"
+    },
+    {
+      "id": "uk-wildfire-evacuations",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "UK wildfires escalate with evacuations near Conwy, major incidents declared in north Wales and Derbyshire",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-vera-cpu-reveal",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Nvidia unveils Vera CPU, high core count aimed at surpassing x86",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-startup-compute-revenue-share",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Nvidia brokers revenue-share compute access deals for startups via AI cloud partners",
+      "status": "active"
+    },
+    {
+      "id": "boe-dlt-innovation-challenge",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Bank of England/BIS DLT Innovation Challenge extends to wholesale settlement",
+      "status": "active"
+    },
+    {
+      "id": "whitespace-yc-vertical-saas",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Whitespace (YC S2026) launches AI operating system for wholesale distributors, London-based",
+      "status": "active"
+    },
+    {
+      "id": "corvera-yc-cpg-ai",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Corvera (YC W26) MCP-based context layer for AI-native CPG brands, fast early MRR growth",
+      "status": "active"
+    },
+    {
+      "id": "psd3-psr-eu-progress",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "PSD3/PSR advancing in EU while UK open-banking model stays narrower",
+      "status": "active"
+    },
+    {
+      "id": "assuranceamerica-breach",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "AssuranceAmerica discloses breach affecting ~7 million people",
+      "status": "active"
+    },
+    {
+      "id": "kddi-telecom-breach",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "KDDI confirms massive telecom data breach",
+      "status": "active"
+    },
+    {
+      "id": "cybersecurity-ai-charter",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "70+ cybersecurity firms back new AI Charter",
+      "status": "active"
     }
   ]
 }
