@@ -237,6 +237,7 @@ def brave_search(query, token, count=5):
                 "age": r.get("age") or r.get("page_age") or "",
                 # NEW: Brave often returns a thumbnail on web results.
                 "thumb": (r.get("thumbnail") or {}).get("src", ""),
+                "thumb_logo": bool((r.get("thumbnail") or {}).get("logo")),
             })
         return out
     return []
@@ -253,17 +254,49 @@ def gather_results(queries, token):
     return digest
 
 
+# Thumbnail URLs that are clearly site branding / placeholders rather than an
+# article photo. Brave sometimes returns a site's share logo (e.g. The Thaiger)
+# as the thumbnail; skip those so a card shows no image instead of a logo.
+BAD_THUMB_SUBSTRINGS = (
+    "logo", "placeholder", "favicon", "sprite", "avatar",
+    "default", "share-image", "share_image", "site-icon",
+)
+
+
+def _is_bad_thumb(url):
+    u = (url or "").lower()
+    return any(s in u for s in BAD_THUMB_SUBSTRINGS)
+
+
 def build_thumb_map(digest):
-    """Map article URL -> thumbnail URL, with a per-domain fallback."""
-    by_url, by_domain = {}, {}
+    """Map article URL -> thumbnail URL, with a per-domain fallback.
+
+    Filters out logos / placeholders two ways: (1) Brave's own logo flag or a
+    branding-ish filename, and (2) any image reused across 2+ distinct articles,
+    which is almost always a site-wide default rather than a real photo.
+    """
+    candidates = []          # (url, thumb) that passed the per-item checks
+    freq = {}                # thumb -> set of distinct article urls
     for block in digest:
         for r in block.get("results", []):
             thumb, url = r.get("thumb"), r.get("url")
             if not thumb or not url:
                 continue
-            by_url[url] = thumb
-            dom = urllib.parse.urlparse(url).netloc.lower().lstrip("www.")
-            by_domain.setdefault(dom, thumb)
+            if r.get("thumb_logo") or _is_bad_thumb(thumb):
+                continue
+            candidates.append((url, thumb))
+            freq.setdefault(thumb, set()).add(url)
+
+    # An image attached to 2+ different articles is a generic site default.
+    generic = {t for t, urls in freq.items() if len(urls) >= 2}
+
+    by_url, by_domain = {}, {}
+    for url, thumb in candidates:
+        if thumb in generic:
+            continue
+        by_url[url] = thumb
+        dom = urllib.parse.urlparse(url).netloc.lower().lstrip("www.")
+        by_domain.setdefault(dom, thumb)
     return {"url": by_url, "domain": by_domain}
 
 
