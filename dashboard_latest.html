@@ -62,7 +62,7 @@
   .nav a{
     display:flex;align-items:center;gap:10px;
     padding:9px 12px;border-radius:8px;margin-bottom:2px;
-    font-size:13.5px;color:var(--muted);
+    font-size:13.5px;color:var(--muted);cursor:pointer;
   }
   .nav a:hover{text-decoration:none;background:var(--panel);}
   .nav a.active{background:var(--panel2);color:var(--text);font-weight:600;}
@@ -769,10 +769,18 @@ var GOOGLE_FORM_ENTRY_CHANGES = 'entry.287169611';
 
   // nav: mark the clicked section as active
   const navLinks=document.querySelectorAll('.nav a[href^="#"]');
+  const navProfileLink=document.getElementById('nav-profile');
   navLinks.forEach(a=>a.addEventListener('click',()=>{
     navLinks.forEach(x=>x.classList.remove('active'));
+    if(navProfileLink)navProfileLink.classList.remove('active');
     a.classList.add('active');
   }));
+  if(navProfileLink){
+    navProfileLink.addEventListener('click',()=>{
+      navLinks.forEach(x=>x.classList.remove('active'));
+      navProfileLink.classList.add('active');
+    });
+  }
 
   // gems/interest live in the right rail: flash the panel so the jump is obvious
   navLinks.forEach(a=>{
