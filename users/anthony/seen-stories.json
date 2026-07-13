@@ -427,6 +427,76 @@
       "section": "startups",
       "summary": "Even Realities raises ~$150M pre-Series B for AR smart glasses, led by Meituan/Tencent",
       "status": "active"
+    },
+    {
+      "id": "meta-muse-spark-coding-ai",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Meta launches Muse Spark 1.1 AI coding model, entering developer-tools competition",
+      "status": "active"
+    },
+    {
+      "id": "gas-plants-vs-renewables-ai-demand",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Gas-fired power reportedly outpacing renewables to meet AI data-centre demand",
+      "status": "active"
+    },
+    {
+      "id": "tat-communities-connext-dmc",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "TAT links 55 local destinations with global DMCs via Communities ConNext pilot",
+      "status": "active"
+    },
+    {
+      "id": "aot-infra-private-capital-push",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Government pushes private capital into ฿362bn airport programme incl. Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "donut-lab-solidstate-ebike-battery",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Donut Lab solid-state battery gives e-bikes 370-mile range, 10-min charge",
+      "status": "active"
+    },
+    {
+      "id": "worlds-first-500w-solar-panel",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "World's first 500W standard-size solar panel shown at Intersolar Europe 2026",
+      "status": "active"
+    },
+    {
+      "id": "amazon-ember-artline-tv",
+      "first_briefed": "2026-07-13",
+      "section": "companies",
+      "summary": "Amazon unveils Ember Artline lifestyle TV, rival to Samsung's The Frame",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-chip-orders",
+      "first_briefed": "2026-07-13",
+      "section": "companies",
+      "summary": "SpaceX places new Nvidia chip orders to scale Grok 4.5 production",
+      "status": "active"
+    },
+    {
+      "id": "nasa-roman-telescope-spacex-launch",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "NASA confirms Aug 30 Roman Space Telescope launch on SpaceX Falcon Heavy",
+      "status": "active"
+    },
+    {
+      "id": "f1-goodwood-paddock-news",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Goodwood Festival of Speed: Ross Brawn, Christian Horner paddock returns",
+      "status": "active"
     }
   ]
 }

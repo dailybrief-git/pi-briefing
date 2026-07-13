@@ -413,6 +413,62 @@
       "section": "interest",
       "summary": "Pogačar extends Tour de France GC lead to ~3 minutes after Pyrenees stages",
       "status": "active"
+    },
+    {
+      "id": "revolut-75bn-valuation-ipo",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Revolut profiled at $75bn valuation, 75m customers, eyeing US IPO",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-vera-cpu-x86",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Nvidia details Vera CPU claiming high core count vs x86 for AI workloads",
+      "status": "active"
+    },
+    {
+      "id": "yc-whitespace-corvera-vertical-saas",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "New YC-backed vertical SaaS: Whitespace (distributor AI ops) and Corvera (CPG AI context layer)",
+      "status": "active"
+    },
+    {
+      "id": "cleantech-funding-stabilizes-q2-2026",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Crunchbase: cleantech VC funding stabilises but share of total VC shrinks",
+      "status": "active"
+    },
+    {
+      "id": "tour-de-france-stage5-pogacar-lead",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Pogačar leads Tour de France GC after stage 5 bunch sprint",
+      "status": "active"
+    },
+    {
+      "id": "robusta-coffee-price-spike",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Robusta coffee hits 5-month price peak on weather-driven crop concerns",
+      "status": "active"
+    },
+    {
+      "id": "weg-energy-transition-award",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "WEG wins Global Transition Award at Energy Summit 2026",
+      "status": "active"
+    },
+    {
+      "id": "swift-iso20022-nov2026-transition",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Swift reaffirms ISO 20022 payments migration deadline of November 2026",
+      "status": "active"
     }
   ]
 }
