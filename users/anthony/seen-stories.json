@@ -574,6 +574,76 @@
       "section": "interest",
       "summary": "Goodwood Festival of Speed 2026 wraps with F1 grid attendance",
       "status": "active"
+    },
+    {
+      "id": "bangkok-pub-fire-27-dead",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "Bangkok bar fire kills 27, injures 18",
+      "status": "active"
+    },
+    {
+      "id": "myanmar-airstrike-tak-border",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "Myanmar airstrikes intensify near Thailand's Tak border",
+      "status": "active"
+    },
+    {
+      "id": "thai-infra-private-capital-push",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Thailand pushes private capital to fund infrastructure incl. airports",
+      "status": "active"
+    },
+    {
+      "id": "asia-airport-megaexpansion-race",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "Asia's airport investment race (Changi T5, China) pressures Thailand's pipeline",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-chip-orders-grok",
+      "first_briefed": "2026-07-13",
+      "section": "companies",
+      "summary": "SpaceX orders more Nvidia chips to scale Grok 4.5",
+      "status": "active"
+    },
+    {
+      "id": "pluff-bonny-functional-food-accelerator",
+      "first_briefed": "2026-07-13",
+      "section": "startups",
+      "summary": "Blueberry Boost Accelerator crowns functional-food startups Pluff and Bonny",
+      "status": "active"
+    },
+    {
+      "id": "donut-lab-solid-state-ev-charger",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Donut Lab solid-state EV pack adds 186mi range in under 10 minutes",
+      "status": "active"
+    },
+    {
+      "id": "solar-tracker-ai-algorithms-2026",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "Solar trackers shift to AI-driven control algorithms",
+      "status": "active"
+    },
+    {
+      "id": "f1-british-gp-silverstone-recap",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "British GP fallout: Albon crash, title race tightens",
+      "status": "active"
+    },
+    {
+      "id": "ross-brawn-motorsport-return",
+      "first_briefed": "2026-07-13",
+      "section": "interest",
+      "summary": "Ross Brawn makes rare F1 paddock return",
+      "status": "active"
     }
   ]
 }

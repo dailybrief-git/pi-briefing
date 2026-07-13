@@ -539,6 +539,55 @@
       "section": "gems",
       "summary": "70+ cybersecurity firms back new AI Charter",
       "status": "active"
+    },
+    {
+      "id": "uk-wildfires-heatwave-escalation",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "UK wildfires break out in Wales/Derbyshire following record heatwave, evacuations near Conwy",
+      "status": "active"
+    },
+    {
+      "id": "injective-labs-npm-supply-chain-attack",
+      "first_briefed": "2026-07-13",
+      "section": "alerts",
+      "summary": "Malicious npm package via compromised Injective Labs SDK stole crypto wallet keys",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-vera-cpu-unveiled",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Nvidia unveils high-core-count Vera CPU targeting x86 in AI infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-startup-revenue-share-compute",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Nvidia launches revenue-share compute access programme for AI startups and cloud providers",
+      "status": "active"
+    },
+    {
+      "id": "alteryx-agent-studio-mcp-launch",
+      "first_briefed": "2026-07-13",
+      "section": "major",
+      "summary": "Alteryx ships Agent Studio and MCP Server for no-code enterprise agent building",
+      "status": "active"
+    },
+    {
+      "id": "whitespace-yc-london-wholesale-ai",
+      "first_briefed": "2026-07-13",
+      "section": "opportunities",
+      "summary": "London startup Whitespace (YC S2026) builds AI operating system for wholesale distributors",
+      "status": "active"
+    },
+    {
+      "id": "corvera-yc-cpg-mcp",
+      "first_briefed": "2026-07-13",
+      "section": "gems",
+      "summary": "YC-backed Corvera offers MCP-native context layer for AI-native CPG brands",
+      "status": "active"
     }
   ]
 }
