@@ -1,9 +1,9 @@
 name: Daily briefing
 
 on:
-  schedule:
-    # 06:00 Asia/Bangkok = 23:00 UTC the previous day.
-    - cron: "0 23 * * *"
+ schedule:
+    # 00:00 Asia/Bangkok = 17:00 UTC.
+    - cron: "0 17 * * *"
   workflow_dispatch: {}
 
 permissions:
