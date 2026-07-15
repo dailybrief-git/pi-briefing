@@ -644,6 +644,125 @@
       "section": "interest",
       "summary": "Ross Brawn makes rare F1 paddock return",
       "status": "active"
+    },
+    {
+      "id": "bangkok-chatuchak-pub-fire",
+      "first_briefed": "2026-07-15",
+      "section": "alerts",
+      "summary": "Bangkok pub fire in Chatuchak kills at least 27, deadliest nightlife disaster in years",
+      "status": "active"
+    },
+    {
+      "id": "thailand-visa-cabinet-final-approval",
+      "first_briefed": "2026-07-15",
+      "section": "alerts",
+      "summary": "Cabinet approves final visa structure: 65 countries, 59 on 30-day visa-free, India VoA removed",
+      "status": "active"
+    },
+    {
+      "id": "tat-action-plan-2027-revenue-goal",
+      "first_briefed": "2026-07-15",
+      "section": "opportunities",
+      "summary": "TAT 2027 Action Plan targets ฿2.9tn revenue, quality-over-volume pivot",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-3rd-best-city-travelleisure",
+      "first_briefed": "2026-07-15",
+      "section": "opportunities",
+      "summary": "Travel+Leisure ranks Chiang Mai world's 3rd-best city",
+      "status": "active"
+    },
+    {
+      "id": "china-outbound-content-setjetting-trend",
+      "first_briefed": "2026-07-15",
+      "section": "opportunities",
+      "summary": "Chinese outbound rebound favours content/wellness/set-jetting travel, Chiang Mai named",
+      "status": "active"
+    },
+    {
+      "id": "spacexai-cursor-office-agent",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "SpaceXAI/Cursor launch first co-developed enterprise Office AI Agent",
+      "status": "active"
+    },
+    {
+      "id": "catl-6min-1000km-battery",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "CATL debuts EV battery with 6-min recharge, 1,000km range claim",
+      "status": "active"
+    },
+    {
+      "id": "hiv-drug-antiaging-finding",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "HIV-drug research suggests possible anti-aging effect",
+      "status": "active"
+    },
+    {
+      "id": "tesla-wheelchair-robotaxi",
+      "first_briefed": "2026-07-15",
+      "section": "companies",
+      "summary": "Tesla building wheelchair-accessible Robotaxi at Gigafactory Texas",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-legacy-vehicles-update",
+      "first_briefed": "2026-07-15",
+      "section": "companies",
+      "summary": "Older Teslas to gain FSD via optimized Lite neural nets",
+      "status": "active"
+    },
+    {
+      "id": "reformed-functional-coffee-funding",
+      "first_briefed": "2026-07-15",
+      "section": "startups",
+      "summary": "Reformed raises $22M for functional instant coffee",
+      "status": "active"
+    },
+    {
+      "id": "donutlab-solid-state-battery-cradle",
+      "first_briefed": "2026-07-15",
+      "section": "startups",
+      "summary": "Donut Lab solid-state EV battery cradle adds fast range at CES 2026",
+      "status": "active"
+    },
+    {
+      "id": "nasa-coffies-solar-dynamo",
+      "first_briefed": "2026-07-15",
+      "section": "gems",
+      "summary": "NASA COFFIES team solves solar tachocline mystery driving solar dynamo",
+      "status": "active"
+    },
+    {
+      "id": "irena-2026-renewable-stats",
+      "first_briefed": "2026-07-15",
+      "section": "gems",
+      "summary": "IRENA reports renewable generation grew 9.8% in 2024, fastest on record",
+      "status": "active"
+    },
+    {
+      "id": "goodwood-classic-cars-2026",
+      "first_briefed": "2026-07-15",
+      "section": "interest",
+      "summary": "Goodwood Festival of Speed New Classics and Iconic Auctioneers BRDC sale highlights",
+      "status": "active"
+    },
+    {
+      "id": "starship-cleared-refly",
+      "first_briefed": "2026-07-15",
+      "section": "interest",
+      "summary": "Starship cleared to fly again after May booster landing failure",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-launch",
+      "first_briefed": "2026-07-15",
+      "section": "interest",
+      "summary": "OpenAI ships GPT-5.6 three-model lineup led by Sol",
+      "status": "active"
     }
   ]
 }

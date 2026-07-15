@@ -588,6 +588,69 @@
       "section": "gems",
       "summary": "YC-backed Corvera offers MCP-native context layer for AI-native CPG brands",
       "status": "active"
+    },
+    {
+      "id": "uk-bnpl-regulation-live",
+      "first_briefed": "2026-07-15",
+      "section": "alerts",
+      "summary": "FCA's BNPL consumer credit regulation comes into force, narrowing UK-EU regulatory gap",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-microsoft-copilot-default",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "GPT-5.6 becomes default model across Microsoft 365 Copilot apps",
+      "status": "active"
+    },
+    {
+      "id": "wallst-stablecoin-consortium-pushback",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "Bloomberg: Wall Street banks reviving Zelle-style shared infrastructure to counter stablecoins",
+      "status": "active"
+    },
+    {
+      "id": "lseg-ripple-tokenization-taskforce",
+      "first_briefed": "2026-07-15",
+      "section": "major",
+      "summary": "Ripple joins BlackRock, JPMorgan, Goldman on UK Treasury-backed tokenized finance taskforce",
+      "status": "active"
+    },
+    {
+      "id": "oxylabs-130m-raise",
+      "first_briefed": "2026-07-15",
+      "section": "opportunities",
+      "summary": "Oxylabs raises $130m at $3.6bn valuation led by Warburg Pincus",
+      "status": "active"
+    },
+    {
+      "id": "energy-grid-bottleneck-3-17tn",
+      "first_briefed": "2026-07-15",
+      "section": "opportunities",
+      "summary": "Energy transition market hits $3.17tn while 1,650GW stalls on grid connection backlogs",
+      "status": "active"
+    },
+    {
+      "id": "opencode-147k-stars",
+      "first_briefed": "2026-07-15",
+      "section": "gems",
+      "summary": "OpenCode dev tool passes 147,000 GitHub stars, outgrowing Claude Code",
+      "status": "active"
+    },
+    {
+      "id": "web3-wallet-privacy-vulnerabilities",
+      "first_briefed": "2026-07-15",
+      "section": "gems",
+      "summary": "Researchers disclose five Web3 wallet privacy weaknesses",
+      "status": "active"
+    },
+    {
+      "id": "huawei-luterra-grid-forming-ess",
+      "first_briefed": "2026-07-15",
+      "section": "gems",
+      "summary": "Huawei unveils LUTERRA grid-forming energy storage platform",
+      "status": "active"
     }
   ]
 }
