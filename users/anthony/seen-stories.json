@@ -763,6 +763,111 @@
       "section": "interest",
       "summary": "OpenAI ships GPT-5.6 three-model lineup led by Sol",
       "status": "active"
+    },
+    {
+      "id": "thailand-visa-cabinet-confirmed-2026",
+      "first_briefed": "2026-07-16",
+      "section": "alerts",
+      "summary": "Cabinet formally confirms 30-day visa cap for 59 countries, 15-day/VOA for others",
+      "status": "active"
+    },
+    {
+      "id": "quantum-metacrystal-solar-material",
+      "first_briefed": "2026-07-16",
+      "section": "major",
+      "summary": "Room-temperature quantum plasmonic metacrystal demoed, eyed for solar cells",
+      "status": "active"
+    },
+    {
+      "id": "hiv-drug-lifespan-heritability-findings",
+      "first_briefed": "2026-07-16",
+      "section": "major",
+      "summary": "HIV drugs show anti-aging signal; lifespan found ~50% heritable",
+      "status": "active"
+    },
+    {
+      "id": "tat-2027-action-plan-revenue-target",
+      "first_briefed": "2026-07-16",
+      "section": "opportunities",
+      "summary": "TAT 2027 Action Plan sets ฿2.9tn revenue goal, AI-driven quality-tourism pivot",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-3rd-best-city-travel-leisure",
+      "first_briefed": "2026-07-16",
+      "section": "opportunities",
+      "summary": "Chiang Mai named third-best city in the world by Travel+Leisure",
+      "status": "active"
+    },
+    {
+      "id": "chinese-independent-traveller-content-tourism",
+      "first_briefed": "2026-07-16",
+      "section": "opportunities",
+      "summary": "Chinese outbound shifts to independent, content-driven travel via Xiaohongshu",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-2019-2023-retrofit",
+      "first_briefed": "2026-07-16",
+      "section": "companies",
+      "summary": "Tesla extends modern FSD access to 2019-2023 vehicles via optimized neural nets",
+      "status": "active"
+    },
+    {
+      "id": "starlink-v5-kit-launch",
+      "first_briefed": "2026-07-16",
+      "section": "companies",
+      "summary": "SpaceX unveils next-gen Starlink V5 residential hardware kit",
+      "status": "active"
+    },
+    {
+      "id": "huawei-ess-grid-forming-platform",
+      "first_briefed": "2026-07-16",
+      "section": "gems",
+      "summary": "Huawei Smart String Grid-Forming ESS platform claims 93.1% efficiency",
+      "status": "active"
+    },
+    {
+      "id": "global-energy-prize-2026-laureates",
+      "first_briefed": "2026-07-16",
+      "section": "gems",
+      "summary": "Global Energy Prize 2026 laureates named for energy conversion breakthroughs",
+      "status": "active"
+    },
+    {
+      "id": "irena-2024-renewable-growth-stats",
+      "first_briefed": "2026-07-16",
+      "section": "gems",
+      "summary": "IRENA reports 9.8% renewable generation growth in 2024, fastest on record",
+      "status": "active"
+    },
+    {
+      "id": "sofab-perovskite-solar-startup",
+      "first_briefed": "2026-07-16",
+      "section": "startups",
+      "summary": "Sofab pushes perovskite solar cells toward commercial market",
+      "status": "active"
+    },
+    {
+      "id": "nous-foodtech-seed-funding",
+      "first_briefed": "2026-07-16",
+      "section": "startups",
+      "summary": "Italian functional-food startup Nous raises €2.3M seed round",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-cleared-flight-post-failure",
+      "first_briefed": "2026-07-16",
+      "section": "interest",
+      "summary": "Starship cleared to fly again after May booster failure, next flight carries V3 Starlink sats",
+      "status": "active"
+    },
+    {
+      "id": "falcon9-600th-reflight-milestone",
+      "first_briefed": "2026-07-16",
+      "section": "interest",
+      "summary": "Falcon 9 hits 600th flight-proven booster reuse milestone",
+      "status": "active"
     }
   ]
 }
