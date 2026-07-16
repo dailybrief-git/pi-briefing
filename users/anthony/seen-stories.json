@@ -868,6 +868,55 @@
       "section": "interest",
       "summary": "Falcon 9 hits 600th flight-proven booster reuse milestone",
       "status": "active"
+    },
+    {
+      "id": "bangkok-chatuchak-nightclub-fire",
+      "first_briefed": "2026-07-17",
+      "section": "alerts",
+      "summary": "Chatuchak pub fire kills 27+, deadliest nightlife disaster in years",
+      "status": "active"
+    },
+    {
+      "id": "thai-visa-cabinet-finalized-59countries",
+      "first_briefed": "2026-07-17",
+      "section": "alerts",
+      "summary": "Cabinet formally confirms 30-day visa-free for 59 countries, mandatory TDAC",
+      "status": "active"
+    },
+    {
+      "id": "tat-2027-action-plan-2.9tn",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "TAT 2027 plan targets ฿2.9tn revenue, AI-driven quality-over-volume pivot",
+      "status": "active"
+    },
+    {
+      "id": "thailand-hk-japan-vietnam-tourism-alliance",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "Four-country luxury tourism alliance announced",
+      "status": "active"
+    },
+    {
+      "id": "chinese-outbound-independent-content-travel",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "Chinese travellers shifting to independent, content-driven trips favouring Chiang Mai-style immersion",
+      "status": "active"
+    },
+    {
+      "id": "catl-6min-recharge-battery",
+      "first_briefed": "2026-07-17",
+      "section": "major",
+      "summary": "CATL LFP battery: 6-min recharge, 1,000km range",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-ai-office-agent",
+      "first_briefed": "2026-07-17",
+      "section": "major",
+      "summary": "SpaceX x Cursor co-built AI office agent, acquisition talks reported",
+      "status": "active"
     }
   ]
 }

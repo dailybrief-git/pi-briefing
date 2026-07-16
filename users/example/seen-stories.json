@@ -693,6 +693,76 @@
       "section": "opportunities",
       "summary": "LSEG and Ripple join UK Treasury-backed tokenized finance taskforce with BlackRock, JPMorgan, Goldman",
       "status": "active"
+    },
+    {
+      "id": "hmt-payments-stablecoin-consultation",
+      "first_briefed": "2026-07-17",
+      "section": "major",
+      "summary": "HM Treasury consults on future-proof UK payments/stablecoin/Open Banking framework",
+      "status": "active"
+    },
+    {
+      "id": "bnpl-fca-rules-live",
+      "first_briefed": "2026-07-17",
+      "section": "alerts",
+      "summary": "UK BNPL affordability-check rules come into force under FCA",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-japan-noetra-ai-factory",
+      "first_briefed": "2026-07-17",
+      "section": "major",
+      "summary": "Nvidia + Noetra launch 27,500-GPU Vera Rubin national AI factory in Japan",
+      "status": "active"
+    },
+    {
+      "id": "wallst-bank-stablecoin-pushback",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "Wall Street banks reportedly building shared infrastructure to counter stablecoin growth",
+      "status": "active"
+    },
+    {
+      "id": "ripple-uk-tokenization-taskforce",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "Ripple joins UK Treasury-backed tokenised finance taskforce with BlackRock, JPMorgan, Goldman",
+      "status": "active"
+    },
+    {
+      "id": "vertical-saas-premium-quantified",
+      "first_briefed": "2026-07-17",
+      "section": "opportunities",
+      "summary": "Vertical SaaS quantified at 25-30% valuation premium over horizontal SaaS",
+      "status": "active"
+    },
+    {
+      "id": "sonicwall-zero-day-cve",
+      "first_briefed": "2026-07-17",
+      "section": "alerts",
+      "summary": "SonicWall SMA1000 zero-day CVEs enable remote code execution",
+      "status": "active"
+    },
+    {
+      "id": "whitespace-yc-startup",
+      "first_briefed": "2026-07-17",
+      "section": "gems",
+      "summary": "London YC startup Whitespace builds AI OS for wholesale distributors",
+      "status": "active"
+    },
+    {
+      "id": "miles-wang-ai-drug-discovery-startup",
+      "first_briefed": "2026-07-17",
+      "section": "gems",
+      "summary": "Ex-OpenAI researcher Miles Wang in talks for $2bn AI drug discovery startup",
+      "status": "active"
+    },
+    {
+      "id": "energy-transition-market-3-17tn-grid-backlog",
+      "first_briefed": "2026-07-17",
+      "section": "gems",
+      "summary": "Energy transition market at $3.17tn in 2026, 1,650GW stalled in grid backlogs",
+      "status": "active"
     }
   ]
 }
