@@ -1092,6 +1092,111 @@
       "section": "interest",
       "summary": "Invasive pest forces recall of 1,100+ Bay Area grapevines",
       "status": "active"
+    },
+    {
+      "id": "bangkok-chatuchak-bar-fire",
+      "first_briefed": "2026-07-18",
+      "section": "alerts",
+      "summary": "Chatuchak pub fire kills 27 in Bangkok",
+      "status": "active"
+    },
+    {
+      "id": "thailand-visa-policy-finalized-59countries",
+      "first_briefed": "2026-07-18",
+      "section": "alerts",
+      "summary": "Cabinet finalises visa overhaul: 30-day for 59 countries, 15-day/VOA for rest",
+      "status": "active"
+    },
+    {
+      "id": "tat-2027-strategy-2-9trillion",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "TAT sets ฿2.9tn 2027 revenue target, quality-over-volume pivot",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-travel-leisure-3rd-best-city",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "Chiang Mai ranked 3rd best city in world, Travel+Leisure 2026",
+      "status": "active"
+    },
+    {
+      "id": "thailand-alcohol-rules-relaxed-hotels",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "Thailand eases alcohol-sales rules for hotels/hospitality",
+      "status": "active"
+    },
+    {
+      "id": "perovskite-tandem-solar-31pct",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "Indium-free perovskite tandem solar cell hits 31% efficiency at scale",
+      "status": "active"
+    },
+    {
+      "id": "semaglutide-biological-aging-hiv",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "Semaglutide shown to slow biological aging markers, first clinical evidence",
+      "status": "active"
+    },
+    {
+      "id": "hiv-drugs-antiaging-heritability",
+      "first_briefed": "2026-07-18",
+      "section": "gems",
+      "summary": "HIV drugs flagged as possible anti-aging agents",
+      "status": "active"
+    },
+    {
+      "id": "xiaohongshu-independent-traveler-trend",
+      "first_briefed": "2026-07-18",
+      "section": "gems",
+      "summary": "Chinese outbound travellers planning via content apps not agencies",
+      "status": "active"
+    },
+    {
+      "id": "srt-bangkok-connex-commuter-rail",
+      "first_briefed": "2026-07-18",
+      "section": "gems",
+      "summary": "New Bangkok-Ayutthaya commuter rail launches Aug 1",
+      "status": "active"
+    },
+    {
+      "id": "meta-mtia-chip-roadmap",
+      "first_briefed": "2026-07-18",
+      "section": "companies",
+      "summary": "Meta advances MTIA chip roadmap, four new generations",
+      "status": "active"
+    },
+    {
+      "id": "amazon-aws-devops-agent",
+      "first_briefed": "2026-07-18",
+      "section": "companies",
+      "summary": "AWS previews autonomous DevOps release-management agent",
+      "status": "active"
+    },
+    {
+      "id": "celloraa-energy-solar-plant-india",
+      "first_briefed": "2026-07-18",
+      "section": "startups",
+      "summary": "₹160cr invested in Celloraa Energy's 1.2GW solar cell plant",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight13-scrub-clearance",
+      "first_briefed": "2026-07-18",
+      "section": "interest",
+      "summary": "Starship Flight 13 scrubbed then cleared to fly again",
+      "status": "active"
+    },
+    {
+      "id": "prisoner-wine-grail-launch",
+      "first_briefed": "2026-07-18",
+      "section": "interest",
+      "summary": "Prisoner Wine Co. launches limited Napa red 'Grail'",
+      "status": "active"
     }
   ]
 }
