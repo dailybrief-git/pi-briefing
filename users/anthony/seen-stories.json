@@ -1197,6 +1197,27 @@
       "section": "interest",
       "summary": "Prisoner Wine Co. launches limited Napa red 'Grail'",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-tl-worlds-best-3rd",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "Chiang Mai ranked 3rd best city in world, Travel+Leisure 2026",
+      "status": "active"
+    },
+    {
+      "id": "tat-2027-strategy-airasia-partnership",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "TAT 2027 plan: THB2.9tn revenue goal, quality pivot, AirAsia 3-yr deal",
+      "status": "active"
+    },
+    {
+      "id": "semaglutide-biological-aging-clinical",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "Semaglutide shown to slow biological aging markers in HIV patients, first clinical evidence",
+      "status": "active"
     }
   ]
 }
