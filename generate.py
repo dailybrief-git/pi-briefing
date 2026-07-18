@@ -241,6 +241,10 @@ def brave_search(query, token, count=5):
                 "url": r.get("url", ""),
                 "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
                 "age": r.get("age") or r.get("page_age") or "",
+                # Brave often returns a thumbnail on web results. Capture it when
+                # present; many results won't have one (that's fine - the card
+                # just renders without an image).
+                "thumb": (r.get("thumbnail") or {}).get("src", ""),
             })
         return out
     return []
@@ -266,6 +270,60 @@ def results_to_text(digest):
             lines.append("- %s%s\n  %s\n  %s" % (r["title"], age, r["url"], r["desc"]))
         lines.append("")
     return "\n".join(lines)
+
+
+def build_thumb_map(digest):
+    """Map article URL -> thumbnail URL, plus a per-domain fallback.
+
+    The model clusters several sources into one card and cites them by URL, so
+    we look up a card's source URLs here to find a representative image. The
+    domain fallback covers cases where the model tweaks a URL (trailing slash,
+    tracking params) vs. what Brave returned.
+    """
+    by_url, by_domain = {}, {}
+    for block in digest:
+        for r in block.get("results", []):
+            thumb, url = r.get("thumb"), r.get("url")
+            if not thumb or not url:
+                continue
+            by_url[url] = thumb
+            dom = urllib.parse.urlparse(url).netloc.lower().lstrip("www.")
+            by_domain.setdefault(dom, thumb)
+    return {"url": by_url, "domain": by_domain}
+
+
+def thumb_for_card(card, tmap):
+    """Best-effort thumbnail for a card from its cited sources."""
+    srcs = card.get("sources") or []
+    for s in srcs:
+        u = s.get("url", "")
+        if u in tmap["url"]:
+            return tmap["url"][u]
+    for s in srcs:
+        dom = urllib.parse.urlparse(s.get("url", "")).netloc.lower().lstrip("www.")
+        if dom in tmap["domain"]:
+            return tmap["domain"][dom]
+    return ""
+
+
+def attach_thumbnails(data, digest):
+    """Add an 'image' URL to each main-story card from Brave thumbnails.
+
+    Cards without a matching image are simply left as-is. Only the three main
+    sections carry thumbnails (alerts / opportunities / major)."""
+    tmap = build_thumb_map(digest)
+    if not tmap["url"] and not tmap["domain"]:
+        log("  thumbnails: none available from search results")
+        return
+    sections = data.get("sections") or {}
+    n = 0
+    for sid in ("alerts", "opportunities", "major"):
+        for card in (sections.get(sid) or {}).get("cards") or []:
+            img = thumb_for_card(card, tmap)
+            if img:
+                card["image"] = img
+                n += 1
+    log("  thumbnails: attached %d" % n)
 
 
 # --------------------------------------------------------------- the prompt --
@@ -734,6 +792,7 @@ def run_user(name, template, brave, dt):
 
     raw = generate(profile, seen, digest_text, dt)
     data = parse_json(raw)
+    attach_thumbnails(data, digest)  # add 'image' URLs to main-story cards
     html = render_page(data, template, dt, profile)
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
