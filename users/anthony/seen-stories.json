@@ -966,6 +966,69 @@
       "section": "gems",
       "summary": "Chiang Mai named 3rd-best city in the world by Travel+Leisure",
       "status": "active"
+    },
+    {
+      "id": "thailand-visa-reform-finalized",
+      "first_briefed": "2026-07-18",
+      "section": "alerts",
+      "summary": "Cabinet finalises visa overhaul: 30-day for 59 countries, 15-day/VOA for rest, replacing 60-day exemption entirely",
+      "status": "active"
+    },
+    {
+      "id": "tat-2027-action-plan",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "TAT formalises 2027 strategy: ฿2.9tn revenue target, quality-over-volume pivot",
+      "status": "active"
+    },
+    {
+      "id": "thailand-alcohol-rules-relaxation",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "Thailand relaxes alcohol sales rules for hotels, enabling more F&B revenue lines",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-tl-3rd-best-city",
+      "first_briefed": "2026-07-18",
+      "section": "opportunities",
+      "summary": "Chiang Mai ranked 3rd best city in world by Travel+Leisure 2026 World's Best Awards",
+      "status": "active"
+    },
+    {
+      "id": "solar-indium-free-tandem-31pct",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "First large-area indium-free perovskite tandem solar cell hits 31% efficiency",
+      "status": "active"
+    },
+    {
+      "id": "blood-stem-cell-lysosome-rejuvenation",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "Calming overactive lysosomes restores youthful function in aged blood stem cells",
+      "status": "active"
+    },
+    {
+      "id": "ai-price-war-deepseek-silicon",
+      "first_briefed": "2026-07-18",
+      "section": "major",
+      "summary": "Frontier AI model price war intensifies, DeepSeek moves to custom silicon",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight13-scrub",
+      "first_briefed": "2026-07-18",
+      "section": "companies",
+      "summary": "SpaceX scrubs Starship Flight 13 launch attempt, NASA deadline looms",
+      "status": "active"
+    },
+    {
+      "id": "emergent-ai-coding-unicorn",
+      "first_briefed": "2026-07-18",
+      "section": "startups",
+      "summary": "Emergent AI coding startup raises $130M Series C, hits $1.5B valuation",
+      "status": "active"
     }
   ]
 }
