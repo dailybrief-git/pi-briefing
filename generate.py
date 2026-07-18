@@ -20,10 +20,8 @@ Secrets come from environment variables (GitHub Actions secrets):
 Optional env: MODEL, OUTPUT_DIR, SEARCH_MAX, MAX_TOKENS
 """
 
-import csv
 import datetime
 import html as htmllib
-import io
 import json
 import os
 import re
@@ -51,9 +49,17 @@ MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "26000"))
 BRAVE_ENDPOINT = "https://api.search.brave.com/res/v1/web/search"
 TIMEZONE = "Asia/Bangkok"
 
+# App ingest endpoint (optional): when both are set, each brief is POSTed to the
+# Lovable app's secured ingest endpoint, which writes it to the `briefings`
+# table server-side. Leaving them unset keeps the old GitHub Pages-only
+# behaviour unchanged. Used with Lovable Cloud, where the DB service key is not
+# exposed, so the app is the only thing that writes to the database.
+INGEST_URL = os.environ.get("INGEST_URL", "").rstrip("/")
+INGEST_SECRET = os.environ.get("INGEST_SECRET", "")
+
 JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
-REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track", "PROFILE_LISTS", "PROFILE_USER", "nav-profile"]
+REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track"]
 MIN_HTML_LEN = 20000
 
 # id, H2 heading, section note, accent css-var, wwuw summary label, relevance label
@@ -567,127 +573,7 @@ def _sidebar_foot(profile):
             '<div class="profile-line">%s</div></div>' % (where, sect, ints))
 
 
-
-
-# Editable list fields exposed in the Profile & Settings panel, and the
-# GitHub-Issues relay used to apply changes friends submit from their own
-# copy of the dashboard (the static page has no backend, so a labelled issue
-# is the write mechanism - see apply_pending_profile_issues below).
-PROFILE_LIST_PATHS = {
-    "personal_interests": ("personal_interests",),
-    "intelligence_topics": ("intelligence_topics",),
-    "sectors": ("business", "sectors"),
-    "watch_topics": ("business", "watch_topics"),
-    "companies": ("company_watchlist", "companies"),
-    "startup_spaces": ("startup_radar", "spaces"),
-    "deprioritize": ("deprioritize",),
-}
-
-GOOGLE_SHEET_CSV_URL = os.environ.get("GOOGLE_SHEET_CSV_URL", "")
-
-CHANGE_LINE_RE = re.compile(r'^-\s*(ADD|REMOVE)\s+([a-zA-Z_]+)\s*:\s*"(.*?)"\s*$', re.M)
-
-
-def _get_list_ref(profile, path):
-    node = profile
-    for key in path[:-1]:
-        node = node.setdefault(key, {})
-    return node.setdefault(path[-1], [])
-
-
-def _profile_lists(profile):
-    return {field: list(_get_list_ref(profile, path))
-            for field, path in PROFILE_LIST_PATHS.items()}
-
-
-def parse_changes_block(text):
-    return [(a.upper(), f, v) for a, f, v in CHANGE_LINE_RE.findall(text or "")]
-
-
-def apply_profile_change(name, changes):
-    path = os.path.join(USERS_DIR, name, "profile.json")
-    if not os.path.isfile(path):
-        return ["user '%s' has no profile.json" % name], False
-    with open(path, "r", encoding="utf-8") as f:
-        profile = json.load(f)
-    results = []
-    changed = False
-    for action, field, value in changes:
-        if field not in PROFILE_LIST_PATHS:
-            results.append('rejected (unknown field "%s")' % field)
-            continue
-        lst = _get_list_ref(profile, PROFILE_LIST_PATHS[field])
-        if action == "ADD":
-            if value in lst:
-                results.append('skipped (already present) ADD %s: "%s"' % (field, value))
-            else:
-                lst.append(value)
-                results.append('applied ADD %s: "%s"' % (field, value))
-                changed = True
-        elif action == "REMOVE":
-            if value in lst:
-                lst.remove(value)
-                results.append('applied REMOVE %s: "%s"' % (field, value))
-                changed = True
-            else:
-                results.append('skipped (not found) REMOVE %s: "%s"' % (field, value))
-        else:
-            results.append('rejected (unknown action "%s")' % action)
-    if changed:
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(profile, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-    return results, changed
-
-
-def fetch_pending_sheet_rows(url):
-    """GET the published (world-readable, no auth) CSV export of the
-    profile-change Google Sheet. Returns data rows only (header stripped),
-    or [] on any problem - never raises."""
-    if not url:
-        return []
-    try:
-        with urllib.request.urlopen(url, timeout=20) as resp:
-            raw = resp.read().decode("utf-8", "replace")
-    except Exception as e:
-        log("  could not fetch profile-change sheet: %s" % e)
-        return []
-    rows = list(csv.reader(io.StringIO(raw)))
-    return rows[1:] if len(rows) > 1 else []
-
-
-def apply_pending_profile_submissions(known_users, csv_url):
-    """Best-effort: replay every row of the published Google Sheet
-    (Timestamp, User, Changes - one row per Save-button submission) through
-    apply_profile_change(). No per-row "already processed" bookkeeping is
-    needed: apply_profile_change() is idempotent (adding something already
-    present, or removing something already absent, is a no-op), so safely
-    replaying the whole sheet every day needs no extra state and no
-    write-back credential. Must never raise - a problem here can't be
-    allowed to block publishing the day's briefings."""
-    try:
-        rows = fetch_pending_sheet_rows(csv_url)
-        if not rows:
-            return
-        log("profile-change sheet rows: %d" % len(rows))
-        for row in rows:
-            if len(row) < 3:
-                continue
-            user = (row[1] or "").strip()
-            changes = parse_changes_block(row[2])
-            if not user or not changes:
-                continue
-            if user not in known_users:
-                log("  skipping unknown user '%s' in profile-change sheet" % user)
-                continue
-            results, changed = apply_profile_change(user, changes)
-            if changed:
-                log("  applied profile changes for %s: %s" % (user, "; ".join(results)))
-    except Exception as e:
-        log("WARNING: profile-change sheet processing failed: %s" % e)
-
-
-def render_page(data, template, dt, profile, user_id):
+def render_page(data, template, dt, profile):
     style = re.search(r"<style>.*?</style>", template, re.S)
     script = re.search(r"<script>.*?</script>", template, re.S)
     sidebar = re.search(r'<aside class="sidebar">.*?</aside>', template, re.S)
@@ -698,15 +584,6 @@ def render_page(data, template, dt, profile, user_id):
                      _sidebar_foot(profile) + "</aside>", sidebar, flags=re.S)
     script = re.sub(r"pi-feedback-\d{4}-\d{2}-\d{2}",
                     "pi-feedback-" + dt.strftime("%Y-%m-%d"), script.group(0))
-    profile_lists_json = json.dumps(_profile_lists(profile), ensure_ascii=False)
-    new_decl = "var PROFILE_LISTS = %s;" % profile_lists_json
-    script, n_sub = re.subn(r"var PROFILE_LISTS\s*=\s*\{.*?\};", new_decl, script, flags=re.S)
-    if not n_sub:
-        script = script.replace("<script>", "<script>\n" + new_decl, 1)
-    new_user_decl = "var PROFILE_USER = %s;" % json.dumps(user_id)
-    script, n_user = re.subn(r'var PROFILE_USER\s*=\s*"[^"]*";', new_user_decl, script, flags=re.S)
-    if not n_user:
-        script = script.replace("<script>", "<script>\n" + new_user_decl, 1)
 
     sections = data.get("sections") or {}
     rail = data.get("rail") or {}
@@ -754,11 +631,11 @@ def render_page(data, template, dt, profile, user_id):
         '<div class="app">\n%s\n<div class="main" id="top">\n'
         '<header class="masthead"><div class="eyebrow">%s</div>'
         '<h1>%s</h1><div class="subhead">%s</div>%s</header>\n'
-        '<div class="grid"><div class="briefing">%s</div>'
-        '<aside class="rail">%s</aside></div>\n%s\n</div>\n</div>\n%s\n</body>\n</html>\n'
+        '<div class="grid"><div class="briefing">%s%s</div>'
+        '<aside class="rail">%s</aside></div>\n</div>\n</div>\n%s\n</body>\n</html>\n'
         % (date_title, style, sidebar, eyebrow, greet, data.get("lead", ""),
            render_budget(counts, profile.get("attention_budget", {})),
-           main_sections, rail_html, footer, script))
+           main_sections, footer, rail_html, script))
 
 
 # ------------------------------------------------------------- validate ------
@@ -792,6 +669,51 @@ def merge_state(seen, add, dt):
     return seen
 
 
+# ------------------------------------------------------------- app ingest ----
+
+def push_briefing(profile, data, dt):
+    """POST today's structured brief to the Lovable app's secured ingest
+    endpoint, which writes it to the `briefings` table server-side.
+
+    Non-fatal by design: any problem here is logged and swallowed so the proven
+    GitHub Pages path is never blocked. Skips silently unless INGEST_URL,
+    INGEST_SECRET and the profile's email are all present. The app resolves the
+    email to the right user account, so no user UID is needed here.
+    """
+    if not (INGEST_URL and INGEST_SECRET):
+        log("  ingest endpoint not configured - skipping DB write")
+        return
+    email = profile.get("email") or profile.get("supabase_email")
+    if not email:
+        log("  no email in profile - skipping DB write")
+        return
+
+    date_iso = dt.strftime("%Y-%m-%d")
+    payload = json.dumps({
+        "email": email,
+        "brief_date": date_iso,
+        "content": data,
+        "status": "published",
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    }).encode("utf-8")
+    headers = {
+        "Content-Type": "application/json",
+        "x-ingest-secret": INGEST_SECRET,
+    }
+    try:
+        resp = urllib.request.urlopen(
+            urllib.request.Request(INGEST_URL, data=payload, headers=headers,
+                                   method="POST"), timeout=45)
+        resp.read()
+        log("  ingest: wrote briefing for %s (%s) - HTTP %s"
+            % (email, date_iso, resp.status))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "ignore")[:400]
+        log("  ingest POST failed HTTP %s: %s" % (e.code, body))
+    except Exception as e:
+        log("  ingest POST failed: %s" % e)
+
+
 # ----------------------------------------------------------------------- main -
 
 def run_user(name, template, brave, dt):
@@ -806,7 +728,7 @@ def run_user(name, template, brave, dt):
 
     raw = generate(profile, seen, digest_text, dt)
     data = parse_json(raw)
-    html = render_page(data, template, dt, profile, name)
+    html = render_page(data, template, dt, profile)
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
 
@@ -817,6 +739,10 @@ def run_user(name, template, brave, dt):
             f.write(html)
     with open(os.path.join(base, "seen-stories.json"), "w", encoding="utf-8") as f:
         json.dump(seen, f, ensure_ascii=False, indent=2)
+
+    # Also send the structured brief to the Lovable app's ingest endpoint (non-fatal).
+    push_briefing(profile, data, dt)
+
     log("  published %s (%d chars) - %s"
         % (name, len(html), data.get("run_summary") or ""))
 
@@ -833,8 +759,6 @@ def main():
     template = read_template()
     users = discover_users()
     log("users: %s" % ", ".join(users))
-
-    apply_pending_profile_submissions(users, GOOGLE_SHEET_CSV_URL)
 
     ok = []
     for name in users:
