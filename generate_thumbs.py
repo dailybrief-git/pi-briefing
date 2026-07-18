@@ -191,14 +191,32 @@ def build_queries(profile):
     if interests:
         pick = [interests[(weekday + i) % len(interests)] for i in range(4)]
         q += [p + " latest news 2026" for p in pick]
-    for show in profile.get("podcasts", {}).get("shows", []):
-        q.append(show.split(" (")[0].strip() + " latest episode")
     seen_q, out = set(), []
     for item in q:
         if item.lower() not in seen_q:
             seen_q.add(item.lower())
             out.append(item)
-    return out[:SEARCH_MAX]
+
+    # Podcast episode-discovery queries get a RESERVED budget below, appended
+    # after the general list is capped. Otherwise, on a normal-sized profile
+    # the other categories alone already exceed SEARCH_MAX and the podcast
+    # queries (previously appended last) never survive out[:SEARCH_MAX] - the
+    # searches for them silently never run, which is why "no new episodes"
+    # kept showing up: the show was never actually searched for.
+    month_year = now_bangkok().strftime("%B %Y")
+    podcast_q, pseen = [], set()
+    for show in profile.get("podcasts", {}).get("shows", []):
+        name = show.split(" (")[0].strip()
+        for cand in (
+            name + " new episode " + month_year,
+            ("site:youtube.com " + name) if "youtube" in show.lower() else name + " podcast episode",
+        ):
+            if cand.lower() not in pseen:
+                pseen.add(cand.lower())
+                podcast_q.append(cand)
+
+    budget = max(0, SEARCH_MAX - len(podcast_q))
+    return out[:budget] + podcast_q
 
 
 # ------------------------------------------------------------- brave search --
@@ -247,7 +265,12 @@ def gather_results(queries, token):
     digest = []
     for i, query in enumerate(queries, 1):
         log("[%2d/%d] %s" % (i, len(queries), query))
-        hits = brave_search(query, token)
+        # Podcast-episode queries need a wider net: Brave's top 5 for a show
+        # name alone tends to be the homepage/Apple/Spotify listing rather
+        # than the actual latest-episode page, so pull more candidates.
+        ql = query.lower()
+        count = 8 if ("new episode" in ql or ql.startswith("site:youtube.com") or "podcast episode" in ql) else 5
+        hits = brave_search(query, token, count=count)
         if hits:
             digest.append({"query": query, "results": hits})
         time.sleep(1.1)
@@ -344,12 +367,28 @@ EDITORIAL RULES
 sections/panels are fine - use the "empty" field to say so honestly.
 - Cluster duplicate coverage into ONE card per event. Label confidence. Frame \
 Opportunities as hypotheses, not predictions.
-- Anti-repetition: you are given stories already briefed. Do NOT re-brief one \
-unless there is a genuine development; if so, write it as a development.
+- Anti-repetition: you are given stories already briefed (ALREADY BRIEFED \
+below). If a fresh search result is clearly the same event/story as one already \
+briefed, DEFAULT TO LEAVING IT OUT ENTIRELY - do not create a card, a "more" \
+item, or a rail mention for it. The bar for "genuine development" is a materially \
+new fact that changes what the reader should know: e.g. cause confirmed, arrest \
+made, reopened/closed, compensation or policy response announced, death toll \
+revised by more than a rounding error. Continued generic coverage, follow-up \
+statements, or minor detail updates are NOT genuine developments - skip them. \
+When in doubt, skip it; the reader already knows about it.
 - Honour learned_preferences, the deprioritise list, the source philosophy, and \
 the mandatory Thai/Chiang Mai sweep.
 - Only state a fact a provided search result supports. Use REAL source URLs from \
 the results. Never invent a URL, statistic, or market figure.
+- rail.today ("Today & Ahead") is a forward-looking calendar, NOT a recap. Every \
+item must be something scheduled, expected, or anticipated to happen ON OR AFTER \
+today - a known date (earnings call, election, product launch, race weekend, \
+policy deadline, anniversary/milestone) or a clearly-flagged expectation \
+("watch for X in the coming days"). NEVER put something here just because it was \
+already covered as a card elsewhere in today's briefing - if a story already has \
+a card in alerts/opportunities/major, it does not also belong in rail.today. If \
+you have no genuine forward-looking items, return an empty list rather than \
+padding it with today's headlines again.
 - Text fields may contain light inline HTML: <b>...</b> for emphasis and \
 <a href="URL" target="_blank">label</a> for inline links. Nothing else.
 
