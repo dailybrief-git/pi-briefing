@@ -699,6 +699,12 @@ def push_briefing(profile, data, dt):
     headers = {
         "Content-Type": "application/json",
         "x-ingest-secret": INGEST_SECRET,
+        # A real browser-style User-Agent + Accept so the app's bot protection
+        # (Cloudflare) doesn't reject the request as a faceless script (403 1010).
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                       "AppleWebKit/537.36 (KHTML, like Gecko) "
+                       "Chrome/124.0.0.0 Safari/537.36"),
+        "Accept": "application/json",
     }
     try:
         resp = urllib.request.urlopen(
