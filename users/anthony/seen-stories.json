@@ -1267,6 +1267,104 @@
       "section": "companies",
       "summary": "Amazon to add user-replaceable battery to Kindle, EU-driven global rollout",
       "status": "active"
+    },
+    {
+      "id": "middle-east-war-thai-tourism-impact",
+      "first_briefed": "2026-07-20",
+      "section": "alerts",
+      "summary": "Middle East war spillover crashes southern Thai occupancy forecasts (Phangnga 20%)",
+      "status": "active"
+    },
+    {
+      "id": "tat-quality-over-quantity-pivot",
+      "first_briefed": "2026-07-20",
+      "section": "opportunities",
+      "summary": "TAT formally pivots to quality-led 2027 strategy, THB2.9tn revenue goal",
+      "status": "active"
+    },
+    {
+      "id": "thai-alcohol-rules-relax-hospitality",
+      "first_briefed": "2026-07-20",
+      "section": "opportunities",
+      "summary": "Thailand relaxes alcohol sales rules for hotels/hospitality F&B",
+      "status": "active"
+    },
+    {
+      "id": "chinese-outbound-content-tourism-shift",
+      "first_briefed": "2026-07-20",
+      "section": "opportunities",
+      "summary": "Chinese travellers shift to independent, content-driven trip discovery via Xiaohongshu",
+      "status": "active"
+    },
+    {
+      "id": "china-moonshot-kimi-ai",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi model narrows gap with US frontier AI",
+      "status": "active"
+    },
+    {
+      "id": "semaglutide-aging-clinical",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "First clinical evidence semaglutide slows biological aging markers",
+      "status": "active"
+    },
+    {
+      "id": "longi-tandem-cell-355-efficiency",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "LONGi silicon-perovskite tandem cell hits ESTI-verified 35.5% efficiency record",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-legacy-vehicles",
+      "first_briefed": "2026-07-20",
+      "section": "companies",
+      "summary": "Tesla unlocks modern FSD access for 2019-2023 vehicles",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starlink-v5-terminal",
+      "first_briefed": "2026-07-20",
+      "section": "companies",
+      "summary": "SpaceX unveils smaller, more efficient Starlink V5 terminal",
+      "status": "active"
+    },
+    {
+      "id": "fervo-energy-geothermal-ipo",
+      "first_briefed": "2026-07-20",
+      "section": "startups",
+      "summary": "Fervo Energy's geothermal IPO backed by Google and Bill Gates",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-ai-agent-talks",
+      "first_briefed": "2026-07-20",
+      "section": "startups",
+      "summary": "SpaceX and Cursor unveil co-developed AI agent; acquisition talks reported",
+      "status": "active"
+    },
+    {
+      "id": "age-removal-glycation-reversal",
+      "first_briefed": "2026-07-20",
+      "section": "gems",
+      "summary": "Revel Pharmaceuticals enzymatically reverses AGE damage in aged tissue ex vivo",
+      "status": "active"
+    },
+    {
+      "id": "f1-belgian-gp-2026",
+      "first_briefed": "2026-07-20",
+      "section": "interest",
+      "summary": "Belgian GP: Norris podium pace, Mercedes struggles, Hamilton FP3 fallout",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-cleared-refly",
+      "first_briefed": "2026-07-20",
+      "section": "interest",
+      "summary": "Starship cleared to fly again after May booster failure, carries first V3 Starlink sats",
+      "status": "active"
     }
   ]
 }
