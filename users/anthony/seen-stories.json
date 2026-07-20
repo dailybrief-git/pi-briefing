@@ -1365,6 +1365,34 @@
       "section": "interest",
       "summary": "Starship cleared to fly again after May booster failure, carries first V3 Starlink sats",
       "status": "active"
+    },
+    {
+      "id": "thailand-visa-59-countries-update",
+      "first_briefed": "2026-07-20",
+      "section": "alerts",
+      "summary": "Visa overhaul finalised: 30 days for 59 countries, separate 15-day India waiver",
+      "status": "active"
+    },
+    {
+      "id": "middle-east-war-south-thailand-tourism-hit",
+      "first_briefed": "2026-07-20",
+      "section": "alerts",
+      "summary": "Middle East war spillover cuts South Thailand occupancy, Phangnga forecast 20%",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-ai-model",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Moonshot AI ships free Kimi model narrowing US AI lead",
+      "status": "active"
+    },
+    {
+      "id": "ezy-airlines-chiangmai-maehongson-route",
+      "first_briefed": "2026-07-20",
+      "section": "opportunities",
+      "summary": "Ezy Airlines launches Chiang Mai-Mae Hong Son route in September",
+      "status": "active"
     }
   ]
 }
