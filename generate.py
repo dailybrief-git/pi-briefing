@@ -241,10 +241,6 @@ def brave_search(query, token, count=5):
                 "url": r.get("url", ""),
                 "desc": re.sub("<[^>]+>", "", r.get("description", "") or ""),
                 "age": r.get("age") or r.get("page_age") or "",
-                # Brave often returns a thumbnail on web results. Capture it when
-                # present; many results won't have one (that's fine - the card
-                # just renders without an image).
-                "thumb": (r.get("thumbnail") or {}).get("src", ""),
             })
         return out
     return []
@@ -272,60 +268,6 @@ def results_to_text(digest):
     return "\n".join(lines)
 
 
-def build_thumb_map(digest):
-    """Map article URL -> thumbnail URL, plus a per-domain fallback.
-
-    The model clusters several sources into one card and cites them by URL, so
-    we look up a card's source URLs here to find a representative image. The
-    domain fallback covers cases where the model tweaks a URL (trailing slash,
-    tracking params) vs. what Brave returned.
-    """
-    by_url, by_domain = {}, {}
-    for block in digest:
-        for r in block.get("results", []):
-            thumb, url = r.get("thumb"), r.get("url")
-            if not thumb or not url:
-                continue
-            by_url[url] = thumb
-            dom = urllib.parse.urlparse(url).netloc.lower().lstrip("www.")
-            by_domain.setdefault(dom, thumb)
-    return {"url": by_url, "domain": by_domain}
-
-
-def thumb_for_card(card, tmap):
-    """Best-effort thumbnail for a card from its cited sources."""
-    srcs = card.get("sources") or []
-    for s in srcs:
-        u = s.get("url", "")
-        if u in tmap["url"]:
-            return tmap["url"][u]
-    for s in srcs:
-        dom = urllib.parse.urlparse(s.get("url", "")).netloc.lower().lstrip("www.")
-        if dom in tmap["domain"]:
-            return tmap["domain"][dom]
-    return ""
-
-
-def attach_thumbnails(data, digest):
-    """Add an 'image' URL to each main-story card from Brave thumbnails.
-
-    Cards without a matching image are simply left as-is. Only the three main
-    sections carry thumbnails (alerts / opportunities / major)."""
-    tmap = build_thumb_map(digest)
-    if not tmap["url"] and not tmap["domain"]:
-        log("  thumbnails: none available from search results")
-        return
-    sections = data.get("sections") or {}
-    n = 0
-    for sid in ("alerts", "opportunities", "major"):
-        for card in (sections.get(sid) or {}).get("cards") or []:
-            img = thumb_for_card(card, tmap)
-            if img:
-                card["image"] = img
-                n += 1
-    log("  thumbnails: attached %d" % n)
-
-
 # --------------------------------------------------------------- the prompt --
 
 SYSTEM_PROMPT = """You are the generator for Anthony's Personal Intelligence \
@@ -351,6 +293,14 @@ the mandatory Thai/Chiang Mai sweep.
 the results. Never invent a URL, statistic, or market figure.
 - Text fields may contain light inline HTML: <b>...</b> for emphasis and \
 <a href="URL" target="_blank">label</a> for inline links. Nothing else.
+- SCORING METADATA (for the app's per-reader scorer, never shown to the reader): \
+tag every CARD, GEM and PODCARD with "geo", "topics" and "published". "geo" = \
+where the story is centred, as {"place":"Chiang Mai"|"Thailand"|"United \
+States"|..., "scope":"local|national|regional|global"} (local = Chiang Mai / \
+northern Thailand). "topics" = 1-4 lowercase subject tags for interest-matching \
+(e.g. ["commercial real estate","interest rates"]). "published" = the \
+underlying story's date as YYYY-MM-DD, inferred from the search result's age; \
+if genuinely unknown, omit it - never invent a date.
 
 JSON SHAPE (omit any field you have no content for; use [] for empty lists):
 {
@@ -374,15 +324,15 @@ JSON SHAPE (omit any field you have no content for; use [] for empty lists):
                "summary":"one line","status":"active"}],
  "run_summary": "2-3 sentences: what led, what was empty"
 }
-CARD = {"mode":"AI capability","relevance":"High|Med|Low","confidence":"Primary \
+CARD = {"mode":"AI capability","geo":{"place":"United States","scope":"national"},"topics":["ai capability","chips"],"published":"2026-07-18 (omit if unknown)","relevance":"High|Med|Low","confidence":"Primary \
 - OpenAI","market":"68% ▲3 (optional)","headline":"...","summary":"optional \
 paragraph","wwuw":[{"k":"What","v":"..."},{"k":"Why","v":"..."}],"sources":\
 [{"label":"OpenAI","url":"https://..."}]}
-PODCARD = {"mode":"Diary of a CEO","confidence":"Show notes","headline":"...",\
+PODCARD = {"mode":"Diary of a CEO","geo":{"place":"Global","scope":"global"},"topics":["business","leadership"],"published":"2026-07-18 (episode date; omit if unknown)","confidence":"Show notes","headline":"...",\
 "summary":"...","verdict":{"label":"Worth a listen","rel":"Med"},"verdict_conf":\
 "Confidence: show-notes based","sources":[{"label":"...","url":"..."}]}
 MOREITEM = {"title":"...","body":"paragraph, may include inline <a> sources"}
-GEM = {"mode":"Tesla (optional)","accent":"company (optional)","conf":"Company \
+GEM = {"mode":"Tesla (optional)","geo":{"place":"United States","scope":"national"},"topics":["automotive","ev"],"published":"2026-07-18 (omit if unknown)","accent":"company (optional)","conf":"Company \
 posts, 10 Jul","title":"...","body":"paragraph, may include inline <a> sources"}
 color/accent values: alert opportunity major company startup market gem interest \
 podcast muted.
@@ -792,7 +742,6 @@ def run_user(name, template, brave, dt):
 
     raw = generate(profile, seen, digest_text, dt)
     data = parse_json(raw)
-    attach_thumbnails(data, digest)  # add 'image' URLs to main-story cards
     html = render_page(data, template, dt, profile)
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
