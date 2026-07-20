@@ -1393,6 +1393,83 @@
       "section": "opportunities",
       "summary": "Ezy Airlines launches Chiang Mai-Mae Hong Son route in September",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-nominee-crackdown-raid",
+      "first_briefed": "2026-07-20",
+      "section": "alerts",
+      "summary": "250+ officers raid 18 Chiang Mai sites in foreign nominee network crackdown, ฿633M assets",
+      "status": "active"
+    },
+    {
+      "id": "openai-first-hardware-keyboard-speaker",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "OpenAI ships $230 coding-agent keyboard; screenless AI speaker reportedly next",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-confidential-filing",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Anthropic confidentially files for IPO after $65B Series H",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-quantum-scout-nvidia",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Microsoft Build recap: Nvidia AI hardware partnership, Scout agent, quantum chip claim",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-model-launch",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "China's Moonshot AI releases Kimi, narrowing gap with US frontier LLMs",
+      "status": "active"
+    },
+    {
+      "id": "china-neutral-atom-quantum-rack",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Zhongqi Wuliang unveils rack-mounted neutral-atom quantum computer without cryogenics",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-blackstone-ode-launch",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Anthropic-Blackstone-H&F launch $1.5B AI implementation firm Ode",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-bans-anthropic-tool",
+      "first_briefed": "2026-07-20",
+      "section": "major",
+      "summary": "Alibaba bars staff from using Anthropic's coding tool",
+      "status": "active"
+    },
+    {
+      "id": "csiro-if4s-functional-food-grant",
+      "first_briefed": "2026-07-20",
+      "section": "opportunities",
+      "summary": "Thailand-Australia CSIRO grant funds Chiang Mai University functional food/herbal commercialisation",
+      "status": "active"
+    },
+    {
+      "id": "genspark-ai-workspace-unicorn",
+      "first_briefed": "2026-07-20",
+      "section": "startups",
+      "summary": "Genspark AI workspace app reaches $2.6B valuation",
+      "status": "active"
+    },
+    {
+      "id": "musk-ranch-product-gallery",
+      "first_briefed": "2026-07-20",
+      "section": "companies",
+      "summary": "Musk assembling 52-product career retrospective gallery at Texas ranch",
+      "status": "active"
     }
   ]
 }
