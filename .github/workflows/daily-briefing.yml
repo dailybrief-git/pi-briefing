@@ -35,6 +35,7 @@ jobs:
           MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
           INGEST_URL: ${{ secrets.INGEST_URL }}
           INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
+          PROFILE_URL: ${{ secrets.PROFILE_URL }}
         run: python generate.py
 
       - name: Commit updated state back to main
