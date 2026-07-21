@@ -373,13 +373,13 @@ def sync_remote_users(dt):
         prof = normalize_profile(row)
         slug = _slug(prof.get("email"), prof.get("owner_name"),
                      str(row.get("user_id") or row.get("id") or ""))
-        signal = profile_signal_count(prof)
-        if signal == 0:
-            # Never overwrite a good committed profile with an empty one - that
-            # is what produced the "running 0 searches" failure.
-            log("  remote row for '%s' carried no usable interests (keys: %s)"
-                " - keeping the committed profile"
-                % (slug, ", ".join(sorted(k for k in row if isinstance(k, str)))[:400]))
+        # The only test that matters: does this profile actually yield searches?
+        if not build_queries(prof):
+            log("  remote row for '%s' yields no search queries - keeping the "
+                "committed profile" % slug)
+            log("    row keys: %s"
+                % ", ".join(sorted(k for k in row if isinstance(k, str)))[:400])
+            log("    normalized: %s" % json.dumps(prof, ensure_ascii=False)[:900])
             continue
         base = os.path.join(USERS_DIR, slug)
         os.makedirs(base, exist_ok=True)
