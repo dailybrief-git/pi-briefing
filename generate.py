@@ -229,6 +229,21 @@ def normalize_profile(row):
     a future endpoint can return the engine shape directly."""
     if not isinstance(row, dict):
         return {}
+    # Some app versions wrap the real profile in a JSON column; unwrap it so the
+    # column-name mapping below sees the actual fields.
+    for wrap in ("profile", "profile_json", "profile_data", "data", "attributes"):
+        inner = row.get(wrap)
+        if isinstance(inner, str) and inner.strip().startswith("{"):
+            try:
+                inner = json.loads(inner)
+            except Exception:
+                inner = None
+        if isinstance(inner, dict) and inner:
+            merged = dict(row)
+            merged.pop(wrap, None)
+            merged.update(inner)
+            row = merged
+            break
     # nested/engine shape already?
     if "personal_interests" in row or "business" in row:
         prof = dict(row)
@@ -324,6 +339,26 @@ def fetch_remote_users():
     return rows
 
 
+def profile_signal_count(prof):
+    """How many query-bearing items a normalized profile actually carries.
+    Zero means the row did not map onto anything the engine can search for."""
+    if not isinstance(prof, dict):
+        return 0
+    n = 0
+    loc = prof.get("location") or {}
+    if isinstance(loc, dict) and (loc.get("country") or loc.get("region")):
+        n += 1
+    biz = prof.get("business") or {}
+    for key in ("sectors", "watch_topics"):
+        n += len(biz.get(key) or [])
+    for key in ("personal_interests", "intelligence_topics", "alert_topics"):
+        n += len(prof.get(key) or [])
+    n += len((prof.get("company_watchlist") or {}).get("companies") or [])
+    n += len((prof.get("startup_radar") or {}).get("spaces") or [])
+    n += len((prof.get("podcasts") or {}).get("shows") or [])
+    return n
+
+
 def sync_remote_users(dt):
     """Fetch remote profiles and write each to users/<slug>/profile.json.
     Returns the list of slugs, or None to signal fall back to the local dir."""
@@ -338,12 +373,23 @@ def sync_remote_users(dt):
         prof = normalize_profile(row)
         slug = _slug(prof.get("email"), prof.get("owner_name"),
                      str(row.get("user_id") or row.get("id") or ""))
+        signal = profile_signal_count(prof)
+        if signal == 0:
+            # Never overwrite a good committed profile with an empty one - that
+            # is what produced the "running 0 searches" failure.
+            log("  remote row for '%s' carried no usable interests (keys: %s)"
+                " - keeping the committed profile"
+                % (slug, ", ".join(sorted(k for k in row if isinstance(k, str)))[:400]))
+            continue
         base = os.path.join(USERS_DIR, slug)
         os.makedirs(base, exist_ok=True)
         with open(os.path.join(base, "profile.json"), "w", encoding="utf-8") as f:
             json.dump(prof, f, ensure_ascii=False, indent=2)
         slugs.append(slug)
     slugs = sorted(set(slugs))
+    if not slugs:
+        log("  no usable remote profiles - falling back to local users/ directory")
+        return None
     log("  remote profiles synced for %d user(s): %s" % (len(slugs), ", ".join(slugs)))
     return slugs
 
@@ -907,6 +953,9 @@ def run_user(name, template, brave, dt):
     profile, seen = load_user(name)
     queries = build_queries(profile)
     log("  running %d searches" % len(queries))
+    if not queries:
+        die("profile for %s produced no search queries - profile is empty or "
+            "its fields did not map; not publishing" % name)
     digest = gather_results(queries, brave)
     if not digest:
         die("no search results - skipping %s" % name)
