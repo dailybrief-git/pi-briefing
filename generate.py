@@ -373,6 +373,22 @@ def sync_remote_users(dt):
         prof = normalize_profile(row)
         slug = _slug(prof.get("email"), prof.get("owner_name"),
                      str(row.get("user_id") or row.get("id") or ""))
+        # Guard against slug collisions: two different people whose email local
+        # parts match (anthony@a.com / anthony@b.com) must not share a folder,
+        # or one silently overwrites the other's profile and history.
+        existing = os.path.join(USERS_DIR, slug, "profile.json")
+        if os.path.exists(existing):
+            try:
+                with open(existing, encoding="utf-8") as f:
+                    prev_email = (json.load(f).get("email") or "").lower()
+            except Exception:
+                prev_email = ""
+            new_email = (prof.get("email") or "").lower()
+            if prev_email and new_email and prev_email != new_email:
+                domain = new_email.split("@", 1)[-1]
+                slug = re.sub(r"[^a-z0-9]+", "-", (slug + "-" + domain)).strip("-")
+                log("  slug collision on '%s' (%s vs %s) - using '%s'"
+                    % (existing.split(os.sep)[-2], prev_email, new_email, slug))
         # The only test that matters: does this profile actually yield searches?
         if not build_queries(prof):
             log("  remote row for '%s' yields no search queries - keeping the "
