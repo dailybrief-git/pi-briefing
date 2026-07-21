@@ -1540,6 +1540,69 @@
       "section": "opportunities",
       "summary": "BYD HYROX Bangkok Aug 13-16 expects 20,000+ athletes",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-nominee-crackdown",
+      "first_briefed": "2026-07-22",
+      "section": "alerts",
+      "summary": "250+ officers raid 18 Chiang Mai locations in foreign nominee network crackdown, ฿633M assets",
+      "status": "active"
+    },
+    {
+      "id": "csiro-chiangmai-functional-food-grant",
+      "first_briefed": "2026-07-22",
+      "section": "opportunities",
+      "summary": "CSIRO-Chiang Mai University IF4S grant for functional/herbal food innovation",
+      "status": "active"
+    },
+    {
+      "id": "byd-hyrox-bangkok-event",
+      "first_briefed": "2026-07-22",
+      "section": "opportunities",
+      "summary": "HYROX Bangkok Aug 13-16 to draw 20,000+ athletes",
+      "status": "active"
+    },
+    {
+      "id": "thailand-tourist-spending-838bn",
+      "first_briefed": "2026-07-22",
+      "section": "opportunities",
+      "summary": "Foreign tourist spending hits ฿838.73bn, weekly arrivals +4.04%",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-ai-hardware-quantum",
+      "first_briefed": "2026-07-22",
+      "section": "major",
+      "summary": "Microsoft Build: Nvidia partnership, 7 new AI models, Scout agent, quantum chip breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "openai-hardware-devices-keyboard-speaker",
+      "first_briefed": "2026-07-22",
+      "section": "major",
+      "summary": "OpenAI confirms Codesx keyboard shipped and screenless AI speaker in development",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-k3-benchmark",
+      "first_briefed": "2026-07-22",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 claims to surpass OpenAI/Anthropic on some benchmarks",
+      "status": "active"
+    },
+    {
+      "id": "thailand-china-hsr-phase1-2030",
+      "first_briefed": "2026-07-22",
+      "section": "major",
+      "summary": "Thailand confirms China HSR Phase 1 on track for 2030 completion, Phase 2 in prep",
+      "status": "active"
+    },
+    {
+      "id": "databricks-188b-valuation",
+      "first_briefed": "2026-07-22",
+      "section": "major",
+      "summary": "Databricks raises strategic round at $188B valuation",
+      "status": "active"
     }
   ]
 }
