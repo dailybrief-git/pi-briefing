@@ -369,13 +369,20 @@ def sync_remote_users(dt):
         log("  remote profile fetch returned 0 active users - falling back to local")
         return None
     slugs = []
-    for row in rows:
-        prof = normalize_profile(row)
+    # Normalize once and process in a deterministic order (by email) so slug
+    # assignment is STABLE run-to-run. Two accounts sharing an email local part
+    # (anthony@a.com / anthony@b.com) otherwise risk swapping folders between
+    # runs depending on the order the endpoint happens to return them, which
+    # would scramble each user's seen-stories history.
+    normalized = [(normalize_profile(row), row) for row in rows]
+    normalized.sort(key=lambda pr: (pr[0].get("email") or "").lower())
+    for prof, row in normalized:
         slug = _slug(prof.get("email"), prof.get("owner_name"),
                      str(row.get("user_id") or row.get("id") or ""))
         # Guard against slug collisions: two different people whose email local
         # parts match (anthony@a.com / anthony@b.com) must not share a folder,
-        # or one silently overwrites the other's profile and history.
+        # or one silently overwrites the other's profile and history. Whoever
+        # already owns the bare slug keeps it; the newcomer gets a domain suffix.
         existing = os.path.join(USERS_DIR, slug, "profile.json")
         if os.path.exists(existing):
             try:
@@ -389,14 +396,31 @@ def sync_remote_users(dt):
                 slug = re.sub(r"[^a-z0-9]+", "-", (slug + "-" + domain)).strip("-")
                 log("  slug collision on '%s' (%s vs %s) - using '%s'"
                     % (existing.split(os.sep)[-2], prev_email, new_email, slug))
-        # The only test that matters: does this profile actually yield searches?
+        # Does this profile actually yield searches? If not, decide between two
+        # cases instead of silently dropping the user:
+        #   - an existing NON-empty profile already lives at this slug: keep it
+        #     (protects a committed/populated user from a transient empty remote
+        #     row clobbering their good profile and history).
+        #   - otherwise this is a genuinely new/empty account: still register it
+        #     so it receives a friendly "complete your profile" welcome brief
+        #     (handled in run_user) rather than getting no dashboard at all.
         if not build_queries(prof):
-            log("  remote row for '%s' yields no search queries - keeping the "
-                "committed profile" % slug)
+            existing_signal = 0
+            if os.path.exists(existing):
+                try:
+                    with open(existing, encoding="utf-8") as f:
+                        existing_signal = profile_signal_count(json.load(f))
+                except Exception:
+                    existing_signal = 0
             log("    row keys: %s"
                 % ", ".join(sorted(k for k in row if isinstance(k, str)))[:400])
             log("    normalized: %s" % json.dumps(prof, ensure_ascii=False)[:900])
-            continue
+            if existing_signal > 0:
+                log("  remote row for '%s' yields no search queries - keeping the "
+                    "existing non-empty profile" % slug)
+                continue
+            log("  remote row for '%s' has an empty profile - registering it for a "
+                "welcome/onboarding brief" % slug)
         base = os.path.join(USERS_DIR, slug)
         os.makedirs(base, exist_ok=True)
         with open(os.path.join(base, "profile.json"), "w", encoding="utf-8") as f:
@@ -962,16 +986,82 @@ def push_briefing(profile, data, dt):
         log("  ingest POST failed: %s" % e)
 
 
+# ----------------------------------------------------- welcome / empty user ---
+# Safety net so a brand-new account (or one whose onboarding didn't persist) is
+# never stuck forever on "waiting for the brief". If a profile carries nothing to
+# search on, we skip Brave + Anthropic entirely (zero cost) and instead render a
+# friendly "complete your profile" brief and deliver it to their account, exactly
+# like a normal brief. As soon as the profile has a few interests, the normal
+# path takes over on the next run.
+
+WELCOME_LEAD = (
+    "Welcome to your Personal Intelligence Brief. Your account is ready, but your "
+    "profile doesn't have any interests yet &mdash; so there's nothing to brief on "
+    "yet. Open <b>Profile &amp; Settings</b> and add your interests, sectors, "
+    "location, and the companies or topics you follow. Your first personalised "
+    "brief will arrive on the next run.")
+
+
+def build_welcome_data(profile):
+    """The structured content object for an empty-profile welcome brief. Same
+    shape the dashboard already renders, just with a nudge in the lead/footer and
+    empty sections/panels."""
+    return {
+        "lead": WELCOME_LEAD,
+        "sections": {
+            "alerts": {"cards": []},
+            "opportunities": {"cards": []},
+            "major": {"cards": []},
+        },
+        "podcasts": [],
+        "rail": {
+            "today": [],
+            "companies": {"items": [], "empty": "Add companies to your watchlist."},
+            "startups": {"items": [], "empty": "Add startup areas you follow."},
+            "markets": {"items": [], "empty": "Add topics to track market signals."},
+            "gems": {"items": []},
+            "interest": [],
+        },
+        "footer": "As soon as your profile has a few interests, this page fills up "
+                  "with your daily brief.",
+        "seen_add": [],
+        "run_summary": "Welcome/onboarding brief - profile empty, no searches run.",
+    }
+
+
+def run_welcome_user(name, template, dt, profile):
+    """Render + deliver a welcome brief for an account with an empty profile, so
+    its dashboard shows a helpful onboarding state instead of nothing. Makes no
+    Brave/Anthropic calls, so it costs nothing."""
+    data = build_welcome_data(profile)
+    html = render_page(data, template, dt, profile)
+    validate_html(html, dt)
+
+    base = os.path.join(USERS_DIR, name)
+    os.makedirs(base, exist_ok=True)
+    date_iso = dt.strftime("%Y-%m-%d")
+    for fn in ("dashboard_%s.html" % date_iso, "dashboard_latest.html"):
+        with open(os.path.join(base, fn), "w", encoding="utf-8") as f:
+            f.write(html)
+
+    # Deliver it to the account just like a normal brief.
+    push_briefing(profile, data, dt)
+    log("  published welcome brief for %s (%d chars)" % (name, len(html)))
+
+
 # ----------------------------------------------------------------------- main -
 
 def run_user(name, template, brave, dt):
     log("--- user: %s ---" % name)
     profile, seen = load_user(name)
     queries = build_queries(profile)
-    log("  running %d searches" % len(queries))
     if not queries:
-        die("profile for %s produced no search queries - profile is empty or "
-            "its fields did not map; not publishing" % name)
+        # Empty/new profile: don't skip or die. Deliver a welcome brief so the
+        # account's dashboard shows a friendly "complete your profile" state and
+        # nudges onboarding, instead of sitting forever on "waiting for the brief".
+        log("  profile has no searchable fields - sending welcome/onboarding brief")
+        return run_welcome_user(name, template, dt, profile)
+    log("  running %d searches" % len(queries))
     digest = gather_results(queries, brave)
     if not digest:
         die("no search results - skipping %s" % name)
@@ -1033,4 +1123,3 @@ if __name__ == "__main__":
     except PipelineError as e:
         log("FATAL: %s" % e)
         sys.exit(1)
-
