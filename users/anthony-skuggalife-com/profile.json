@@ -1,0 +1,202 @@
+{
+  "owner_name": "Anthony Skugga",
+  "email": "anthony@skuggalife.com",
+  "location": {
+    "region": "Sydney",
+    "country": "Australia",
+    "timezone": "Australia/Sydney"
+  },
+  "business": {
+    "sectors": [
+      "Technology",
+      "Biotech",
+      "Climate"
+    ],
+    "watch_topics": [
+      "Interest rates"
+    ]
+  },
+  "personal_interests": [
+    {
+      "name": "Markets & macro",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Rules & regulation",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Currencies & FX",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Executive moves",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Australia",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Trade & tariffs",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Sports (general)",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Outdoors & adventure",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Food & drink",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Home & interiors",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Schools & education",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Film & TV",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "Live music",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "markets_macro",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "industry_regulation",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "currencies",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "exec_moves",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "country_news",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "trade",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "sports_general",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "outdoors",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "food_drink",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "home_design",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "schools_edu",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "film_tv",
+      "note": null,
+      "weight": null
+    },
+    {
+      "name": "music_live",
+      "note": null,
+      "weight": null
+    }
+  ],
+  "intelligence_topics": [
+    "Macro economy",
+    "Elections"
+  ],
+  "company_watchlist": {
+    "companies": [
+      "lend lease",
+      "merriton"
+    ]
+  },
+  "startup_radar": {
+    "spaces": [
+      "rental business",
+      "construction materials",
+      "smart homes"
+    ]
+  },
+  "podcasts": {
+    "shows": [
+      "The Daily",
+      "Dwarkesh"
+    ]
+  },
+  "alert_topics": [
+    "Apt Residential"
+  ],
+  "deprioritize": [
+    "Crime blotter",
+    "wars",
+    "international politics"
+  ],
+  "attention_budget": {
+    "alerts": 3,
+    "podcasts": 5,
+    "hidden_gems": 3,
+    "opportunities": 10,
+    "general_interests": 10,
+    "major_developments": 5
+  },
+  "source_preferences": [],
+  "enabled_cards": [
+    "alerts",
+    "interest",
+    "intelligence",
+    "opportunity",
+    "hidden_gems"
+  ],
+  "interest_locations": {},
+  "standing_instructions": "anything to do with the apartments and residential construction industry in australia",
+  "temporary_directives": [],
+  "suppressions": []
+}

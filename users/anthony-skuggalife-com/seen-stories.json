@@ -1,0 +1,47 @@
+{
+  "_note": "anti-repetition memory",
+  "stories": [
+    {
+      "id": "australia-property-price-downturn-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "alerts",
+      "summary": "House and unit prices fall together nationally for first time in 3+ years",
+      "status": "active"
+    },
+    {
+      "id": "nsw-fast-track-da-grants-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "alerts",
+      "summary": "NSW $54m grants for councils cutting development-assessment times",
+      "status": "active"
+    },
+    {
+      "id": "trump-tariff-escalation-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "major",
+      "summary": "50% Canada tariffs plus new 60-country tariff regime replacing 10% temp levies",
+      "status": "active"
+    },
+    {
+      "id": "australia-ai-decision-making-rules-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "major",
+      "summary": "Labor's national AI plan curbs automated govt decision-making",
+      "status": "active"
+    },
+    {
+      "id": "macquarie-sydney-data-centre-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "major",
+      "summary": "Macquarie Technology secures land for AUD 3bn Sydney data centre",
+      "status": "active"
+    },
+    {
+      "id": "us-midterm-primaries-2026-07",
+      "first_briefed": "2026-07-23",
+      "section": "major",
+      "summary": "Mamdani-backed candidates win NY primaries; Senate math for Dems",
+      "status": "active"
+    }
+  ]
+}
