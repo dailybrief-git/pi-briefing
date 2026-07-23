@@ -15,9 +15,7 @@
       "tourism",
       "coffee"
     ],
-    "watch_topics": [
-      "LLM benchmarks"
-    ]
+    "watch_topics": []
   },
   "personal_interests": [
     {
@@ -56,7 +54,7 @@
       "weight": null
     },
     {
-      "name": "longevity",
+      "name": "Longevity",
       "note": null,
       "weight": null
     },
@@ -82,41 +80,6 @@
     },
     {
       "name": "Local property",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "city_news",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "f1",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "food_drink",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "ev_transition",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "science_breakthroughs",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "tech_products",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "real_estate_local",
       "note": null,
       "weight": null
     }

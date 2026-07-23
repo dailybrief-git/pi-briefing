@@ -1715,6 +1715,111 @@
       "section": "gems",
       "summary": "Chiang Rai officials inspect ฿52M Mae Suai infrastructure projects",
       "status": "active"
+    },
+    {
+      "id": "anthropic-amd-2gw-gpu-deal",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "Anthropic commits to up to 2GW of AMD Instinct MI450 GPUs",
+      "status": "active"
+    },
+    {
+      "id": "openai-presence-launch",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "OpenAI launches Presence, a self-improving enterprise agent platform",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-azure-ai-hpc-amd-expansion",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "Microsoft expands Azure AI/HPC with new AMD-powered instances",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ode-jv-launch",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "Anthropic-backed Ode launches as $1.5B enterprise-implementation JV",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-k3-model",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 claims to beat OpenAI/Anthropic on some benchmarks",
+      "status": "active"
+    },
+    {
+      "id": "ev-market-slump-q1-writedowns",
+      "first_briefed": "2026-07-24",
+      "section": "major",
+      "summary": "EV makers book ~$70B writedowns as Q1 deliveries fall 27%",
+      "status": "active"
+    },
+    {
+      "id": "csiro-chiangmai-if4s-functional-food-grant",
+      "first_briefed": "2026-07-24",
+      "section": "opportunities",
+      "summary": "CSIRO-Chiang Mai University grant for functional food commercialisation",
+      "status": "active"
+    },
+    {
+      "id": "melia-chiangmai-sustainability",
+      "first_briefed": "2026-07-24",
+      "section": "opportunities",
+      "summary": "Meliá Chiang Mai expands sustainability/local-sourcing programme",
+      "status": "active"
+    },
+    {
+      "id": "yope-social-app-funding",
+      "first_briefed": "2026-07-24",
+      "section": "startups",
+      "summary": "Yope raises $12.3M for algorithm-free private social app",
+      "status": "active"
+    },
+    {
+      "id": "gritt-robotics-ai-funding",
+      "first_briefed": "2026-07-24",
+      "section": "startups",
+      "summary": "Gritt launches with $32.4M for robotics + AI infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-quantum-chip-build-recap",
+      "first_briefed": "2026-07-24",
+      "section": "gems",
+      "summary": "Microsoft touts quantum chip breakthrough alongside AI hardware push",
+      "status": "active"
+    },
+    {
+      "id": "tesla-summer-update-grok-voice",
+      "first_briefed": "2026-07-24",
+      "section": "companies",
+      "summary": "Tesla 2026 Summer Update adds Grok voice control",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-v14-lite-hw3",
+      "first_briefed": "2026-07-24",
+      "section": "companies",
+      "summary": "FSD v14 Lite rolls out to HW3 vehicles",
+      "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-small-business-program",
+      "first_briefed": "2026-07-24",
+      "section": "companies",
+      "summary": "OpenAI introduces ChatGPT for Small Business program",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-for-teachers",
+      "first_briefed": "2026-07-24",
+      "section": "companies",
+      "summary": "Anthropic launches Claude for Teachers",
+      "status": "active"
     }
   ]
 }

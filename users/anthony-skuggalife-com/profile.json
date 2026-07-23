@@ -13,145 +13,73 @@
       "Climate"
     ],
     "watch_topics": [
-      "Interest rates"
+      "Food & drink",
+      "Live music"
     ]
   },
   "personal_interests": [
     {
       "name": "Markets & macro",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Rules & regulation",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Currencies & FX",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Executive moves",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Australia",
       "note": null,
-      "weight": null
+      "weight": 4
     },
     {
       "name": "Trade & tariffs",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Sports (general)",
       "note": null,
-      "weight": null
+      "weight": 1
     },
     {
       "name": "Outdoors & adventure",
       "note": null,
-      "weight": null
+      "weight": 1
     },
     {
       "name": "Food & drink",
       "note": null,
-      "weight": null
-    },
-    {
-      "name": "Home & interiors",
-      "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Schools & education",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Film & TV",
       "note": null,
-      "weight": null
+      "weight": 3
     },
     {
       "name": "Live music",
       "note": null,
-      "weight": null
-    },
-    {
-      "name": "markets_macro",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "industry_regulation",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "currencies",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "exec_moves",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "country_news",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "trade",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "sports_general",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "outdoors",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "food_drink",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "home_design",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "schools_edu",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "film_tv",
-      "note": null,
-      "weight": null
-    },
-    {
-      "name": "music_live",
-      "note": null,
-      "weight": null
+      "weight": 2
     }
   ],
-  "intelligence_topics": [
-    "Macro economy",
-    "Elections"
-  ],
+  "intelligence_topics": [],
   "company_watchlist": {
     "companies": [
       "lend lease",
