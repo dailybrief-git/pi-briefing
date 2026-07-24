@@ -1,0 +1,185 @@
+{
+  "owner_name": "ozzxy Guy New York",
+  "email": "ozzzguy@gmail.com",
+  "location": {
+    "region": "New York",
+    "country": "United States",
+    "timezone": "America/New_York"
+  },
+  "business": {
+    "sectors": [],
+    "watch_topics": [
+      "Your country & national politics",
+      "Local news — your city",
+      "Major world events",
+      "EdTech & classroom tools",
+      "Student wellbeing",
+      "Fitness & outdoors",
+      "Ed-policy votes"
+    ]
+  },
+  "personal_interests": [
+    {
+      "name": "Your country & national politics",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Local news — your city",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Major world events",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Cost of living & personal money",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Weather & environment",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Your subject area",
+      "note": null,
+      "weight": 4
+    },
+    {
+      "name": "Curriculum & policy",
+      "note": null,
+      "weight": 3
+    },
+    {
+      "name": "EdTech & classroom tools",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Student wellbeing",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Assessment & exams",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Funding & grants",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Local school news",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Research in your field",
+      "note": null,
+      "weight": 4
+    },
+    {
+      "name": "Running & Marathon Science",
+      "note": null,
+      "weight": 4
+    },
+    {
+      "name": "New Theater Plays",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "NBA",
+      "note": "latest results and major player moves",
+      "weight": 3
+    },
+    {
+      "name": "Fly Fishing",
+      "note": null,
+      "weight": 4
+    },
+    {
+      "name": "France Travel",
+      "note": "wine events in france",
+      "weight": 3
+    },
+    {
+      "name": "Fitness & outdoors",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Ed-policy votes",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "new york politics",
+      "note": "mayor elections",
+      "weight": 4
+    },
+    {
+      "name": "predictions on nba results",
+      "note": null,
+      "weight": 3
+    }
+  ],
+  "intelligence_topics": [
+    "Running & Marathon Science",
+    "New Theater Plays",
+    "Fly Fishing"
+  ],
+  "company_watchlist": {
+    "companies": [
+      "spacex"
+    ]
+  },
+  "startup_radar": {
+    "spaces": []
+  },
+  "podcasts": {
+    "shows": [
+      "joe rogan"
+    ]
+  },
+  "alert_topics": [],
+  "deprioritize": [],
+  "attention_budget": {
+    "alerts": 5,
+    "podcasts": 3,
+    "hidden_gems": 3,
+    "opportunities": 3,
+    "general_interests": 5,
+    "major_developments": 7
+  },
+  "source_preferences": [],
+  "enabled_cards": [
+    "alerts",
+    "interest",
+    "intelligence",
+    "opportunity",
+    "hidden_gems"
+  ],
+  "interest_locations": {
+    "NBA": "latest results and major player moves",
+    "France Travel": "wine events in france",
+    "new york politics": "mayor elections"
+  },
+  "standing_instructions": "",
+  "temporary_directives": [],
+  "suppressions": [
+    {
+      "kind": "topic",
+      "target": "celebrity gossip",
+      "weight": 1,
+      "reason": "user_mute",
+      "created_at": "2026-07-24T02:12:03.140853+00:00"
+    }
+  ]
+}

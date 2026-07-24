@@ -15,73 +15,87 @@
       "tourism",
       "coffee"
     ],
-    "watch_topics": []
+    "watch_topics": [
+      "Quantum computing",
+      "Ai",
+      "Chiang Mai",
+      "infrastructure development",
+      "Formula 1",
+      "Food & drink",
+      "EVs & mobility",
+      "Longevity",
+      "new film releases",
+      "new business ideas",
+      "Science breakthroughs",
+      "Consumer tech",
+      "Local property"
+    ]
   },
   "personal_interests": [
     {
       "name": "Quantum computing",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Ai",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Chiang Mai",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "infrastructure development",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Formula 1",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Food & drink",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "EVs & mobility",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Longevity",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "new film releases",
-      "note": null,
-      "weight": null
+      "note": "only for Hollywood action movies",
+      "weight": 2
     },
     {
       "name": "new business ideas",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Science breakthroughs",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Consumer tech",
       "note": null,
-      "weight": null
+      "weight": 2
     },
     {
       "name": "Local property",
       "note": null,
-      "weight": null
+      "weight": 2
     }
   ],
   "intelligence_topics": [],
@@ -91,15 +105,13 @@
       "Tesla",
       "facebook",
       "anthropic",
-      "openai"
-    ]
-  },
-  "startup_radar": {
-    "spaces": [
-      "Anthropic",
+      "openai",
       "business intelligence",
       "news apps"
     ]
+  },
+  "startup_radar": {
+    "spaces": []
   },
   "podcasts": {
     "shows": [
@@ -140,7 +152,9 @@
     "opportunity",
     "hidden_gems"
   ],
-  "interest_locations": {},
+  "interest_locations": {
+    "new film releases": "only for Hollywood action movies"
+  },
   "standing_instructions": "",
   "temporary_directives": [],
   "suppressions": [

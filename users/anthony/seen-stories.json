@@ -1820,6 +1820,83 @@
       "section": "companies",
       "summary": "Anthropic launches Claude for Teachers",
       "status": "active"
+    },
+    {
+      "id": "tesla-q2-2026-earnings-miss",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Tesla Q2 2026 earnings miss, stock -12%, negative FCF",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-azure-amd-mi455x",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Microsoft expands Azure AI/HPC with AMD Helios ND MI455X v7",
+      "status": "active"
+    },
+    {
+      "id": "facebook-tiktok-style-test",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Facebook testing TikTok-style default video app mode",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-k3-launch",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 claims to beat OpenAI/Anthropic on some benchmarks",
+      "status": "active"
+    },
+    {
+      "id": "quantum-laptop-tensor-network",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Laptop with tensor networks solves problem thought to need quantum computer",
+      "status": "active"
+    },
+    {
+      "id": "thailand-china-rail-seaport-pivot",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "Thailand pivots transport policy to China rail/seaports over Land Bridge",
+      "status": "active"
+    },
+    {
+      "id": "kfc-thailand-stores-sale",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "ThaiBev reportedly weighing sale of 500+ KFC Thailand stores",
+      "status": "active"
+    },
+    {
+      "id": "ppp-infrastructure-q3-cabinet",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "Thai PPP infrastructure pipeline heading to cabinet by Q3 2026",
+      "status": "active"
+    },
+    {
+      "id": "sizzler-chiangmai-debut",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "Sizzler launches new concept in Chiang Mai, first for Northern Thailand",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-property-yields",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "Chiang Mai property yields outperform Bangkok, competitive with Phuket",
+      "status": "active"
+    },
+    {
+      "id": "thailand-bar-fire-safety-scrutiny",
+      "first_briefed": "2026-07-25",
+      "section": "alerts",
+      "summary": "Ongoing scrutiny of Thailand bar fire that killed 27, venue safety focus",
+      "status": "active"
     }
   ]
 }

@@ -77,6 +77,34 @@
       "section": "opportunities",
       "summary": "Apple Upgrade leasing programme with Klarna launches 28 Jul",
       "status": "active"
+    },
+    {
+      "id": "sydney-housing-masterplans-2026-07",
+      "first_briefed": "2026-07-25",
+      "section": "alerts",
+      "summary": "Bondi Junction/Brookvale/Gladesville masterplans spark height backlash",
+      "status": "active"
+    },
+    {
+      "id": "sydney-greenways-proposal-2026-07",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Committee for Sydney pitches Greenways park/waterway network",
+      "status": "active"
+    },
+    {
+      "id": "ai-startup-asx-listing-prep-2026-07",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "AI start-up hires Macquarie/Spark execs ahead of ASX listing",
+      "status": "active"
+    },
+    {
+      "id": "gritt-infrastructure-robotics-funding-2026-07",
+      "first_briefed": "2026-07-25",
+      "section": "opportunities",
+      "summary": "Gritt launches with $32.4m for robotics-AI infrastructure buildout",
+      "status": "active"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "_note": "anti-repetition memory",
+  "stories": [
+    {
+      "id": "spacex-s1-ipo-filing",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "SpaceX files S-1 with SEC, formalizing IPO track",
+      "status": "active"
+    },
+    {
+      "id": "starlink-v5-terminal-ship",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "Starlink V5 terminal begins shipping, smaller/more efficient",
+      "status": "active"
+    },
+    {
+      "id": "sub-2hr-marathon-london-2026",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "First legal sub-2-hour marathons run at London 2026 by Sawe and Kejelcha",
+      "status": "active"
+    },
+    {
+      "id": "disparate-impact-rule-rescinded",
+      "first_briefed": "2026-07-25",
+      "section": "alerts",
+      "summary": "Education Dept rescinds disparate-impact civil rights standard for schools",
+      "status": "active"
+    },
+    {
+      "id": "new-tariffs-60-countries",
+      "first_briefed": "2026-07-25",
+      "section": "alerts",
+      "summary": "New 10-12.5% tariffs imposed on imports from ~60 countries over forced-labor enforcement",
+      "status": "active"
+    },
+    {
+      "id": "uh-core-curriculum-cut-texas-law",
+      "first_briefed": "2026-07-25",
+      "section": "major",
+      "summary": "University of Houston may cut ~40% of core curriculum under new Texas law",
+      "status": "active"
+    }
+  ]
+}
