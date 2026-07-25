@@ -42,6 +42,55 @@
       "section": "major",
       "summary": "University of Houston may cut ~40% of core curriculum under new Texas law",
       "status": "active"
+    },
+    {
+      "id": "trump-af1-iran-threat",
+      "first_briefed": "2026-07-26",
+      "section": "alerts",
+      "summary": "Trump diverted to backup Air Force One over credible Iran threat at NATO summit",
+      "status": "active"
+    },
+    {
+      "id": "israel-west-bank-operation",
+      "first_briefed": "2026-07-26",
+      "section": "alerts",
+      "summary": "Israel prepares major West Bank operation after deadly clashes",
+      "status": "active"
+    },
+    {
+      "id": "spacex-supermicro-datacenter-surge",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Super Micro stock +15% on SpaceX/xAI datacenter order, first commercial signal beyond S-1",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-nycedc-appointment",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Mayor Mamdani appoints Anthony Shorris as NYCEDC President & CEO",
+      "status": "active"
+    },
+    {
+      "id": "edtech-top-companies-2026",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "TIME/Statista 2026 Top EdTech Companies list led by Duolingo",
+      "status": "active"
+    },
+    {
+      "id": "nc-literacy-policy-update",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "UNC System begins district-level implementation of NC literacy reform",
+      "status": "active"
+    },
+    {
+      "id": "imagi-edtech-funding",
+      "first_briefed": "2026-07-26",
+      "section": "opportunities",
+      "summary": "Imagi raises $4.5M for AI 'vibe coding' edtech platform",
+      "status": "active"
     }
   ]
 }

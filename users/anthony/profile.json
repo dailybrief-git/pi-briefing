@@ -20,7 +20,6 @@
       "Ai",
       "Chiang Mai",
       "infrastructure development",
-      "Formula 1",
       "Food & drink",
       "EVs & mobility",
       "Longevity",
@@ -28,7 +27,9 @@
       "new business ideas",
       "Science breakthroughs",
       "Consumer tech",
-      "Local property"
+      "Local property",
+      "chocolate",
+      "supplements"
     ]
   },
   "personal_interests": [
@@ -55,11 +56,11 @@
     {
       "name": "Formula 1",
       "note": null,
-      "weight": 2
+      "weight": 4
     },
     {
       "name": "Food & drink",
-      "note": null,
+      "note": "functional foods",
       "weight": 2
     },
     {
@@ -96,6 +97,26 @@
       "name": "Local property",
       "note": null,
       "weight": 2
+    },
+    {
+      "name": "rc boats",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Cars",
+      "note": null,
+      "weight": 3
+    },
+    {
+      "name": "chocolate",
+      "note": "new uses or brands",
+      "weight": 2
+    },
+    {
+      "name": "supplements",
+      "note": null,
+      "weight": 2
     }
   ],
   "intelligence_topics": [],
@@ -130,7 +151,7 @@
   ],
   "attention_budget": {
     "alerts": 3,
-    "podcasts": 6,
+    "podcasts": 8,
     "hidden_gems": 4,
     "opportunities": 5,
     "general_interests": 5,
@@ -153,7 +174,9 @@
     "hidden_gems"
   ],
   "interest_locations": {
-    "new film releases": "only for Hollywood action movies"
+    "food_drink": "functional foods",
+    "new film releases": "only for Hollywood action movies",
+    "chocolate": "new uses or brands"
   },
   "standing_instructions": "",
   "temporary_directives": [],
@@ -164,6 +187,27 @@
       "weight": 1,
       "reason": "write_back_favor",
       "created_at": "2026-07-19T11:14:44.884192+00:00"
+    },
+    {
+      "kind": "topic",
+      "target": "celebrity gossip",
+      "weight": 1,
+      "reason": "user_mute",
+      "created_at": "2026-07-25T01:43:07.720494+00:00"
+    },
+    {
+      "kind": "topic",
+      "target": "crime",
+      "weight": 1,
+      "reason": "user_mute",
+      "created_at": "2026-07-25T01:43:11.604456+00:00"
+    },
+    {
+      "kind": "topic",
+      "target": "politics",
+      "weight": 1,
+      "reason": "user_mute",
+      "created_at": "2026-07-25T01:43:18.095162+00:00"
     }
   ]
 }

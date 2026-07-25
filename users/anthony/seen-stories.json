@@ -1897,6 +1897,90 @@
       "section": "alerts",
       "summary": "Ongoing scrutiny of Thailand bar fire that killed 27, venue safety focus",
       "status": "active"
+    },
+    {
+      "id": "claude-opus-5-launch",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Anthropic launches Claude Opus 5, near-Fable-5 performance at half price",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-k3-rattles-market",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 claims to beat OpenAI/Anthropic, triggers chip-stock rout",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-mai-models-quantum-chip",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Microsoft ships 7 MAI models plus quantum-chip milestone at Build",
+      "status": "active"
+    },
+    {
+      "id": "openai-presence-enterprise-agent",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "OpenAI launches Presence enterprise agent product; hardware speaker still pending",
+      "status": "active"
+    },
+    {
+      "id": "facebook-tiktok-video-pivot",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Facebook tests TikTok-style full-screen video default, demotes Classic Feed",
+      "status": "active"
+    },
+    {
+      "id": "ev-market-slowdown-2026",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "US EV deliveries down 27% in Q1, ~$70B in industry write-downs",
+      "status": "active"
+    },
+    {
+      "id": "longevity-phosphatidylcholine-thymus",
+      "first_briefed": "2026-07-26",
+      "section": "major",
+      "summary": "Phosphatidylcholine mitochondria fix and thymus-longevity link identified",
+      "status": "active"
+    },
+    {
+      "id": "thailand-bacterial-infection-warning",
+      "first_briefed": "2026-07-26",
+      "section": "alerts",
+      "summary": "DDC warns rainy-season bacterial infections have killed 100+ in Thailand",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-nominee-raid-phase5",
+      "first_briefed": "2026-07-26",
+      "section": "alerts",
+      "summary": "Chiang Mai nominee-company crackdown Phase 5 raids 31 firms, 18 sites",
+      "status": "active"
+    },
+    {
+      "id": "chengdu-chiangmai-flight-restoration",
+      "first_briefed": "2026-07-26",
+      "section": "opportunities",
+      "summary": "Thai-China talks discuss restoring Chengdu-Chiang Mai flight route",
+      "status": "active"
+    },
+    {
+      "id": "thailand-ppp-infra-q2-update",
+      "first_briefed": "2026-07-26",
+      "section": "opportunities",
+      "summary": "Thailand PPP infrastructure pipeline advances toward Q3 cabinet submission",
+      "status": "active"
+    },
+    {
+      "id": "thaibev-kfc-thailand-sale",
+      "first_briefed": "2026-07-26",
+      "section": "opportunities",
+      "summary": "ThaiBev reportedly weighing sale of 500+ KFC Thailand stores",
+      "status": "active"
     }
   ]
 }
