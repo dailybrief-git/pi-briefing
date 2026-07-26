@@ -1981,6 +1981,62 @@
       "section": "opportunities",
       "summary": "ThaiBev reportedly weighing sale of 500+ KFC Thailand stores",
       "status": "active"
+    },
+    {
+      "id": "kimi-k3-chip-stock-rout",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 tops coding benchmarks cheaply, triggers US chip stock rout",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-mai-quantum",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Microsoft unveils MAI model family, Scout agent and quantum chip breakthrough at Build",
+      "status": "active"
+    },
+    {
+      "id": "tesla-summer-update-grok-fsd14-lite",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Tesla 2026 Summer Update deepens Grok integration; FSD v14 Lite wide release",
+      "status": "active"
+    },
+    {
+      "id": "facebook-fullscreen-video-test",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Facebook tests TikTok-style full-screen video default, demotes Classic Feed",
+      "status": "active"
+    },
+    {
+      "id": "classical-algo-beats-quantum-claim",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Tensor-network method on ordinary laptop solves problem thought to need quantum computer",
+      "status": "active"
+    },
+    {
+      "id": "thailand-ddc-bacterial-infection-warning",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "Thailand DDC warns rainy-season bacterial infections have killed 100+",
+      "status": "active"
+    },
+    {
+      "id": "ovs-chiangmai-wine-distribution-centre",
+      "first_briefed": "2026-07-27",
+      "section": "opportunities",
+      "summary": "OVS opens quality wine distribution centre for Chiang Mai hospitality trade",
+      "status": "active"
+    },
+    {
+      "id": "thaibev-kfc-thailand-sale-weighing",
+      "first_briefed": "2026-07-27",
+      "section": "opportunities",
+      "summary": "ThaiBev reportedly weighing sale of 500+ KFC Thailand stores",
+      "status": "active"
     }
   ]
 }

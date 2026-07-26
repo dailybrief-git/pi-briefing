@@ -91,6 +91,76 @@
       "section": "opportunities",
       "summary": "Imagi raises $4.5M for AI 'vibe coding' edtech platform",
       "status": "active"
+    },
+    {
+      "id": "us-iran-strikes-pause",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "US and Iran hold fire for second day after two-week strike exchange",
+      "status": "active"
+    },
+    {
+      "id": "manhattan-stabbing-attack",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "Manhattan stabbing attack injures two, suspect shouted religious phrase",
+      "status": "active"
+    },
+    {
+      "id": "cyclospora-outbreak-expand",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "Cyclospora outbreak tied to lettuce expands to 4 more states, nears 2,000 cases",
+      "status": "active"
+    },
+    {
+      "id": "trump-saudi-nuclear-condition",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "Trump adds Abraham Accords condition to signed Saudi nuclear deal",
+      "status": "active"
+    },
+    {
+      "id": "congress-recess-disapproval",
+      "first_briefed": "2026-07-27",
+      "section": "alerts",
+      "summary": "Congress departs for five-week recess amid record disapproval",
+      "status": "active"
+    },
+    {
+      "id": "spacex-earnings-share-unlock",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "SpaceX sets earnings date triggering first post-IPO share unlock; Starship launch planned",
+      "status": "active"
+    },
+    {
+      "id": "edtech-tool-sprawl-instructure",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Instructure report: districts average 3,001 available tools, only ~4 used regularly",
+      "status": "active"
+    },
+    {
+      "id": "marathon-sub155-projection",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Analysts project sub-1:55 marathon possible after London's sub-2:00 breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "ny-infrastructure-vs-alberta",
+      "first_briefed": "2026-07-27",
+      "section": "major",
+      "summary": "Hochul's $58M LI road investment contrasts with report of NY losing data-center projects to Alberta",
+      "status": "active"
+    },
+    {
+      "id": "edtech-consolidation-opportunity",
+      "first_briefed": "2026-07-27",
+      "section": "opportunities",
+      "summary": "Hypothesis: district tool-sprawl data favors edtech consolidation/analytics vendors",
+      "status": "active"
     }
   ]
 }
