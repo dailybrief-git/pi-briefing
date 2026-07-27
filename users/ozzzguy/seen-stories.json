@@ -161,6 +161,62 @@
       "section": "opportunities",
       "summary": "Hypothesis: district tool-sprawl data favors edtech consolidation/analytics vendors",
       "status": "active"
+    },
+    {
+      "id": "berlin-pride-attack-shot",
+      "first_briefed": "2026-07-28",
+      "section": "alerts",
+      "summary": "Berlin Pride attack suspect shot dead by police after manhunt",
+      "status": "active"
+    },
+    {
+      "id": "us-iran-talks-progress-signal",
+      "first_briefed": "2026-07-28",
+      "section": "alerts",
+      "summary": "US-Iran ceasefire holds; Trump admin signals room for talks over strikes",
+      "status": "active"
+    },
+    {
+      "id": "oregon-fire-firefighter-deaths",
+      "first_briefed": "2026-07-28",
+      "section": "alerts",
+      "summary": "Fourth firefighter dies fighting Oregon blaze this fire season",
+      "status": "active"
+    },
+    {
+      "id": "trump-michigan-economic-trip",
+      "first_briefed": "2026-07-28",
+      "section": "alerts",
+      "summary": "Trump travels to Michigan to promote economic agenda amid price concerns",
+      "status": "active"
+    },
+    {
+      "id": "nyc-groceries-rfp",
+      "first_briefed": "2026-07-28",
+      "section": "major",
+      "summary": "NYCEDC issues RFP for private operator of city grocery affordability initiative",
+      "status": "active"
+    },
+    {
+      "id": "spacex-crew13-nasa-mission",
+      "first_briefed": "2026-07-28",
+      "section": "major",
+      "summary": "NASA confirms Crew-13 operations continuing on SpaceX vehicle",
+      "status": "active"
+    },
+    {
+      "id": "theater-awake-and-sing-revival",
+      "first_briefed": "2026-07-28",
+      "section": "major",
+      "summary": "Broadway revival of Odets' Awake and Sing! confirmed for Dec 2026 previews",
+      "status": "active"
+    },
+    {
+      "id": "marathon-sub155-hypothesis",
+      "first_briefed": "2026-07-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: shoe-tech gains could enable sub-1:55 marathon sooner than expected",
+      "status": "active"
     }
   ]
 }
