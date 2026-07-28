@@ -2114,6 +2114,90 @@
       "section": "gems",
       "summary": "Yi Peng Lantern Festival dates confirmed for 24-25 Nov 2026",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-ovs-wine-distribution",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "OVS opens quality-wine distribution hub in Chiang Mai for hotels/restaurants/bars",
+      "status": "active"
+    },
+    {
+      "id": "thaibev-kfc-thailand-sale-mulled",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "ThaiBev reportedly weighing sale of 500+ KFC Thailand stores",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-highway-1020-upgrade",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "Highway 1020 upgrade in Chiang Rai advances Laos-China trade route",
+      "status": "active"
+    },
+    {
+      "id": "robotaxi-infrastructure-investment-rush",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "PE firms treat robotaxi depots as new infrastructure asset class",
+      "status": "active"
+    },
+    {
+      "id": "altman-ai-singularity-comment",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Altman says AI has entered a 'singularity' moment",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-opus-5-launch",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Anthropic launches Claude Opus 5, cheaper/faster than Fable 5",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-project-perception-cybersec-ai",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Microsoft launches cybersecurity AI claiming to beat rivals",
+      "status": "active"
+    },
+    {
+      "id": "thailand-land-bridge-paused-hsr-china-2030",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Thailand pauses $28B Land Bridge, targets 2030 China HSR",
+      "status": "active"
+    },
+    {
+      "id": "tesla-summer-update-opensource-models",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Tesla Summer Update adds video conferencing; open-sources Model S/X",
+      "status": "active"
+    },
+    {
+      "id": "moonshot-kimi-k3-ai-catchup",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Moonshot AI's Kimi K3 narrows gap with OpenAI/Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-nominee-business-raid",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "250+ officers raid 18 Chiang Mai sites in nominee-business crackdown",
+      "status": "active"
+    },
+    {
+      "id": "ai-stock-tumble-chips-spending",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Nasdaq slides on AI-spending and China-chip worries",
+      "status": "active"
     }
   ]
 }

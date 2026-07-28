@@ -217,6 +217,90 @@
       "section": "opportunities",
       "summary": "Hypothesis: shoe-tech gains could enable sub-1:55 marathon sooner than expected",
       "status": "active"
+    },
+    {
+      "id": "heat-dome-grid-stress-2026",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Heat dome strains power grid for ~130M Americans",
+      "status": "active"
+    },
+    {
+      "id": "oregon-wildfire-i84-closure",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Oregon wildfire closes 70 miles of interstate",
+      "status": "active"
+    },
+    {
+      "id": "kyushu-japan-earthquake",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Major earthquake hits Japan's Kyushu island",
+      "status": "active"
+    },
+    {
+      "id": "toronto-consulate-shooting",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Shooter fires at US consulate in Toronto, second incident this year",
+      "status": "active"
+    },
+    {
+      "id": "seattle-space-needle-shooting",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Gunfire exchanged near Seattle Space Needle food festival",
+      "status": "active"
+    },
+    {
+      "id": "ny-embodied-carbon-action-plan",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "NY Embodied Carbon Action Plan released for building/infrastructure emissions",
+      "status": "active"
+    },
+    {
+      "id": "cpi-june-2026-report",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "BLS releases June 2026 CPI data",
+      "status": "active"
+    },
+    {
+      "id": "iran-ukraine-caspian-collision",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Iran and Ukraine wars converge near world's largest lake per CNN",
+      "status": "active"
+    },
+    {
+      "id": "nyc-summer-streets-2026-return",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "NYC Summer Streets 2026 returns with adjusted borough hours",
+      "status": "active"
+    },
+    {
+      "id": "marathon-shoe-economy-data",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "Quantified 2.6-4.2% shoe-tech economy gain sharpens sub-1:55 marathon hypothesis",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-spectrum6-eval",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "SpaceX reportedly interested in Nvidia Spectrum-6 AI networking platform",
+      "status": "active"
+    },
+    {
+      "id": "edtech-ai-cheating-reckoning-opportunity",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "Educator reckoning over AI cheating may favor authentic-assessment edtech tools",
+      "status": "active"
     }
   ]
 }

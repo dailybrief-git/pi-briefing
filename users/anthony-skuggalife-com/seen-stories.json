@@ -161,6 +161,76 @@
       "section": "opportunities",
       "summary": "Apple's Klarna-backed device leasing programme formally launches",
       "status": "active"
+    },
+    {
+      "id": "nsw-planning-bypass-council-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Five Dock, Mona Vale, Stratford developments routed via state-significant pathways bypassing councils",
+      "status": "active"
+    },
+    {
+      "id": "bank-home-loan-review-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Regulator finds banks mishandling basics on 200,000+ home loans",
+      "status": "active"
+    },
+    {
+      "id": "petrol-price-rise-warning-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "alerts",
+      "summary": "Analysts warn of renewed petrol price rises in Australia",
+      "status": "active"
+    },
+    {
+      "id": "victoria-premier-allan-resigns-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Victorian Premier Jacinta Allan resigns amid leadership spill",
+      "status": "active"
+    },
+    {
+      "id": "merck-hiv-prep-access-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Merck outlines global access plan for once-monthly HIV PrEP pill",
+      "status": "active"
+    },
+    {
+      "id": "albanese-ai-copyright-pledge-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Albanese reaffirms AI copyright payment laws",
+      "status": "active"
+    },
+    {
+      "id": "transport-nsw-pipeline-expansion-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Transport for NSW expands published infrastructure project pipeline",
+      "status": "active"
+    },
+    {
+      "id": "yen-40-year-low-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "major",
+      "summary": "Yen hits 40-year low against the US dollar",
+      "status": "active"
+    },
+    {
+      "id": "science-corp-vision-chip-eu-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "Science Corporation's vision-restoring chip wins EU approval",
+      "status": "active"
+    },
+    {
+      "id": "yc-proptech-construction-startups-2026-07",
+      "first_briefed": "2026-07-29",
+      "section": "opportunities",
+      "summary": "YC-backed proptech/construction startups (PARES, DigiBuild, concrete-estimating tool) surface",
+      "status": "active"
     }
   ]
 }
