@@ -231,6 +231,62 @@
       "section": "opportunities",
       "summary": "YC-backed proptech/construction startups (PARES, DigiBuild, concrete-estimating tool) surface",
       "status": "active"
+    },
+    {
+      "id": "inflation-eases-38pct-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "Australian inflation eases to 3.8%, reducing rate-rise odds",
+      "status": "active"
+    },
+    {
+      "id": "petrol-above-2dollar-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "Petrol prices climb back above $2/litre, described as sustained not one-off",
+      "status": "active"
+    },
+    {
+      "id": "asic-offset-account-failures-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "ASIC chair details bank offset-account failures on 200,000+ loans (development)",
+      "status": "active"
+    },
+    {
+      "id": "nsw-project-swift-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "NSW launches Project Swift to fast-track road project delivery",
+      "status": "active"
+    },
+    {
+      "id": "tariff-economic-impact-analysis-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Tax Foundation quantifies tariff revenue vs GDP drag (development on tariff story)",
+      "status": "active"
+    },
+    {
+      "id": "fixxly-construction-materials-funding-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Fixxly raises $5.5m seed for construction materials procurement platform",
+      "status": "active"
+    },
+    {
+      "id": "hint-smart-home-startup-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Martha Stewart's Hint launches with $10m seed for AI home platform",
+      "status": "active"
+    },
+    {
+      "id": "gutgutgoose-australian-biotech-startup-2026-07",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Australian student-founded AI-biotech startup GutGutGoose joins Silicon Valley accelerator",
+      "status": "active"
     }
   ]
 }

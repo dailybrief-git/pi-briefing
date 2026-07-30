@@ -301,6 +301,55 @@
       "section": "opportunities",
       "summary": "Educator reckoning over AI cheating may favor authentic-assessment edtech tools",
       "status": "active"
+    },
+    {
+      "id": "x-money-us-launch",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "X Money launches nationally in US, tested against Bank of Elon thesis",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-carrier-bypass",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "SpaceX reportedly repositioning Starlink Mobile away from carrier-brokered model",
+      "status": "active"
+    },
+    {
+      "id": "burnham-uk-curriculum-business",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Burnham to direct England schools toward business-aligned curriculum",
+      "status": "active"
+    },
+    {
+      "id": "texas-sboe-reading-list-2026",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Texas SBOE finalizes mandatory K-12 reading list and social studies overhaul",
+      "status": "active"
+    },
+    {
+      "id": "marathon-metabolic-ceiling-study",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Study finds 2.5x BMR sustained-effort ceiling across endurance athletes",
+      "status": "active"
+    },
+    {
+      "id": "aei-absenteeism-tool",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "AEI launches predictive chronic-absenteeism tool for districts",
+      "status": "active"
+    },
+    {
+      "id": "heat-dome-third-wave-2026",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "Third heat dome of the month hits 70M Americans",
+      "status": "active"
     }
   ]
 }

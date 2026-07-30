@@ -2198,6 +2198,76 @@
       "section": "alerts",
       "summary": "Nasdaq slides on AI-spending and China-chip worries",
       "status": "active"
+    },
+    {
+      "id": "microsoft-ai-cybersecurity-launch",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Microsoft launches MAI-Cyber-1-Flash and Project Perception agentic cybersecurity system",
+      "status": "active"
+    },
+    {
+      "id": "zuckerberg-ai-centralization-comments",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Zuckerberg criticises Anthropic/OpenAI over AI power centralisation",
+      "status": "active"
+    },
+    {
+      "id": "thymus-longevity-immunotherapy",
+      "first_briefed": "2026-07-31",
+      "section": "major",
+      "summary": "Thymus organ research links to longevity and cancer immunotherapy response",
+      "status": "active"
+    },
+    {
+      "id": "ovs-wine-chiangmai-hub",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "OVS opens dedicated wine distribution hub in Chiang Mai for hotels/bars/restaurants",
+      "status": "active"
+    },
+    {
+      "id": "highway-1020-chiangrai-trade-upgrade",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Highway 1020 upgrade in Chiang Rai targets Laos-China trade flow, completion mid-2027",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ode-implementation-bet",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Anthropic-backed Ode launches enterprise AI implementation services, Blackstone-linked",
+      "status": "active"
+    },
+    {
+      "id": "chinese-cheap-ai-catchup",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Cheap Chinese AI model reported closing gap with Anthropic/OpenAI",
+      "status": "active"
+    },
+    {
+      "id": "facebook-fullscreen-video-pivot",
+      "first_briefed": "2026-07-31",
+      "section": "opportunities",
+      "summary": "Facebook testing TikTok-style full-screen video default, demoting Classic Feed",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-bar-fire-27-killed",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "Bangkok bar fire kills at least 27, safety scrutiny follows",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-hiv-cases-rise",
+      "first_briefed": "2026-07-31",
+      "section": "alerts",
+      "summary": "Chiang Mai HIV infections continue rising, ~700 new cases/year",
+      "status": "active"
     }
   ]
 }
