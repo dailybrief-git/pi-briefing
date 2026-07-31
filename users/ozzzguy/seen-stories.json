@@ -350,6 +350,41 @@
       "section": "alerts",
       "summary": "Third heat dome of the month hits 70M Americans",
       "status": "active"
+    },
+    {
+      "id": "iran-water-cyberattack-2026",
+      "first_briefed": "2026-08-01",
+      "section": "alerts",
+      "summary": "Iran-linked hackers suspected in water-system cyberattacks across 7+ states",
+      "status": "active"
+    },
+    {
+      "id": "nyc-eastside-highrise-structural-review",
+      "first_briefed": "2026-08-01",
+      "section": "alerts",
+      "summary": "NYC orders structural review of East Side high-rise after stability scare, developer faces lawsuits",
+      "status": "active"
+    },
+    {
+      "id": "starlink-v3-orbital-demo",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "First Starlink V3 satellites complete orbital demonstration",
+      "status": "active"
+    },
+    {
+      "id": "ca-school-funding-withheld-2026",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "California withholds $3.9B in school/community college funding for 2026-27",
+      "status": "active"
+    },
+    {
+      "id": "student-wellbeing-academic-pressure-study",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "Study links age-15 academic pressure to adult depressive symptoms",
+      "status": "active"
     }
   ]
 }

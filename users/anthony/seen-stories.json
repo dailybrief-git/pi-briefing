@@ -2268,6 +2268,111 @@
       "section": "alerts",
       "summary": "Chiang Mai HIV infections continue rising, ~700 new cases/year",
       "status": "active"
+    },
+    {
+      "id": "ibm-quantum-advantage-algorithmiq",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "IBM/Algorithmiq claim verified quantum advantage; earnings impact seen by 2028-29",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-project-perception-cyber-ai",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "Microsoft launches first cybersecurity AI model, Project Perception preview Aug 3",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-efficiency",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "OpenAI passes GPT-5.6 efficiency gains to customers via lower pricing",
+      "status": "active"
+    },
+    {
+      "id": "tesla-10-millionth-ev",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "Tesla builds 10 millionth EV, halfway to $1T pay-package milestone",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-spending-investor-pushback",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "Meta shares fall on investor concern over AI spending despite engagement gains",
+      "status": "active"
+    },
+    {
+      "id": "iea-ev-sales-forecast-29pct",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "IEA raises 2026 global EV sales forecast to 29% after Q2 rebound",
+      "status": "active"
+    },
+    {
+      "id": "ovs-chiangmai-wine-distribution",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "OVS opens Chiang Mai wine distribution centre for HORECA trade",
+      "status": "active"
+    },
+    {
+      "id": "chinese-wine-critic-consumption-shift",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "Chinese wine buyers shifting from investment to genuine consumption motive",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-highway-1020-laos-china",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "Highway 1020 Chiang Rai upgrade targets Laos-China trade, completes 2027",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-phitsanulok-hsr-proposal",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "Bangkok-Phitsanulok HSR proposed, construction targeted 2030",
+      "status": "active"
+    },
+    {
+      "id": "137pillars-chiangmai-boutique-luxury",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "Trade feature positions 137 Pillars House as Chiang Mai boutique luxury benchmark",
+      "status": "active"
+    },
+    {
+      "id": "meta-facebook-fullscreen-video-test",
+      "first_briefed": "2026-08-01",
+      "section": "companies",
+      "summary": "Meta tests full-screen video default on Facebook, feed to second tab",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ode-enterprise-launch",
+      "first_briefed": "2026-08-01",
+      "section": "companies",
+      "summary": "Anthropic backs Ode, forward-deployed-engineer enterprise AI venture with Blackstone",
+      "status": "active"
+    },
+    {
+      "id": "tesla-model-s-x-open-source",
+      "first_briefed": "2026-08-01",
+      "section": "companies",
+      "summary": "Tesla to open-source Model S and Model X designs and software",
+      "status": "active"
+    },
+    {
+      "id": "us-wine-volume-below-300m-cases",
+      "first_briefed": "2026-08-01",
+      "section": "markets",
+      "summary": "US wine case volume falls below 300M threshold for first time in 15+ years",
+      "status": "active"
     }
   ]
 }

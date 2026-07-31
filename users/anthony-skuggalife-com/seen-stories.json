@@ -287,6 +287,34 @@
       "section": "opportunities",
       "summary": "Australian student-founded AI-biotech startup GutGutGoose joins Silicon Valley accelerator",
       "status": "active"
+    },
+    {
+      "id": "csl-hae-phase3b-paediatric-2026-07",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "CSL posts positive Phase 3b HAE results in children aged 2-11",
+      "status": "active"
+    },
+    {
+      "id": "dimerix-fsgs-trial-update-2026-07",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "Dimerix presents Phase 3 FSGS trial update and AKI programme at TechKnow Invest Conference",
+      "status": "active"
+    },
+    {
+      "id": "nsw-road-safety-230m-2026-08",
+      "first_briefed": "2026-08-01",
+      "section": "major",
+      "summary": "NSW announces $230m for 83 road-safety projects, extending Project Swift",
+      "status": "active"
+    },
+    {
+      "id": "arrakis-construction-tech-funding-2026-08",
+      "first_briefed": "2026-08-01",
+      "section": "opportunities",
+      "summary": "Arrakis raises $30m Series A for construction materials tech",
+      "status": "active"
     }
   ]
 }
