@@ -385,6 +385,41 @@
       "section": "major",
       "summary": "Study links age-15 academic pressure to adult depressive symptoms",
       "status": "active"
+    },
+    {
+      "id": "congress-transit-funds-frozen",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Trump admin not disbursing appropriated transit grants incl. 2nd Ave Subway, Gateway Tunnel",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-coastal-resilience-expansion",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Mamdani expands Bureau of Coastal Resilience ahead of ESCR 2027 launch",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-acquisition-rumor",
+      "first_briefed": "2026-08-02",
+      "section": "opportunities",
+      "summary": "Unconfirmed report of $60B SPCX all-stock acquisition of Cursor plus AI infra contracts",
+      "status": "active"
+    },
+    {
+      "id": "marathon-carb-availability-study",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "New crossover study on carbohydrate availability and endocrine suppression in runners",
+      "status": "active"
+    },
+    {
+      "id": "colorado-river-water-deadlock",
+      "first_briefed": "2026-08-02",
+      "section": "alerts",
+      "summary": "Seven states fail to agree on Colorado River water-sharing plan amid drought",
+      "status": "active"
     }
   ]
 }

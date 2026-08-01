@@ -315,6 +315,41 @@
       "section": "opportunities",
       "summary": "Arrakis raises $30m Series A for construction materials tech",
       "status": "active"
+    },
+    {
+      "id": "aschenbrenner-ai-hedge-fund-meltdown-2026-07",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Leopold Aschenbrenner's AI-scaling hedge fund unwinds, per NYT",
+      "status": "active"
+    },
+    {
+      "id": "biotech-commercial-battle-squeeze-2026-08",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Newsweek: breakthrough biotech therapies losing commercial battle despite approvals",
+      "status": "active"
+    },
+    {
+      "id": "uk-schools-technical-subjects-reform-2026-08",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "England to teach AI/manufacturing subjects from age 14 under Burnham reforms",
+      "status": "active"
+    },
+    {
+      "id": "materialspace-construction-startup-2026-08",
+      "first_briefed": "2026-08-02",
+      "section": "opportunities",
+      "summary": "Israeli startup Materialspace raises funding for construction labour-automation",
+      "status": "active"
+    },
+    {
+      "id": "kmart-ai-hiring-chatbot-2026-08",
+      "first_briefed": "2026-08-02",
+      "section": "gems",
+      "summary": "Kmart AI hiring chatbot cuts recruitment time 75%",
+      "status": "active"
     }
   ]
 }

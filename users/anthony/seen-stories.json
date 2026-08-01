@@ -2373,6 +2373,76 @@
       "section": "markets",
       "summary": "US wine case volume falls below 300M threshold for first time in 15+ years",
       "status": "active"
+    },
+    {
+      "id": "anthropic-claude-opus-5",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Anthropic launches Claude Opus 5, cheaper/faster default model",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-project-perception-cyber",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Microsoft cybersecurity AI Project Perception enters public preview",
+      "status": "active"
+    },
+    {
+      "id": "meta-facebook-video-feed-test",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Meta tests TikTok-style full-screen video feed on Facebook",
+      "status": "active"
+    },
+    {
+      "id": "ai-spending-bubble-risk",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Washington Post flags AI capex spending as systemic economic risk",
+      "status": "active"
+    },
+    {
+      "id": "iea-ev-sales-forecast-2026",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "IEA raises 2026 global EV sales forecast to 29% share",
+      "status": "active"
+    },
+    {
+      "id": "tesla-summer-update-2026",
+      "first_briefed": "2026-08-02",
+      "section": "major",
+      "summary": "Tesla Summer Update adds Grok controls, video calls; Model S/X to open source",
+      "status": "active"
+    },
+    {
+      "id": "ovs-wine-chiangmai",
+      "first_briefed": "2026-08-02",
+      "section": "opportunities",
+      "summary": "OVS opens wine distribution centre in Chiang Mai for hotels/restaurants/bars",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-consumption-pivot",
+      "first_briefed": "2026-08-02",
+      "section": "opportunities",
+      "summary": "Chinese wine buyers shifting from investment to genuine consumption",
+      "status": "active"
+    },
+    {
+      "id": "thailand-bar-fire-safety",
+      "first_briefed": "2026-08-02",
+      "section": "alerts",
+      "summary": "Bangkok bar fire kills 27+, hospitality safety scrutiny likely",
+      "status": "active"
+    },
+    {
+      "id": "thailand-mpox-hiv-rise",
+      "first_briefed": "2026-08-02",
+      "section": "alerts",
+      "summary": "Mpox cases rising nationally, HIV rising in Chiang Mai",
+      "status": "active"
     }
   ]
 }
