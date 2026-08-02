@@ -2443,6 +2443,55 @@
       "section": "alerts",
       "summary": "Mpox cases rising nationally, HIV rising in Chiang Mai",
       "status": "active"
+    },
+    {
+      "id": "deepseek-price-war-model",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "DeepSeek's new bargain model accelerates AI pricing war",
+      "status": "active"
+    },
+    {
+      "id": "ibm-quantum-commercial-breakthrough",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "IBM CEO says quantum computing nears commercial breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "meta-shares-ai-spending-frustration",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "Meta shares fall as investors question AI capex despite Zuckerberg defense",
+      "status": "active"
+    },
+    {
+      "id": "silicon-quantum-chip-nature-review",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "Nature reviews two silicon-chip quantum processor scalability demonstrations",
+      "status": "active"
+    },
+    {
+      "id": "ovs-chiangmai-wine-center",
+      "first_briefed": "2026-08-03",
+      "section": "opportunities",
+      "summary": "OVS opens Chiang Mai wine distribution centre for hospitality trade",
+      "status": "active"
+    },
+    {
+      "id": "thailand-china-green-cooperation",
+      "first_briefed": "2026-08-03",
+      "section": "opportunities",
+      "summary": "Thailand-China deepen green finance and low-carbon infrastructure cooperation",
+      "status": "active"
+    },
+    {
+      "id": "zuriq-quantum-seed-round",
+      "first_briefed": "2026-08-03",
+      "section": "startups",
+      "summary": "ZuriQ raises $25.5M seed for 2D trapped-ion quantum hardware",
+      "status": "active"
     }
   ]
 }

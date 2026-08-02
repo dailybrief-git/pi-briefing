@@ -350,6 +350,48 @@
       "section": "gems",
       "summary": "Kmart AI hiring chatbot cuts recruitment time 75%",
       "status": "active"
+    },
+    {
+      "id": "silicon-valley-ai-open-weight-split-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "Chinese open-weight AI models spark Silicon Valley border-restriction debate, per The Daily",
+      "status": "active"
+    },
+    {
+      "id": "merit-medical-q2-beat-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "major",
+      "summary": "Merit Medical tops Q2 estimates, lifts outlook on View Point Medical integration",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-platform-overhaul-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "opportunities",
+      "summary": "Bloomberg confirms Apple's imminent major Home product push",
+      "status": "active"
+    },
+    {
+      "id": "ornl-cement-concrete-hub-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "opportunities",
+      "summary": "DOE launches ACCENT national cement/concrete innovation hub",
+      "status": "active"
+    },
+    {
+      "id": "haven-ai-mortgage-startup-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "opportunities",
+      "summary": "YC-backed Haven builds AI-native mortgage servicing platform",
+      "status": "active"
+    },
+    {
+      "id": "yen-boj-intervention-2026-08",
+      "first_briefed": "2026-08-03",
+      "section": "alerts",
+      "summary": "Yen surges on suspected BOJ intervention after 40-year low",
+      "status": "active"
     }
   ]
 }
