@@ -392,6 +392,48 @@
       "section": "alerts",
       "summary": "Yen surges on suspected BOJ intervention after 40-year low",
       "status": "active"
+    },
+    {
+      "id": "australia-housing-downturn-spreads-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "Housing downturn confirmed spreading to previously resilient record-high markets",
+      "status": "active"
+    },
+    {
+      "id": "yen-us-japan-coordinated-intervention-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "US Treasury confirms coordinated intervention with Japan to support yen",
+      "status": "active"
+    },
+    {
+      "id": "australia-media-levy-hike-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "Australia raises levy on tech giants avoiding local news-payment deals",
+      "status": "active"
+    },
+    {
+      "id": "trace-biosciences-axogen-investment-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "Trace Biosciences receives strategic investment from Axogen",
+      "status": "active"
+    },
+    {
+      "id": "interactive-cybersecurity-expansion-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "gems",
+      "summary": "Interactive expands cybersecurity business with new chief",
+      "status": "active"
+    },
+    {
+      "id": "census-2026-schedule-2026-08",
+      "first_briefed": "2026-08-04",
+      "section": "gems",
+      "summary": "2026 Census confirmed for 11 August with new identity questions",
+      "status": "active"
     }
   ]
 }

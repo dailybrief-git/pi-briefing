@@ -2492,6 +2492,48 @@
       "section": "startups",
       "summary": "ZuriQ raises $25.5M seed for 2D trapped-ion quantum hardware",
       "status": "active"
+    },
+    {
+      "id": "alibaba-qwen38-max-launch",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "Alibaba's Qwen3.8-Max claims benchmark parity with Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-cybersecurity-ai-model",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "Microsoft launches first cybersecurity AI model and Project Perception agentic system",
+      "status": "active"
+    },
+    {
+      "id": "meta-seller-app-launch",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "Meta launches standalone Marketplace Seller app, touts AI-accelerated app development",
+      "status": "active"
+    },
+    {
+      "id": "wine-investment-to-consumption-shift",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "Chinese wine buyers pivoting from investment speculation to genuine consumption",
+      "status": "active"
+    },
+    {
+      "id": "winery-crisis-resilience-narrative",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "Wine industry pushback on 'crisis' narrative, framed as resilience/innovation story",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-mice-conference-calendar",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "Chiang Mai's 2026-27 conference calendar fills with international events",
+      "status": "active"
     }
   ]
 }

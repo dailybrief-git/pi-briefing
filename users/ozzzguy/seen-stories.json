@@ -420,6 +420,90 @@
       "section": "alerts",
       "summary": "Seven states fail to agree on Colorado River water-sharing plan amid drought",
       "status": "active"
+    },
+    {
+      "id": "gaza-hamas-disarm-deal",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "Trump announces Gaza disarmament deal with Hamas, caveats over sequencing",
+      "status": "active"
+    },
+    {
+      "id": "twin-falls-shopping-shooting",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "Shopping-center shooting in Twin Falls, bystanders slow shooter",
+      "status": "active"
+    },
+    {
+      "id": "dnc-chair-turmoil",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "DNC chair Ken Martin faces internal party pressure",
+      "status": "active"
+    },
+    {
+      "id": "europe-drought-wildfires-2026",
+      "first_briefed": "2026-08-04",
+      "section": "alerts",
+      "summary": "Record English drought, wildfires in Greece and Provence",
+      "status": "active"
+    },
+    {
+      "id": "spacex-books-open-post-ipo",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "SpaceX discloses financials for first time since S-1 filing",
+      "status": "active"
+    },
+    {
+      "id": "falcon9-moon-debris-risk",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "Defunct Falcon 9 stage tracked toward possible Moon impact",
+      "status": "active"
+    },
+    {
+      "id": "nyc-lift-tracker-housing",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "Mamdani launches LIFT Tracker for affordable housing on city land",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-workforce-training",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "NYPA commits $40M to nuclear workforce training, issues RFQ",
+      "status": "active"
+    },
+    {
+      "id": "marathon-iten-kenya-feature",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "NYT feature on Iten, Kenya marathon training culture",
+      "status": "active"
+    },
+    {
+      "id": "seattle-cost-of-living-pain",
+      "first_briefed": "2026-08-04",
+      "section": "major",
+      "summary": "CNN report on acute cost-of-living pain in Seattle",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ipo-startup-wave",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "Fortune: SpaceX IPO spurring new wave of orbital startups",
+      "status": "active"
+    },
+    {
+      "id": "paypal-utah-bank-charter",
+      "first_briefed": "2026-08-04",
+      "section": "opportunities",
+      "summary": "PayPal files Utah bank charter, tests Bank of Elon thesis vs X Money",
+      "status": "active"
     }
   ]
 }
