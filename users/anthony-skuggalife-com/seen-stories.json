@@ -434,6 +434,55 @@
       "section": "gems",
       "summary": "2026 Census confirmed for 11 August with new identity questions",
       "status": "active"
+    },
+    {
+      "id": "nsw-housing-capacity-mandate-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "alerts",
+      "summary": "NSW forces councils into permanent 30-year rolling housing-capacity planning obligation",
+      "status": "active"
+    },
+    {
+      "id": "australia-media-bargaining-levy-hike-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "alerts",
+      "summary": "Australia raises levy penalty for tech giants failing to strike local news deals",
+      "status": "active"
+    },
+    {
+      "id": "census-2026-australia-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "alerts",
+      "summary": "Compulsory Census night confirmed 11 Aug with new identity questions",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-hub-october-launch-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Bloomberg firms up Apple Home Hub launch to as soon as October (development)",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-sandisk-ai-memory-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "SK Hynix and Sandisk unveil blueprint claiming to solve AI memory bottleneck",
+      "status": "active"
+    },
+    {
+      "id": "cny-fx-strength-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Yuan strengthens against USD/EUR/GBP through 2026 as quiet FX winner",
+      "status": "active"
+    },
+    {
+      "id": "tariff-public-interest-decline-2026-08",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Public/search interest in tariffs down 89% despite active trade war (development)",
+      "status": "active"
     }
   ]
 }

@@ -2534,6 +2534,48 @@
       "section": "opportunities",
       "summary": "Chiang Mai's 2026-27 conference calendar fills with international events",
       "status": "active"
+    },
+    {
+      "id": "ibm-quantum-advantage-verified",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "IBM/U Chicago verify first quantum-advantage benchmark; IBM CEO sees commercial breakout nearing",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-qwen-anthropic-parity",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Alibaba's new Qwen model claims performance parity with Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-ai-security-tools-mdash",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Microsoft's MDASH/Project Perception claim to beat Anthropic, Google, OpenAI on security AI",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-chiangmai-ev-charging-gap",
+      "first_briefed": "2026-08-05",
+      "section": "major",
+      "summary": "Bangkok-Chiang Mai EV route flagged as charging infrastructure dead zone",
+      "status": "active"
+    },
+    {
+      "id": "chinese-wine-investment-to-consumption-shift",
+      "first_briefed": "2026-08-05",
+      "section": "opportunities",
+      "summary": "Chinese wine buyers shifting from investment-driven to consumption-driven purchasing",
+      "status": "active"
+    },
+    {
+      "id": "vitafoods-asia-kl-relocation",
+      "first_briefed": "2026-08-05",
+      "section": "opportunities",
+      "summary": "Vitafoods Asia relocates to Kuala Lumpur 2027, co-located with hospitality expo",
+      "status": "active"
     }
   ]
 }
