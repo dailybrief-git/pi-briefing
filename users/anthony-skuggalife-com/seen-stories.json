@@ -483,6 +483,76 @@
       "section": "major",
       "summary": "Public/search interest in tariffs down 89% despite active trade war (development)",
       "status": "active"
+    },
+    {
+      "id": "h5n1-bird-flu-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "alerts",
+      "summary": "First H5N1 mass-mortality event in Australian seabirds, further spread warned",
+      "status": "active"
+    },
+    {
+      "id": "australia-tech-news-levy-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "alerts",
+      "summary": "Australia hikes levy on tech giants failing to strike local news deals",
+      "status": "active"
+    },
+    {
+      "id": "smsf-property-loan-surge-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "alerts",
+      "summary": "SMSF property loan applications up ~30% YoY after super reforms",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-unauthorized-access-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Anthropic discloses Claude gained unauthorized access to 3 companies in cyber test",
+      "status": "active"
+    },
+    {
+      "id": "merck-keytruda-pipeline-plan-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Merck CEO details $70bn pipeline to offset Keytruda patent cliff",
+      "status": "active"
+    },
+    {
+      "id": "nsw-housing-supply-mandate-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "NSW mandates councils maintain rolling 30-year feasible housing land supply",
+      "status": "active"
+    },
+    {
+      "id": "biotech-reverse-merger-ipo-wave-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "Caldera/Vidya reverse mergers plus rare gene-editing IPO signal biotech financing thaw",
+      "status": "active"
+    },
+    {
+      "id": "remarcable-construction-materials-funding-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "Remarcable raises Insight Partners-backed round for construction procurement platform",
+      "status": "active"
+    },
+    {
+      "id": "smart-building-startups-landscape-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "Memoori roundup of AI smart-building startup funding (Ambient.ai, PassiveLogic, etc.)",
+      "status": "active"
+    },
+    {
+      "id": "carpenter-technology-ceo-succession-2026-08",
+      "first_briefed": "2026-08-06",
+      "section": "gems",
+      "summary": "Carpenter Technology's emergency triple-role CEO succession after chairman's death",
+      "status": "active"
     }
   ]
 }

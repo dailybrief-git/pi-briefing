@@ -574,6 +574,55 @@
       "section": "opportunities",
       "summary": "Ex-SpaceX engineers launch AI-driven steel factory in Cincinnati",
       "status": "active"
+    },
+    {
+      "id": "twin-falls-idaho-shooting",
+      "first_briefed": "2026-08-06",
+      "section": "alerts",
+      "summary": "Twin Falls, Idaho shooting kills 3, wounds 7; gunman dead by suicide",
+      "status": "active"
+    },
+    {
+      "id": "measles-record-2026",
+      "first_briefed": "2026-08-06",
+      "section": "alerts",
+      "summary": "2026 US measles cases exceed all of 2025, worst year since 1991",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-antisemitism-response",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Mamdani responds to criticism of fueling antisemitism after UWS rally",
+      "status": "active"
+    },
+    {
+      "id": "ny-seqra-amendments-2026",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "NY finalizes 2026 SEQRA amendments creating new project-review exemptions",
+      "status": "active"
+    },
+    {
+      "id": "primary-season-2026-midterms",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Missouri, Kansas, Michigan primaries reshape 2026 midterm map",
+      "status": "active"
+    },
+    {
+      "id": "spacex-q2-earnings-starlink-mobile",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "SpaceX first post-IPO earnings: $7.8B Q2 revenue, Starlink Mobile carrier challenge, Starship catch attempt, Nvidia AI orbital plan",
+      "status": "active"
+    },
+    {
+      "id": "starlink-d2d-2028-target",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "Hypothesis: Starlink's global D2D-by-2028 filing strengthens carrier-bypass telecom disruption thesis",
+      "status": "active"
     }
   ]
 }

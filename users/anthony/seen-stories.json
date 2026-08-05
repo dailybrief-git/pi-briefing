@@ -2576,6 +2576,55 @@
       "section": "opportunities",
       "summary": "Vitafoods Asia relocates to Kuala Lumpur 2027, co-located with hospitality expo",
       "status": "active"
+    },
+    {
+      "id": "quantum-advantage-ibm-uchicago",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "IBM/UChicago verify quantum advantage task beyond classical simulation",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-opus5-compute-deal",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Anthropic ships Claude Opus 5, signs $10B compute deal",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-agents-push",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "OpenAI advances GPT-5.6, pushes agent economy pitch, ships GPT Live",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-app-acceleration-seller",
+      "first_briefed": "2026-08-06",
+      "section": "major",
+      "summary": "Meta uses AI to speed app launches, ships Marketplace Seller app",
+      "status": "active"
+    },
+    {
+      "id": "thailand-data-center-buildout",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "Data-center trio to develop facilities in Thailand, Malaysia, Indonesia, Vietnam",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-genz-shift",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "China's fine-wine buyers shift from investment to consumption, Gen Z favours lighter styles",
+      "status": "active"
+    },
+    {
+      "id": "china-nutraceutical-innovation-shift",
+      "first_briefed": "2026-08-06",
+      "section": "opportunities",
+      "summary": "China shifting from nutraceutical manufacturer to innovation source",
+      "status": "active"
     }
   ]
 }
