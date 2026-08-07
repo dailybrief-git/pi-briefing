@@ -623,6 +623,48 @@
       "section": "opportunities",
       "summary": "Hypothesis: Starlink's global D2D-by-2028 filing strengthens carrier-bypass telecom disruption thesis",
       "status": "active"
+    },
+    {
+      "id": "spacex-tesla-terafab-confirmed",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B Terafab chip plant in Texas, below earlier $55B estimate",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-launch-catch-aug2026",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Musk targets Starship launch-and-catch attempt this month on first post-IPO earnings call",
+      "status": "active"
+    },
+    {
+      "id": "aasa-student-ai-framework",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Students from all 50 states publish national K-12 AI framework",
+      "status": "active"
+    },
+    {
+      "id": "k12dive-enrollment-vacancy-report",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "K-12 Dive weekly review on uneven enrollment decline and teacher vacancy gaps",
+      "status": "active"
+    },
+    {
+      "id": "measles-worst-year-since-1991",
+      "first_briefed": "2026-08-08",
+      "section": "alerts",
+      "summary": "EdWeek flags 2026 as worst US measles year since 1991",
+      "status": "active"
+    },
+    {
+      "id": "radnor-later-start-recognition",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Radnor SD state-recognized for later school start times tied to sleep science",
+      "status": "active"
     }
   ]
 }

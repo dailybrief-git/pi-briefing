@@ -2625,6 +2625,83 @@
       "section": "opportunities",
       "summary": "China shifting from nutraceutical manufacturer to innovation source",
       "status": "active"
+    },
+    {
+      "id": "tesla-spacex-terafab-factory",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Tesla/SpaceX $16.8B Terafab chip factory in Texas",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-presence-health-updates",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "OpenAI ships GPT-5.6, Presence, and Health in ChatGPT in quick succession",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-qwen-rivals-anthropic",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Alibaba's newest Qwen model claims parity with Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "ibm-uchicago-quantum-advantage",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "IBM/UChicago verified quantum advantage demonstration",
+      "status": "active"
+    },
+    {
+      "id": "ai-created-viruses-nyt",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "AI designs novel viable viruses from DNA libraries",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-unesco-icomos-evaluation",
+      "first_briefed": "2026-08-08",
+      "section": "major",
+      "summary": "Chiang Mai UNESCO bid enters formal ICOMOS technical evaluation (update to prior bid story)",
+      "status": "active"
+    },
+    {
+      "id": "hilton-chiangmai-tapestry-hotel",
+      "first_briefed": "2026-08-08",
+      "section": "opportunities",
+      "summary": "Hilton signs Chiang Mai's first Tapestry Collection hotel",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-functional-food-startups",
+      "first_briefed": "2026-08-08",
+      "section": "opportunities",
+      "summary": "Thai functional-food startups scale into Chiang Mai retail (TOPs/Rimping)",
+      "status": "active"
+    },
+    {
+      "id": "china-fine-wine-genz-shift",
+      "first_briefed": "2026-08-08",
+      "section": "opportunities",
+      "summary": "China's Gen Z wine drinkers shift to lighter styles, livestream-led discovery",
+      "status": "active"
+    },
+    {
+      "id": "ev-affordability-gap-escalent",
+      "first_briefed": "2026-08-08",
+      "section": "opportunities",
+      "summary": "Escalent research quantifies growing EV price-expectation gap",
+      "status": "active"
+    },
+    {
+      "id": "sea-gas-shortage-energy-derail",
+      "first_briefed": "2026-08-08",
+      "section": "alerts",
+      "summary": "SEA gas shortages cutting planned energy capacity to under a third of promises",
+      "status": "active"
     }
   ]
 }
