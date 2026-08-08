@@ -2702,6 +2702,139 @@
       "section": "alerts",
       "summary": "SEA gas shortages cutting planned energy capacity to under a third of promises",
       "status": "active"
+    },
+    {
+      "id": "tesla-spacex-terafab-chip-factory",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Tesla/SpaceX commit $16.8B to Terafab chip plant in Texas",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-10b-compute-deal",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Anthropic signs $10B compute deal with new cloud startup",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-nvidia-quantum-chip",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Microsoft Build pairs Nvidia AI hardware tie-up with quantum chip claim",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-health-launch",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "OpenAI rolls out GPT-5.6 tiers and ChatGPT Health",
+      "status": "active"
+    },
+    {
+      "id": "ai-profit-boom-q2-earnings",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Bloomberg: AI margin gains now visible across S&P 500 Q2 earnings",
+      "status": "active"
+    },
+    {
+      "id": "thailand-aviation-safety-tech-2028",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "Thailand unveils six aviation safety technologies, procurement Oct 2026",
+      "status": "active"
+    },
+    {
+      "id": "sial-guangzhou-2026-expansion",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "SIAL Guangzhou 2026 expands to four halls for F&B sourcing",
+      "status": "active"
+    },
+    {
+      "id": "thymus-longevity-role-study",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Thymus found to play persistent lifelong role in longevity/disease risk",
+      "status": "active"
+    },
+    {
+      "id": "dna-mutation-lifespan-cap-194",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Study suggests hard lifespan ceiling of 146-194 years",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-egg-price-farmgate-hike",
+      "first_briefed": "2026-08-09",
+      "section": "gems",
+      "summary": "Chiang Mai-linked egg co-ops raise farm-gate price to 2-year high",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybertruck-pcs-warranty-extension",
+      "first_briefed": "2026-08-09",
+      "section": "companies",
+      "summary": "Tesla extends Cybertruck PCS warranty to 8 years after defect admission",
+      "status": "active"
+    },
+    {
+      "id": "tesla-10-millionth-ev-fremont",
+      "first_briefed": "2026-08-09",
+      "section": "companies",
+      "summary": "Tesla produces 10-millionth EV at Fremont, a Model Y Juniper",
+      "status": "active"
+    },
+    {
+      "id": "meta-teen-ai-safety-features",
+      "first_briefed": "2026-08-09",
+      "section": "companies",
+      "summary": "Meta adds teen self-harm alerts across Instagram/Facebook/WhatsApp AI chatbots",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-healthyfood-startups-f6s",
+      "first_briefed": "2026-08-09",
+      "section": "startups",
+      "summary": "Chiang Mai functional-food startups (VeganReady, date products) gain retail placement",
+      "status": "active"
+    },
+    {
+      "id": "gold-seven-week-high-payrolls",
+      "first_briefed": "2026-08-09",
+      "section": "markets",
+      "summary": "Gold hits seven-week high after weak US payrolls data",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-genz-drinking-shift",
+      "first_briefed": "2026-08-09",
+      "section": "interest",
+      "summary": "Chinese Gen Z wine drinkers shift to lighter styles, livestream-driven",
+      "status": "active"
+    },
+    {
+      "id": "terminator2-rerelease-2026",
+      "first_briefed": "2026-08-09",
+      "section": "interest",
+      "summary": "Terminator 2: Judgment Day gets 2026 theatrical re-release",
+      "status": "active"
+    },
+    {
+      "id": "ai-consulting-small-business-trend-2026",
+      "first_briefed": "2026-08-09",
+      "section": "interest",
+      "summary": "AI consulting tops 2026 small-business idea trend lists",
+      "status": "active"
+    },
+    {
+      "id": "doac-michael-saylor-bitcoin-episode",
+      "first_briefed": "2026-08-09",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Michael Saylor on Bitcoin (6 Aug)",
+      "status": "active"
     }
   ]
 }

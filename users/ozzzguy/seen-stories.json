@@ -665,6 +665,55 @@
       "section": "major",
       "summary": "Radnor SD state-recognized for later school start times tied to sleep science",
       "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-factory",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX/Tesla commit $16.8B to Terafab chip campus in Texas",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-launch-catch-plan",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Musk confirms next Starship launch + catch attempt this month on earnings call",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-carrier-confirmed",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX confirms Starlink Mobile as standalone carrier challenging Verizon/AT&T/T-Mobile",
+      "status": "active"
+    },
+    {
+      "id": "ny-state-exam-data-2026",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "NY releases preliminary 2026 Grades 3-8 ELA/Math/Science exam data",
+      "status": "active"
+    },
+    {
+      "id": "aasa-ai-framework-students",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "50-state student coalition publishes national K-12 AI framework",
+      "status": "active"
+    },
+    {
+      "id": "colorado-river-fish-water-alert",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Reservoir denies cool-water release to protect threatened fish amid drought deadlock",
+      "status": "active"
+    },
+    {
+      "id": "epstein-anniversary-frustration",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Bipartisan frustration resurfaces over Epstein files near anniversary",
+      "status": "active"
     }
   ]
 }
