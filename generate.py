@@ -170,6 +170,22 @@ def now_bangkok():
 
 # ------------------------------------------------------------ build queries --
 
+def _as_topic(x):
+    """Coerce a profile list item to a query/display string. Items may be plain
+    strings or objects carrying a note/weight (the app's precision chips)."""
+    if isinstance(x, str):
+        return x
+    if isinstance(x, dict):
+        for k in ("name", "topic", "label", "text", "title", "value"):
+            v = x.get(k)
+            if isinstance(v, str) and v.strip():
+                return v
+        for v in x.values():
+            if isinstance(v, str) and v.strip():
+                return v
+    return str(x)
+
+
 def build_queries(profile):
     q = []
     loc = profile.get("location", {}) or {}
@@ -180,25 +196,25 @@ def build_queries(profile):
     if country:
         q.append("%s news this week" % country)
     for t in (biz.get("watch_topics") or [])[:5]:
-        q.append(t)
+        q.append(_as_topic(t))
     for s in (biz.get("sectors") or [])[:2]:
-        q.append(("%s %s business news" % (place, s)) if place else ("%s business news" % s))
+        q.append(("%s %s business news" % (place, _as_topic(s))) if place else ("%s business news" % _as_topic(s)))
     if place:
         q.append("%s infrastructure OR policy development 2026" % place)
     for t in profile.get("intelligence_topics", []):
-        term = t.split(" (")[0].split(" — ")[0].strip()
+        term = _as_topic(t).split(" (")[0].split(" — ")[0].strip()
         q.append(term + " breakthrough 2026")
     for c in profile.get("company_watchlist", {}).get("companies", []):
-        q.append(c + " new product OR breakthrough announcement")
+        q.append(_as_topic(c) + " new product OR breakthrough announcement")
     for s in profile.get("startup_radar", {}).get("spaces", [])[:3]:
-        q.append(s.split(" (")[0].strip() + " startup launch funding 2026")
+        q.append(_as_topic(s).split(" (")[0].strip() + " startup launch funding 2026")
     weekday = now_bangkok().weekday()
     interests = profile.get("personal_interests", [])
     if interests:
         pick = [interests[(weekday + i) % len(interests)] for i in range(4)]
-        q += [p + " latest news 2026" for p in pick]
+        q += [_as_topic(p) + " latest news 2026" for p in pick]
     for show in profile.get("podcasts", {}).get("shows", []):
-        q.append(show.split(" (")[0].strip() + " latest episode")
+        q.append(_as_topic(show).split(" (")[0].strip() + " latest episode")
     seen_q, out = set(), []
     for item in q:
         if item.lower() not in seen_q:
@@ -565,9 +581,9 @@ def _sidebar_foot(profile):
     where = ", ".join(x for x in [loc.get("region") or loc.get("city") or "",
                                   loc.get("country") or ""] if x) or "&mdash;"
     sectors = profile.get("business", {}).get("sectors", []) or []
-    sect = " &amp; ".join(s.title() for s in sectors) if sectors else "&mdash;"
+    sect = " &amp; ".join(_as_topic(s).title() for s in sectors) if sectors else "&mdash;"
     interests = profile.get("personal_interests", []) or []
-    ints = " &middot; ".join(interests[:4]) if interests else "&mdash;"
+    ints = " &middot; ".join(_as_topic(i) for i in interests[:4]) if interests else "&mdash;"
     return ('<div class="sidebar-foot"><div class="profile-line"><b>%s</b></div>'
             '<div class="profile-line">%s</div>'
             '<div class="profile-line">%s</div></div>' % (where, sect, ints))
@@ -784,4 +800,3 @@ if __name__ == "__main__":
     except PipelineError as e:
         log("FATAL: %s" % e)
         sys.exit(1)
-# test

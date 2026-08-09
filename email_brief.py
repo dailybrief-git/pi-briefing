@@ -482,7 +482,19 @@ def send_brief(profile, data, dt, dashboard_url=None):
     if not api_key:
         _log("  email: RESEND_API_KEY not set - skipping send")
         return
-    to = profile.get("email") or os.environ.get("RESEND_TO", "")
+    # Single-user mode: when RESEND_TO is set, ONLY that address is ever
+    # emailed, and briefs for any other user are skipped. This keeps the daily
+    # email "just for me" even though the pipeline builds dashboards for several
+    # users. To enable per-user emailing later, unset RESEND_TO.
+    only_to = (os.environ.get("RESEND_TO") or "").strip()
+    owner = (profile.get("email") or "").strip()
+    if only_to:
+        if owner and owner.lower() != only_to.lower():
+            _log("  email: single-user mode (RESEND_TO=%s) - skipping %s" % (only_to, owner))
+            return
+        to = only_to
+    else:
+        to = owner
     if not to:
         _log("  email: no recipient (profile.email / RESEND_TO) - skipping send")
         return
