@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate briefings (all users)
+      - name: Generate briefings + send emails (all users)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
@@ -36,7 +36,11 @@ jobs:
           INGEST_URL: ${{ secrets.INGEST_URL }}
           INGEST_SECRET: ${{ secrets.INGEST_SECRET }}
           PROFILE_URL: ${{ secrets.PROFILE_URL }}
-        run: python generate.py
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_TO: "anthony@astudo.com"
+          DASHBOARD_URL: "https://dailybrief-git.github.io/pi-briefing/"
+          EMAIL_FROM: "Arun Daily <onboarding@resend.dev>"
+        run: python run_pipeline.py
 
       - name: Commit updated state back to main
         run: |
