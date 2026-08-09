@@ -61,6 +61,22 @@ _SIDE = "border-left:1px solid #1f2a3a;border-right:1px solid #1f2a3a;"
 
 # --------------------------------------------------------------- text utils --
 
+def _as_topic(x):
+    """Coerce a profile list item (string OR {name/note/weight} object) to a
+    plain display string, so joins never hit a dict."""
+    if isinstance(x, str):
+        return x
+    if isinstance(x, dict):
+        for k in ("name", "topic", "label", "text", "title", "value"):
+            v = x.get(k)
+            if isinstance(v, str) and v.strip():
+                return v
+        for v in x.values():
+            if isinstance(v, str) and v.strip():
+                return v
+    return str(x)
+
+
 def _strip_tags(s):
     if not s:
         return ""
@@ -358,9 +374,9 @@ def _profile_bits(profile):
     where = ", ".join(x for x in [loc.get("region") or loc.get("city") or "",
                                   loc.get("country") or ""] if x)
     sectors = (profile.get("business", {}) or {}).get("sectors", []) or []
-    sect = " & ".join(s.title() for s in sectors)
+    sect = " & ".join(_as_topic(s).title() for s in sectors)
     interests = profile.get("personal_interests", []) or []
-    ints = ", ".join(interests[:4])
+    ints = ", ".join(_as_topic(i) for i in interests[:4])
     return where, sect, ints
 
 
