@@ -3024,6 +3024,97 @@
       "section": "opportunities",
       "summary": "Thai functional-food startups land modern-trade shelf space via Chiang Mai",
       "status": "active"
+    },
+    {
+      "id": "alibaba-qwen-model-challenge",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "Alibaba's Qwen model claims parity with Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-nvidia-quantum-scout",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "Microsoft Build: Nvidia AI hardware tie-up, new models, disputed quantum chip",
+      "status": "active"
+    },
+    {
+      "id": "google-ai-talent-loss",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "Google losing AI talent amid internal compute allocation tension",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-property-leasehold-crackdown-2026",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "Chiang Mai foreign property leasehold/nominee crackdown tightens further in 2026",
+      "status": "active"
+    },
+    {
+      "id": "thaifex-horec-asia-2026",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "THAIFEX-HOREC Asia trade show spotlights smart hospitality tech",
+      "status": "active"
+    },
+    {
+      "id": "ai-infra-datacenter-backlash-opportunity",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "US data-center NIMBY backlash could push hyperscale overflow to APAC",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana-quantum-skepticism",
+      "first_briefed": "2026-08-10",
+      "section": "gems",
+      "summary": "Scientists skeptical of Microsoft's Majorana quantum chip claims",
+      "status": "active"
+    },
+    {
+      "id": "aahrs-2026-chiangmai-conference",
+      "first_briefed": "2026-08-10",
+      "section": "gems",
+      "summary": "AAHRS 2026 hair-restoration/AI conference held in Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "thai-functional-food-f6s-list",
+      "first_briefed": "2026-08-10",
+      "section": "gems",
+      "summary": "F6S roundup of Thai/Chiang Mai functional food companies",
+      "status": "active"
+    },
+    {
+      "id": "ai-fusion-labs-chiangmai",
+      "first_briefed": "2026-08-10",
+      "section": "startups",
+      "summary": "AI Fusion Labs Chiang Mai meetup sustains local AI builder community",
+      "status": "active"
+    },
+    {
+      "id": "tesla-megapack-texas-grid",
+      "first_briefed": "2026-08-10",
+      "section": "companies",
+      "summary": "Tesla Megapacks support Ørsted's Texas grid storage project",
+      "status": "active"
+    },
+    {
+      "id": "chinese-wine-genz-livestream-trend",
+      "first_briefed": "2026-08-10",
+      "section": "interest",
+      "summary": "China's Gen Z wine buyers shift to lighter styles, livestream-driven trust",
+      "status": "active"
+    },
+    {
+      "id": "doac-ray-dalio-ai-bubble",
+      "first_briefed": "2026-08-10",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Ray Dalio on whether AI is a bubble",
+      "status": "active"
     }
   ]
 }

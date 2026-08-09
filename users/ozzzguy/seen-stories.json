@@ -868,6 +868,76 @@
       "section": "alerts",
       "summary": "Israeli consul general presses Mamdani ahead of Netanyahu UNGA visit; judicial panel criticism",
       "status": "active"
+    },
+    {
+      "id": "spacex-earnings-starship-nvidia-starlink",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "SpaceX first earnings call: Starship launch date, Nvidia Starmind AI1, Starlink Mobile confirmed",
+      "status": "active"
+    },
+    {
+      "id": "spacex-tesla-terafab-factory",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "SpaceX/Tesla commit $16.8B to Terafab chip factory in Texas",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-lift-tracker",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "Mamdani launches LIFT Tracker for affordable housing on city land",
+      "status": "active"
+    },
+    {
+      "id": "ny-infra-forum-thruway-capital-plan",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "NY/NJ Infrastructure Forum set + Thruway Authority $670M Western NY capital plan",
+      "status": "active"
+    },
+    {
+      "id": "iran-hormuz-oman-deal",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "Iran nears Strait of Hormuz deal with Oman, demands US concessions",
+      "status": "active"
+    },
+    {
+      "id": "colorado-reservoir-90yr-low",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "Largest US reservoir hits lowest water level in 90 years",
+      "status": "active"
+    },
+    {
+      "id": "usda-wildfire-grants-wa-delay",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "USDA policy fight delayed $15M wildfire-prevention grants for now-burning WA area",
+      "status": "active"
+    },
+    {
+      "id": "florida-vibrio-outbreak-2026",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "Florida Vibrio vulnificus: 9 infected, 5 dead in 2026",
+      "status": "active"
+    },
+    {
+      "id": "bandlab-education-2-launch",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "BandLab Education 2.0 flat Title I pricing supports edtech consolidation thesis",
+      "status": "active"
+    },
+    {
+      "id": "terafab-water-sourcing-thesis",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "Terafab's surface-water pivot may template future AI datacenter siting deals",
+      "status": "active"
     }
   ]
 }

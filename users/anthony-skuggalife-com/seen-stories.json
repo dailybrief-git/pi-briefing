@@ -847,6 +847,41 @@
       "section": "major",
       "summary": "Custom 12-train metro fleet unveiled for Western Sydney Airport",
       "status": "active"
+    },
+    {
+      "id": "clarity-act-recess-deadline-2026-08",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "US crypto CLARITY Act misses recess deadline, likely slips to 2027",
+      "status": "active"
+    },
+    {
+      "id": "inflation-prewar-level-2026-08",
+      "first_briefed": "2026-08-10",
+      "section": "alerts",
+      "summary": "Treasurer touts inflation slide to pre-war level (development)",
+      "status": "active"
+    },
+    {
+      "id": "merck-breakthrough-therapy-pipeline-2026-08",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "Merck details $70bn pipeline plan and KRAS inhibitor Breakthrough Therapy status",
+      "status": "active"
+    },
+    {
+      "id": "yen-weaponized-intervention-analysis-2026-08",
+      "first_briefed": "2026-08-10",
+      "section": "major",
+      "summary": "CNBC analysis on yen intervention reshaping global FX policy playbook (development)",
+      "status": "active"
+    },
+    {
+      "id": "alpen-window-materials-funding-2026-08",
+      "first_briefed": "2026-08-10",
+      "section": "opportunities",
+      "summary": "Alpen High Performance Products raises $6m Series B for window systems",
+      "status": "active"
     }
   ]
 }
