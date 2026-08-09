@@ -57,18 +57,6 @@ TIMEZONE = "Asia/Bangkok"
 INGEST_URL = os.environ.get("INGEST_URL", "").rstrip("/")
 INGEST_SECRET = os.environ.get("INGEST_SECRET", "")
 
-# Profile source (optional): when PROFILE_URL is set, the engine fetches the
-# active-user list and each user's profile FROM the Lovable app's secured read
-# endpoint (the mirror of the ingest write endpoint) at the start of the run,
-# instead of only reading users/<name>/profile.json committed in the repo. This
-# makes the Lovable profile the live source of truth: what a user edits in the
-# app changes their feed the next morning. PROFILE_SECRET defaults to the same
-# shared secret as ingest. If PROFILE_URL is unset, or the fetch fails or returns
-# no active users, the engine falls back to the local users/ directory so a
-# Lovable outage never blocks a run.
-PROFILE_URL = os.environ.get("PROFILE_URL", "").rstrip("/")
-PROFILE_SECRET = os.environ.get("PROFILE_SECRET") or INGEST_SECRET
-
 JSON_BEGIN, JSON_END = "===JSON_BEGIN===", "===JSON_END==="
 
 REQUIRED_MARKERS = ["Tune feed", "Submit feedback to Claude", "budget-track"]
@@ -180,260 +168,6 @@ def now_bangkok():
     return datetime.datetime.utcnow() + datetime.timedelta(hours=7)
 
 
-# --------------------------------------------------------- remote profiles ----
-# When PROFILE_URL is configured, the Lovable app is the source of truth for who
-# gets briefed and what each person cares about. These helpers fetch that list,
-# translate the app's flat DB columns into the nested shape the rest of this
-# file already expects, and write each profile to users/<slug>/profile.json so
-# the existing per-user pipeline (including local seen-stories memory) runs
-# unchanged. Everything here is best-effort: any failure returns None and the
-# caller falls back to the committed users/ directory.
-
-_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-       "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-
-
-def _as_topic(x):
-    """Coerce a profile list item to a query/display string. Items may be plain
-    strings or objects carrying a note/weight (Lovable's precision chips)."""
-    if isinstance(x, str):
-        return x
-    if isinstance(x, dict):
-        for k in ("name", "topic", "label", "text", "title", "value"):
-            v = x.get(k)
-            if isinstance(v, str) and v.strip():
-                return v
-        for v in x.values():
-            if isinstance(v, str) and v.strip():
-                return v
-    return str(x)
-
-
-def _slug(email, owner_name, uid):
-    base = ""
-    if email and "@" in email:
-        base = email.split("@", 1)[0]
-    base = base or owner_name or uid or "user"
-    base = re.sub(r"[^a-z0-9]+", "-", base.lower()).strip("-")
-    return base or "user"
-
-
-def _amap(v):
-    return v if isinstance(v, list) else ([] if v in (None, "") else [v])
-
-
-def normalize_profile(row):
-    """Translate a Lovable/Supabase profiles row (flat columns) into the nested
-    profile shape this engine consumes. If the row is already nested (has
-    personal_interests or business), it is passed through with light touch-ups so
-    a future endpoint can return the engine shape directly."""
-    if not isinstance(row, dict):
-        return {}
-    # Some app versions wrap the real profile in a JSON column; unwrap it so the
-    # column-name mapping below sees the actual fields.
-    for wrap in ("profile", "profile_json", "profile_data", "data", "attributes"):
-        inner = row.get(wrap)
-        if isinstance(inner, str) and inner.strip().startswith("{"):
-            try:
-                inner = json.loads(inner)
-            except Exception:
-                inner = None
-        if isinstance(inner, dict) and inner:
-            merged = dict(row)
-            merged.pop(wrap, None)
-            merged.update(inner)
-            row = merged
-            break
-    # nested/engine shape already?
-    if "personal_interests" in row or "business" in row:
-        prof = dict(row)
-        prof.setdefault("email", row.get("email") or row.get("owner_email")
-                        or row.get("supabase_email"))
-        return prof
-
-    loc = row.get("location")
-    if isinstance(loc, dict):
-        location = dict(loc)
-    elif isinstance(loc, str) and loc.strip():
-        parts = [p.strip() for p in loc.split(",") if p.strip()]
-        if len(parts) >= 2:
-            location = {"region": parts[0], "country": parts[-1]}
-        else:
-            location = {"region": parts[0], "country": ""}
-    else:
-        location = {}
-    if row.get("timezone"):
-        location.setdefault("timezone", row.get("timezone"))
-
-    ab_in = row.get("attention_budget") or {}
-    if isinstance(ab_in, str):
-        try:
-            ab_in = json.loads(ab_in)
-        except Exception:
-            ab_in = {}
-    ab_keymap = {"major": "major_developments", "interest": "interest_stories"}
-    attention_budget = {}
-    for k, v in (ab_in.items() if isinstance(ab_in, dict) else []):
-        attention_budget[ab_keymap.get(k, k)] = v
-
-    prof = {
-        "owner_name": row.get("owner_name") or row.get("name") or "",
-        "email": row.get("email") or row.get("owner_email")
-                 or row.get("supabase_email") or "",
-        "location": location,
-        "business": {
-            "sectors": _amap(row.get("sectors")),
-            "watch_topics": _amap(row.get("watch_topics")),
-        },
-        "personal_interests": _amap(row.get("interests")),
-        "intelligence_topics": _amap(row.get("intel_topics")),
-        "company_watchlist": {"companies": _amap(row.get("companies"))},
-        "startup_radar": {"spaces": _amap(row.get("startups"))},
-        "podcasts": {"shows": _amap(row.get("podcasts"))},
-        "alert_topics": _amap(row.get("alerts")),
-        "deprioritize": _amap(row.get("deprioritize")),
-        "attention_budget": attention_budget,
-    }
-    # Pass through richer/optional fields verbatim when the app supplies them,
-    # so the model prompt keeps improving without engine changes.
-    for k in ("learned_preferences", "source_preferences", "prediction_markets",
-              "enabled_cards", "interest_locations", "standing_instructions",
-              "temporary_directives", "suppressions"):
-        if row.get(k) is not None:
-            prof[k] = row[k]
-    return prof
-
-
-def fetch_remote_users():
-    """GET the active-user list + profiles from the Lovable read endpoint.
-    Returns a list of raw rows, or None on any problem (caller falls back)."""
-    if not PROFILE_URL:
-        return None
-    if not PROFILE_SECRET:
-        log("  PROFILE_URL set but no PROFILE_SECRET/INGEST_SECRET - skipping remote fetch")
-        return None
-    headers = {"x-ingest-secret": PROFILE_SECRET, "Accept": "application/json",
-               "User-Agent": _UA}
-    try:
-        with urllib.request.urlopen(
-                urllib.request.Request(PROFILE_URL, headers=headers, method="GET"),
-                timeout=45) as resp:
-            body = resp.read().decode("utf-8")
-        data = json.loads(body)
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode("utf-8", "ignore")[:300]
-        log("  remote profile fetch HTTP %s: %s" % (e.code, detail))
-        return None
-    except Exception as e:
-        log("  remote profile fetch failed: %s" % e)
-        return None
-    if isinstance(data, dict):
-        rows = data.get("users") or data.get("profiles") or data.get("data") or []
-    elif isinstance(data, list):
-        rows = data
-    else:
-        rows = []
-    if not isinstance(rows, list):
-        log("  remote profile fetch: unexpected shape - ignoring")
-        return None
-    return rows
-
-
-def profile_signal_count(prof):
-    """How many query-bearing items a normalized profile actually carries.
-    Zero means the row did not map onto anything the engine can search for."""
-    if not isinstance(prof, dict):
-        return 0
-    n = 0
-    loc = prof.get("location") or {}
-    if isinstance(loc, dict) and (loc.get("country") or loc.get("region")):
-        n += 1
-    biz = prof.get("business") or {}
-    for key in ("sectors", "watch_topics"):
-        n += len(biz.get(key) or [])
-    for key in ("personal_interests", "intelligence_topics", "alert_topics"):
-        n += len(prof.get(key) or [])
-    n += len((prof.get("company_watchlist") or {}).get("companies") or [])
-    n += len((prof.get("startup_radar") or {}).get("spaces") or [])
-    n += len((prof.get("podcasts") or {}).get("shows") or [])
-    return n
-
-
-def sync_remote_users(dt):
-    """Fetch remote profiles and write each to users/<slug>/profile.json.
-    Returns the list of slugs, or None to signal fall back to the local dir."""
-    rows = fetch_remote_users()
-    if rows is None:
-        return None
-    if not rows:
-        log("  remote profile fetch returned 0 active users - falling back to local")
-        return None
-    slugs = []
-    # Normalize once and process in a deterministic order (by email) so slug
-    # assignment is STABLE run-to-run. Two accounts sharing an email local part
-    # (anthony@a.com / anthony@b.com) otherwise risk swapping folders between
-    # runs depending on the order the endpoint happens to return them, which
-    # would scramble each user's seen-stories history.
-    normalized = [(normalize_profile(row), row) for row in rows]
-    normalized.sort(key=lambda pr: (pr[0].get("email") or "").lower())
-    for prof, row in normalized:
-        slug = _slug(prof.get("email"), prof.get("owner_name"),
-                     str(row.get("user_id") or row.get("id") or ""))
-        # Guard against slug collisions: two different people whose email local
-        # parts match (anthony@a.com / anthony@b.com) must not share a folder,
-        # or one silently overwrites the other's profile and history. Whoever
-        # already owns the bare slug keeps it; the newcomer gets a domain suffix.
-        existing = os.path.join(USERS_DIR, slug, "profile.json")
-        if os.path.exists(existing):
-            try:
-                with open(existing, encoding="utf-8") as f:
-                    prev_email = (json.load(f).get("email") or "").lower()
-            except Exception:
-                prev_email = ""
-            new_email = (prof.get("email") or "").lower()
-            if prev_email and new_email and prev_email != new_email:
-                domain = new_email.split("@", 1)[-1]
-                slug = re.sub(r"[^a-z0-9]+", "-", (slug + "-" + domain)).strip("-")
-                log("  slug collision on '%s' (%s vs %s) - using '%s'"
-                    % (existing.split(os.sep)[-2], prev_email, new_email, slug))
-        # Does this profile actually yield searches? If not, decide between two
-        # cases instead of silently dropping the user:
-        #   - an existing NON-empty profile already lives at this slug: keep it
-        #     (protects a committed/populated user from a transient empty remote
-        #     row clobbering their good profile and history).
-        #   - otherwise this is a genuinely new/empty account: still register it
-        #     so it receives a friendly "complete your profile" welcome brief
-        #     (handled in run_user) rather than getting no dashboard at all.
-        if not build_queries(prof):
-            existing_signal = 0
-            if os.path.exists(existing):
-                try:
-                    with open(existing, encoding="utf-8") as f:
-                        existing_signal = profile_signal_count(json.load(f))
-                except Exception:
-                    existing_signal = 0
-            log("    row keys: %s"
-                % ", ".join(sorted(k for k in row if isinstance(k, str)))[:400])
-            log("    normalized: %s" % json.dumps(prof, ensure_ascii=False)[:900])
-            if existing_signal > 0:
-                log("  remote row for '%s' yields no search queries - keeping the "
-                    "existing non-empty profile" % slug)
-                continue
-            log("  remote row for '%s' has an empty profile - registering it for a "
-                "welcome/onboarding brief" % slug)
-        base = os.path.join(USERS_DIR, slug)
-        os.makedirs(base, exist_ok=True)
-        with open(os.path.join(base, "profile.json"), "w", encoding="utf-8") as f:
-            json.dump(prof, f, ensure_ascii=False, indent=2)
-        slugs.append(slug)
-    slugs = sorted(set(slugs))
-    if not slugs:
-        log("  no usable remote profiles - falling back to local users/ directory")
-        return None
-    log("  remote profiles synced for %d user(s): %s" % (len(slugs), ", ".join(slugs)))
-    return slugs
-
-
 # ------------------------------------------------------------ build queries --
 
 def build_queries(profile):
@@ -446,25 +180,25 @@ def build_queries(profile):
     if country:
         q.append("%s news this week" % country)
     for t in (biz.get("watch_topics") or [])[:5]:
-        q.append(_as_topic(t))
+        q.append(t)
     for s in (biz.get("sectors") or [])[:2]:
         q.append(("%s %s business news" % (place, s)) if place else ("%s business news" % s))
     if place:
         q.append("%s infrastructure OR policy development 2026" % place)
     for t in profile.get("intelligence_topics", []):
-        term = _as_topic(t).split(" (")[0].split(" — ")[0].strip()
+        term = t.split(" (")[0].split(" — ")[0].strip()
         q.append(term + " breakthrough 2026")
     for c in profile.get("company_watchlist", {}).get("companies", []):
-        q.append(_as_topic(c) + " new product OR breakthrough announcement")
+        q.append(c + " new product OR breakthrough announcement")
     for s in profile.get("startup_radar", {}).get("spaces", [])[:3]:
-        q.append(_as_topic(s).split(" (")[0].strip() + " startup launch funding 2026")
+        q.append(s.split(" (")[0].strip() + " startup launch funding 2026")
     weekday = now_bangkok().weekday()
     interests = profile.get("personal_interests", [])
     if interests:
         pick = [interests[(weekday + i) % len(interests)] for i in range(4)]
-        q += [_as_topic(p) + " latest news 2026" for p in pick]
+        q += [p + " latest news 2026" for p in pick]
     for show in profile.get("podcasts", {}).get("shows", []):
-        q.append(_as_topic(show).split(" (")[0].strip() + " latest episode")
+        q.append(show.split(" (")[0].strip() + " latest episode")
     seen_q, out = set(), []
     for item in q:
         if item.lower() not in seen_q:
@@ -833,7 +567,7 @@ def _sidebar_foot(profile):
     sectors = profile.get("business", {}).get("sectors", []) or []
     sect = " &amp; ".join(s.title() for s in sectors) if sectors else "&mdash;"
     interests = profile.get("personal_interests", []) or []
-    ints = " &middot; ".join(_as_topic(i) for i in interests[:4]) if interests else "&mdash;"
+    ints = " &middot; ".join(interests[:4]) if interests else "&mdash;"
     return ('<div class="sidebar-foot"><div class="profile-line"><b>%s</b></div>'
             '<div class="profile-line">%s</div>'
             '<div class="profile-line">%s</div></div>' % (where, sect, ints))
@@ -986,81 +720,12 @@ def push_briefing(profile, data, dt):
         log("  ingest POST failed: %s" % e)
 
 
-# ----------------------------------------------------- welcome / empty user ---
-# Safety net so a brand-new account (or one whose onboarding didn't persist) is
-# never stuck forever on "waiting for the brief". If a profile carries nothing to
-# search on, we skip Brave + Anthropic entirely (zero cost) and instead render a
-# friendly "complete your profile" brief and deliver it to their account, exactly
-# like a normal brief. As soon as the profile has a few interests, the normal
-# path takes over on the next run.
-
-WELCOME_LEAD = (
-    "Welcome to your Personal Intelligence Brief. Your account is ready, but your "
-    "profile doesn't have any interests yet &mdash; so there's nothing to brief on "
-    "yet. Open <b>Profile &amp; Settings</b> and add your interests, sectors, "
-    "location, and the companies or topics you follow. Your first personalised "
-    "brief will arrive on the next run.")
-
-
-def build_welcome_data(profile):
-    """The structured content object for an empty-profile welcome brief. Same
-    shape the dashboard already renders, just with a nudge in the lead/footer and
-    empty sections/panels."""
-    return {
-        "lead": WELCOME_LEAD,
-        "sections": {
-            "alerts": {"cards": []},
-            "opportunities": {"cards": []},
-            "major": {"cards": []},
-        },
-        "podcasts": [],
-        "rail": {
-            "today": [],
-            "companies": {"items": [], "empty": "Add companies to your watchlist."},
-            "startups": {"items": [], "empty": "Add startup areas you follow."},
-            "markets": {"items": [], "empty": "Add topics to track market signals."},
-            "gems": {"items": []},
-            "interest": [],
-        },
-        "footer": "As soon as your profile has a few interests, this page fills up "
-                  "with your daily brief.",
-        "seen_add": [],
-        "run_summary": "Welcome/onboarding brief - profile empty, no searches run.",
-    }
-
-
-def run_welcome_user(name, template, dt, profile):
-    """Render + deliver a welcome brief for an account with an empty profile, so
-    its dashboard shows a helpful onboarding state instead of nothing. Makes no
-    Brave/Anthropic calls, so it costs nothing."""
-    data = build_welcome_data(profile)
-    html = render_page(data, template, dt, profile)
-    validate_html(html, dt)
-
-    base = os.path.join(USERS_DIR, name)
-    os.makedirs(base, exist_ok=True)
-    date_iso = dt.strftime("%Y-%m-%d")
-    for fn in ("dashboard_%s.html" % date_iso, "dashboard_latest.html"):
-        with open(os.path.join(base, fn), "w", encoding="utf-8") as f:
-            f.write(html)
-
-    # Deliver it to the account just like a normal brief.
-    push_briefing(profile, data, dt)
-    log("  published welcome brief for %s (%d chars)" % (name, len(html)))
-
-
 # ----------------------------------------------------------------------- main -
 
 def run_user(name, template, brave, dt):
     log("--- user: %s ---" % name)
     profile, seen = load_user(name)
     queries = build_queries(profile)
-    if not queries:
-        # Empty/new profile: don't skip or die. Deliver a welcome brief so the
-        # account's dashboard shows a friendly "complete your profile" state and
-        # nudges onboarding, instead of sitting forever on "waiting for the brief".
-        log("  profile has no searchable fields - sending welcome/onboarding brief")
-        return run_welcome_user(name, template, dt, profile)
     log("  running %d searches" % len(queries))
     digest = gather_results(queries, brave)
     if not digest:
@@ -1098,11 +763,7 @@ def main():
     dt = now_bangkok()
     log("=== PI briefing run for %s (Asia/Bangkok) ===" % dt.strftime("%Y-%m-%d"))
     template = read_template()
-    users = sync_remote_users(dt) if PROFILE_URL else None
-    if not users:
-        if PROFILE_URL:
-            log("  using local users/ directory (remote profiles unavailable)")
-        users = discover_users()
+    users = discover_users()
     log("users: %s" % ", ".join(users))
 
     ok = []
@@ -1123,3 +784,4 @@ if __name__ == "__main__":
     except PipelineError as e:
         log("FATAL: %s" % e)
         sys.exit(1)
+# test

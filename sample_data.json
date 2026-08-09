@@ -1,0 +1,119 @@
+{
+  "lead": "We’re now inside TMD’s 10–14 July rain window, so the North stays on a flash-flood watch through mid-week. Today’s keeper is good news: the government is reviving the domestic tourism <b>co-payment subsidy</b> (up to ฿3,000/head) and weighing <b>visa exemptions for Indian and EU travellers</b> — both aimed at the H2 recovery you’d feel in Chiang Mai. On tech, OpenAI launched <b>GPT-5.6 and “ChatGPT Work”</b>, the clearest sign yet of an off-the-shelf ops copilot for a small hospitality business.",
+  "sections": {
+    "alerts": {
+      "cards": [
+        {
+          "mode": "Development",
+          "relevance": "High",
+          "confidence": "Official — TMD",
+          "headline": "Inside the 10–14 July rain window — the North stays on flash-flood watch through mid-week; Bavi is a non-event for Thailand",
+          "summary": "<b>What changed:</b> the window TMD flagged is now live rather than forecast. Next 24h — scattered thundershowers with isolated heavy rain across Mae Hong Son, Chiang Mai, Chiang Rai, Phayao, Nan and Uttaradit, with flash-flood and landslide risk near foothills and waterways. Typhoon Bavi is tracking into eastern Fujian, China on 11–12 July, confirmed no direct impact on Thailand. Marine warnings persist: 2–4m waves in the upper Andaman.",
+          "wwuw": [
+            {"k": "Why you", "v": "The operational middle of the wet spell, not the start or end. Ground around Chiang Mai stays saturated through mid-week, so flash-flood and landslide risk for guest transfers, airport runs and upcountry excursions carries through at least 14 July. Not an emergency-grade escalation — a “build the buffer into today’s logistics” watch."},
+            {"k": "Watch", "v": "Whether TMD or DDPM upgrades the generic 10–14 July language into a formal advisory naming Chiang Mai specifically; Ping River levels as the week’s rain works downstream; and whether the southwest monsoon re-intensifies after Bavi clears."}
+          ],
+          "sources": [
+            {"label": "Nation Thailand", "url": "https://www.nationthailand.com/news/general/40068404"},
+            {"label": "Thailand News", "url": "https://www.thailandnews.co/2026/07/heavy-rainfall-and-flash-flood-warnings-issued-for-northern-thailand/"},
+            {"label": "TMD", "url": "https://www.tmd.go.th/en"}
+          ]
+        }
+      ]
+    },
+    "opportunities": {
+      "cards": [
+        {
+          "mode": "Demand / policy",
+          "relevance": "High",
+          "confidence": "Nation · Bangkok Post",
+          "headline": "Two demand levers moving at once: a revived co-payment subsidy (up to ฿3,000/head) plus proposed visa exemptions for Indian and EU travellers",
+          "summary": "The Tourism &amp; Sports Ministry is drafting a new phase of the state “half-half” co-payment scheme to stimulate H2 travel: ~฿3,000 per person for an initial 1M entitlements, run through the existing Paotang app, bookings expected Q4 2026 (cost split still being set at 50:50 or 60:40; ministry seeking ฿3bn). Alongside it: a proposed 15-day visa exemption for Indian travellers and 30-day for all EU countries, plus ~1M discounted hotel room-nights.",
+          "wwuw": [
+            {"k": "Hypothesis", "v": "The demand-side counterweight to a soft China picture. The co-payment scheme historically lifts domestic occupancy in shoulder/low season — directly relevant to Chiang Mai, which leans on Thai weekenders outside the Nov–Feb peak — while an EU/India exemption plays to the long-haul, high-value segment TAT is chasing. If your rooms or packages can list in Paotang, the Q4 booking window is worth planning around now."},
+            {"k": "Check", "v": "Whether the co-payment terms firm up (cost split, per-night cap, eligible property types, whether small operators can enrol via Paotang); the actual effective dates for any India/EU exemption (proposals, not law); and whether the ฿3bn budget request clears."}
+          ],
+          "sources": [
+            {"label": "Nation Thailand", "url": "https://www.nationthailand.com/news/policy/40067796"},
+            {"label": "Bangkok Post", "url": "https://www.bangkokpost.com/business/general/3275345/tourism-revival-plans-take-shape"}
+          ]
+        }
+      ],
+      "more": [
+        {"title": "Nominee-business registration rules take effect 1 August, Chiang Mai a named target province", "body": "No new development since 9 July, kept here only because the deadline is now three weeks out. <a href=\"https://www.bangkokpost.com/business/general/3281069/nominee-crackdown-steps-up\" target=\"_blank\">Bangkok Post</a>"}
+      ]
+    },
+    "major": {
+      "cards": [
+        {
+          "mode": "AI capability",
+          "relevance": "High",
+          "confidence": "OpenAI · TechCrunch · Axios",
+          "headline": "OpenAI released GPT-5.6 to the public — and “ChatGPT Work,” an agent built to finish whole jobs, not just answer",
+          "wwuw": [
+            {"k": "What", "v": "On 9 July OpenAI took GPT-5.6 out of preview and made the full three-tier family public — Sol (most capable), Terra (balanced), Luna (fast/cheap) — paired with ChatGPT Work, an agent that gathers context across your apps and files to produce finished documents, spreadsheets, presentations and Codex-style tasks across web, phone and desktop. Altman claims Sol is ~54% more token-efficient on agentic coding; API rates $5/$30 (Sol), $2.50/$15 (Terra), $1/$6 (Luna) per 1M tokens."},
+            {"k": "Why you", "v": "The part that matters isn’t the benchmark, it’s ChatGPT Work. An agent that reliably builds a rate sheet, a supplier reconciliation, or a guest-comms doc from your own files is the first mainstream, off-the-shelf version of the “ops copilot” a small hospitality business would actually use — no engineering project required."},
+            {"k": "Uncertain", "v": "“Finishes whole jobs” is the marketing claim; real-world reliability on messy business data is unproven at launch. Connectors, data-handling terms, and Thai-language / mixed-currency handling are open questions. Token efficiency is OpenAI’s own figure."},
+            {"k": "Watch", "v": "Independent reviews of ChatGPT Work on real back-office tasks; whether Anthropic/Google ship comparable “agent that ships work” products; and pricing/limits once rollout widens."}
+          ],
+          "sources": [
+            {"label": "OpenAI", "url": "https://openai.com/index/gpt-5-6/"},
+            {"label": "TechCrunch", "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"},
+            {"label": "Axios", "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"}
+          ]
+        }
+      ],
+      "more": [
+        {"title": "Grok 4.5 went public — near-frontier at ~60% less cost, aimed at coding and agents", "body": "xAI released Grok 4.5 publicly on 8 July, priced at $2/$6 per 1M tokens. <a href=\"https://the-decoder.com/grok-4-5/\" target=\"_blank\">The Decoder</a>"},
+        {"title": "China’s solid-state battery numbers keep climbing — FAW claims &gt;500 Wh/kg, ~1,000 km range", "body": "FAW claims a >500 Wh/kg cell targeting ~1,000 km range. <a href=\"https://example.com/faw\" target=\"_blank\">CarNewsChina</a>"}
+      ]
+    }
+  },
+  "podcasts": [
+    {
+      "mode": "Diary of a CEO",
+      "confidence": "Show notes",
+      "headline": "Neil deGrasse Tyson: aliens, black holes, simulation theory, and why Mars stays uneconomical (9 Jul)",
+      "summary": "A wide-ranging one on the universe’s big mysteries: why geopolitical competition — not curiosity — is what actually funds expensive space missions, why Mars colonisation stays economically impossible without a national incentive, and where AI helps science (replication) versus stalls (genuine innovation). <b>For you:</b> squarely your space/aviation wheelhouse, and the “AI replicates but doesn’t truly innovate” thread is a grounded counterweight to this week’s GPT-5.6 hype.",
+      "verdict": {"label": "Worth a listen", "rel": "Med"},
+      "sources": [{"label": "Podnews (episode index)", "url": "https://podnews.net/podcast/idte/episodes"}]
+    },
+    {
+      "mode": "My First Million",
+      "confidence": "Show notes",
+      "headline": "Ep. 840 — Mark Pincus: how to figure out what projects to spend your life on (10 Jul)",
+      "summary": "Zynga founder Mark Pincus on the meta-question behind any venture: how to choose what’s actually worth your time, and how he decides which billion-dollar ideas to chase versus let go. <b>Idea:</b> the hardest founder skill isn’t execution, it’s selection. No Thailand/hospitality angle — a founder-mindset episode, useful if you’re weighing where to point your own time this half.",
+      "verdict": {"label": "Skim", "rel": "Low"},
+      "sources": [{"label": "MFM episode list", "url": "https://www.mfmpod.com/episodes/"}]
+    }
+  ],
+  "rail": {
+    "today": [
+      {"time": "Now–14 Jul", "color": "alert", "what": "Flash-flood watch, North (Chiang Mai named)", "sub": "inside TMD’s rain window"},
+      {"time": "11–12 Jul", "color": "muted", "what": "Typhoon Bavi landfall, Fujian China", "sub": "no Thai impact, resolved"},
+      {"time": "14–15 Jul", "color": "interest", "what": "Starship Flight 13 (NET)", "sub": "Booster 20 on the pad"},
+      {"time": "19 Jul", "color": "interest", "what": "Belgian GP, Spa", "sub": "Antonelli leads Russell by 25"},
+      {"time": "1 Aug", "color": "opportunity", "what": "Stricter nominee-business registration rules take effect", "sub": ""},
+      {"time": "Q4 2026", "color": "opportunity", "what": "Domestic co-payment bookings expected to open (Paotang)", "sub": ""}
+    ],
+    "companies": {
+      "items": [
+        {"mode": "Tesla", "accent": "company", "conf": "Company posts, 10 Jul", "title": "Tesla tore down its original Model S/X line in 46 days to build Optimus at Fremont", "body": "Tesla Manufacturing posted footage of the original Model S &amp; X assembly line being decommissioned in just 46 days — “End of an era” — clearing the Fremont floor to scale Optimus Gen 3, with full-scale output expected late July/August. A concrete capacity data point on the humanoid push, not PR fluff. <a href=\"https://www.teslarati.com/tesla-shows-rapid-teardown-model-s-and-x-lines-paving-way-optimus-fremont/\" target=\"_blank\">Teslarati</a>"}
+      ]
+    },
+    "startups": {"items": [], "empty": "Nothing in your watched spaces (functional food, clean energy, eco-tourism, consumer-longevity) surfaced with a genuine “clever business” hook. Empty = nothing padded in."},
+    "markets": {"items": [], "empty": "Polymarket still favours Anthropic (~82–89%) for best model end-July even after GPT-5.6 and Grok 4.5 shipped, but the figure varies too much across sources to assert a clean dated move — so nothing’s claimed. <span style=\"color:#5a6778;\">Empty is the correct output when a move can’t be sourced.</span>"},
+    "gems": {
+      "items": [
+        {"conf": "Research — ScienceDaily (underreported)", "title": "A silicon chip that “writes” DNA with electricity and enzymes — cleaner synthesis at scale", "body": "Researchers built a silicon chip that writes dozens of DNA sequences simultaneously using electricity and water-based enzymes — a cleaner alternative to chemical DNA synthesis. Faster, parallel, enzyme-driven writing is quiet infrastructure for the whole synthetic-biology and longevity stack — an enabling tool that rarely makes headlines but shows up under a lot of future work. Early-stage lab result. <a href=\"https://www.sciencedaily.com/news/matter_energy/materials_science/\" target=\"_blank\">ScienceDaily (materials)</a>"},
+        {"conf": "Research — ScienceDaily, 3 Jul", "title": "Some brains fight Alzheimer’s by keeping newborn neurons alive through the damage", "body": "A study found certain brains appear to resist Alzheimer’s by helping immature (newborn) brain cells survive damage instead of dying off — a natural resilience mechanism rather than just plaque-clearing. Mechanism-level, not a therapy, but the kind of “why do some people stay sharp” finding that feeds the healthspan side of longevity research you follow. Peer-reviewed, early. <a href=\"https://www.sciencedaily.com/news/health_medicine/healthy_aging/\" target=\"_blank\">ScienceDaily (healthy aging)</a>"}
+      ]
+    },
+    "interest": [
+      {"icon": "🚀", "title": "Starship Flight 13 is imminent — NET 14–15 July, Booster 20 already on the pad", "body": "FAA advisories put Starship Flight 13 at No-Earlier-Than 14 July (backup into the 15th), and SpaceX has moved Booster 20 to the pad. Second flight of the all-new V3 stack on Raptor 3, aiming to repeat Flight 12’s suborbital profile — an in-space Raptor relight and a soft ocean splashdown — and prove the revised V3 booster. <a href=\"https://www.spacelaunchschedule.com/launch/starship-flight-13/\" target=\"_blank\">Space Launch Schedule</a>"},
+      {"icon": "🏎️", "title": "F1 returns at Spa in 8 days — a wounded Antonelli meets a resurgent Ferrari", "body": "The championship resumes at the Belgian GP, Spa, 19 July — the last race before the break. Antonelli still leads on 179 pts, +25 over Russell, but he’s finished outside the points in two of the last three rounds, so Spa is a genuine bounce-back test (bookmakers still favour him ~13/8). Ferrari arrives fresh off Leclerc’s Silverstone win. Great drivers’ circuit, often wet. <a href=\"https://www.formula1.com/en/racing/2026/belgium\" target=\"_blank\">Formula1.com</a>"}
+    ]
+  },
+  "footer": "Saturday brief complete. Eleven stories cleared the bar today; Startup Radar and Market Signals sit empty by design.",
+  "run_summary": "Sample fixture mirroring the 11 July brief for offline render testing."
+}
