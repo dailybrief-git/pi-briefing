@@ -686,6 +686,62 @@
       "section": "opportunities",
       "summary": "Mironid raises $46m Series B for ADPKD kidney disease pipeline",
       "status": "active"
+    },
+    {
+      "id": "rba-rate-decision-preview-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "RBA rate decision looms next week as inflation eases to pre-war levels",
+      "status": "active"
+    },
+    {
+      "id": "flight-delays-airservices-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Airservices rostering failure delays 150+ flights nationwide",
+      "status": "active"
+    },
+    {
+      "id": "sydney-apartment-ssd-surge-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "43 state-significant development changes in a week, multiple apartment towers",
+      "status": "active"
+    },
+    {
+      "id": "merck-pipeline-keytruda-cliff-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Merck details 20-product pipeline and calderasib BTD to offset Keytruda cliff",
+      "status": "active"
+    },
+    {
+      "id": "qantas-baggage-fee-backlash-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Australians split over new airline baggage fees",
+      "status": "active"
+    },
+    {
+      "id": "homerun-contech-quickcommerce-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "HomeRun raises $12M, intensifying contech quick-commerce race with Fixxly",
+      "status": "active"
+    },
+    {
+      "id": "alpen-window-solutions-funding-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "Alpen raises $6M Series B for high-performance window/glazing systems",
+      "status": "active"
+    },
+    {
+      "id": "mironid-adpkd-funding-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "Mironid raises $46M Series B for ADPKD rare-disease pipeline",
+      "status": "active"
     }
   ]
 }

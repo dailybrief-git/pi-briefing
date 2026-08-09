@@ -714,6 +714,55 @@
       "section": "alerts",
       "summary": "Bipartisan frustration resurfaces over Epstein files near anniversary",
       "status": "active"
+    },
+    {
+      "id": "iran-hormuz-closure-threat",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Iran threatens to keep Strait of Hormuz shut until US changes behavior",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-israel-friction-netanyahu-visit",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Israel consul general and NY attorneys press Mamdani over rhetoric and judicial panel diversity ahead of Netanyahu UN visit",
+      "status": "active"
+    },
+    {
+      "id": "spacex-tesla-terafab-16-8b",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B Terafab chip plant in Texas, below earlier $55B estimate",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-launch-catch-attempt",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Musk targets Starship launch-and-catch attempt this month, first post-IPO earnings call",
+      "status": "active"
+    },
+    {
+      "id": "ny-exam-results-2026",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "NY State releases 2026 exam data; NYC literacy proficiency swings noted",
+      "status": "active"
+    },
+    {
+      "id": "mi-senate-primary-elsayed",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Democrats rally behind El-Sayed after divisive Michigan Senate primary",
+      "status": "active"
+    },
+    {
+      "id": "blakeman-mamdani-governor-campaign",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Blakeman leans on national GOP playbook attacking Mamdani in governor race",
+      "status": "active"
     }
   ]
 }

@@ -2835,6 +2835,55 @@
       "section": "podcasts",
       "summary": "Diary of a CEO: Michael Saylor on Bitcoin (6 Aug)",
       "status": "active"
+    },
+    {
+      "id": "openai-astra-math-breakthrough",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "OpenAI internal Astra model solves 10 unsolved math/CS problems for ~$2,000",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-10b-cloud-deal",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Anthropic inks $10B compute deal with new cloud startup",
+      "status": "active"
+    },
+    {
+      "id": "claude-opus-5-release",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Anthropic ships Claude Opus 5 as new default model",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana-chip-controversy",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Microsoft's Majorana quantum-chip reliability claims disputed by scientists",
+      "status": "active"
+    },
+    {
+      "id": "dwave-dual-rail-entanglement",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "D-Wave demos entanglement on dual-rail qubit architecture",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-property-china-visa-pact",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "AssetWise cites China visa pact as driver of renewed Chiang Mai property demand",
+      "status": "active"
+    },
+    {
+      "id": "thai-functional-food-landscape",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "F6S directory maps Thai functional-food startups distributing via Chiang Mai retail",
+      "status": "active"
     }
   ]
 }
