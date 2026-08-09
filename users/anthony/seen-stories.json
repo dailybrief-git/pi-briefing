@@ -3010,6 +3010,20 @@
       "section": "markets",
       "summary": "Gold hits seven-week high on weak US payrolls data",
       "status": "active"
+    },
+    {
+      "id": "microsoft-build-ai-quantum-nvidia",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Microsoft Build: Nvidia partnership, new AI models, contested quantum chip claim",
+      "status": "active"
+    },
+    {
+      "id": "thai-functional-food-modern-trade",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "Thai functional-food startups land modern-trade shelf space via Chiang Mai",
+      "status": "active"
     }
   ]
 }

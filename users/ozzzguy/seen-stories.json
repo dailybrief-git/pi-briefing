@@ -833,6 +833,41 @@
       "section": "alerts",
       "summary": "Largest US reservoir hits lowest level in ~90 years amid basin deadlock",
       "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-plant",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B Terafab chip plant in Texas",
+      "status": "active"
+    },
+    {
+      "id": "spacex-q2-earnings-post-ipo",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX's first post-IPO earnings call: Starship launch planned, stock cools",
+      "status": "active"
+    },
+    {
+      "id": "ny-exam-data-2026",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "NYSED releases preliminary Grades 3-8 ELA/Math and 5/8 Science exam data",
+      "status": "active"
+    },
+    {
+      "id": "michigan-senate-primary-elsayed",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Democrats rally behind El-Sayed after contentious Michigan Senate primary",
+      "status": "active"
+    },
+    {
+      "id": "nyc-mamdani-israel-tension",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Israeli consul general presses Mamdani ahead of Netanyahu UNGA visit; judicial panel criticism",
+      "status": "active"
     }
   ]
 }

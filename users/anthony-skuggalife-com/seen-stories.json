@@ -805,6 +805,48 @@
       "section": "opportunities",
       "summary": "HomeRun raises $12m to compete with Fixxly in construction materials quick-commerce",
       "status": "active"
+    },
+    {
+      "id": "sydney-flight-disruption-rostering-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Airservices Australia rostering issue delays 150+ Sydney flights",
+      "status": "active"
+    },
+    {
+      "id": "nsw-ssd-tower-surge-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "43 State Significant Development changes in one week, new supertall towers proposed",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-industrial-oversupply-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "JLL flags oversupply risk in Western Sydney Airport industrial pipeline",
+      "status": "active"
+    },
+    {
+      "id": "merck-post-keytruda-pipeline-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Merck details $70bn pipeline plan and KRAS inhibitor breakthrough designation",
+      "status": "active"
+    },
+    {
+      "id": "biovie-parkinson-stock-drop-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "BioVie stock halves despite claimed Parkinson's trial win on alt endpoint",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-airport-metro-trains-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Custom 12-train metro fleet unveiled for Western Sydney Airport",
+      "status": "active"
     }
   ]
 }
