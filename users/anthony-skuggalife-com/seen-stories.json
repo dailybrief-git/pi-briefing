@@ -742,6 +742,41 @@
       "section": "opportunities",
       "summary": "Mironid raises $46M Series B for ADPKD rare-disease pipeline",
       "status": "active"
+    },
+    {
+      "id": "sydney-flight-delays-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Airservices Australia rostering issue delays 150+ Sydney flights",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ssd-pipeline-surge-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "43 new SSD status changes in a week incl. 41-48 storey tower proposals",
+      "status": "active"
+    },
+    {
+      "id": "merck-pipeline-patent-cliff-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Merck details $70bn pipeline bet to offset Keytruda patent cliff",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-airport-metro-launch-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "WSI unveils custom metro fleet; JLL flags industrial oversupply risk nearby",
+      "status": "active"
+    },
+    {
+      "id": "construction-quickcommerce-race-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "HomeRun raises $12m, rivalling Fixxly in construction-materials quick commerce",
+      "status": "active"
     }
   ]
 }

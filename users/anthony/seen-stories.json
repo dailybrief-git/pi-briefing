@@ -2884,6 +2884,48 @@
       "section": "opportunities",
       "summary": "F6S directory maps Thai functional-food startups distributing via Chiang Mai retail",
       "status": "active"
+    },
+    {
+      "id": "anthropic-10b-cloud-compute-deal",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Anthropic signs $10B compute deal with new cloud infrastructure startup",
+      "status": "active"
+    },
+    {
+      "id": "ibm-algorithmiq-quantum-advantage",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "IBM and Algorithmiq claim quantum advantage demonstration",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana-qubit-skepticism",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Scientists renew doubts over Microsoft's Majorana qubit claims",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-price-performance",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "OpenAI launches GPT-5.6 tiers, retires legacy models",
+      "status": "active"
+    },
+    {
+      "id": "google-deepmind-reorg-koray-svp",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Google reshuffles DeepMind leadership amid AI race pressure",
+      "status": "active"
+    },
+    {
+      "id": "assetwise-chiangmai-property-china-visa-pact",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "China-Thailand visa pact seen lifting Chiang Mai condo demand",
+      "status": "active"
     }
   ]
 }
