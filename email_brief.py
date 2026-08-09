@@ -530,7 +530,14 @@ def send_brief(profile, data, dt, dashboard_url=None):
         req = urllib.request.Request(
             RESEND_ENDPOINT, data=payload, method="POST",
             headers={"Authorization": "Bearer %s" % api_key,
-                     "Content-Type": "application/json"})
+                     "Content-Type": "application/json",
+                     # Browser-style UA/Accept so Cloudflare bot protection in
+                     # front of the API does not reject a faceless script
+                     # (HTTP 403, Cloudflare error 1010). Mirrors push_briefing.
+                     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                                    "Chrome/124.0.0.0 Safari/537.36"),
+                     "Accept": "application/json"})
         resp = urllib.request.urlopen(req, timeout=45)
         resp.read()
         _log("  email: sent to %s - HTTP %s" % (to, resp.status))
