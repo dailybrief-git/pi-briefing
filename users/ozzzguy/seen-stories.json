@@ -784,6 +784,55 @@
       "section": "alerts",
       "summary": "Vibrio vulnificus outbreak: 9 infected, 5 dead this year",
       "status": "active"
+    },
+    {
+      "id": "spacex-terafab-confirmed",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B Terafab chip plant in Texas, below earlier $55B estimate",
+      "status": "active"
+    },
+    {
+      "id": "spacex-first-post-ipo-earnings",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "SpaceX holds first post-IPO earnings call; Starship launch teased, stock off highs",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-israel-friction-ungA",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Mamdani faces friction over Israel rhetoric ahead of Netanyahu's Sept UN visit",
+      "status": "active"
+    },
+    {
+      "id": "aramark-dye-removal-2026",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Aramark removes artificial dyes/additives from school menus nationwide",
+      "status": "active"
+    },
+    {
+      "id": "iran-hormuz-waterway-threat",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Iran SNSC threatens to keep key waterway closed until US changes policy",
+      "status": "active"
+    },
+    {
+      "id": "iran-cyberattack-12-states",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Iran-linked water-system cyberattacks now suspected in 12+ states",
+      "status": "active"
+    },
+    {
+      "id": "colorado-river-reservoir-record-low",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "Largest US reservoir hits lowest level in ~90 years amid basin deadlock",
+      "status": "active"
     }
   ]
 }

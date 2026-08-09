@@ -2926,6 +2926,90 @@
       "section": "opportunities",
       "summary": "China-Thailand visa pact seen lifting Chiang Mai condo demand",
       "status": "active"
+    },
+    {
+      "id": "anthropic-10bn-compute-deal",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Anthropic signs $10B compute deal with month-old cloud startup",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-math-breakthrough",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "OpenAI next model reportedly solves 10 open math problems for ~$2,000",
+      "status": "active"
+    },
+    {
+      "id": "google-deepmind-leadership-reshuffle",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Koray becomes SVP of Google DeepMind as Jeff Dean steps back",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana-qubit-controversy",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Scientists still question Microsoft's Majorana qubit reliability claims",
+      "status": "active"
+    },
+    {
+      "id": "thailand-china-visa-chiangmai-property",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "China-Thailand visa pact reviving Chiang Mai condo/long-stay demand",
+      "status": "active"
+    },
+    {
+      "id": "wine-china-genz-style-shift",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "China's Gen Z wine drinkers favour lighter styles and livestream influence",
+      "status": "active"
+    },
+    {
+      "id": "meta-teen-safety-ai-alerts",
+      "first_briefed": "2026-08-09",
+      "section": "companies",
+      "summary": "Meta adds AI self-harm alerts for teens across its apps",
+      "status": "active"
+    },
+    {
+      "id": "killifish-aging-stages-study",
+      "first_briefed": "2026-08-09",
+      "section": "gems",
+      "summary": "Stanford killifish study suggests aging occurs in stages",
+      "status": "active"
+    },
+    {
+      "id": "thymus-longevity-organ-study",
+      "first_briefed": "2026-08-09",
+      "section": "gems",
+      "summary": "Thymus found to play a larger longevity role than previously thought",
+      "status": "active"
+    },
+    {
+      "id": "sinclair-lifespan-platform-launch",
+      "first_briefed": "2026-08-09",
+      "section": "gems",
+      "summary": "David Sinclair launches Lifespan longevity science media platform",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-qwen-matches-anthropic",
+      "first_briefed": "2026-08-09",
+      "section": "gems",
+      "summary": "Alibaba's new Qwen model claims parity with Anthropic performance",
+      "status": "active"
+    },
+    {
+      "id": "gold-seven-week-high-thailand",
+      "first_briefed": "2026-08-09",
+      "section": "markets",
+      "summary": "Gold hits seven-week high on weak US payrolls data",
+      "status": "active"
     }
   ]
 }

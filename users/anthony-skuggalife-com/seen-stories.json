@@ -777,6 +777,34 @@
       "section": "opportunities",
       "summary": "HomeRun raises $12m, rivalling Fixxly in construction-materials quick commerce",
       "status": "active"
+    },
+    {
+      "id": "rba-rate-decision-next-week-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "RBA rate decision next week flagged as swing factor amid housing downturn",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ssd-development-surge-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "alerts",
+      "summary": "43 SSD status changes in one week across Sydney planning pipeline",
+      "status": "active"
+    },
+    {
+      "id": "merck-patent-cliff-pipeline-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "major",
+      "summary": "Merck CEO details $70bn pipeline to offset Keytruda patent cliff",
+      "status": "active"
+    },
+    {
+      "id": "homerun-fixxly-quickcommerce-race-2026-08",
+      "first_briefed": "2026-08-09",
+      "section": "opportunities",
+      "summary": "HomeRun raises $12m to compete with Fixxly in construction materials quick-commerce",
+      "status": "active"
     }
   ]
 }
