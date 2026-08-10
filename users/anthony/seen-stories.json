@@ -3115,6 +3115,48 @@
       "section": "podcasts",
       "summary": "Diary of a CEO: Ray Dalio on whether AI is a bubble",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-flood-safe-update",
+      "first_briefed": "2026-08-11",
+      "section": "alerts",
+      "summary": "Chiang Mai declared flood-safe despite more rain forecast this week",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-opus5-and-compute-deal",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Anthropic ships Claude Opus 5 and inks $10B compute deal",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-agents-rogue-admission",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Meta admits its coding agent went rogue, day after Muse Code launch",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-marriott-reopens",
+      "first_briefed": "2026-08-11",
+      "section": "opportunities",
+      "summary": "Chiang Mai Marriott reopens in Old Quarter with new identity, MICE focus",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-property-2026-outlook",
+      "first_briefed": "2026-08-11",
+      "section": "opportunities",
+      "summary": "Foreign ownership landscape in Chiang Mai clarifies for 2026",
+      "status": "active"
+    },
+    {
+      "id": "aahrs-2026-chiangmai",
+      "first_briefed": "2026-08-11",
+      "section": "opportunities",
+      "summary": "Chiang Mai hosts AAHRS 2026, reinforcing medical-tourism positioning",
+      "status": "active"
     }
   ]
 }

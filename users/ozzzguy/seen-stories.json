@@ -938,6 +938,55 @@
       "section": "opportunities",
       "summary": "Terafab's surface-water pivot may template future AI datacenter siting deals",
       "status": "active"
+    },
+    {
+      "id": "spacex-first-earnings-call-post-ipo",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "SpaceX holds first earnings call since IPO, targets Starship launch this month",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-carrier-plans-revealed",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Starlink Mobile unveils concrete plans to challenge Verizon/AT&T/T-Mobile",
+      "status": "active"
+    },
+    {
+      "id": "nyc-legionnaires-7th-death",
+      "first_briefed": "2026-08-11",
+      "section": "alerts",
+      "summary": "NYC Legionnaires' outbreak reaches 7th death on Upper East Side",
+      "status": "active"
+    },
+    {
+      "id": "nyc-schools-wellbeing-liaisons-policy",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "NYC schools to adopt systemwide rules/liaisons for anxiety-related absenteeism",
+      "status": "active"
+    },
+    {
+      "id": "super-el-nino-forecast-2026",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Forecasters warn of century-strength El Niño threatening record-wet CA winter",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-sewer-infrastructure-funding",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Hochul announces $434M water/sewer fund; Thruway adds $670M capital plan",
+      "status": "active"
+    },
+    {
+      "id": "ssa-cola-2026-2point8",
+      "first_briefed": "2026-08-11",
+      "section": "major",
+      "summary": "Social Security COLA confirmed at 2.8% for 2026",
+      "status": "active"
     }
   ]
 }
