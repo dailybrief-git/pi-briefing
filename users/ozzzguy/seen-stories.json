@@ -987,6 +987,48 @@
       "section": "major",
       "summary": "Social Security COLA confirmed at 2.8% for 2026",
       "status": "active"
+    },
+    {
+      "id": "syria-assad-death-sentence",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "Syrian court sentences Assad and brother to death in absentia for war crimes",
+      "status": "active"
+    },
+    {
+      "id": "noaa-july-2026-hottest-record",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "NOAA confirms July 2026 as hottest month on record for contiguous US",
+      "status": "active"
+    },
+    {
+      "id": "cpi-report-due-aug-2026",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "New CPI/inflation report due this week amid cost-of-living survey concerns",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-launch-attempt-aug2026",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Musk targets Starship launch-and-catch attempt this month per earnings call",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-carrier-plans-detailed",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Starlink Mobile plans detailed as direct competitor to Verizon/AT&T/T-Mobile",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-sewer-infrastructure-2026",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Hochul announces $434M water/sewer infrastructure funding plus $4.1M capital grant",
+      "status": "active"
     }
   ]
 }

@@ -3157,6 +3157,146 @@
       "section": "opportunities",
       "summary": "Chiang Mai hosts AAHRS 2026, reinforcing medical-tourism positioning",
       "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-rollout",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "OpenAI rolls out GPT-5.6 with unlimited free chat tier",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-quantum-chip-nvidia-partnership",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Microsoft Build reveals new quantum chip amid Majorana skepticism",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-qwen-anthropic-parity-claim",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Alibaba's new Qwen model claims Anthropic-level performance",
+      "status": "active"
+    },
+    {
+      "id": "aiib-asia-infrastructure-2026",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "AIIB accelerates sustainable infrastructure investment across Asia",
+      "status": "active"
+    },
+    {
+      "id": "thailand-2037-gas-to-solar-transition",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Thailand's 2037 gas-to-renewables energy plan still in draft form",
+      "status": "active"
+    },
+    {
+      "id": "phist-2026-tourism-sustainability",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "PHIST 2026 conference targets Thai tourism sustainability gap",
+      "status": "active"
+    },
+    {
+      "id": "openai-smart-speaker-rumor",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "OpenAI reportedly exploring $400 smart speaker for 2027",
+      "status": "active"
+    },
+    {
+      "id": "thai-functional-food-startups-retail",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "Thai functional-food startups gaining Chiang Mai retail shelf space",
+      "status": "active"
+    },
+    {
+      "id": "glp1-protein-demand-supply-crunch",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "GLP-1 driven protein demand overwhelming food supply chains",
+      "status": "active"
+    },
+    {
+      "id": "diamond-room-temp-quantum-computer",
+      "first_briefed": "2026-08-12",
+      "section": "gems",
+      "summary": "Portable room-temperature diamond quantum computer unveiled",
+      "status": "active"
+    },
+    {
+      "id": "claude-interpretability-mental-workspace",
+      "first_briefed": "2026-08-12",
+      "section": "gems",
+      "summary": "Anthropic finds emergent internal 'mental workspace' in Claude",
+      "status": "active"
+    },
+    {
+      "id": "us-data-center-construction-pushback",
+      "first_briefed": "2026-08-12",
+      "section": "gems",
+      "summary": "Data-center construction lags AI infrastructure demand hype",
+      "status": "active"
+    },
+    {
+      "id": "jing-jai-market-chiang-mai-feature",
+      "first_briefed": "2026-08-12",
+      "section": "gems",
+      "summary": "Jing Jai Market spotlighted as Chiang Mai farmer-first market",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-v14-3-7-wave-rollout",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "Tesla FSD V14.3.7 continues wave rollout to AI4 vehicles",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-power-platform-prompt-columns",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "Microsoft Power Platform adds Prompt Columns, Dataverse expansion",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-mode-facebook-search",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "Meta adds AI Mode to Facebook Search, custom instructions",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-invisible-watermark",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "Anthropic adds invisible watermarks to Claude-generated text",
+      "status": "active"
+    },
+    {
+      "id": "bostongene-ai-excellence-award",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "BostonGene named Overall Winner in 2026 AI Excellence Awards",
+      "status": "active"
+    },
+    {
+      "id": "aptoide-google-play-return",
+      "first_briefed": "2026-08-12",
+      "section": "companies",
+      "summary": "Aptoide returns to Google Play after over a decade",
+      "status": "active"
+    },
+    {
+      "id": "tsla-stock-terafab-cybercab-reaction",
+      "first_briefed": "2026-08-12",
+      "section": "markets",
+      "summary": "TSLA investor coverage citing Terafab and Cybercab news",
+      "status": "active"
     }
   ]
 }
