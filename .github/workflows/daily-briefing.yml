@@ -40,10 +40,8 @@ jobs:
           # Each user is emailed at their OWN profile email (multi-user).
           # To temporarily force a single recipient (testing), set RESEND_TO.
           DASHBOARD_BASE_URL: "https://dailybrief-git.github.io/pi-briefing"
-          # Test sender: only delivers to your own Resend account address.
-          # After mail.astudo.com verifies in Resend, change this line to:
-          #   EMAIL_FROM: "Arun Daily <brief@mail.astudo.com>"
-          EMAIL_FROM: "Arun Daily <onboarding@resend.dev>"
+          # Verified sending domain (mail.astudo.com). Delivers to any recipient.
+          EMAIL_FROM: "Arun Daily <brief@mail.astudo.com>"
         run: python run_pipeline.py
 
       - name: Commit updated state back to main
