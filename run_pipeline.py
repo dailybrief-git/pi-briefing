@@ -1,25 +1,28 @@
 #!/usr/bin/env python3
 """Pipeline entry point that runs the normal briefing AND emails it.
 
-Why this exists instead of editing generate.py directly: it keeps generate.py
-untouched. It imports the existing pipeline and wraps ``push_briefing`` — which
-already receives exactly ``(profile, data, dt)`` for each user — so that right
-after each brief is pushed to the app, the same structured data is rendered to a
-bulletproof HTML email and sent via Resend.
+Keeps generate.py's own logic untouched by wrapping two of its functions:
 
-The email send is non-fatal (email_brief.send_brief swallows and logs its own
-errors, and skips silently unless RESEND_API_KEY + a recipient are configured),
-so the proven GitHub Pages path is never affected.
+* ``push_briefing`` -> also renders + sends the per-user email (via email_brief).
+* ``run_user``      -> captures the current user's slug (so the email can link to
+                       THAT user's dashboard) and prints a full traceback on
+                       failure, then re-raises so main()'s handling is unchanged.
 
-It also wraps ``run_user`` with a diagnostic that prints the FULL traceback when a
-user fails. generate.main() catches per-user errors and logs only str(e); that
-hides the file/line of bugs. This wrapper logs the traceback and then re-raises,
-so main()'s existing "keep previous page" behaviour is unchanged.
+Per-user dashboard links: each user is published at
+``DASHBOARD_BASE_URL/<slug>/`` by the workflow's publish step, where <slug> is the
+users/<slug> folder name == run_user's ``name`` argument. We compute that URL here
+and hand it to email_brief.send_brief so friends' emails point at their own page,
+not the owner's.
 
-Workflow change: run this instead of generate.py —
-    run: python run_pipeline.py
+All email work is non-fatal (send_brief swallows/logs its own errors, and skips
+unless configured), so the proven GitHub Pages path is never affected.
+
+Workflow: run this instead of generate.py -> ``run: python run_pipeline.py``
+Relevant env: DASHBOARD_BASE_URL (e.g. https://dailybrief-git.github.io/pi-briefing),
+RESEND_API_KEY, EMAIL_FROM; RESEND_TO optional (single-recipient override).
 """
 
+import os
 import traceback
 
 import generate
@@ -30,9 +33,21 @@ except Exception as exc:  # noqa: BLE001
     email_brief = None
     generate.log("email_brief import failed, emails disabled: %s" % exc)
 
+# Holds the slug of the user currently being processed, so the push/email wrapper
+# can build that user's dashboard URL.
+_STATE = {"slug": None}
+
+
+def _dashboard_url_for(slug):
+    base = (os.environ.get("DASHBOARD_BASE_URL") or "").rstrip("/")
+    if base and slug:
+        return "%s/%s/" % (base, slug)
+    # Fall back to a single fixed URL if a base isn't configured.
+    return os.environ.get("DASHBOARD_URL") or None
+
 
 def _wrap_push():
-    """Make generate.push_briefing also send the email, per user."""
+    """Make generate.push_briefing also send the per-user email."""
     original = generate.push_briefing
 
     def push_and_email(profile, data, dt):
@@ -42,7 +57,9 @@ def _wrap_push():
             generate.log("  ingest wrapper caught: %s" % exc)
         if email_brief is not None:
             try:
-                email_brief.send_brief(profile, data, dt)
+                email_brief.send_brief(
+                    profile, data, dt,
+                    dashboard_url=_dashboard_url_for(_STATE["slug"]))
             except Exception as exc:  # noqa: BLE001
                 generate.log("  email: send failed: %s" % exc)
 
@@ -50,11 +67,11 @@ def _wrap_push():
 
 
 def _wrap_run_user():
-    """Print the full traceback when a user's run raises, then re-raise so
-    generate.main() handles it exactly as before."""
+    """Capture the per-user slug and print full tracebacks on failure."""
     original = generate.run_user
 
     def run_user_traced(*args, **kwargs):
+        _STATE["slug"] = args[0] if args else kwargs.get("name")
         try:
             return original(*args, **kwargs)
         except Exception:
