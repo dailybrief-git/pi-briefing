@@ -581,6 +581,7 @@ the mandatory Thai/Chiang Mai sweep.
 the results. Never invent a URL, statistic, or market figure.
 - Text fields may contain light inline HTML: <b>...</b> for emphasis and \
 <a href="URL" target="_blank">label</a> for inline links. Nothing else.
+- The rail "today" is the "On the Radar" agenda: forward-looking ONLY. List only scheduled items dated TODAY or later (launches, races, earnings/report dates, releases, festivals, deadlines, policy effective-dates), soonest-first. NEVER put events that already happened or recaps of already-briefed news here. If nothing is genuinely upcoming, return few items or [] - never backfill past dates.
 
 JSON SHAPE (omit any field you have no content for; use [] for empty lists):
 {
@@ -592,7 +593,7 @@ JSON SHAPE (omit any field you have no content for; use [] for empty lists):
  },
  "podcasts": [PODCARD, ...],
  "rail": {
-   "today":     [{"time":"19 Jul","color":"interest","what":"...","sub":"..."}],
+   "today":     [{"time":"14 Aug","color":"interest","what":"upcoming item dated today or later","sub":"..."}],
    "companies": {"items":[GEM, ...], "empty":"text if none, else omit"},
    "startups":  {"items":[GEM, ...], "empty":"..."},
    "markets":   {"items":[GEM, ...], "empty":"..."},
@@ -854,14 +855,65 @@ def render_gem_panel(panel_id, title, accent, data):
             % (panel_id, panel_id, dot, title, body))
 
 
-def render_today(items):
+_RADAR_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct",
+     "nov", "dec"], 1)}
+
+
+def _radar_date(time_str, year):
+    # Parse a single clean calendar date from a rail "time" label, else None.
+    # Ranges, quarters and relative labels return None so they are always kept
+    # (only unambiguous single past dates get filtered).
+    t = (time_str or "").strip()
+    if not t:
+        return None
+    low = t.lower()
+    if any(tok in low for tok in ("q1", "q2", "q3", "q4", "now", "week", "tbd",
+                                  "ongoing", "today", "tomorrow")):
+        return None
+    if "-" in t or "–" in t or "—" in t or "/" in t:
+        return None
+    m = re.match(r"^(\d{1,2})\s+([A-Za-z]{3,})(?:\s+(\d{4}))?$", t)
+    if m:
+        day, mon, yr = int(m.group(1)), m.group(2)[:3].lower(), int(m.group(3) or year)
+    else:
+        m = re.match(r"^([A-Za-z]{3,})\s+(\d{1,2})(?:\s+(\d{4}))?$", t)
+        if not m:
+            return None
+        mon, day, yr = m.group(1)[:3].lower(), int(m.group(2)), int(m.group(3) or year)
+    mo = _RADAR_MONTHS.get(mon)
+    if not mo:
+        return None
+    try:
+        return datetime.date(yr, mo, day)
+    except ValueError:
+        return None
+
+
+def _radar_filter(items, today):
+    # Drop items whose "time" is a clean single date in the recent past
+    # (<= 120 days before today). Keep everything ambiguous, ongoing or upcoming.
+    if not today:
+        return list(items or [])
+    out = []
+    for it in (items or []):
+        d = _radar_date((it or {}).get("time", ""), today.year)
+        if d is not None and d < today and (today - d).days <= 120:
+            continue
+        out.append(it)
+    return out
+
+def render_today(items, today=None):
+    items = _radar_filter(items, today)
     rows = "".join(
         '<div class="today-item"><div class="time">%s</div>'
         '<div class="bar" style="background:var(--%s)"></div>'
         '<div class="what">%s<small>%s</small></div></div>'
         % (it.get("time", ""), it.get("color", "muted"), it.get("what", ""), it.get("sub", ""))
         for it in (items or []))
-    return ('<div class="panel"><div class="panel-head"><h2>Today &amp; Ahead</h2></div>%s</div>'
+    if not rows:
+        rows = '<div class="empty" style="margin:0;">Nothing on the radar right now.</div>'
+    return ('<div class="panel"><div class="panel-head"><h2>On the Radar</h2></div>%s</div>'
             % rows)
 
 
@@ -950,7 +1002,7 @@ def render_page(data, template, dt, profile):
         for sid, h2, note, accent, wl, rl in SECTIONS)
     main_sections += render_podcasts(podcasts)
 
-    rail_html = (render_today(rail.get("today"))
+    rail_html = (render_today(rail.get("today"), dt.date())
                  + render_gem_panel("companies", "Company News", "company", rail.get("companies"))
                  + render_gem_panel("startups", "Startup Radar", "startup", rail.get("startups"))
                  + render_gem_panel("markets", "Market Signals", "market", rail.get("markets"))
