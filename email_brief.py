@@ -280,7 +280,56 @@ def interest_card(item, dash):
     return _row(_card_shell("interest", inner), "11px 32px 0")
 
 
-def today_table(items):
+_RADAR_MONTHS = {m: i for i, m in enumerate(
+    ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct",
+     "nov", "dec"], 1)}
+
+
+def _radar_date(time_str, year):
+    # Parse a single clean calendar date from a rail "time" label, else None.
+    # Ranges, quarters and relative labels return None so they are always kept
+    # (only unambiguous single past dates get filtered).
+    t = (time_str or "").strip()
+    if not t:
+        return None
+    low = t.lower()
+    if any(tok in low for tok in ("q1", "q2", "q3", "q4", "now", "week", "tbd",
+                                  "ongoing", "today", "tomorrow")):
+        return None
+    if "-" in t or "–" in t or "—" in t or "/" in t:
+        return None
+    m = re.match(r"^(\d{1,2})\s+([A-Za-z]{3,})(?:\s+(\d{4}))?$", t)
+    if m:
+        day, mon, yr = int(m.group(1)), m.group(2)[:3].lower(), int(m.group(3) or year)
+    else:
+        m = re.match(r"^([A-Za-z]{3,})\s+(\d{1,2})(?:\s+(\d{4}))?$", t)
+        if not m:
+            return None
+        mon, day, yr = m.group(1)[:3].lower(), int(m.group(2)), int(m.group(3) or year)
+    mo = _RADAR_MONTHS.get(mon)
+    if not mo:
+        return None
+    try:
+        return datetime.date(yr, mo, day)
+    except ValueError:
+        return None
+
+
+def _radar_filter(items, today):
+    # Drop items whose "time" is a clean single date in the recent past
+    # (<= 120 days before today). Keep everything ambiguous, ongoing or upcoming.
+    if not today:
+        return list(items or [])
+    out = []
+    for it in (items or []):
+        d = _radar_date((it or {}).get("time", ""), today.year)
+        if d is not None and d < today and (today - d).days <= 120:
+            continue
+        out.append(it)
+    return out
+
+def today_table(items, today=None):
+    items = _radar_filter(items, today)
     if not items:
         return ""
     rows = []
@@ -295,7 +344,7 @@ def today_table(items):
             '<td valign="top" style="font-size:14px;color:#c3cddb;line-height:1.45;">%s%s</td>'
             '</tr></table></td></tr>' % (border, color, it.get("time", ""), it.get("what", ""), sub))
     header = ('<div style="font-size:14px;font-weight:700;color:#e8edf4;letter-spacing:.02em;margin-bottom:11px;">'
-              '<span style="color:#7f8ea3;">&#9679;</span>&nbsp;&nbsp;Today &amp; Ahead</div>')
+              '<span style="color:#7f8ea3;">&#9679;</span>&nbsp;&nbsp;On the Radar</div>')
     table = ('<table role="presentation" width="100%%" cellpadding="0" cellspacing="0" border="0" '
              'bgcolor="#0d131c" style="background:#0d131c;border:1px solid #1f2a3a;border-radius:10px;">%s</table>'
              % "".join(rows))
@@ -420,7 +469,7 @@ def render_email(data, profile, dt, dashboard_url,
         body.append(more_link(maj.get("more"), "major", dash))
 
     # Today & Ahead
-    body.append(today_table(rail.get("today")))
+    body.append(today_table(rail.get("today"), dt.date()))
 
     # Hidden Gems
     gems = (rail.get("gems") or {}).get("items") or []
