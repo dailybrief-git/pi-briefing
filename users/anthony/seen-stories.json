@@ -3346,6 +3346,48 @@
       "section": "opportunities",
       "summary": "China drafts new probiotic health-food rules amid protein-innovation opening",
       "status": "active"
+    },
+    {
+      "id": "claude-riemann-hypothesis-breakthrough",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Unreleased Claude model advances Riemann Hypothesis lower bound 41.6%→67.2%",
+      "status": "active"
+    },
+    {
+      "id": "chinese-cheap-ai-model-catchup",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Cheap Chinese AI model narrows gap with Anthropic/OpenAI per Reuters",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-quantum-majorana-skepticism",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Microsoft's Majorana qubit reliability claims remain scientifically unverified",
+      "status": "active"
+    },
+    {
+      "id": "google-ai-talent-drain",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Google expanding AI infra while losing researchers amid compute-allocation friction",
+      "status": "active"
+    },
+    {
+      "id": "thailand-green-tourism-plan-2030",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "Chiang Mai named flagship city in Thailand's Green Tourism Plan 2030",
+      "status": "active"
+    },
+    {
+      "id": "quantum-computing-inc-q2-earnings",
+      "first_briefed": "2026-08-12",
+      "section": "markets",
+      "summary": "QCi (QUBT) reports Q2 2026 financial results",
+      "status": "active"
     }
   ]
 }

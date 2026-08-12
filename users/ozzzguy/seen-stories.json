@@ -1071,6 +1071,55 @@
       "section": "major",
       "summary": "Turkey's parliament approves conditional pardon bill for Kurdish militants",
       "status": "active"
+    },
+    {
+      "id": "spacex-tesla-terafab-announcement",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B Terafab AI chip plant in Texas",
+      "status": "active"
+    },
+    {
+      "id": "spacex-first-earnings-call-starship-catch",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Musk's first post-IPO earnings call reaffirms Starship launch-and-catch plan this month",
+      "status": "active"
+    },
+    {
+      "id": "turkey-kurdish-pardon-bill",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Turkey parliament passes conditional pardon for Kurdish militants",
+      "status": "active"
+    },
+    {
+      "id": "uc-record-enrollment-2026",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "UC admits record 102,000 in-state high schoolers for Fall 2026",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-sewer-infra-434m",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Hochul announces $434M for statewide water/sewer infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "us-hottest-month-record-july2026",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "NOAA confirms July 2026 was hottest month on record for contiguous US",
+      "status": "active"
+    },
+    {
+      "id": "cpi-july-2026-report-due",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "New BLS inflation report due this week amid record cost-of-living anxiety",
+      "status": "active"
     }
   ]
 }

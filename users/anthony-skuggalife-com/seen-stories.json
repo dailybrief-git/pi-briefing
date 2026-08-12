@@ -1022,6 +1022,34 @@
       "section": "opportunities",
       "summary": "Urban Company launches smart-home hardware line in India",
       "status": "active"
+    },
+    {
+      "id": "ley-coalition-leadership-change-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Sussan Ley ousted as Federal Coalition leader",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ai-hiring-governance-report-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Sydney tech hiring shaped by AI governance debate, agent security, police pilots",
+      "status": "active"
+    },
+    {
+      "id": "stat-biotech-readout-grail-fda-panel-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "FDA panel to weigh Grail Galleri test; China reins in biotech, Sanofi/Silence/Takeda moves",
+      "status": "active"
+    },
+    {
+      "id": "mereo-sentynl-alvelestat-license-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Mereo BioPharma licenses alvelestat to Sentynl for AATD lung disease",
+      "status": "active"
     }
   ]
 }
