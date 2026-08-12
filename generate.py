@@ -273,6 +273,53 @@ def gather_results(queries, token):
     return digest
 
 
+# ------------------------------------------------------------------ dedupe --
+
+def _norm_url(u):
+    """Canonicalise a URL so the same article found under different queries
+    collapses to one key: drop scheme, leading www., query string, fragment,
+    and any trailing slash; lowercase the rest."""
+    u = (u or "").strip().lower()
+    u = re.sub(r"^https?://", "", u)
+    u = re.sub(r"^www\.", "", u)
+    u = u.split("#", 1)[0].split("?", 1)[0]
+    return u.rstrip("/")
+
+
+def _norm_title(t):
+    """Loose title key: lowercase, alphanumerics only, all separators removed so
+    'GPT-6', 'GPT 6' and 'gpt6' collapse to one key."""
+    t = re.sub(r"<[^>]+>", " ", (t or "").lower())
+    return re.sub(r"[^a-z0-9]+", "", t)
+
+
+def dedupe_digest(digest):
+    """Remove the same story appearing across multiple search queries.
+
+    The model was echoing repeated inputs into 2-3 cards. We keep the FIRST
+    occurrence of each article (by canonical URL, then by title) and drop the
+    rest, so every story reaches the model exactly once. Query blocks that end
+    up empty are dropped. Returns (clean_digest, removed_count)."""
+    seen_urls, seen_titles, removed = set(), set(), 0
+    clean = []
+    for block in digest:
+        kept = []
+        for r in block.get("results", []):
+            ukey = _norm_url(r.get("url"))
+            tkey = _norm_title(r.get("title"))
+            if (ukey and ukey in seen_urls) or (tkey and tkey in seen_titles):
+                removed += 1
+                continue
+            if ukey:
+                seen_urls.add(ukey)
+            if tkey:
+                seen_titles.add(tkey)
+            kept.append(r)
+        if kept:
+            clean.append({"query": block["query"], "results": kept})
+    return clean, removed
+
+
 def results_to_text(digest):
     lines = []
     for block in digest:
@@ -299,8 +346,11 @@ JSON braces - never trail off mid-object.
 EDITORIAL RULES
 - Respect the profile's attention_budget. End complete, never pad. Empty \
 sections/panels are fine - use the "empty" field to say so honestly.
-- Cluster duplicate coverage into ONE card per event. Label confidence. Frame \
-Opportunities as hypotheses, not predictions.
+- ONE event = ONE place in the whole briefing. Cluster all coverage of the same \
+event into a single card and cite multiple sources on that one card. Never place \
+the same story in two cards, or in both a card and the rail. If two search \
+results describe the same development, they are the same event. Label confidence. \
+Frame Opportunities as hypotheses, not predictions.
 - Anti-repetition: you are given stories already briefed. Do NOT re-brief one \
 unless there is a genuine development; if so, write it as a development.
 - Honour learned_preferences, the deprioritise list, the source philosophy, and \
@@ -406,6 +456,63 @@ def parse_json(raw):
         return json.loads(blob)
     except Exception as e:
         die("model output is not valid JSON: %s" % e)
+
+
+def dedupe_output(data):
+    """Safety net: drop any story the model still emitted more than once across
+    the main narrative blocks (section cards, their 'more' lists, and podcasts).
+    First occurrence wins, in section order, so nothing worth keeping is lost.
+    The compact rail is left untouched. Returns removed_count."""
+    if not isinstance(data, dict):
+        return 0
+    seen, removed = set(), 0
+
+    def key(item, *fields):
+        for f in fields:
+            v = _norm_title(item.get(f))
+            if v:
+                return v
+        return ""
+
+    sections = data.get("sections") or {}
+    for sec in sections.values():
+        if not isinstance(sec, dict):
+            continue
+        for listkey, field in (("cards", "headline"), ("more", "title")):
+            items = sec.get(listkey)
+            if not isinstance(items, list):
+                continue
+            kept = []
+            for it in items:
+                if not isinstance(it, dict):
+                    kept.append(it)
+                    continue
+                k = key(it, field, "headline", "title")
+                if k and k in seen:
+                    removed += 1
+                    continue
+                if k:
+                    seen.add(k)
+                kept.append(it)
+            sec[listkey] = kept
+
+    pods = data.get("podcasts")
+    if isinstance(pods, list):
+        kept = []
+        for it in pods:
+            if not isinstance(it, dict):
+                kept.append(it)
+                continue
+            k = key(it, "headline", "title")
+            if k and k in seen:
+                removed += 1
+                continue
+            if k:
+                seen.add(k)
+            kept.append(it)
+        data["podcasts"] = kept
+
+    return removed
 
 
 # --------------------------------------------------------------- rendering ---
@@ -746,10 +853,16 @@ def run_user(name, template, brave, dt):
     digest = gather_results(queries, brave)
     if not digest:
         die("no search results - skipping %s" % name)
+    digest, dropped = dedupe_digest(digest)
+    if dropped:
+        log("  deduped digest: removed %d repeated result(s)" % dropped)
     digest_text = results_to_text(digest)
 
     raw = generate(profile, seen, digest_text, dt)
     data = parse_json(raw)
+    out_dropped = dedupe_output(data)
+    if out_dropped:
+        log("  deduped output: removed %d repeated card(s)" % out_dropped)
     html = render_page(data, template, dt, profile)
     validate_html(html, dt)
     seen = merge_state(seen, data.get("seen_add"), dt)
