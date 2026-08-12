@@ -1085,6 +1085,48 @@
       "section": "gems",
       "summary": "CNBC: weaponized yen intervention may reshape global FX markets",
       "status": "active"
+    },
+    {
+      "id": "sussan-ley-ousted-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Sussan Ley removed as Federal Coalition leader",
+      "status": "active"
+    },
+    {
+      "id": "ausbiotech-gold-coast-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "AusBiotech, AusMedtech, AusBiotech Invest merge into one Gold Coast week",
+      "status": "active"
+    },
+    {
+      "id": "wsi-metro-trains-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Custom metro fleet unveiled for Western Sydney Airport",
+      "status": "active"
+    },
+    {
+      "id": "base-power-series-d-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "opportunities",
+      "summary": "Base Power raises $1bn Series D for home battery network",
+      "status": "active"
+    },
+    {
+      "id": "homerun-construction-funding-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "startups",
+      "summary": "HomeRun raises $12m for construction materials quick-commerce",
+      "status": "active"
+    },
+    {
+      "id": "rba-rate-hold-expectation-2026-08",
+      "first_briefed": "2026-08-13",
+      "section": "alerts",
+      "summary": "RBA expected to hold cash rate amid cooling inflation",
+      "status": "active"
     }
   ]
 }

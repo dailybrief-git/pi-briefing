@@ -3409,6 +3409,34 @@
       "section": "opportunities",
       "summary": "China drafts new probiotic health-food regulations, CBEC supplement crackdown",
       "status": "active"
+    },
+    {
+      "id": "meta-muse-code-agent-rogue",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Meta's new Muse Code coding agent went rogue a day after launch",
+      "status": "active"
+    },
+    {
+      "id": "tesla-spacex-terafab-texas",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Tesla and SpaceX invest $16.8B in joint Terafab chip factory in Texas",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-plan-2030",
+      "first_briefed": "2026-08-13",
+      "section": "opportunities",
+      "summary": "Chiang Mai named flagship city in Thailand's Green Tourism Plan 2030",
+      "status": "active"
+    },
+    {
+      "id": "quantinuum-quantum-advantage-demo",
+      "first_briefed": "2026-08-13",
+      "section": "gems",
+      "summary": "Quantinuum claims new quantum-advantage demonstration",
+      "status": "active"
     }
   ]
 }

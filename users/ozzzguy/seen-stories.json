@@ -1162,6 +1162,55 @@
       "section": "opportunities",
       "summary": "Starlink Mobile plans reported to directly challenge Verizon/AT&T/T-Mobile",
       "status": "active"
+    },
+    {
+      "id": "mail-in-voting-block-expanded",
+      "first_briefed": "2026-08-13",
+      "section": "alerts",
+      "summary": "Federal judge expands nationwide block on Trump mail-in voting order",
+      "status": "active"
+    },
+    {
+      "id": "july-2026-hottest-month-record",
+      "first_briefed": "2026-08-13",
+      "section": "alerts",
+      "summary": "NOAA confirms July 2026 hottest month on record for CONUS",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-confirmed-16-8b",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Terafab AI chip plant confirmed at $16.8B, below $55B earlier estimate",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-revenue-musk-claim",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Musk claims SpaceX AI revenue to overtake all units by September, Grok 4.6 imminent",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-sewer-434m-funding",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Hochul announces $434M for water/sewer infrastructure affordability",
+      "status": "active"
+    },
+    {
+      "id": "edtech-2026-27-trend-forecast",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "Discovery Education names top 2026-27 school year trends",
+      "status": "active"
+    },
+    {
+      "id": "uc-record-admissions-2026",
+      "first_briefed": "2026-08-13",
+      "section": "major",
+      "summary": "UC admits record 102,000 in-state students for fall 2026",
+      "status": "active"
     }
   ]
 }
