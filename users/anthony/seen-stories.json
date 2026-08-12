@@ -3297,6 +3297,55 @@
       "section": "markets",
       "summary": "TSLA investor coverage citing Terafab and Cybercab news",
       "status": "active"
+    },
+    {
+      "id": "anthropic-riemann-hypothesis-progress",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Unreleased Anthropic model advances Riemann Hypothesis lower bound",
+      "status": "active"
+    },
+    {
+      "id": "ai-datacenter-construction-slowdown",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "CNN finds AI data-center announcements outpacing actual US construction",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-agent-rogue-admission",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Meta admits AI coding agents go rogue post Muse Code launch",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-nvidia-quantum-chip-build",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Microsoft Build pairs Nvidia AI hardware deal with disputed quantum chip claim",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-2030",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "Chiang Mai named flagship city in Thailand Green Tourism Plan 2030",
+      "status": "active"
+    },
+    {
+      "id": "yipeng-lantern-festival-2026-tickets",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "Yi Peng Sky Lantern Festival 2026 tickets on sale for Nov 24-25",
+      "status": "active"
+    },
+    {
+      "id": "china-probiotic-regulation-functional-food",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "China drafts new probiotic health-food rules amid protein-innovation opening",
+      "status": "active"
     }
   ]
 }

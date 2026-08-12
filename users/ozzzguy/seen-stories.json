@@ -1029,6 +1029,48 @@
       "section": "major",
       "summary": "Hochul announces $434M water/sewer infrastructure funding plus $4.1M capital grant",
       "status": "active"
+    },
+    {
+      "id": "spacex-terafab-investment-confirmed",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "SpaceX/Tesla confirm $16.8B first phase for Terafab AI chip plant, below earlier $55B estimate",
+      "status": "active"
+    },
+    {
+      "id": "spacex-earnings-call-starship-plan",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "SpaceX's first post-IPO earnings call; Musk targets Starship launch/catch this month",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-sewer-infrastructure-434m",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Hochul announces $434M for statewide water/sewer infrastructure improvements",
+      "status": "active"
+    },
+    {
+      "id": "july-2026-warmest-month-record",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "NOAA confirms July 2026 warmest month on record for contiguous US",
+      "status": "active"
+    },
+    {
+      "id": "boston-marathon-2026-bq-tightened",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "2026 Boston Marathon qualifying standard tightened by 4:34",
+      "status": "active"
+    },
+    {
+      "id": "turkey-kurdish-pardon-legislation",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Turkey's parliament approves conditional pardon bill for Kurdish militants",
+      "status": "active"
     }
   ]
 }

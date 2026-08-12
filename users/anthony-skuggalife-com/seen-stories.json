@@ -980,6 +980,48 @@
       "section": "opportunities",
       "summary": "Mereo BioPharma options alvelestat to Sentynl Therapeutics",
       "status": "active"
+    },
+    {
+      "id": "nsw-ssd-pipeline-surge-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "NSW logs 43 State Significant Development status changes in a week",
+      "status": "active"
+    },
+    {
+      "id": "rba-hold-expectation-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "Economists expect RBA to hold cash rate this week",
+      "status": "active"
+    },
+    {
+      "id": "census-2026-new-questions-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Australia's 2026 census adds gender/sexual orientation questions",
+      "status": "active"
+    },
+    {
+      "id": "ai-governance-sydney-hiring-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "AI governance/security concerns reshape Sydney tech hiring",
+      "status": "active"
+    },
+    {
+      "id": "homerun-construction-materials-funding-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "HomeRun raises $12M for 60-minute construction materials delivery",
+      "status": "active"
+    },
+    {
+      "id": "urban-company-smart-home-india-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "Urban Company launches smart-home hardware line in India",
+      "status": "active"
     }
   ]
 }
