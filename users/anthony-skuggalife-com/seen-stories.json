@@ -1050,6 +1050,41 @@
       "section": "major",
       "summary": "Mereo BioPharma licenses alvelestat to Sentynl for AATD lung disease",
       "status": "active"
+    },
+    {
+      "id": "rba-hold-housing-correction-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "alerts",
+      "summary": "RBA expected to hold rate; housing correction not easing affordability for first-home buyers",
+      "status": "active"
+    },
+    {
+      "id": "biotech-china-reining-in-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "STAT reports China tightening oversight of its biotech sector",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ai-hiring-signal-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Sydney tech hiring shaped by AI police pilots, agent security, Meta model, governance debate",
+      "status": "active"
+    },
+    {
+      "id": "publishers-ai-licensing-squeeze-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Australian publishers face revenue squeeze without paid AI licensing deals",
+      "status": "active"
+    },
+    {
+      "id": "yen-weaponized-fx-reshape-2026-08",
+      "first_briefed": "2026-08-12",
+      "section": "gems",
+      "summary": "CNBC: weaponized yen intervention may reshape global FX markets",
+      "status": "active"
     }
   ]
 }

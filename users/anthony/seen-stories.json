@@ -3388,6 +3388,27 @@
       "section": "markets",
       "summary": "QCi (QUBT) reports Q2 2026 financial results",
       "status": "active"
+    },
+    {
+      "id": "anthropic-riemann-hypothesis-breakthrough",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "Unreleased Claude model advances Riemann Hypothesis bound from 41.6% to 67.2%",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-sol-luna-update",
+      "first_briefed": "2026-08-12",
+      "section": "major",
+      "summary": "OpenAI launches GPT-5.6 Sol/Luna, teases 2027 smart speaker",
+      "status": "active"
+    },
+    {
+      "id": "china-probiotic-health-food-regulation",
+      "first_briefed": "2026-08-12",
+      "section": "opportunities",
+      "summary": "China drafts new probiotic health-food regulations, CBEC supplement crackdown",
+      "status": "active"
     }
   ]
 }
