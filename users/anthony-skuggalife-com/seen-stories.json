@@ -1127,6 +1127,55 @@
       "section": "alerts",
       "summary": "RBA expected to hold cash rate amid cooling inflation",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "NSW finalises 20-year Sydney Plan for 1.3m new residents, housing/jobs targets by region",
+      "status": "active"
+    },
+    {
+      "id": "news-bargaining-bill-passage-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Australia's news bargaining incentive bill secures bipartisan deal to pass parliament",
+      "status": "active"
+    },
+    {
+      "id": "atlassian-ai-jobcuts-tower-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Atlassian pairs Sydney tower completion with AI-driven job cuts",
+      "status": "active"
+    },
+    {
+      "id": "syngenis-biomanufacturing-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Syngenis builds clinical-grade DNA/RNA manufacturing capacity amid biotech commercialisation obstacle course",
+      "status": "active"
+    },
+    {
+      "id": "base-power-smart-home-funding-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "Base Power raises $1bn Series D for home battery/smart-energy platform",
+      "status": "active"
+    },
+    {
+      "id": "meiragtx-breakthrough-therapy-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "gems",
+      "summary": "MeiraGTx wins FDA Breakthrough Therapy Designation for AQUAx programme",
+      "status": "active"
+    },
+    {
+      "id": "dwarkesh-ai-superintelligence-2026-08",
+      "first_briefed": "2026-08-14",
+      "section": "podcasts",
+      "summary": "Dwarkesh hosts Ryan Greenblatt on runaway superintelligence timeline debate",
+      "status": "active"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "owner_name": "Tony Astudo",
+  "owner_name": "Test",
   "email": "anthony@astudo.com",
   "location": {
     "region": "Chiang Mai",
@@ -16,107 +16,81 @@
       "coffee"
     ],
     "watch_topics": [
-      "Quantum computing",
-      "Ai",
-      "Chiang Mai",
-      "infrastructure development",
-      "Food & drink",
-      "EVs & mobility",
-      "Longevity",
-      "new film releases",
-      "new business ideas",
-      "Science breakthroughs",
-      "Consumer tech",
-      "Local property",
-      "chocolate",
-      "supplements"
+      "Your country & national politics",
+      "Local news — your city",
+      "Major world events",
+      "World & politics",
+      "Markets & money",
+      "Tech & AI",
+      "Your country",
+      "Local news"
     ]
   },
   "personal_interests": [
     {
-      "name": "Quantum computing",
+      "name": "Your country & national politics",
       "note": null,
       "weight": 2
     },
     {
-      "name": "Ai",
+      "name": "Local news — your city",
       "note": null,
       "weight": 2
     },
     {
-      "name": "Chiang Mai",
+      "name": "Major world events",
       "note": null,
       "weight": 2
     },
     {
-      "name": "infrastructure development",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Formula 1",
-      "note": null,
-      "weight": 4
-    },
-    {
-      "name": "Food & drink",
-      "note": "functional foods",
-      "weight": 2
-    },
-    {
-      "name": "EVs & mobility",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Longevity",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "new film releases",
-      "note": "only for Hollywood action movies",
-      "weight": 2
-    },
-    {
-      "name": "new business ideas",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Science breakthroughs",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Consumer tech",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Local property",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "rc boats",
+      "name": "Cost of living & personal money",
       "note": null,
       "weight": 1
     },
     {
-      "name": "Cars",
+      "name": "Weather & environment",
       "note": null,
-      "weight": 3
+      "weight": 1
     },
     {
-      "name": "chocolate",
-      "note": "new uses or brands",
+      "name": "World & politics",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Markets & money",
+      "note": null,
       "weight": 2
     },
     {
-      "name": "supplements",
+      "name": "Tech & AI",
       "note": null,
       "weight": 2
+    },
+    {
+      "name": "Your country",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Local news",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Business & work",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Health & science",
+      "note": null,
+      "weight": 1
+    },
+    {
+      "name": "Culture & sport",
+      "note": null,
+      "weight": 1
     }
   ],
   "intelligence_topics": [],
@@ -139,7 +113,9 @@
       "All-In",
       "diary of a CEO",
       "matt armstrong",
-      "my first million"
+      "my first million",
+      "The Daily",
+      "Crime Junkie"
     ]
   },
   "alert_topics": [
@@ -173,11 +149,7 @@
     "opportunity",
     "hidden_gems"
   ],
-  "interest_locations": {
-    "food_drink": "functional foods",
-    "new film releases": "only for Hollywood action movies",
-    "chocolate": "new uses or brands"
-  },
+  "interest_locations": {},
   "standing_instructions": "",
   "temporary_directives": [],
   "suppressions": [

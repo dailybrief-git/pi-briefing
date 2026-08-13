@@ -1,0 +1,26 @@
+{
+  "_note": "anti-repetition memory",
+  "stories": [
+    {
+      "id": "nsw-building-approvals-practitioners-act-2026",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "NSW Building (Approvals and Practitioners) Act 2026 assented, replaces certifier system with staged approvals.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-plan-2046-housing-strategy",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "NSW releases 20-year Sydney Plan targeting 1.3 million new residents by 2046.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-appf-retail-sale-redcliffe-hospital",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Lendlease sells $1bn+ retail stakes to Cbus Property, wins Redcliffe Hospital expansion contract.",
+      "status": "active"
+    }
+  ]
+}

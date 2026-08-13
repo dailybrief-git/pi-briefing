@@ -3437,6 +3437,62 @@
       "section": "gems",
       "summary": "Quantinuum claims new quantum-advantage demonstration",
       "status": "active"
+    },
+    {
+      "id": "anthropic-riemann-hypothesis-claim",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Unreleased Anthropic model reportedly advances on Riemann Hypothesis (unverified)",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-sol-luna-launch",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "OpenAI ships GPT-5.6 Sol and Luna to ChatGPT",
+      "status": "active"
+    },
+    {
+      "id": "colombia-earthquake-265-dead",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "7.4-magnitude earthquake kills at least 265 in Colombia",
+      "status": "active"
+    },
+    {
+      "id": "oil-hormuz-stockpile-drawdown",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Global oil stockpiles draining amid unresolved Hormuz standoff",
+      "status": "active"
+    },
+    {
+      "id": "sp500-record-high-aug2026",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "S&P 500 hits fresh record high on cooling inflation data",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-smart-city-green-tourism",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "Chiang Mai/Chiang Rai push smart-city + organic-farming tourism branding",
+      "status": "active"
+    },
+    {
+      "id": "thaifex-anuga-2026",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "THAIFEX-Anuga Asia 2026 trade show running, F&B sourcing opportunity",
+      "status": "active"
+    },
+    {
+      "id": "doac-seth-godin-episode",
+      "first_briefed": "2026-08-14",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Seth Godin on AI-era marketing",
+      "status": "active"
     }
   ]
 }

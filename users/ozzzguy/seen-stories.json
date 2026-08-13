@@ -1211,6 +1211,97 @@
       "section": "major",
       "summary": "UC admits record 102,000 in-state students for fall 2026",
       "status": "active"
+    },
+    {
+      "id": "spacex-earnings-call-first-post-ipo",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "SpaceX's first post-IPO earnings call; Musk targets Starship launch-and-catch this month",
+      "status": "active"
+    },
+    {
+      "id": "spacexai-grok46-launch",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Grok 4.6 ranks third-best model globally on Artificial Analysis",
+      "status": "active"
+    },
+    {
+      "id": "grok-bot-launch",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "xAI launches $120/mo Grok Bot AI-agent coworker product",
+      "status": "active"
+    },
+    {
+      "id": "spacex-tesla-terafab-plant",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "SpaceX/Tesla break ground on Terafab AI chip plant in Texas, world's largest building",
+      "status": "active"
+    },
+    {
+      "id": "edtech-market-353b-forecast",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "Edtech market forecast to $353.1B by 2030; OpenAI launches teacher newsletter",
+      "status": "active"
+    },
+    {
+      "id": "nyc-energy-tax-exemptions-hearing",
+      "first_briefed": "2026-08-14",
+      "section": "major",
+      "summary": "NYC Council to hold Aug 18 hearing on new energy tax amid exemption rush",
+      "status": "active"
+    },
+    {
+      "id": "trump-election-emergency-comments",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "Trump won't rule out national emergency declaration tied to 2026 election",
+      "status": "active"
+    },
+    {
+      "id": "iran-khamenei-security-overhaul",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "Mojtaba Khamenei orders Iran national security leadership overhaul",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-record-strength-2026",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "El Niño forecast to be strongest on record; July was hottest month in US history",
+      "status": "active"
+    },
+    {
+      "id": "midwest-storms-power-outages",
+      "first_briefed": "2026-08-14",
+      "section": "alerts",
+      "summary": "Deadly Midwest/Mid-Atlantic storms leave over a million without power",
+      "status": "active"
+    },
+    {
+      "id": "grok-bot-monetization-opportunity",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "Hypothesis: Grok Bot diversifies SpaceX-adjacent AI revenue",
+      "status": "active"
+    },
+    {
+      "id": "terafab-vertical-integration-opportunity",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "Hypothesis: Terafab reduces SpaceX/Tesla Nvidia dependency",
+      "status": "active"
+    },
+    {
+      "id": "openai-education-newsletter-opportunity",
+      "first_briefed": "2026-08-14",
+      "section": "opportunities",
+      "summary": "Hypothesis: OpenAI's teacher newsletter reshapes edtech vendor landscape",
+      "status": "active"
     }
   ]
 }
