@@ -21,6 +21,27 @@
       "section": "major",
       "summary": "Lendlease sells $1bn+ retail stakes to Cbus Property, wins Redcliffe Hospital expansion contract.",
       "status": "active"
+    },
+    {
+      "id": "sydney-airport-expansion-approved-2026",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Sydney Airport expansion plans approved, five-year initial delivery window.",
+      "status": "active"
+    },
+    {
+      "id": "australia-trump-tariff-exemption-push",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Albanese lobbies Trump for full tariff exemption or rate freeze for Australia.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-building-act-funding-ai-pilot",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "NSW commits $32.3m and AI licensing pilot to implement new Building Act; duty-of-care detail clarified.",
+      "status": "active"
     }
   ]
 }

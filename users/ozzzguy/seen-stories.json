@@ -1302,6 +1302,69 @@
       "section": "opportunities",
       "summary": "Hypothesis: OpenAI's teacher newsletter reshapes edtech vendor landscape",
       "status": "active"
+    },
+    {
+      "id": "grok-4-6-and-grok-bot-launch",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "SpaceXAI ships Grok 4.6 model and Grok Bot agent product",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-carrier-challenge-update",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Starlink Mobile plans detailed as direct challenge to Verizon/AT&T/T-Mobile",
+      "status": "active"
+    },
+    {
+      "id": "mangione-federal-guilty-plea",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Luigi Mangione expected to plead guilty in federal UnitedHealthcare CEO case",
+      "status": "active"
+    },
+    {
+      "id": "marathon-round-number-finish-study",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "J Appl Physiol natural-experiment study on marathon finishers clustering below round-number targets",
+      "status": "active"
+    },
+    {
+      "id": "edtech-ai-vetting-struggle-sumner",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "CT Mirror/Tiffin Ohio report on districts struggling to vet billions in AI edtech spend",
+      "status": "active"
+    },
+    {
+      "id": "aramark-dye-removal-2026-27",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Aramark nationwide removal of artificial dyes/additives from school menus for 2026-27",
+      "status": "active"
+    },
+    {
+      "id": "xtep-160x-8-shoe-launch",
+      "first_briefed": "2026-08-15",
+      "section": "opportunities",
+      "summary": "Xtep 160X 8.0 Ultra carbon-plate marathon shoe launching Aug 21",
+      "status": "active"
+    },
+    {
+      "id": "hormuz-oil-stockpile-deadlock",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Global oil stockpiles draining amid ongoing Hormuz deadlock",
+      "status": "active"
+    },
+    {
+      "id": "israeli-settlers-west-bank-siege-rebuke",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Israeli settlers' siege of Palestinian homes draws sharp US rebuke",
+      "status": "active"
     }
   ]
 }

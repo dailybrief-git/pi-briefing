@@ -3493,6 +3493,139 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Seth Godin on AI-era marketing",
       "status": "active"
+    },
+    {
+      "id": "openai-ultrafast-gpt56-sol",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "OpenAI launches Ultrafast tier for GPT-5.6 Sol on Cerebras chips, 14x faster",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-mental-workspace",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Anthropic interpretability research finds emergent internal 'mental workspace' in Claude",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-riemann-hypothesis",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Unreleased Claude model advances Riemann Hypothesis lower bound from 41.6% to 67.2%",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-quantum-scout-recap",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Microsoft Build recap: Nvidia AI hardware tie-up, 7 new models, Scout agent, quantum chip",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-us-listing-ai",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "SK Hynix launches $28B US listing riding global AI memory-chip demand",
+      "status": "active"
+    },
+    {
+      "id": "sp500-record-third-week",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "S&P 500 heads for third straight winning week on AI-capex optimism",
+      "status": "active"
+    },
+    {
+      "id": "hormuz-oil-stockpile-crisis",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Global oil stockpiles draining amid unresolved Hormuz Strait standoff",
+      "status": "active"
+    },
+    {
+      "id": "twe-china-wine-demand",
+      "first_briefed": "2026-08-15",
+      "section": "opportunities",
+      "summary": "Treasury Wine Estates cites strong China demand offsetting US softness",
+      "status": "active"
+    },
+    {
+      "id": "thailand-green-tourism-smart-city",
+      "first_briefed": "2026-08-15",
+      "section": "opportunities",
+      "summary": "Chiang Mai/Chiang Rai push smart-city plus Lanna-culture green tourism model",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-fsd-wave2",
+      "first_briefed": "2026-08-15",
+      "section": "companies",
+      "summary": "Tesla teases imminent Roadster; FSD v14.3.7 Wave 2 rolls out with new features",
+      "status": "active"
+    },
+    {
+      "id": "meta-features-ai-mode-search",
+      "first_briefed": "2026-08-15",
+      "section": "companies",
+      "summary": "Facebook adds AI Mode search, custom instructions, Private Processing controls",
+      "status": "active"
+    },
+    {
+      "id": "windows11-august-update",
+      "first_briefed": "2026-08-15",
+      "section": "companies",
+      "summary": "Windows 11 August update adds Voice Isolation and fingerprint sign-in",
+      "status": "active"
+    },
+    {
+      "id": "manus-ai-independent-again",
+      "first_briefed": "2026-08-15",
+      "section": "startups",
+      "summary": "Manus AI resumes independent operation after splitting from Meta",
+      "status": "active"
+    },
+    {
+      "id": "ft-indonesia-commodities-retreat",
+      "first_briefed": "2026-08-15",
+      "section": "markets",
+      "summary": "Indonesia's Prabowo retreats on nickel/coal/palm oil trade reform amid market pressure",
+      "status": "active"
+    },
+    {
+      "id": "foxconn-ai-infrastructure-growth",
+      "first_briefed": "2026-08-15",
+      "section": "markets",
+      "summary": "Foxconn cites AI infrastructure build-out as key 2026 growth driver",
+      "status": "active"
+    },
+    {
+      "id": "thaifex-anuga-asia-tradeshow",
+      "first_briefed": "2026-08-15",
+      "section": "gems",
+      "summary": "THAIFEX-Anuga Asia continues as region's leading F&B trade show",
+      "status": "active"
+    },
+    {
+      "id": "anantara-chiangmai-wagyu-menu",
+      "first_briefed": "2026-08-15",
+      "section": "gems",
+      "summary": "Anantara Chiang Mai unveils new menu centred on Mayura Wagyu",
+      "status": "active"
+    },
+    {
+      "id": "dr-congo-epidemic-clinic",
+      "first_briefed": "2026-08-15",
+      "section": "interest",
+      "summary": "DR Congo rural clinic strained by ongoing epidemic",
+      "status": "active"
+    },
+    {
+      "id": "iceland-total-solar-eclipse",
+      "first_briefed": "2026-08-15",
+      "section": "interest",
+      "summary": "Total solar eclipse sweeps over Iceland's Blue Lagoon",
+      "status": "active"
     }
   ]
 }

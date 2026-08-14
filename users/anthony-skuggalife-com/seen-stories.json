@@ -1176,6 +1176,69 @@
       "section": "podcasts",
       "summary": "Dwarkesh hosts Ryan Greenblatt on runaway superintelligence timeline debate",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-1-3m-residents-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "NSW unveils 20-year Sydney housing/jobs/infrastructure plan for 1.3m extra residents",
+      "status": "active"
+    },
+    {
+      "id": "liberal-frontbencher-substandard-homes-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Liberal frontbencher says low-income Australians should accept substandard homes",
+      "status": "active"
+    },
+    {
+      "id": "albanese-tariff-exemption-request-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "alerts",
+      "summary": "Albanese lobbies Trump directly for full Australian tariff exemption",
+      "status": "active"
+    },
+    {
+      "id": "sydney-airport-expansion-approved-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Sydney Airport expansion plans approved, staged over five years",
+      "status": "active"
+    },
+    {
+      "id": "biotech-syngenis-manufacturing-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Syngenis scaling clinical-grade RNA/DNA manufacturing, biotech commercialisation bottleneck",
+      "status": "active"
+    },
+    {
+      "id": "tariff-tracker-taiwan-korea-rates-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Tax Foundation tracker revises Taiwan/Korea tariff rates",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ai-governance-hiring-signal-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "major",
+      "summary": "Big Wave Digital roundup ties AI governance/agent security/Meta model to Sydney tech hiring",
+      "status": "active"
+    },
+    {
+      "id": "base-power-smart-home-battery-funding-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "opportunities",
+      "summary": "Base Power raises $1bn Series D for home battery/energy platform",
+      "status": "active"
+    },
+    {
+      "id": "saluda-medical-funding-highlight-2026-08",
+      "first_briefed": "2026-08-15",
+      "section": "opportunities",
+      "summary": "Saluda Medical named among Australia's most-funded biotech startups",
+      "status": "active"
     }
   ]
 }
