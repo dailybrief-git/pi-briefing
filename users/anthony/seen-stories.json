@@ -3626,6 +3626,90 @@
       "section": "interest",
       "summary": "Total solar eclipse sweeps over Iceland's Blue Lagoon",
       "status": "active"
+    },
+    {
+      "id": "indonesia-flores-earthquake-m7-7",
+      "first_briefed": "2026-08-16",
+      "section": "alerts",
+      "summary": "M7.7 earthquake off Flores Island, Indonesia kills 38+",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-certification",
+      "first_briefed": "2026-08-16",
+      "section": "opportunities",
+      "summary": "Green tourism certification drive expands to Chiang Mai, Krabi, Phuket",
+      "status": "active"
+    },
+    {
+      "id": "central-retail-thailand-h1-profit",
+      "first_briefed": "2026-08-16",
+      "section": "opportunities",
+      "summary": "Central Retail H1 2026 profit up 42.5% on new stores",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt5-6-sol-ultrafast",
+      "first_briefed": "2026-08-16",
+      "section": "major",
+      "summary": "OpenAI previews GPT-5.6 Sol and launches Ultrafast API tier",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-emergent-workspace-research",
+      "first_briefed": "2026-08-16",
+      "section": "major",
+      "summary": "Anthropic interpretability research finds emergent internal 'mental workspace' in Claude",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-decart-bid-rumor",
+      "first_briefed": "2026-08-16",
+      "section": "major",
+      "summary": "Unconfirmed report of Anthropic's $6B bid for Decart AI",
+      "status": "active"
+    },
+    {
+      "id": "google-apple-ai-model-roundup-aug2026",
+      "first_briefed": "2026-08-16",
+      "section": "major",
+      "summary": "Google ships cheaper AI model; Apple trains China-specific model with Alibaba",
+      "status": "active"
+    },
+    {
+      "id": "sp500-third-weekly-gain-aug2026",
+      "first_briefed": "2026-08-16",
+      "section": "major",
+      "summary": "S&P 500 posts third straight weekly gain, hits record intraday high",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-flying-car-tease-aug2026",
+      "first_briefed": "2026-08-16",
+      "section": "companies",
+      "summary": "Tesla design chief teases Roadster imminent; Musk reiterates flying cars",
+      "status": "active"
+    },
+    {
+      "id": "meta-facebook-ai-mode-search",
+      "first_briefed": "2026-08-16",
+      "section": "companies",
+      "summary": "Facebook adds AI Mode search and custom Meta AI instructions",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-windows11-aug2026-update",
+      "first_briefed": "2026-08-16",
+      "section": "companies",
+      "summary": "Windows 11 August update adds Voice Isolation, fingerprint sign-in",
+      "status": "active"
+    },
+    {
+      "id": "indonesia-commodities-reform-retreat",
+      "first_briefed": "2026-08-16",
+      "section": "markets",
+      "summary": "Indonesia's Prabowo retreats on commodities reform amid market pressure",
+      "status": "active"
     }
   ]
 }
