@@ -1267,6 +1267,34 @@
       "section": "opportunities",
       "summary": "Saudi contech startup Fitting closes $1.1m seed",
       "status": "active"
+    },
+    {
+      "id": "google-ai-exec-reshuffle-2026-08",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Reuters details executive moves behind Google's AI reorganisation",
+      "status": "active"
+    },
+    {
+      "id": "merck-kras-breakthrough-designation-2026-08",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Merck's calderasib gets Breakthrough Therapy designation with Keytruda",
+      "status": "active"
+    },
+    {
+      "id": "us-2026-regulatory-agenda-trade-ai-2026-08",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "US 2026 agenda suspends de minimis, tightens AI export controls",
+      "status": "active"
+    },
+    {
+      "id": "syngenis-biotech-manufacturing-2026-08",
+      "first_briefed": "2026-08-17",
+      "section": "opportunities",
+      "summary": "Sydney's Syngenis builds DNA/RNA biomanufacturing capability",
+      "status": "active"
     }
   ]
 }

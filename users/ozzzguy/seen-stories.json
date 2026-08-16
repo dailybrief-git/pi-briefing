@@ -1365,6 +1365,83 @@
       "section": "alerts",
       "summary": "Israeli settlers' siege of Palestinian homes draws sharp US rebuke",
       "status": "active"
+    },
+    {
+      "id": "indonesia-earthquake-m77-aug2026",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "M7.7 earthquake off Indonesia kills at least 38",
+      "status": "active"
+    },
+    {
+      "id": "israel-lebanon-airstrike-aug2026",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "Israeli airstrike hits southern Lebanon village, one killed",
+      "status": "active"
+    },
+    {
+      "id": "morningside-heights-stabbing",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "Stabbing in Morningside Heights injures 24-year-old",
+      "status": "active"
+    },
+    {
+      "id": "ues-synagogue-attack",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "Congregant struck outside Upper East Side synagogue",
+      "status": "active"
+    },
+    {
+      "id": "cpi-july-2026-report",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "July CPI +3.4% YoY, energy +14.7%, food +3.0%",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-pied-a-terre-tax-rollout",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Court allows pied-à-terre tax rollout to continue; Council hearing Aug 18",
+      "status": "active"
+    },
+    {
+      "id": "spacex-grok-bot-launch",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "SpaceX AI unit launches Grok Bot agentic product and Grok 4.6 model",
+      "status": "active"
+    },
+    {
+      "id": "marathon-training-load-study",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "2026 study links training distribution/frequency to marathon performance prediction",
+      "status": "active"
+    },
+    {
+      "id": "texas-border-park-construction",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Border infrastructure advances in Texas state park despite opposition",
+      "status": "active"
+    },
+    {
+      "id": "student-wellbeing-digital-safety-opportunity",
+      "first_briefed": "2026-08-17",
+      "section": "opportunities",
+      "summary": "Hypothesis: digital-safety and wellbeing edtech tools converging into one category",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-revenue-mix-opportunity",
+      "first_briefed": "2026-08-17",
+      "section": "opportunities",
+      "summary": "Analyst hypothesis: SpaceX AI business becoming core revenue driver, $172 target floated",
+      "status": "active"
     }
   ]
 }

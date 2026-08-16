@@ -3710,6 +3710,48 @@
       "section": "markets",
       "summary": "Indonesia's Prabowo retreats on commodities reform amid market pressure",
       "status": "active"
+    },
+    {
+      "id": "indonesia-earthquake-m77-aug2026",
+      "first_briefed": "2026-08-17",
+      "section": "alerts",
+      "summary": "M7.7 earthquake off Indonesia kills dozens, buildings collapse",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-report-2026",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Reports circulate of Anthropic $2T IPO valuation, October listing target",
+      "status": "active"
+    },
+    {
+      "id": "openai-ultrafast-tier",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "OpenAI launches Ultrafast API tier, GPT-5.6 Sol 14x faster via Cerebras",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ai-model-catchup-2026",
+      "first_briefed": "2026-08-17",
+      "section": "major",
+      "summary": "Cheap Chinese AI model closing gap with Anthropic/OpenAI per Reuters",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-tea-coffee-festival-2026",
+      "first_briefed": "2026-08-17",
+      "section": "opportunities",
+      "summary": "Chiang Rai Tea & Coffee Festival 2026 reinforces northern F&B hub",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-smartcity",
+      "first_briefed": "2026-08-17",
+      "section": "opportunities",
+      "summary": "Chiang Mai integrates smart-city tech with organic farming tourism branding",
+      "status": "active"
     }
   ]
 }
