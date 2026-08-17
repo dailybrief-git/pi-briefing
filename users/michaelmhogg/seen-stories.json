@@ -77,6 +77,27 @@
       "section": "major",
       "summary": "NSW Opposition criticises Labor's Sydney Plan for lacking matched transport-infrastructure funding.",
       "status": "active"
+    },
+    {
+      "id": "au-house-price-correction-poll-2026",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Polling shows majority of Australians want falling house prices; analysts flag historic correction.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-fy26-results-offshore-exit",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Lendlease FY26 profit halves to $38.6m; confirms exit from offshore development/construction to focus on Australia.",
+      "status": "active"
+    },
+    {
+      "id": "albanese-trump-tariff-call-aug2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Albanese and Trump hold direct call on tariffs, developing the earlier exemption-lobbying story.",
+      "status": "active"
     }
   ]
 }

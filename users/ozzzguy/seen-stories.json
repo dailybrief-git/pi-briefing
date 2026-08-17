@@ -1442,6 +1442,76 @@
       "section": "opportunities",
       "summary": "Analyst hypothesis: SpaceX AI business becoming core revenue driver, $172 target floated",
       "status": "active"
+    },
+    {
+      "id": "el-nino-record-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "NOAA forecasts ~70% chance of strongest-on-record El Niño",
+      "status": "active"
+    },
+    {
+      "id": "trump-scotus-ballroom",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Trump asks Supreme Court to permit White House ballroom construction",
+      "status": "active"
+    },
+    {
+      "id": "uss-george-washington-redeploy",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "USS George Washington heads to Middle East amid USS Lincoln crew strain reports",
+      "status": "active"
+    },
+    {
+      "id": "ceuta-migrant-crossing-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Renewed mass migrant crossing attempt at Ceuta repelled",
+      "status": "active"
+    },
+    {
+      "id": "spacex-chip-mega-factory",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Musk announces $16.8B SpaceX/Tesla joint chip factory in Texas",
+      "status": "active"
+    },
+    {
+      "id": "mangione-guilty-plea-federal",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Luigi Mangione pleads guilty to federal stalking charges",
+      "status": "active"
+    },
+    {
+      "id": "marathon-pacing-reference-time-study",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "New study on pacing/reference-time effects on marathon finishing performance",
+      "status": "active"
+    },
+    {
+      "id": "july-2026-warmest-conus-record",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "July 2026 confirmed warmest month on record for contiguous US",
+      "status": "active"
+    },
+    {
+      "id": "spacex-grok46-ai-stock-thesis",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Analyst note ties Grok 4.6 launch to bullish SpaceX AI-revenue stock thesis",
+      "status": "active"
+    },
+    {
+      "id": "atlas-edtech-tutor-consolidation",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Hypothesis: Atlas AI tutoring tool could ease district edtech tool-sprawl",
+      "status": "active"
     }
   ]
 }

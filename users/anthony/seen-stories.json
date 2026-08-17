@@ -3752,6 +3752,76 @@
       "section": "opportunities",
       "summary": "Chiang Mai integrates smart-city tech with organic farming tourism branding",
       "status": "active"
+    },
+    {
+      "id": "record-el-nino-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "NOAA flags building El Niño as track-record strongest ever recorded",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-superapp-merge",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Microsoft begins merging consumer/enterprise Copilot into single Super App",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-ultrafast-cyber",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "OpenAI ships Ultrafast GPT-5.6 Sol tier and reduced-safeguard Cyber model",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-watermarking",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Anthropic embeds invisible watermarks in all new Claude text output",
+      "status": "active"
+    },
+    {
+      "id": "facebook-creator-studio-launch",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Facebook launches standalone AI-powered Creator Studio app in US/Canada",
+      "status": "active"
+    },
+    {
+      "id": "tesla-flying-roadster-demo-tease",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Tesla teases driverless flying Roadster demo at SpaceX Texas site",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ai-catchup-openai-anthropic",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Reuters: cheap Chinese AI model narrows gap with OpenAI, Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-rules-2026",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Thailand's second-round data centre policy debate on infrastructure classification",
+      "status": "active"
+    },
+    {
+      "id": "seasia-expat-ranking-2026",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "SE Asia takes three of 2026's best expat-destination rankings",
+      "status": "active"
+    },
+    {
+      "id": "ibm-openai-enterprise-integration",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "IBM embeds OpenAI GPT-5.6/Codex into Consulting Advantage platform",
+      "status": "active"
     }
   ]
 }
