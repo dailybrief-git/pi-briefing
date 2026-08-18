@@ -6,8 +6,14 @@ on:
     - cron: "0 17 * * *"
   workflow_dispatch: {}
 
+# contents: write  -> commit updated state (users/) back to main
+# pages: write + id-token: write -> required by actions/deploy-pages (official
+# GitHub Pages deploy). This replaces the old force-push to the gh-pages branch,
+# which did not reliably trigger a Pages deployment.
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: daily-briefing
@@ -56,7 +62,7 @@ jobs:
             git push
           fi
 
-      - name: Publish to GitHub Pages (gh-pages branch)
+      - name: Assemble site (_site)
         run: |
           rm -rf _site && mkdir -p _site
           for d in users/*/ ; do
@@ -74,11 +80,21 @@ jobs:
           if [ -f onboarding.html ]; then
             cp onboarding.html _site/onboarding.html
           fi
-          cd _site
-          git init -q
-          git config user.name  "pi-briefing-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          git commit -q -m "Publish $(date -u +%Y-%m-%d)"
-          git branch -M gh-pages
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
+          # Plain static site: skip Jekyll processing.
+          touch _site/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
