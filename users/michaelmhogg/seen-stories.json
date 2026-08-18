@@ -147,6 +147,48 @@
       "section": "interest",
       "summary": "State of Origin confirmed for Auckland for the first time, next year.",
       "status": "active"
+    },
+    {
+      "id": "lendlease-fy26-earnings-call-selloff",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Lendlease stock falls 5.9% post-earnings-call; Morningstar cuts growth outlook on FUM outflows despite new Japan/Malaysia mandates.",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-layoffs-aug2026",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Microsoft cuts 4,800 jobs (2.1% of workforce) in commercial/Xbox restructure.",
+      "status": "active"
+    },
+    {
+      "id": "ai-rally-correction-warning-aug2026",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "European economists warn AI-driven market rally is overdue a sharp correction.",
+      "status": "active"
+    },
+    {
+      "id": "merit-beauty-ritz-carlton-collab",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Merit Beauty's first hospitality collaboration with Ritz-Carlton across seven properties.",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-openai-ohio-financing",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Nvidia backs $105bn financing for OpenAI's Ohio data centre.",
+      "status": "active"
+    },
+    {
+      "id": "eqt-orikan-acquisition",
+      "first_briefed": "2026-08-19",
+      "section": "gems",
+      "summary": "EQT to acquire Australian smart-parking tech provider Orikan.",
+      "status": "active"
     }
   ]
 }

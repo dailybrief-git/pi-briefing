@@ -3878,6 +3878,48 @@
       "section": "opportunities",
       "summary": "150k+ new Thai EVs in 2026 outpacing charging infrastructure",
       "status": "active"
+    },
+    {
+      "id": "openai-ultrafast-gpt-5-6-sol",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "OpenAI launches Ultrafast API tier for GPT-5.6 Sol, 14x faster via Cerebras",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt-5-6-cyber-model",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "OpenAI ships reduced-safeguard GPT-5.6-Cyber model for exploit research",
+      "status": "active"
+    },
+    {
+      "id": "ai-rally-correction-warning",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Economists and Ray Dalio warn AI-driven market rally due a sharp correction",
+      "status": "active"
+    },
+    {
+      "id": "indonesia-nickel-reform-retreat",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Indonesia's Prabowo retreats on nickel/commodities trade reform amid market pressure",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-accreditation",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Chiang Mai named in 2026 green-tourism accreditation push",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-digital-nomad-top30",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Chiang Mai holds top-30 spot in global digital nomad city ranking",
+      "status": "active"
     }
   ]
 }

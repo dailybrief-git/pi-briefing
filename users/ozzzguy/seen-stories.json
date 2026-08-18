@@ -1589,6 +1589,97 @@
       "section": "opportunities",
       "summary": "Unverified claim of rapid Starship pad turnaround solution",
       "status": "active"
+    },
+    {
+      "id": "trump-ballroom-scotus",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "Trump asks Supreme Court to approve White House ballroom construction",
+      "status": "active"
+    },
+    {
+      "id": "carrier-uss-george-washington-mideast",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "USS George Washington repositions toward Middle East amid lingering Iran tensions",
+      "status": "active"
+    },
+    {
+      "id": "record-el-nino-warmest-july",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "NOAA confirms record-strength El Niño building after hottest US July on record",
+      "status": "active"
+    },
+    {
+      "id": "mangione-guilty-plea-trial-delay",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "Mangione pleads guilty federally; NY state murder trial delayed",
+      "status": "active"
+    },
+    {
+      "id": "trump-scale-back-skorea-exercises",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "Trump admin scales back joint military exercises with South Korea",
+      "status": "active"
+    },
+    {
+      "id": "coned-battery-storage-limbo",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Grid battery storage projects, including NY Con Ed area, stuck in regulatory limbo",
+      "status": "active"
+    },
+    {
+      "id": "marathon-training-load-study-2026",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "New study links training frequency/moderate-intensity volume to marathon performance",
+      "status": "active"
+    },
+    {
+      "id": "student-wellbeing-whole-school-review",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Systematic review finds whole-school safety/connectedness programs cut student anxiety/depression",
+      "status": "active"
+    },
+    {
+      "id": "spacex-grokbot-launch",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "SpaceX/xAI launch Grok Bot autonomous AI agent app",
+      "status": "active"
+    },
+    {
+      "id": "ukraine-strikes-moscow-logistics-hub",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "Ukraine strikes major logistics hub in Moscow region",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-revenue-stock-forecast",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX AI business becomes core valuation driver, stock forecast to $172",
+      "status": "active"
+    },
+    {
+      "id": "marathon-training-analytics-opportunity",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Hypothesis: training-load analytics tools become next marathon performance edge",
+      "status": "active"
+    },
+    {
+      "id": "edtech-ai-native-2026-27-opportunity",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Hypothesis: 2026-27 district budgets shift toward AI-native teaching tools",
+      "status": "active"
     }
   ]
 }

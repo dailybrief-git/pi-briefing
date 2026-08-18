@@ -1386,6 +1386,55 @@
       "section": "opportunities",
       "summary": "Apple smart-home roadmap extends to own camera/doorbell hardware",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-nsw-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "NSW unveils 20-year Sydney Plan for housing/jobs/infrastructure; Coalition flags transport funding gap",
+      "status": "active"
+    },
+    {
+      "id": "csl-vifor-writedown-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "CSL discloses $10bn Vifor write-down amid Seqirus vaccine demand softness",
+      "status": "active"
+    },
+    {
+      "id": "canada-us-tariff-deal-nearing-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "US and Canada close in on deal averting 50% tariffs (development)",
+      "status": "active"
+    },
+    {
+      "id": "bhp-copper-profit-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "major",
+      "summary": "BHP posts 30% profit jump on high copper prices",
+      "status": "active"
+    },
+    {
+      "id": "nsw-infra-plan-criticism-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "Coalition criticises Sydney Plan for lacking transport funding",
+      "status": "active"
+    },
+    {
+      "id": "gambling-ads-bill-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "alerts",
+      "summary": "Labor's gambling ad restriction bill set to pass this week",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-hardware-detail-2026-08",
+      "first_briefed": "2026-08-19",
+      "section": "opportunities",
+      "summary": "Apple's smart home roadmap detailed to include first-party camera and doorbell",
+      "status": "active"
     }
   ]
 }
