@@ -3822,6 +3822,62 @@
       "section": "opportunities",
       "summary": "IBM embeds OpenAI GPT-5.6/Codex into Consulting Advantage platform",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-nominee-ownership-investigation",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Nominee shareholder ownership investigation expands from Phuket into Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "thai-airways-q2-profit-collapse",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Thai Airways Q2 profit down 87% on Middle East conflict headwinds",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-record-forecast-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "NOAA forecasts ~70% chance of record-strongest El Niño",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt56-cyber-model",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "OpenAI launches reduced-safeguard GPT-5.6-Cyber for exploit research",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-super-app-merge",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Microsoft begins merging consumer/business Copilot into unified Super App",
+      "status": "active"
+    },
+    {
+      "id": "ibm-openai-consulting-partnership",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "IBM embeds OpenAI GPT-5.6/Codex into IBM Consulting Advantage",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-push",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Green-tourism certification drive across Chiang Mai, Krabi, Phuket",
+      "status": "active"
+    },
+    {
+      "id": "thailand-ev-charging-hospitality-gap",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "150k+ new Thai EVs in 2026 outpacing charging infrastructure",
+      "status": "active"
     }
   ]
 }

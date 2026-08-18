@@ -1512,6 +1512,83 @@
       "section": "opportunities",
       "summary": "Hypothesis: Atlas AI tutoring tool could ease district edtech tool-sprawl",
       "status": "active"
+    },
+    {
+      "id": "nyc-property-tax-hearing-2026",
+      "first_briefed": "2026-08-18",
+      "section": "rail-today",
+      "summary": "NYC Council holds oversight hearing on new property tax",
+      "status": "active"
+    },
+    {
+      "id": "marathon-reference-times-study",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "New physiology study on marathon training-intensity predictors and finish-time clustering",
+      "status": "active"
+    },
+    {
+      "id": "student-wellbeing-online-safety-review",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Systematic review links whole-school digital-safety programs to durable wellbeing gains",
+      "status": "active"
+    },
+    {
+      "id": "spacex-chip-factory-168b",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Musk details $16.8B chip factory investment",
+      "status": "active"
+    },
+    {
+      "id": "elnino-record-forecast",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "NOAA: El Niño nearly 70% likely to be strongest on record",
+      "status": "active"
+    },
+    {
+      "id": "ussgw-middle-east-deployment",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "USS George Washington moves toward Middle East amid carrier strain reports",
+      "status": "active"
+    },
+    {
+      "id": "nyc-mcdonalds-stabbing",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Teen stabbed at Manhattan McDonald's near Penn Station",
+      "status": "active"
+    },
+    {
+      "id": "li-hate-incident-condemned",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Long Island officials condemn weekend hate incident",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-monetization-forecast",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Analyst forecasts SpaceX AI business as core revenue driver, PT $172",
+      "status": "active"
+    },
+    {
+      "id": "conEd-grid-storage-limbo",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Con Ed storage interconnection rules stall big-battery projects",
+      "status": "active"
+    },
+    {
+      "id": "starship-pad-turnaround-claim",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Unverified claim of rapid Starship pad turnaround solution",
+      "status": "active"
     }
   ]
 }

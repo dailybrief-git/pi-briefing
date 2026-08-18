@@ -98,6 +98,55 @@
       "section": "alerts",
       "summary": "Albanese and Trump hold direct call on tariffs, developing the earlier exemption-lobbying story.",
       "status": "active"
+    },
+    {
+      "id": "nsw-card-surcharge-ban-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Looming ban on card surcharges forcing banks/merchants to rework payment pricing.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-rental-law-reforms-2026",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "New NSW rental/tenancy law reforms take effect, strengthening tenant protections.",
+      "status": "active"
+    },
+    {
+      "id": "gambling-ad-restriction-bill-2026",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Labor's gambling ad restriction bill on track to pass parliament this week.",
+      "status": "active"
+    },
+    {
+      "id": "datacentre-energy-water-rules-blueprint",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "State data-centre energy/water use rules floated as potential national blueprint.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-us-rent-growth-forecast",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Apartments.com/CoStar raise US Q3 multifamily rent growth forecast to 1.4%.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-gun-buyback-2026",
+      "first_briefed": "2026-08-18",
+      "section": "gems",
+      "summary": "NSW offers cash-for-guns buyback following firearm incident.",
+      "status": "active"
+    },
+    {
+      "id": "nrl-origin-auckland-2027",
+      "first_briefed": "2026-08-18",
+      "section": "interest",
+      "summary": "State of Origin confirmed for Auckland for the first time, next year.",
+      "status": "active"
     }
   ]
 }

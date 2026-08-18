@@ -1337,6 +1337,55 @@
       "section": "opportunities",
       "summary": "Apple confirms own-brand smart-home camera and doorbell hardware in development",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-20-year-housing-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "NSW unveils 20-year Sydney Plan for housing/jobs/infrastructure, criticised for lacking transport funding",
+      "status": "active"
+    },
+    {
+      "id": "card-surcharge-ban-rethink-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "Looming card surcharge ban forces payments rethink across banks/business",
+      "status": "active"
+    },
+    {
+      "id": "data-centre-resource-blueprint-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "alerts",
+      "summary": "State data-centre water/energy rules floated as national blueprint",
+      "status": "active"
+    },
+    {
+      "id": "csl-writedown-share-rally-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "CSL books $10bn write-down, shares jump 16% on turnaround hopes",
+      "status": "active"
+    },
+    {
+      "id": "bhp-profit-jump-copper-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "BHP profit up 30% on high copper prices",
+      "status": "active"
+    },
+    {
+      "id": "google-ai-executive-reshuffle-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "major",
+      "summary": "Reuters details Google executive moves behind AI reshuffle",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-hardware-camera-doorbell-2026-08",
+      "first_briefed": "2026-08-18",
+      "section": "opportunities",
+      "summary": "Apple smart-home roadmap extends to own camera/doorbell hardware",
+      "status": "active"
     }
   ]
 }
