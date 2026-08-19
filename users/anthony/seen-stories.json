@@ -3920,6 +3920,83 @@
       "section": "opportunities",
       "summary": "Chiang Mai holds top-30 spot in global digital nomad city ranking",
       "status": "active"
+    },
+    {
+      "id": "anthropic-model2-internal-withheld",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "Anthropic's internal Model 2 edges Claude Mythos 5 but stays unreleased per Risk Report",
+      "status": "active"
+    },
+    {
+      "id": "facebook-creator-studio-app-launch",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "Facebook launches standalone AI-powered Creator Studio app",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-flying-demo-tease",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "Tesla teases driverless 'flying' Roadster demo at SpaceX Texas",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ai-model-closes-gap",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "Cheap Chinese AI model narrows gap with Anthropic and OpenAI, per Reuters",
+      "status": "active"
+    },
+    {
+      "id": "northern-thai-river-mining-pollution",
+      "first_briefed": "2026-08-20",
+      "section": "alerts",
+      "summary": "Thai Industry Ministry acts on northern river/mining pollution concerns",
+      "status": "active"
+    },
+    {
+      "id": "noaa-record-super-el-nino",
+      "first_briefed": "2026-08-20",
+      "section": "alerts",
+      "summary": "NOAA flags near-70% chance of record-strongest El Niño this winter",
+      "status": "active"
+    },
+    {
+      "id": "market-yields-vix-selloff-aug26",
+      "first_briefed": "2026-08-20",
+      "section": "alerts",
+      "summary": "Multi-decade-high bond yields and rising VIX pressure equities/chips",
+      "status": "active"
+    },
+    {
+      "id": "bfi-thailand-tech-sovereignty-debate",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Thailand debates India-style tech-sovereignty growth model",
+      "status": "active"
+    },
+    {
+      "id": "central-retail-maxvalu-acquisition",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Central Retail acquires 30 MaxValu branches",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-rules-round2",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Second round of Thai data-centre approval rules expected",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-tourism-push-2026",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Green-tourism standards accelerate across Chiang Mai, Krabi, Phuket",
+      "status": "active"
     }
   ]
 }

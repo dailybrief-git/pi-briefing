@@ -1680,6 +1680,90 @@
       "section": "opportunities",
       "summary": "Hypothesis: 2026-27 district budgets shift toward AI-native teaching tools",
       "status": "active"
+    },
+    {
+      "id": "el-nino-record-forecast-2026",
+      "first_briefed": "2026-08-20",
+      "section": "alerts",
+      "summary": "NOAA puts ~70% odds on record-strength El Niño for winter 2026-27",
+      "status": "active"
+    },
+    {
+      "id": "nyc-rental-scam-complaints-surge",
+      "first_briefed": "2026-08-20",
+      "section": "alerts",
+      "summary": "NYC rental scam complaints up 55% per CBS New York",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-acquisition-confirmed",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "SpaceX completes $60B all-stock acquisition of Cursor, confirming earlier rumor",
+      "status": "active"
+    },
+    {
+      "id": "spacexai-grok46-grokbot-launch",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "SpaceXAI launches Grok 4.6 and Grok Bot agent platform, fueling AI-revenue stock thesis",
+      "status": "active"
+    },
+    {
+      "id": "ny-battery-storage-limbo",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "Con Ed cost-sharing rule stalls NY grid battery storage projects",
+      "status": "active"
+    },
+    {
+      "id": "ut-austin-curriculum-overhaul",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "UT-Austin proposes major core-curriculum redesign and new Humanities Center",
+      "status": "active"
+    },
+    {
+      "id": "marathon-reference-time-study-2026",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "J Appl Physiol study links training patterns and reference-time effects to marathon finishing",
+      "status": "active"
+    },
+    {
+      "id": "59e59-fall2026-season-godsspies",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "59E59 Theaters announces Fall 2026 season incl. world premiere of God's Spies",
+      "status": "active"
+    },
+    {
+      "id": "ny-cost-of-living-2026-benchmark",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "New report: $124K single/$291K family income needed to live comfortably in NY",
+      "status": "active"
+    },
+    {
+      "id": "ca-special-election-swalwell-seat",
+      "first_briefed": "2026-08-20",
+      "section": "major",
+      "summary": "California special election underway to replace former Rep. Eric Swalwell",
+      "status": "active"
+    },
+    {
+      "id": "fly-fishing-culture-growth-hypothesis",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Hypothesis: fly-fishing festivals/film tour milestones signal a cultural growth wave",
+      "status": "active"
+    },
+    {
+      "id": "marathon-training-data-product-hypothesis",
+      "first_briefed": "2026-08-20",
+      "section": "opportunities",
+      "summary": "Hypothesis: reference-time training data could power new marathon coaching products",
+      "status": "active"
     }
   ]
 }
