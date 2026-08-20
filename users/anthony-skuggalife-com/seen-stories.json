@@ -1484,6 +1484,41 @@
       "section": "opportunities",
       "summary": "Boom raises $15M Series A for SFR leasing OS, launches BoomCRM",
       "status": "active"
+    },
+    {
+      "id": "australia-unemployment-4-5pct-2026-08",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "Australian unemployment hits 4.5%, highest post-COVID level",
+      "status": "active"
+    },
+    {
+      "id": "transgrid-data-centre-readiness-test-2026-08",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "Transgrid introduces six-part readiness test for NSW data-centre grid applicants",
+      "status": "active"
+    },
+    {
+      "id": "sydney-airport-masterplan-2045-2026-08",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "Sydney Airport Master Plan 2045 approved",
+      "status": "active"
+    },
+    {
+      "id": "imad-ventures-contech-fund-2026-08",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Nesma & Partners' Imad Ventures launches fund for AI/advanced construction materials",
+      "status": "active"
+    },
+    {
+      "id": "apple-smart-home-hardware-roadmap-2026-08",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Apple reportedly building first-party smart-home security camera and doorbell",
+      "status": "active"
     }
   ]
 }

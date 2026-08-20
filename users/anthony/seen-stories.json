@@ -3997,6 +3997,83 @@
       "section": "opportunities",
       "summary": "Green-tourism standards accelerate across Chiang Mai, Krabi, Phuket",
       "status": "active"
+    },
+    {
+      "id": "anthropic-claude-watermarking-eu",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "Anthropic watermarks all new Claude outputs for EU AI Act compliance",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ai-model-catchup-reuters",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "Cheap Chinese AI model reported closing gap on Anthropic/OpenAI",
+      "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-teens-safety",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "OpenAI launches ChatGPT for Teens with stronger safety protections",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-record-advisory",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "NOAA record-strength El Niño advisory raises regional heat/rain risk",
+      "status": "active"
+    },
+    {
+      "id": "thai-workers-israel-lebanon-explosion",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "Six Thai workers injured in explosion near Israel-Lebanon border",
+      "status": "active"
+    },
+    {
+      "id": "vietjet-chiangmai-routes",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Vietjet resumes HCMC-Chiang Mai route among five new routes",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-factory-tourism-expansion",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Thailand factory-tourism push names Chiang Mai artisan manufacturing hub",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-imports-rebound",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "China's June wine import value up 31% YoY to $162M",
+      "status": "active"
+    },
+    {
+      "id": "thailand-data-centre-rules-2026",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Thailand tightens data-centre approval rules amid WHA pushback",
+      "status": "active"
+    },
+    {
+      "id": "malaysia-airlines-chiangmai-campaign",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Malaysia Airlines builds culinary storytelling campaign around Chiang Mai route",
+      "status": "active"
+    },
+    {
+      "id": "facebook-creator-studio-ai-app",
+      "first_briefed": "2026-08-21",
+      "section": "companies",
+      "summary": "Facebook launches standalone Creator Studio AI app for creators",
+      "status": "active"
     }
   ]
 }

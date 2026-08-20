@@ -1764,6 +1764,62 @@
       "section": "opportunities",
       "summary": "Hypothesis: reference-time training data could power new marathon coaching products",
       "status": "active"
+    },
+    {
+      "id": "spacex-terafab-texas-chip-plant",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "SpaceX/Tesla announce Terafab, world's largest building, Texas AI chip plant",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-acquisition-closed",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "SpaceX's $60B Cursor acquisition closes; Grok Bot, Grok 4.6 released",
+      "status": "active"
+    },
+    {
+      "id": "google-gemini-classroom-launch",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "Google activates Gemini AI inside Classroom app for K-12 students",
+      "status": "active"
+    },
+    {
+      "id": "ut-austin-core-curriculum-overhaul",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "UT-Austin proposes major core curriculum redesign via new Humanities Center",
+      "status": "active"
+    },
+    {
+      "id": "screen-use-schools-neuroscientist-critique",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "Neuroscientist Jared Cooney Horvath campaigns against classroom screen use",
+      "status": "active"
+    },
+    {
+      "id": "marathon-reference-time-study",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "J Appl Physiol study finds marathon finishers cluster around psychological reference times",
+      "status": "active"
+    },
+    {
+      "id": "nyc-air-quality-rain-smoke-alert",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "Tri-State air quality alert; weekend rain forecast through wildfire smoke",
+      "status": "active"
+    },
+    {
+      "id": "cdc-multistate-outbreak-32-states",
+      "first_briefed": "2026-08-21",
+      "section": "alerts",
+      "summary": "CDC tracking outbreak past 400 cases across 32 states, pathogen unspecified",
+      "status": "active"
     }
   ]
 }

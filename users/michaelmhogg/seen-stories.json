@@ -210,6 +210,34 @@
       "section": "major",
       "summary": "New Building Act creates dedicated approval pathway for manufactured/prefab housing.",
       "status": "active"
+    },
+    {
+      "id": "sbs-housing-decade-longer-affordability",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "SBS: Australians face a decade longer, $275,000 dearer path to homeownership.",
+      "status": "active"
+    },
+    {
+      "id": "phillip-lee-china-corruption-albanese-dinner",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "ABC links billionaire Phillip Lee's fortune to China corruption scandals; son hosted Albanese dinner.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-669-aug2026",
+      "first_briefed": "2026-08-21",
+      "section": "major",
+      "summary": "US 30-year fixed mortgage rate rises to 6.69% per Bankrate/Freddie Mac.",
+      "status": "active"
+    },
+    {
+      "id": "asia-domestic-equity-inflows-aug2026",
+      "first_briefed": "2026-08-21",
+      "section": "opportunities",
+      "summary": "Bloomberg: Asian retail savers piling into domestic stocks, reshaping home markets.",
+      "status": "active"
     }
   ]
 }
