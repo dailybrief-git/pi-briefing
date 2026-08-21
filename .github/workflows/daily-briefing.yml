@@ -6,14 +6,12 @@ on:
     - cron: "0 17 * * *"
   workflow_dispatch: {}
 
-# contents: write  -> commit updated state (users/) back to main
-# pages: write + id-token: write -> required by actions/deploy-pages (official
-# GitHub Pages deploy). This replaces the old force-push to the gh-pages branch,
-# which did not reliably trigger a Pages deployment.
+# contents: write -> commit updated state (users/) back to main.
+# GitHub Pages publishing has been RETIRED: the Lovable app (Arun Daily) is now
+# the only dashboard, so the pages/id-token permissions, the site-assembly steps
+# and the deploy job have all been removed.
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: daily-briefing
@@ -45,7 +43,12 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           # Each user is emailed at their OWN profile email (multi-user).
           # To temporarily force a single recipient (testing), set RESEND_TO.
-          DASHBOARD_BASE_URL: "https://dailybrief-git.github.io/pi-briefing"
+          #
+          # Email "Open dashboard" links now point to the Lovable app. Because
+          # DASHBOARD_BASE_URL is no longer set, run_pipeline._dashboard_url_for
+          # falls back to this single fixed URL for every user. The /dashboard
+          # route resolves whichever user is logged in, so one URL fits all.
+          DASHBOARD_URL: "https://your-daily-signal.lovable.app/dashboard"
           # Verified sending domain (mail.astudo.com). Delivers to any recipient.
           EMAIL_FROM: "Arun Daily <brief@mail.astudo.com>"
         run: python run_pipeline.py
@@ -62,39 +65,3 @@ jobs:
             git push
           fi
 
-      - name: Assemble site (_site)
-        run: |
-          rm -rf _site && mkdir -p _site
-          for d in users/*/ ; do
-            name=$(basename "$d")
-            [ -f "$d/dashboard_latest.html" ] || continue
-            mkdir -p "_site/$name"
-            cp "$d/dashboard_latest.html" "_site/$name/index.html"
-            cp "$d"/dashboard_*.html "_site/$name/" 2>/dev/null || true
-          done
-          # Keep Anthony's existing root bookmark working.
-          if [ -f users/anthony/dashboard_latest.html ]; then
-            cp users/anthony/dashboard_latest.html _site/index.html
-          fi
-          # Publish the onboarding questionnaire at a shareable URL.
-          if [ -f onboarding.html ]; then
-            cp onboarding.html _site/onboarding.html
-          fi
-          # Plain static site: skip Jekyll processing.
-          touch _site/.nojekyll
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
