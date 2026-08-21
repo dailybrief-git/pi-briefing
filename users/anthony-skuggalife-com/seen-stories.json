@@ -1519,6 +1519,41 @@
       "section": "opportunities",
       "summary": "Apple reportedly building first-party smart-home security camera and doorbell",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-commenced-2026-08",
+      "first_briefed": "2026-08-22",
+      "section": "alerts",
+      "summary": "NSW commences 20-year Sydney Plan housing/infrastructure framework",
+      "status": "active"
+    },
+    {
+      "id": "canada-us-tariff-deal-progress-2026-08",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Trump pauses 50% Canada tariffs, claims deal near - development on tariff-escalation story",
+      "status": "active"
+    },
+    {
+      "id": "atlassian-ai-jobcuts-2026-08",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Atlassian pairs job cuts with AI investment as Sydney tower nears completion",
+      "status": "active"
+    },
+    {
+      "id": "rentberry-crowdfund-raise-2026-08",
+      "first_briefed": "2026-08-22",
+      "section": "opportunities",
+      "summary": "Rentberry nears $5m Reg CF crowdfund cap on Republic",
+      "status": "active"
+    },
+    {
+      "id": "digidukan-angel-round-2026-08",
+      "first_briefed": "2026-08-22",
+      "section": "gems",
+      "summary": "India's Digidukan raises angel round for on-demand materials delivery",
+      "status": "active"
     }
   ]
 }

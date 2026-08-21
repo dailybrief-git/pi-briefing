@@ -4074,6 +4074,62 @@
       "section": "companies",
       "summary": "Facebook launches standalone Creator Studio AI app for creators",
       "status": "active"
+    },
+    {
+      "id": "openai-astra-math-claims",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Unverified claim OpenAI's Astra model solved 10 open maths/CS problems",
+      "status": "active"
+    },
+    {
+      "id": "meta-doomscroll-lawsuit-trial",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Meta trial could force end of infinite-scroll social media design",
+      "status": "active"
+    },
+    {
+      "id": "china-cheap-ai-model-catchup",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Inexpensive Chinese AI model closing gap with Anthropic/OpenAI",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-myanmar-institute-xi-visit",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Chiang Mai-based Myanmar institute researcher designated wrongfully detained ahead of Xi visit",
+      "status": "active"
+    },
+    {
+      "id": "market-selloff-bond-yields-aug2026",
+      "first_briefed": "2026-08-22",
+      "section": "alerts",
+      "summary": "Sharp market selloff mid-week on multidecade-high bond yields, partial Friday rebound",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-campaign",
+      "first_briefed": "2026-08-22",
+      "section": "alerts",
+      "summary": "US unveils 'toughest sanctions in history' on Iran, economic D-Day framing",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-imports-31pct-jump",
+      "first_briefed": "2026-08-22",
+      "section": "opportunities",
+      "summary": "China's June wine import value up 31% YoY",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wine-export-seminar",
+      "first_briefed": "2026-08-22",
+      "section": "opportunities",
+      "summary": "Seminar planned briefing exporters on China wine market access",
+      "status": "active"
     }
   ]
 }

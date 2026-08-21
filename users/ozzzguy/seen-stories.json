@@ -1820,6 +1820,69 @@
       "section": "alerts",
       "summary": "CDC tracking outbreak past 400 cases across 32 states, pathogen unspecified",
       "status": "active"
+    },
+    {
+      "id": "iran-economic-dday-sanctions",
+      "first_briefed": "2026-08-22",
+      "section": "alerts",
+      "summary": "Treasury announces toughest-ever sanctions push on Iran, framed as 'economic D-Day'",
+      "status": "active"
+    },
+    {
+      "id": "ny-capitol-attack-plot",
+      "first_briefed": "2026-08-22",
+      "section": "alerts",
+      "summary": "NY woman charged over alleged plot to attack Albany State Capitol",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-deal-closed",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "SpaceX's $60B Cursor acquisition closes; Grok Bot launches",
+      "status": "active"
+    },
+    {
+      "id": "ny-infra-grants-conEd-storage",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Hochul's $38M county grants land as Con Ed storage rules stall battery projects statewide",
+      "status": "active"
+    },
+    {
+      "id": "texas-tech-ai-curriculum-edit",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Texas Tech uses AI to screen left-leaning curriculum content",
+      "status": "active"
+    },
+    {
+      "id": "ceph-dei-curriculum-review",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Public-health accreditor CEPH weighs dropping structural-racism teaching requirement",
+      "status": "active"
+    },
+    {
+      "id": "ca-governor-race-becerra-advance",
+      "first_briefed": "2026-08-22",
+      "section": "major",
+      "summary": "Xavier Becerra projected to advance to November in CA governor's race",
+      "status": "active"
+    },
+    {
+      "id": "xtep-marathon-shoe-launch",
+      "first_briefed": "2026-08-22",
+      "section": "gems",
+      "summary": "Xtep launches GT1200 carbon-plate marathon shoe, extending shoe-tech arms race",
+      "status": "active"
+    },
+    {
+      "id": "jre-homelessness-socialism-episodes",
+      "first_briefed": "2026-08-22",
+      "section": "podcasts",
+      "summary": "Recent JRE episodes cover SLC homelessness and draw fire over socialism comments",
+      "status": "active"
     }
   ]
 }
