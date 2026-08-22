@@ -1883,6 +1883,76 @@
       "section": "podcasts",
       "summary": "Recent JRE episodes cover SLC homelessness and draw fire over socialism comments",
       "status": "active"
+    },
+    {
+      "id": "spacex-cursor-nvidia-ai-pivot-confirmed",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "SpaceX Cursor acquisition, Nvidia chip exclusivity, and Grok 4.6 confirmed together; earnings beat revenue",
+      "status": "active"
+    },
+    {
+      "id": "edtech-doe-guidance-2026",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Education Dept issues edtech guidance but leaves rulemaking to states",
+      "status": "active"
+    },
+    {
+      "id": "texastech-ai-curriculum-audit",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Texas Tech uses AI to screen curriculum for left-leaning content",
+      "status": "active"
+    },
+    {
+      "id": "marathon-heat-management-training",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Heat-adaptation protocols and cooling gear becoming standard marathon training",
+      "status": "active"
+    },
+    {
+      "id": "ceph-dei-curriculum-debate",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Public health accreditor CEPH weighs dropping racism-curriculum requirement",
+      "status": "active"
+    },
+    {
+      "id": "alfalfa-sprout-outbreak-2026",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "E. coli/salmonella outbreak linked to Minnesota alfalfa grower, 15 states",
+      "status": "active"
+    },
+    {
+      "id": "fda-heidi-overton-nominee",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "Trump nominates Heidi Overton to lead FDA",
+      "status": "active"
+    },
+    {
+      "id": "marathon-cooling-gear-opportunity",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "Hypothesis: heat-adaptation wearables market opportunity from marathon training shift",
+      "status": "active"
+    },
+    {
+      "id": "edtech-state-rulemaking-opportunity",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "Hypothesis: state-level edtech rulemaking favors compliance-focused vendors",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-spacex-exclusivity-opportunity",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "Hypothesis: Nvidia chip exclusivity tightens SPCX/NVDA trade correlation",
+      "status": "active"
     }
   ]
 }

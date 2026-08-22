@@ -4130,6 +4130,83 @@
       "section": "opportunities",
       "summary": "Seminar planned briefing exporters on China wine market access",
       "status": "active"
+    },
+    {
+      "id": "microsoft-build-2026-nvidia-quantum",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Microsoft Build: Nvidia AI hardware tie-up, 7 models, Scout agent, quantum chip",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-unification",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Microsoft merges consumer and enterprise Copilot into single platform",
+      "status": "active"
+    },
+    {
+      "id": "openai-astra-math-claim",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "OpenAI claims unreleased Astra model solved 10 open math/CS problems",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-v15-optimus-2027",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Tesla calls FSD v15 a step-change, confirms Optimus sale slips to H2 2027",
+      "status": "active"
+    },
+    {
+      "id": "treasury-yield-selloff-aug2026",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Treasury-yield spike triggers equity sell-off and gold rally",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-fable5-biosafety-tuning",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Anthropic cuts Claude biology-query false-positive fallback ~85%",
+      "status": "active"
+    },
+    {
+      "id": "cheap-chinese-ai-model-catchup",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Reuters: cheap Chinese AI model narrows gap with Anthropic/OpenAI",
+      "status": "active"
+    },
+    {
+      "id": "thailand-450-baht-entry-fee",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "Thailand drafts ฿450 tourist entry fee, pending public hearing",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-intercontinental-fb-relaunch",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "InterContinental Chiang Mai Mae Ping launches new F&B chapter",
+      "status": "active"
+    },
+    {
+      "id": "tat-green-guide-fest-chiangmai",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "TAT launches Amazing Chiang Mai Green Guide Fest 2026",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-premiumisation-2026",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "TWE profitability in China + new Chinese Master of Wine signal premium wine growth",
+      "status": "active"
     }
   ]
 }

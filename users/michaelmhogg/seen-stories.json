@@ -252,6 +252,62 @@
       "section": "podcasts",
       "summary": "Ray Dalio tells Diary of a CEO that AI market shows classic 1929/2000-style bubble signs.",
       "status": "active"
+    },
+    {
+      "id": "australia-israel-frankcom-notification-row",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "Australia summons Israeli ambassador over Frankcom notification failure.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-latent-defects-insurance-legislation",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "NSW passes Fair Trading and Building Legislation Amendment Bill establishing LDI regime.",
+      "status": "active"
+    },
+    {
+      "id": "bessent-bond-gambit-gold-spike",
+      "first_briefed": "2026-08-23",
+      "section": "alerts",
+      "summary": "Bessent's bond-market intervention stirs inflation fears, gold prices spike.",
+      "status": "active"
+    },
+    {
+      "id": "more-homes-market-act-capital-gains",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Congress weighs doubling capital-gains exclusion on primary home sales.",
+      "status": "active"
+    },
+    {
+      "id": "hospitality-2026-global-brand-rankings-oyo",
+      "first_briefed": "2026-08-23",
+      "section": "major",
+      "summary": "Oyo tops 2026 global hotel brand rankings, reshuffling hierarchy.",
+      "status": "active"
+    },
+    {
+      "id": "aiden-hotel-brand-expansion-2026",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "BWH Hotels' Aiden brand expands past 20 hotels in development.",
+      "status": "active"
+    },
+    {
+      "id": "marriott-series-brand-china-launch",
+      "first_briefed": "2026-08-23",
+      "section": "opportunities",
+      "summary": "Marriott launches new Series brand in Greater China targeting ~100 hotels.",
+      "status": "active"
+    },
+    {
+      "id": "meriton-suitedreams-mattress-launch",
+      "first_briefed": "2026-08-23",
+      "section": "gems",
+      "summary": "Meriton Suites launches branded SuiteDreams mattress.",
+      "status": "active"
     }
   ]
 }
