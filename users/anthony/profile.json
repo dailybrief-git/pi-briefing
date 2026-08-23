@@ -18,12 +18,16 @@
     "watch_topics": [
       "Your country & national politics",
       "Local news — your city",
-      "Major world events",
       "World & politics",
-      "Markets & money",
       "Tech & AI",
       "Your country",
-      "Local news"
+      "Local news",
+      "Health & science",
+      "Culture & sport",
+      "Formula 1",
+      "off grid cabin",
+      "chiang mai infrastructure",
+      "Cars"
     ]
   },
   "personal_interests": [
@@ -40,7 +44,7 @@
     {
       "name": "Major world events",
       "note": null,
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "Cost of living & personal money",
@@ -48,17 +52,7 @@
       "weight": 1
     },
     {
-      "name": "Weather & environment",
-      "note": null,
-      "weight": 1
-    },
-    {
       "name": "World & politics",
-      "note": null,
-      "weight": 2
-    },
-    {
-      "name": "Markets & money",
       "note": null,
       "weight": 2
     },
@@ -85,12 +79,42 @@
     {
       "name": "Health & science",
       "note": null,
-      "weight": 1
+      "weight": 2
     },
     {
       "name": "Culture & sport",
       "note": null,
-      "weight": 1
+      "weight": 2
+    },
+    {
+      "name": "Formula 1",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "off grid cabin",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "functional foods",
+      "note": null,
+      "weight": 3
+    },
+    {
+      "name": "chocolate",
+      "note": null,
+      "weight": 3
+    },
+    {
+      "name": "chiang mai infrastructure",
+      "note": null,
+      "weight": 2
+    },
+    {
+      "name": "Cars",
+      "note": null,
+      "weight": 2
     }
   ],
   "intelligence_topics": [],
@@ -113,9 +137,7 @@
       "All-In",
       "diary of a CEO",
       "matt armstrong",
-      "my first million",
-      "The Daily",
-      "Crime Junkie"
+      "my first million"
     ]
   },
   "alert_topics": [

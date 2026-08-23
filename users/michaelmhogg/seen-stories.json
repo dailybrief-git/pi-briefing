@@ -308,6 +308,48 @@
       "section": "gems",
       "summary": "Meriton Suites launches branded SuiteDreams mattress.",
       "status": "active"
+    },
+    {
+      "id": "sydney-newcastle-hsr-shortlist-2026",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "HSRA shortlists six partners for civils works and rolling stock on the 194km Sydney-Newcastle high-speed line.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-fasttrack-scheme-2026",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "NSW opens fast-track approval scheme for data centres meeting new environmental/efficiency standards.",
+      "status": "active"
+    },
+    {
+      "id": "wallstreet-volatility-aug2026",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Dow drops 700+pts, Nasdaq -1% mid-week on Treasury yield spike, partial rebound Friday.",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-28bn-us-listing",
+      "first_briefed": "2026-08-24",
+      "section": "opportunities",
+      "summary": "SK Hynix pursues $28bn US listing to capture AI memory-chip demand.",
+      "status": "active"
+    },
+    {
+      "id": "mckinsey-consumer-tradedown-2026",
+      "first_briefed": "2026-08-24",
+      "section": "opportunities",
+      "summary": "McKinsey State of Consumer 2026 finds trade-down behaviour evolving into creative value-seeking.",
+      "status": "active"
+    },
+    {
+      "id": "doac-brian-greene-ai-consciousness",
+      "first_briefed": "2026-08-24",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Brian Greene on AI consciousness, free will and reality.",
+      "status": "active"
     }
   ]
 }

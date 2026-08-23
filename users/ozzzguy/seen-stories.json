@@ -1953,6 +1953,69 @@
       "section": "opportunities",
       "summary": "Hypothesis: Nvidia chip exclusivity tightens SPCX/NVDA trade correlation",
       "status": "active"
+    },
+    {
+      "id": "us-canada-tariff-50pct",
+      "first_briefed": "2026-08-24",
+      "section": "alerts",
+      "summary": "US imposes 50% tariffs on $20B of Canadian goods after talks collapse",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-treasury",
+      "first_briefed": "2026-08-24",
+      "section": "alerts",
+      "summary": "Treasury vows toughest-ever sanctions on Iran despite holding ceasefire",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-exclusive-datacenter",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Musk pledges SpaceX AI data centers exclusively to Nvidia, unveils orbital compute JV",
+      "status": "active"
+    },
+    {
+      "id": "gaza-israel-troop-investigation",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Israel opens first criminal probes into Gaza troop conduct (Hind Rajab case)",
+      "status": "active"
+    },
+    {
+      "id": "hochul-county-infra-round2",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Hochul awards $38M more across 49 NY county infrastructure projects",
+      "status": "active"
+    },
+    {
+      "id": "ny-cost-of-living-2026-report",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "SmartAsset: NY comfortable-living cost up 8.4% to $124,342 single/$291,533 family",
+      "status": "active"
+    },
+    {
+      "id": "marathon-heat-management-gear-trend",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Cooling wearables like Omius headband enter mainstream marathon training kit",
+      "status": "active"
+    },
+    {
+      "id": "broadway-irwin-moliere-adaptation",
+      "first_briefed": "2026-08-24",
+      "section": "major",
+      "summary": "Bill Irwin's Molière adaptation joins Roundabout's fall 2026 Broadway season",
+      "status": "active"
+    },
+    {
+      "id": "rogan-slc-homelessness-episode",
+      "first_briefed": "2026-08-24",
+      "section": "podcasts",
+      "summary": "JRE episode on Salt Lake City homelessness draws local policy attention",
+      "status": "active"
     }
   ]
 }
