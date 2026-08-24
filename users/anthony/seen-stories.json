@@ -4284,6 +4284,90 @@
       "section": "interest",
       "summary": "UK cost-of-living crisis looms as energy bills forecast to rise",
       "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-2t-valuation",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "Anthropic reportedly weighing IPO at up to $2T valuation, $100B raise",
+      "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-teens-launch",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "OpenAI launches age-gated ChatGPT for Teens after lawsuits",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-airport-expansion-57bn",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "฿5.7bn Chiang Rai airport expansion to 6M passenger capacity by 2032",
+      "status": "active"
+    },
+    {
+      "id": "kumamoto-japan-thailand-routes",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "Kumamoto Airport studying direct Thailand routes including Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "tourism-minister-finance-cabinet-review",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "Tourism-Finance Ministry talks heading to September Cabinet review",
+      "status": "active"
+    },
+    {
+      "id": "twe-wine-china-premiumization",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "Treasury Wine Estates streamlines toward premium China wine strategy",
+      "status": "active"
+    },
+    {
+      "id": "thailand-postbiotic-petfood-market",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "Postbiotic pet-food demand growing faster in Chiang Mai/Phuket/Pattaya than Bangkok",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-french-thai-fusion-restaurant",
+      "first_briefed": "2026-08-25",
+      "section": "gems",
+      "summary": "New Chiang Mai restaurant blends French technique with northern Thai identity",
+      "status": "active"
+    },
+    {
+      "id": "china-master-of-wine-liu",
+      "first_briefed": "2026-08-25",
+      "section": "gems",
+      "summary": "China adds a new Master of Wine, expanding Greater China's MW community",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-platform-production-launch",
+      "first_briefed": "2026-08-25",
+      "section": "companies",
+      "summary": "Anthropic ships production-ready Computer Use, Skills API, Files API for Claude Platform",
+      "status": "active"
+    },
+    {
+      "id": "uk-energy-bills-inflation-squeeze",
+      "first_briefed": "2026-08-25",
+      "section": "interest",
+      "summary": "UK cost-of-living crisis deepens on inflation and forecast energy-bill rises",
+      "status": "active"
+    },
+    {
+      "id": "doac-kisin-keen-economics-episode",
+      "first_briefed": "2026-08-25",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with economist Steve Keen and Konstantin Kisin on debt-fuelled growth",
+      "status": "active"
     }
   ]
 }

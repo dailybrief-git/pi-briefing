@@ -350,6 +350,55 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Brian Greene on AI consciousness, free will and reality.",
       "status": "active"
+    },
+    {
+      "id": "frankcom-wong-insulting-hurtful-statement",
+      "first_briefed": "2026-08-25",
+      "section": "alerts",
+      "summary": "Wong calls Israel's Frankcom notification failure 'insulting and hurtful', escalating diplomatic row.",
+      "status": "active"
+    },
+    {
+      "id": "bessent-iran-sanctions-economic-dday",
+      "first_briefed": "2026-08-25",
+      "section": "alerts",
+      "summary": "Bessent promises 'economic D-Day' ahead of expected new Iran sanctions.",
+      "status": "active"
+    },
+    {
+      "id": "villawood-social-housing-topout",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "145 new social homes at Villawood reach structural top-out milestone.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-fy27-funds-platform-detail",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "Mirvac details $130m new recurring income and $18.1bn funds platform for FY27 growth case.",
+      "status": "active"
+    },
+    {
+      "id": "act-firearms-buyback-joins-scheme",
+      "first_briefed": "2026-08-25",
+      "section": "gems",
+      "summary": "ACT signs onto federal firearms buyback scheme.",
+      "status": "active"
+    },
+    {
+      "id": "merit-beauty-sephora-australia-launch",
+      "first_briefed": "2026-08-25",
+      "section": "gems",
+      "summary": "Merit Beauty launches into Sephora Australia.",
+      "status": "active"
+    },
+    {
+      "id": "doac-darby-saxbe-fatherhood",
+      "first_briefed": "2026-08-25",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Dr Darby Saxbe on fatherhood's effects on the male brain and body.",
+      "status": "active"
     }
   ]
 }

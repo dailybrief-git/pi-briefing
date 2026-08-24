@@ -2016,6 +2016,55 @@
       "section": "podcasts",
       "summary": "JRE episode on Salt Lake City homelessness draws local policy attention",
       "status": "active"
+    },
+    {
+      "id": "nyc-legionnaires-repeat-outbreak",
+      "first_briefed": "2026-08-25",
+      "section": "alerts",
+      "summary": "NYC faces second Legionnaires' outbreak in two years",
+      "status": "active"
+    },
+    {
+      "id": "spacex-spcx-nasdaq-listing",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "SpaceX shares confirmed trading as SPCX on Nasdaq, 100th 2026 launch logged",
+      "status": "active"
+    },
+    {
+      "id": "nyc-mamdani-infra-culture-bundle",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "Mamdani announces BQE rebuild plan, small-biz grants, student Broadway ticket program",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-record-intensity-forecast",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "UK forecasters warn 2026 El Niño could be strongest in over a century",
+      "status": "active"
+    },
+    {
+      "id": "ny-county-infra-grants-38m",
+      "first_briefed": "2026-08-25",
+      "section": "major",
+      "summary": "Hochul adds $38M across 49 county infrastructure projects",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-compute-thesis",
+      "first_briefed": "2026-08-25",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX launch cadence and Starmind roadmap point to orbital-compute buildout",
+      "status": "active"
+    },
+    {
+      "id": "jre-rogan-dsa-comments",
+      "first_briefed": "2026-08-25",
+      "section": "podcasts",
+      "summary": "Rogan calls democratic-socialist ideology social-media-fueled Marxism",
+      "status": "active"
     }
   ]
 }
