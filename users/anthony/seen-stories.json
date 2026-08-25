@@ -4368,6 +4368,83 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with economist Steve Keen and Konstantin Kisin on debt-fuelled growth",
       "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-100b",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "Anthropic reportedly exploring ~$100B IPO after Claude Code revenue surge",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-build-nvidia-quantum",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "Microsoft Build pairs Nvidia AI hardware, new models, Scout agent and quantum chip",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd-v15-stepchange",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "Tesla claims FSD v15 step-change, HW4 unsupervised driving, Optimus sale H2 2027",
+      "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-teens",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "OpenAI launches safety-hardened ChatGPT for Teens after lawsuits",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-28b-us-listing",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "SK Hynix pursues $28B US listing riding AI chip demand",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-launch-sept3",
+      "first_briefed": "2026-08-26",
+      "section": "rail-today",
+      "summary": "Tesla sets Cybercab launch event for 3 Sept in Austin",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-ihg-maeping-culinary",
+      "first_briefed": "2026-08-26",
+      "section": "opportunities",
+      "summary": "InterContinental Chiang Mai Mae Ping launches new culinary Phase 2",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-ritual-fire-shadow-festival",
+      "first_briefed": "2026-08-26",
+      "section": "opportunities",
+      "summary": "Ritual: Fire & Shadow Festival 2026 convenes CM tourism/wellness/creative sectors",
+      "status": "active"
+    },
+    {
+      "id": "twe-china-premium-pivot",
+      "first_briefed": "2026-08-26",
+      "section": "opportunities",
+      "summary": "Treasury Wine Estates streamlines to premium-only strategy in China",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-hilltribe-coffee-brands",
+      "first_briefed": "2026-08-26",
+      "section": "opportunities",
+      "summary": "Chiang Rai hill-tribe entrepreneurs build direct-trade coffee brands (Akha Ama)",
+      "status": "active"
+    },
+    {
+      "id": "canada-us-tariff-wine-collapse",
+      "first_briefed": "2026-08-26",
+      "section": "opportunities",
+      "summary": "Canada-US trade talks collapse, tariffs hit wine among other goods",
+      "status": "active"
     }
   ]
 }

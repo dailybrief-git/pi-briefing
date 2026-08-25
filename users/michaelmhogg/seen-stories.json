@@ -399,6 +399,34 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Dr Darby Saxbe on fatherhood's effects on the male brain and body.",
       "status": "active"
+    },
+    {
+      "id": "iran-sanctions-operation-economic-outcast",
+      "first_briefed": "2026-08-26",
+      "section": "alerts",
+      "summary": "US names Iran sanctions push 'Operation Economic Outcast', targeting third countries trading with Tehran.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-newcastle-hsr-approval-hurdle",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "Infrastructure Australia flags GHG/environmental analysis gaps before HSR final investment decision.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-airport-multiplex-appointment",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "Multiplex appointed to deliver Sydney Airport's new terminal capacity under Master Plan 2045.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-easing-late-aug2026",
+      "first_briefed": "2026-08-26",
+      "section": "major",
+      "summary": "US 30-year mortgage rate eases slightly to 6.67-6.68% after last week's 6.69% peak.",
+      "status": "active"
     }
   ]
 }
