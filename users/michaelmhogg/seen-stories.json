@@ -427,6 +427,48 @@
       "section": "major",
       "summary": "US 30-year mortgage rate eases slightly to 6.67-6.68% after last week's 6.69% peak.",
       "status": "active"
+    },
+    {
+      "id": "bathla-group-collapse-2026",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "Sydney developer Bathla Group collapses into voluntary administration, buyers left in limbo.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-debt-to-income-loan-caps-2026",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "New debt-to-income caps on high-risk mortgage lending take effect in 2026.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-newcastle-hsr-approval-hurdle-2026",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "Infrastructure Australia calls for deeper GHG/environmental analysis before HSR final investment decision, a development on the supplier-shortlist story.",
+      "status": "active"
+    },
+    {
+      "id": "wallstreet-rally-jackson-hole-tension-2026",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "Wall St extends rebound (Dow 3-day win streak) but dollar/bonds on edge ahead of Jackson Hole, developing prior volatility story.",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-tam-pitch-2026",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Anthropic reportedly pitching investors on $30tn addressable market ahead of possible IPO.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-episode-852-young-millionaires",
+      "first_briefed": "2026-08-27",
+      "section": "podcasts",
+      "summary": "My First Million episode 852 breaks down how three young operators earn $1.8M-$12M/year.",
+      "status": "active"
     }
   ]
 }

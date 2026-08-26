@@ -2135,6 +2135,76 @@
       "section": "opportunities",
       "summary": "Redding FlyFest signals fly-fishing/outdoor tourism growth",
       "status": "active"
+    },
+    {
+      "id": "nyt-bigtech-school-curriculum",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "NYT investigation on Google/Microsoft's influence over school tech curricula",
+      "status": "active"
+    },
+    {
+      "id": "buenosaires-half-marathon-wr",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "New half-marathon world record set at Buenos Aires 2026",
+      "status": "active"
+    },
+    {
+      "id": "screentime-academic-study",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "Study links early screen time to weaker later academic performance",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-2026",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "Treasury announces toughest-ever sanctions push on Iran, China not exempt",
+      "status": "active"
+    },
+    {
+      "id": "canada-retaliatory-tariffs-20b",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "Canada imposes ~$20B retaliatory tariffs on US goods",
+      "status": "active"
+    },
+    {
+      "id": "trump-parks-workers-dc-beautification",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "Emergency response workers pulled from national parks for DC beautification push",
+      "status": "active"
+    },
+    {
+      "id": "postal-voter-verification-lawsuit",
+      "first_briefed": "2026-08-27",
+      "section": "alerts",
+      "summary": "Democratic AGs sue over postal rules tied to voter-verification demands",
+      "status": "active"
+    },
+    {
+      "id": "edtech-bigtech-backlash-opportunity",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Hypothesis: Big Tech curriculum backlash favors independent edtech vendors",
+      "status": "active"
+    },
+    {
+      "id": "financial-literacy-mandate-opportunity",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Hypothesis: financial-literacy mandate wave opens curriculum-vendor niche",
+      "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-supplychain-opportunity",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX Louisiana buildout seeds Gulf Coast aerospace supply chain",
+      "status": "active"
     }
   ]
 }

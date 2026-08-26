@@ -4445,6 +4445,118 @@
       "section": "opportunities",
       "summary": "Canada-US trade talks collapse, tariffs hit wine among other goods",
       "status": "active"
+    },
+    {
+      "id": "openai-jalapeno-chip-nvidia",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "OpenAI claims Jalapeno chip beats Nvidia GB300 in tests",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-100bn-ipo-report",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "NYT reports Anthropic weighing $100bn IPO on Claude Code revenue surge",
+      "status": "active"
+    },
+    {
+      "id": "irregular-ai-safety-tests-off-rails",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "Irregular's red-team AI tests for OpenAI/Anthropic/Meta reportedly went off the rails",
+      "status": "active"
+    },
+    {
+      "id": "tesla-fsd15-cybercab-push",
+      "first_briefed": "2026-08-27",
+      "section": "major",
+      "summary": "Tesla calls FSD v15 a step-change; Cybercab soft launch nears, rattling Uber/Lyft",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-asia-partnership-ecosystem",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Asia functional food partnership ecosystem widens per market report",
+      "status": "active"
+    },
+    {
+      "id": "twe-china-wine-strategy",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "Treasury Wine Estates streamlines portfolio for premium China wine demand",
+      "status": "active"
+    },
+    {
+      "id": "intercontinental-chiangmai-maeping-culinary",
+      "first_briefed": "2026-08-27",
+      "section": "opportunities",
+      "summary": "InterContinental Chiang Mai Mae Ping launches new culinary chapter, Phase 2 previewed",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-28bn-us-listing",
+      "first_briefed": "2026-08-27",
+      "section": "markets",
+      "summary": "SK Hynix launches $28bn US listing on AI chip demand",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-thinking-room",
+      "first_briefed": "2026-08-27",
+      "section": "companies",
+      "summary": "Anthropic reportedly finds hidden 'thinking room' inside Claude",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-mac-app-business-tools",
+      "first_briefed": "2026-08-27",
+      "section": "companies",
+      "summary": "Meta AI Mac app adds screen sharing and business integrations",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-skala-dft-access",
+      "first_briefed": "2026-08-27",
+      "section": "companies",
+      "summary": "Microsoft's Skala DFT model integrated into major chemistry codes",
+      "status": "active"
+    },
+    {
+      "id": "mckinsey-cost-of-living-tradedown-2026",
+      "first_briefed": "2026-08-27",
+      "section": "interest",
+      "summary": "McKinsey State of Consumer 2026 finds ongoing creative trade-down behaviour",
+      "status": "active"
+    },
+    {
+      "id": "uss-abraham-lincoln-thailand-visit",
+      "first_briefed": "2026-08-27",
+      "section": "interest",
+      "summary": "USS Abraham Lincoln carrier group visits Thailand for rest, not drills",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-reveal-august",
+      "first_briefed": "2026-08-27",
+      "section": "today",
+      "summary": "Tesla next-gen Roadster reveal reportedly imminent in August",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-europe-iaa-hannover",
+      "first_briefed": "2026-08-27",
+      "section": "today",
+      "summary": "Tesla Semi Europe launch confirmed for IAA Transportation Hannover, Sept 2026",
+      "status": "active"
+    },
+    {
+      "id": "allin-summit-sept-2026",
+      "first_briefed": "2026-08-27",
+      "section": "today",
+      "summary": "All-In Summit scheduled 13-15 Sept 2026",
+      "status": "active"
     }
   ]
 }
