@@ -1771,6 +1771,55 @@
       "section": "opportunities",
       "summary": "Apple's Home platform launch order detailed: HomePod mini/Apple TV first, hub later",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-finalized-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "NSW finalises 20-year Sydney Plan for housing/infrastructure growth",
+      "status": "active"
+    },
+    {
+      "id": "canada-us-tariff-war-retaliation-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "Canada announces up to 50% retaliatory tariffs on US goods, effective 8 Sept",
+      "status": "active"
+    },
+    {
+      "id": "nsw-budget-2026-27-infrastructure-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "NSW releases 2026-27 Budget papers with infrastructure statement",
+      "status": "active"
+    },
+    {
+      "id": "meta-profit-fall-ai-spending-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Meta profit falls 14% as AI capex continues",
+      "status": "active"
+    },
+    {
+      "id": "meta-australia-court-settlement-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Meta reaches landmark Australian court settlement on social media safety",
+      "status": "active"
+    },
+    {
+      "id": "digs-construction-funding-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "Digs raises $25.3m Series A with Builders FirstSource",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-stores-prep-2026-08",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "Apple Stores prepping for HomePod mini/Apple TV/smart-home hub launches (development)",
+      "status": "active"
     }
   ]
 }

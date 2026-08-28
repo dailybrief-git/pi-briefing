@@ -4557,6 +4557,69 @@
       "section": "today",
       "summary": "All-In Summit scheduled 13-15 Sept 2026",
       "status": "active"
+    },
+    {
+      "id": "openai-jalapeno-chip",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "OpenAI launches custom Jalapeño inference chip, claims beats Nvidia",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claudeforce-salesforce",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Salesforce and Anthropic launch Claudeforce enterprise integration",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-design-opus47",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Anthropic ships Claude Design creative product with Opus 4.7",
+      "status": "active"
+    },
+    {
+      "id": "ai-infra-investment-wave-aug26",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "SK Hynix $28B listing, CrowdStrike/Okta AI-driven earnings surge",
+      "status": "active"
+    },
+    {
+      "id": "perplexity-arr-750m",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Perplexity annualized revenue triples past $750M",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-einride-order",
+      "first_briefed": "2026-08-28",
+      "section": "companies",
+      "summary": "Tesla Semi gets largest order to date: 500 trucks from Einride",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-mae-sai-demolition",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "Chiang Rai demolishes riverside buildings along Mae Sai River for flood mitigation",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-newstyle-recovery",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "China wine industry shows recovery via new-style innovation despite traditional decline",
+      "status": "active"
+    },
+    {
+      "id": "yoppa-yogurt-maya-cm",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "YoPPa Yogurt functional food concept opens at Maya Chiang Mai",
+      "status": "active"
     }
   ]
 }

@@ -2205,6 +2205,90 @@
       "section": "opportunities",
       "summary": "Hypothesis: SpaceX Louisiana buildout seeds Gulf Coast aerospace supply chain",
       "status": "active"
+    },
+    {
+      "id": "states-sue-trump-eo-injunction",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "24 states sue after SCOTUS lifts injunction on Trump executive order",
+      "status": "active"
+    },
+    {
+      "id": "lake-ontario-rename-trade-war",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "Trump renames Lake Ontario amid Canada trade war escalation",
+      "status": "active"
+    },
+    {
+      "id": "meta-child-harm-settlement",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "Meta settles state child-harm claims for $18B",
+      "status": "active"
+    },
+    {
+      "id": "europe-missile-interceptor-shortage",
+      "first_briefed": "2026-08-28",
+      "section": "alerts",
+      "summary": "US missile interceptor stockpile in Europe called beyond critical",
+      "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-spaceport-100b",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "SpaceX unveils $100B Louisiana spaceport near Pecan Island",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-sales-double-2026",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Nvidia sales double, investor focus shifts to guidance",
+      "status": "active"
+    },
+    {
+      "id": "apple-iphone-launch-new-ceo",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "Apple to hold first major iPhone launch under new CEO next month",
+      "status": "active"
+    },
+    {
+      "id": "doe-edtech-evidence-guidance",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "DOE tells districts to judge edtech on outcomes evidence",
+      "status": "active"
+    },
+    {
+      "id": "nyt-bigtech-schools-investigation",
+      "first_briefed": "2026-08-28",
+      "section": "major",
+      "summary": "NYT investigates Big Tech's influence over school curricula",
+      "status": "active"
+    },
+    {
+      "id": "edtech-evidence-guidance-opportunity",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: DOE evidence guidance favors outcomes-proven edtech vendors",
+      "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-economic-opportunity",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX Louisiana campus seeds regional space-industry cluster",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-capex-acceleration-opportunity",
+      "first_briefed": "2026-08-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: Nvidia results accelerate AI datacenter capex cycle",
+      "status": "active"
     }
   ]
 }
