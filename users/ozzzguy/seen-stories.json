@@ -2373,6 +2373,69 @@
       "section": "major",
       "summary": "NY grid battery storage projects stuck in limbo amid Con Ed cost-sharing rules",
       "status": "active"
+    },
+    {
+      "id": "spacex-orbital-ai-datacenter-nvidia",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "SpaceX plans orbital AI data center with Nvidia Vera Rubin chips for 2027",
+      "status": "active"
+    },
+    {
+      "id": "nyc-queens-flood-infra-library",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Mamdani/Hochul fund Queens flood-prevention medians, break ground on Eastern Parkway Library",
+      "status": "active"
+    },
+    {
+      "id": "edtech-bigtech-curriculum-nyt",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "NYT investigation on Big Tech's role writing school curricula",
+      "status": "active"
+    },
+    {
+      "id": "doe-edtech-procurement-guidance",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Education Dept guidance requires outcomes evidence for edtech procurement",
+      "status": "active"
+    },
+    {
+      "id": "broadway-fall-2026-lineup",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "TDF fall preview: 15 new Broadway shows incl. A Few Good Men revival with Tom Blyth",
+      "status": "active"
+    },
+    {
+      "id": "marathon-brain-science-research",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "ABC News feature on marathon running's effects on brain and resilience",
+      "status": "active"
+    },
+    {
+      "id": "ny-287g-lclca-deadline",
+      "first_briefed": "2026-08-30",
+      "section": "alerts",
+      "summary": "NY Local Cops, Local Crimes Act 287(g) dissolution deadline passes Aug 25",
+      "status": "active"
+    },
+    {
+      "id": "brooklyn-trinidad-parade-canceled",
+      "first_briefed": "2026-08-30",
+      "section": "alerts",
+      "summary": "Brooklyn's Trinidad & Tobago Parade canceled over permit issues",
+      "status": "active"
+    },
+    {
+      "id": "edtech-financial-literacy-mandates",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "State financial-literacy graduation mandates create edtech opportunity lane",
+      "status": "active"
     }
   ]
 }

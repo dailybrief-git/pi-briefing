@@ -4711,6 +4711,69 @@
       "section": "rail-today",
       "summary": "USS Abraham Lincoln carrier group port call at Sattahip Sept 2-6",
       "status": "active"
+    },
+    {
+      "id": "anthropic-claude-lab-control",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Anthropic tests Claude directly controlling lab robots/instruments",
+      "status": "active"
+    },
+    {
+      "id": "meta-anthropic-hatch-dependency",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Meta reportedly to spend $10B on Anthropic models to power Hatch agent",
+      "status": "active"
+    },
+    {
+      "id": "meta-17b-teen-safety-settlement",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Meta settles $17B with US states over teen social media addiction claims",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-reveal-spacex",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Tesla to reveal redesigned Roadster at SpaceX Texas site, 620-mile range target",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-einride-500-order",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Tesla Semi gets largest order yet, 500 trucks from Einride",
+      "status": "active"
+    },
+    {
+      "id": "asia-wine-import-growth-ranking",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "Asia wine markets ranked by import growth despite global slump",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-danish-dairy-exchange",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "Danish dairy firms share knowledge with Chiang Mai dairy operations",
+      "status": "active"
+    },
+    {
+      "id": "nepal-china-flood-disaster",
+      "first_briefed": "2026-08-30",
+      "section": "interest",
+      "summary": "Catastrophic Nepal-China border flooding, ~2500 missing",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-sept3-launch",
+      "first_briefed": "2026-08-30",
+      "section": "radar",
+      "summary": "Tesla Cybercab public robotaxi rides begin Sept 3 in Austin",
+      "status": "active"
     }
   ]
 }

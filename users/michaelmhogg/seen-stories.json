@@ -546,6 +546,62 @@
       "section": "podcasts",
       "summary": "Diary of a CEO's Ed Zitron episode argues AI market is a hype-driven scam heading for a 2027 crash.",
       "status": "active"
+    },
+    {
+      "id": "warsh-jackson-hole-hawkish-mortgage-volatility",
+      "first_briefed": "2026-08-30",
+      "section": "alerts",
+      "summary": "Warsh's hawkish Jackson Hole tone reopens rate-hike debate; US mortgage rates whipsaw between 6.51-6.68%.",
+      "status": "active"
+    },
+    {
+      "id": "hsr-newcastle-sydney-approval-hurdle-2026",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Infrastructure Australia demands more environmental/cost detail before HSR final investment decision.",
+      "status": "active"
+    },
+    {
+      "id": "epbc-housing-100-projects-milestone",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "100th housing project cleared under federal EPBC law, covering 80,000+ homes.",
+      "status": "active"
+    },
+    {
+      "id": "north-sydney-objective-build-platform",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "North Sydney Council first to adopt integrated Objective Build planning-approvals platform.",
+      "status": "active"
+    },
+    {
+      "id": "skift-boutique-hotel-brand-sale-trend",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Skift analysis: boutique hotel founders increasingly sell brand while retaining real estate.",
+      "status": "active"
+    },
+    {
+      "id": "ihg-holiday-inn-prototype-design",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "IHG opens first Holiday Inn & Suites under refreshed prototype design.",
+      "status": "active"
+    },
+    {
+      "id": "meriton-kevin-murphy-amenities-collab",
+      "first_briefed": "2026-08-30",
+      "section": "gems",
+      "summary": "Meriton Suites launches Kevin Murphy branded amenities collaboration.",
+      "status": "active"
+    },
+    {
+      "id": "doac-ed-zitron-ai-crash-2027",
+      "first_briefed": "2026-08-30",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Ed Zitron argues AI hype masks unsustainable economics, predicts 2027 crash.",
+      "status": "active"
     }
   ]
 }

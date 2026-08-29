@@ -1862,6 +1862,41 @@
       "section": "opportunities",
       "summary": "Apple Store readiness reports detail staged Home-hardware launch order",
       "status": "active"
+    },
+    {
+      "id": "merck-moderna-melanoma-vaccine-phase3-2026-08",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Merck/Moderna personalised melanoma mRNA vaccine wins Phase 3 outright",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-ai-financing-platform-2026-08",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Nvidia's $500bn financing consortium draws balance-sheet-as-debt scrutiny",
+      "status": "active"
+    },
+    {
+      "id": "hsr-newcastle-sydney-approval-hurdle-2026-08",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Newcastle-Sydney HSR told to deepen environmental/cost analysis before investment decision",
+      "status": "active"
+    },
+    {
+      "id": "lantheus-curium-acquisition-2026-08",
+      "first_briefed": "2026-08-30",
+      "section": "major",
+      "summary": "Curium to acquire Lantheus for $102.50/share plus CVRs",
+      "status": "active"
+    },
+    {
+      "id": "lendi-ai-mortgage-shift-2026-08",
+      "first_briefed": "2026-08-30",
+      "section": "opportunities",
+      "summary": "Lendi Group rebuilds mortgage tech around agentic AI in production",
+      "status": "active"
     }
   ]
 }
