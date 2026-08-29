@@ -2289,6 +2289,90 @@
       "section": "opportunities",
       "summary": "Hypothesis: Nvidia results accelerate AI datacenter capex cycle",
       "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-starbase",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "SpaceX confirms $100B second Starbase spaceport in Louisiana",
+      "status": "active"
+    },
+    {
+      "id": "spacex-cursor-deal-firming",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "SpaceX-Cursor compute deal firms up with acquisition option; Musk admits Grok lags",
+      "status": "active"
+    },
+    {
+      "id": "screen-time-academic-study",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "Study links early screen time to weaker later academic performance",
+      "status": "active"
+    },
+    {
+      "id": "buenos-aires-half-marathon-wr",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "World record set at 2026 Buenos Aires Half Marathon",
+      "status": "active"
+    },
+    {
+      "id": "nyc-budget-flood-infrastructure",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "NYC Council passes $886M budget; Mamdani/Hochul announce Queens flood-prevention funding",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-history",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "US to impose toughest-ever sanctions on Iran per Treasury Secretary",
+      "status": "active"
+    },
+    {
+      "id": "iran-war-six-month-domestic-effects",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "Six months into Iran war, fuel prices and deployments visible domestically",
+      "status": "active"
+    },
+    {
+      "id": "trump-records-law-warning",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "Former archivists warn Trump ignoring federal records law",
+      "status": "active"
+    },
+    {
+      "id": "trump-pacific-territories-claim",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "Trump labels Pacific nations as US territories in social post",
+      "status": "active"
+    },
+    {
+      "id": "meta-18b-child-harm-settlement",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "Meta settles state child-harm claims for $18B",
+      "status": "active"
+    },
+    {
+      "id": "london-marathon-2027-split-rumor",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "2027 London Marathon rumored to split into two-day event after record turnout",
+      "status": "active"
+    },
+    {
+      "id": "ny-grid-batteries-limbo",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "NY grid battery storage projects stuck in limbo amid Con Ed cost-sharing rules",
+      "status": "active"
     }
   ]
 }

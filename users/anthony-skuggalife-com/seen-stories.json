@@ -1820,6 +1820,48 @@
       "section": "opportunities",
       "summary": "Apple Stores prepping for HomePod mini/Apple TV/smart-home hub launches (development)",
       "status": "active"
+    },
+    {
+      "id": "data-centre-renewables-clash-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "National Cabinet clash over renewable mandate in data-centre laws, legislation due early 2027",
+      "status": "active"
+    },
+    {
+      "id": "newcastle-sydney-hsr-hurdle-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "alerts",
+      "summary": "Infrastructure Australia flags gaps before HSR investment decision",
+      "status": "active"
+    },
+    {
+      "id": "canada-us-tariff-war-escalation-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "Canada imposes 50% retaliatory tariffs on $20bn US goods; auto tariff threat to 50%",
+      "status": "active"
+    },
+    {
+      "id": "lendi-group-ai-mortgage-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "major",
+      "summary": "Lendi Group shifts 70%+ dev work to AI, agentic mortgage tools for 1,300 brokers",
+      "status": "active"
+    },
+    {
+      "id": "civilgrid-construction-funding-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "startups",
+      "summary": "CivilGrid raises $26m Series A for construction tech",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-launch-prep-development-2026-08",
+      "first_briefed": "2026-08-29",
+      "section": "opportunities",
+      "summary": "Apple Store readiness reports detail staged Home-hardware launch order",
+      "status": "active"
     }
   ]
 }
