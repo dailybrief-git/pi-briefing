@@ -1897,6 +1897,62 @@
       "section": "opportunities",
       "summary": "Lendi Group rebuilds mortgage tech around agentic AI in production",
       "status": "active"
+    },
+    {
+      "id": "us-debt-40-trillion-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "alerts",
+      "summary": "US national debt crosses $40 trillion",
+      "status": "active"
+    },
+    {
+      "id": "fed-warsh-jackson-hole-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "alerts",
+      "summary": "Fed Chair Warsh warns markets misprice rate path at Jackson Hole",
+      "status": "active"
+    },
+    {
+      "id": "merck-moderna-melanoma-phase3-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Merck-Moderna personalised mRNA melanoma vaccine wins Phase 3 outright, MRK hits record",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-openai-compute-2028-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "SemiAnalysis/Dwarkesh: Anthropic and OpenAI to control most world compute by 2028",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-balance-sheet-financing-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Nvidia's $500bn AI financing deals with Wall Street draw debt-accounting scrutiny",
+      "status": "active"
+    },
+    {
+      "id": "sydney-newcastle-hsr-hurdle-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Newcastle-Sydney high-speed rail stalls pending deeper environmental analysis",
+      "status": "active"
+    },
+    {
+      "id": "proptech-seed-rounds-h1-2026-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "opportunities",
+      "summary": "CRETI report: $207m across 30 proptech seed rounds in H1 2026",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-staged-rollout-2026-08",
+      "first_briefed": "2026-08-31",
+      "section": "opportunities",
+      "summary": "Apple's Home reboot to launch in stages, HomePod mini/Apple TV first (development)",
+      "status": "active"
     }
   ]
 }

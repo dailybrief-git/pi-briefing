@@ -2436,6 +2436,55 @@
       "section": "opportunities",
       "summary": "State financial-literacy graduation mandates create edtech opportunity lane",
       "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-starbase-100b",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "SpaceX announces $100B second Starbase spaceport in Louisiana",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-queens-flood-eastern-pkwy-library",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Mamdani/Hochul announce $8.4M Queens flood project and $36M library groundbreaking",
+      "status": "active"
+    },
+    {
+      "id": "ny-lclca-287g-dissolution",
+      "first_briefed": "2026-08-31",
+      "section": "alerts",
+      "summary": "NY's Local Cops, Local Crimes Act takes effect, forcing dissolution of 287(g) ICE agreements",
+      "status": "active"
+    },
+    {
+      "id": "pakistan-hospital-nursery-fire",
+      "first_briefed": "2026-08-31",
+      "section": "alerts",
+      "summary": "Fire kills 14 babies in Pakistan hospital nursery",
+      "status": "active"
+    },
+    {
+      "id": "west-bank-qusra-settler-attack",
+      "first_briefed": "2026-08-31",
+      "section": "alerts",
+      "summary": "Israeli settlers attack West Bank village of Qusra, injuring Palestinians",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-ai-datacenter-timeline",
+      "first_briefed": "2026-08-31",
+      "section": "opportunities",
+      "summary": "Report: SpaceX moving up orbital AI-datacenter timeline with Nvidia Vera Rubin hardware",
+      "status": "active"
+    },
+    {
+      "id": "marathon-majors-two-day-split-rumor",
+      "first_briefed": "2026-08-31",
+      "section": "opportunities",
+      "summary": "Unconfirmed rumor 2027 London Marathon could split into two-day race format",
+      "status": "active"
     }
   ]
 }

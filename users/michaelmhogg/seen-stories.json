@@ -602,6 +602,34 @@
       "section": "podcasts",
       "summary": "Diary of a CEO: Ed Zitron argues AI hype masks unsustainable economics, predicts 2027 crash.",
       "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-proposal-north-sydney",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "New North Sydney data-centre proposal lodged under emerging NSW policy regime.",
+      "status": "active"
+    },
+    {
+      "id": "prediction-markets-scotus-fight",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Appeals court rules against prediction markets, sets up Supreme Court fight.",
+      "status": "active"
+    },
+    {
+      "id": "ai-trade-sustainability-watch-aug2026",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "CNBC flags coming week as key test of AI trade sustainability.",
+      "status": "active"
+    },
+    {
+      "id": "doac-ed-zitron-ai-bubble",
+      "first_briefed": "2026-08-31",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Ed Zitron on AI hype and a potential 2027 crash.",
+      "status": "active"
     }
   ]
 }

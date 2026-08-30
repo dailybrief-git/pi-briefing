@@ -4774,6 +4774,83 @@
       "section": "radar",
       "summary": "Tesla Cybercab public robotaxi rides begin Sept 3 in Austin",
       "status": "active"
+    },
+    {
+      "id": "anthropic-model-hardware-standard",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Anthropic's MHS lets Claude control physical lab machinery",
+      "status": "active"
+    },
+    {
+      "id": "tesla-solar-roof-killed-crystal-sun",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Tesla kills Solar Roof, pivots to $10.1B Texas solar-cell plant",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-winui-native-revival",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "Microsoft recommits to native WinUI apps, building in public on GitHub",
+      "status": "active"
+    },
+    {
+      "id": "openai-20m-users-milestone",
+      "first_briefed": "2026-08-31",
+      "section": "major",
+      "summary": "OpenAI says a recent launch hit 20 million users",
+      "status": "active"
+    },
+    {
+      "id": "yoppa-yogurt-chiangmai",
+      "first_briefed": "2026-08-31",
+      "section": "opportunities",
+      "summary": "YoPPa Yogurt opens at Maya Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-launch-event-sept3",
+      "first_briefed": "2026-08-31",
+      "section": "companies",
+      "summary": "Tesla sets Cybercab launch event for Sept 3 in Austin",
+      "status": "active"
+    },
+    {
+      "id": "thai-winemaker-bordeaux",
+      "first_briefed": "2026-08-31",
+      "section": "gems",
+      "summary": "Thai winemaker May Phichaya Muikaew makes mark in Bordeaux",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-ipo-ai-wave",
+      "first_briefed": "2026-08-31",
+      "section": "markets",
+      "summary": "SK Hynix launches $28B US listing to ride AI wave",
+      "status": "active"
+    },
+    {
+      "id": "mae-fah-luang-mekong-safety",
+      "first_briefed": "2026-08-31",
+      "section": "gems",
+      "summary": "Mae Fah Luang University launches Mekong basin water-safety project",
+      "status": "active"
+    },
+    {
+      "id": "apple-sept9-event",
+      "first_briefed": "2026-08-31",
+      "section": "rail_today",
+      "summary": "Apple schedules Sept 9 product event, foldable iPhone expected",
+      "status": "active"
+    },
+    {
+      "id": "all-in-summit-sept",
+      "first_briefed": "2026-08-31",
+      "section": "rail_today",
+      "summary": "All-In Summit scheduled Sept 13-15",
+      "status": "active"
     }
   ]
 }
