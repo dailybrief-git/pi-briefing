@@ -1953,6 +1953,104 @@
       "section": "opportunities",
       "summary": "Apple's Home reboot to launch in stages, HomePod mini/Apple TV first (development)",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-finalized-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "NSW finalises 20-year Sydney Plan for growth to 6.6m people by 2046",
+      "status": "active"
+    },
+    {
+      "id": "australia-house-price-5th-fall-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "Cotality confirms house prices fell for a fifth consecutive month",
+      "status": "active"
+    },
+    {
+      "id": "aud-fx-below-0715-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "AUD slips below 0.7150 amid soft commodity currencies",
+      "status": "active"
+    },
+    {
+      "id": "merck-moderna-melanoma-vaccine-phase3-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Merck/Moderna individualised mRNA melanoma vaccine wins Phase 3 outright",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-ai-infra-financing-platform-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Nvidia's $500bn financing platform with major asset managers scrutinised as balance-sheet risk",
+      "status": "active"
+    },
+    {
+      "id": "nsw-hsr-approval-hurdle-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Newcastle-Sydney High-Speed Rail needs deeper environmental analysis before investment decision",
+      "status": "active"
+    },
+    {
+      "id": "canva-ipo-consideration-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Canva mulls IPO as AI costs squeeze growth",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-launch-staging-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Apple Stores prep for staged Home product launches, mini/Apple TV first",
+      "status": "active"
+    },
+    {
+      "id": "civilgrid-construction-funding-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "opportunities",
+      "summary": "CivilGrid raises $26m Series A for construction-materials tech",
+      "status": "active"
+    },
+    {
+      "id": "boldr-smart-thermostat-funding-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "opportunities",
+      "summary": "Boldr raises €4.2m for smart thermostat platform",
+      "status": "active"
+    },
+    {
+      "id": "proptech-seed-funding-trend-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "opportunities",
+      "summary": "Proptech seed rounds report: $207m across 30 deals in H1 2026",
+      "status": "active"
+    },
+    {
+      "id": "horizon3-sovereign-cloud-sydney-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "gems",
+      "summary": "Horizon3 opens first APAC sovereign cloud in Sydney",
+      "status": "active"
+    },
+    {
+      "id": "glm-5-3-flash-model-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "gems",
+      "summary": "GLM-5.3 Flash undercuts DeepSeek on price",
+      "status": "active"
+    },
+    {
+      "id": "dj-ai-madonna-remix-chart-2026-09",
+      "first_briefed": "2026-09-01",
+      "section": "gems",
+      "summary": "DJ admits AI-remixed Madonna track topped Australian charts",
+      "status": "active"
     }
   ]
 }

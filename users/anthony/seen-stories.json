@@ -4851,6 +4851,48 @@
       "section": "rail_today",
       "summary": "All-In Summit scheduled Sept 13-15",
       "status": "active"
+    },
+    {
+      "id": "openai-jalapeno-chip-launch",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "OpenAI ships first custom inference chip Jalapeño, claims Nvidia-beating results",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-launch-date-sept3",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Tesla confirms Cybercab launch event Sept 3 in Austin",
+      "status": "active"
+    },
+    {
+      "id": "tesla-solar-roof-kill-crystal-sun",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Tesla kills Solar Roof, redirects to $10.1B Texas Project Crystal Sun plant",
+      "status": "active"
+    },
+    {
+      "id": "nepal-china-border-floods",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Catastrophic Nepal-China border floods, thousands missing",
+      "status": "active"
+    },
+    {
+      "id": "airbus-thailand-skywise-hub",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Airbus names Thailand its Skywise Asia hub, 40 new jobs",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-decline-eu-collector-opportunity",
+      "first_briefed": "2026-09-01",
+      "section": "opportunities",
+      "summary": "China wine import decline creates buying opportunity for European collectors",
+      "status": "active"
     }
   ]
 }

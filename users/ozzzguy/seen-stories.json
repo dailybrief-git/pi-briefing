@@ -2485,6 +2485,55 @@
       "section": "opportunities",
       "summary": "Unconfirmed rumor 2027 London Marathon could split into two-day race format",
       "status": "active"
+    },
+    {
+      "id": "spacex-space-datacenter-nvidia",
+      "first_briefed": "2026-09-01",
+      "section": "opportunities",
+      "summary": "Reports SpaceX accelerating orbital AI data center with Nvidia Vera Rubin to Q4 2027",
+      "status": "active"
+    },
+    {
+      "id": "trump-venezuela-oil-deal",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "Trump announces deal for US control of 65B barrels of Venezuelan oil reserves",
+      "status": "active"
+    },
+    {
+      "id": "hochul-mamdani-flood-resiliency-queens",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "$8.4M green-infrastructure flood investment announced in three Queens neighborhoods",
+      "status": "active"
+    },
+    {
+      "id": "iste-offline-ai-translation-classroom",
+      "first_briefed": "2026-09-01",
+      "section": "major",
+      "summary": "ISTE-recognized classroom hardware adds offline AI translation for multilingual students",
+      "status": "active"
+    },
+    {
+      "id": "nyc-pedestrian-fatality-crosswalk",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "NYU Langone-Brooklyn nurse killed in crosswalk after overnight shift",
+      "status": "active"
+    },
+    {
+      "id": "southwest-heat-dome-record-aug26",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "New heat dome pushes Southwest to 110-115F, latest in summer's series",
+      "status": "active"
+    },
+    {
+      "id": "nepal-flood-disaster-2026",
+      "first_briefed": "2026-09-01",
+      "section": "alerts",
+      "summary": "Nepal-China border floods leave ~85 Americans missing, thousands displaced",
+      "status": "active"
     }
   ]
 }
