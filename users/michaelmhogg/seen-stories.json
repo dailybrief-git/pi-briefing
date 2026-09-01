@@ -665,6 +665,55 @@
       "section": "major",
       "summary": "Markets price in chance of September rate hike as Warsh signals hawkish tilt; inflation data steady.",
       "status": "active"
+    },
+    {
+      "id": "nepal-tibet-flood-australians-missing",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "Nepal-Tibet border flood leaves dozens of Australians missing; one found alive after six days.",
+      "status": "active"
+    },
+    {
+      "id": "mideast-oil-spike-mortgage-bond-macro",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "Middle East strikes spike oil/bond yields, pushing US mortgage rates to 15-month highs, denting Wall Street.",
+      "status": "active"
+    },
+    {
+      "id": "bathla-group-sydney-collapse",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "Sydney developer Bathla Group collapses, leaving apartment buyers in limbo.",
+      "status": "active"
+    },
+    {
+      "id": "china-ends-presale-housing-system",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "China moves to scrap pre-sale home-sales model blamed for worsening property meltdown.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-budget-2026-27-infrastructure-statement",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "NSW 2026-27 Budget papers detail four-year infrastructure investment program.",
+      "status": "active"
+    },
+    {
+      "id": "doac-david-friedberg-episode",
+      "first_briefed": "2026-09-02",
+      "section": "podcasts",
+      "summary": "David Friedberg discusses post-socialist economics on Diary of a CEO.",
+      "status": "active"
+    },
+    {
+      "id": "doac-ed-zitron-ai-hype-episode",
+      "first_briefed": "2026-09-02",
+      "section": "podcasts",
+      "summary": "Ed Zitron argues the bear case on AI economics on Diary of a CEO.",
+      "status": "active"
     }
   ]
 }

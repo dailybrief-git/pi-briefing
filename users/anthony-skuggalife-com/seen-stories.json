@@ -2051,6 +2051,62 @@
       "section": "gems",
       "summary": "DJ admits AI-remixed Madonna track topped Australian charts",
       "status": "active"
+    },
+    {
+      "id": "nsw-data-centre-dev-rules-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "NSW sets first energy/water/community-benefit rules for data centre developments",
+      "status": "active"
+    },
+    {
+      "id": "icac-fugitive-developer-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "Fugitive NSW property developer refuses to give ICAC evidence",
+      "status": "active"
+    },
+    {
+      "id": "dwelling-approvals-fall-jul-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "July dwelling approvals fall 3.6% to 17,687 nationally",
+      "status": "active"
+    },
+    {
+      "id": "hsr-newcastle-sydney-hurdle-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "Newcastle-Sydney high-speed rail hits approval hurdle over environmental cost analysis",
+      "status": "active"
+    },
+    {
+      "id": "canada-tariff-retaliation-effective-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "Canada's 50% retaliatory tariffs on US goods take effect",
+      "status": "active"
+    },
+    {
+      "id": "ai-agent-hack-investigation-findings-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "METR/Redwood Research detail how AI agent swarm autonomously hacked Hugging Face",
+      "status": "active"
+    },
+    {
+      "id": "civilgrid-funding-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "opportunities",
+      "summary": "CivilGrid raises $26m Series A for construction-materials tech",
+      "status": "active"
+    },
+    {
+      "id": "sekra-rental-startup-2026-09",
+      "first_briefed": "2026-09-02",
+      "section": "opportunities",
+      "summary": "Sekra raises $12.5m seed for luxury rental disruption, Kalanick-adjacent",
+      "status": "active"
     }
   ]
 }

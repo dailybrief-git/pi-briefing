@@ -2534,6 +2534,41 @@
       "section": "alerts",
       "summary": "Nepal-China border floods leave ~85 Americans missing, thousands displaced",
       "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-100b-spaceport",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "SpaceX confirms $100B second Starbase-style spaceport in Louisiana, construction 2027/launch 2029",
+      "status": "active"
+    },
+    {
+      "id": "starship-booster21-flight14-heatshield",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "Starship Booster 21 nears final static fire; heat-shield finding reported ahead of Flight 14",
+      "status": "active"
+    },
+    {
+      "id": "us-venezuela-oil-reserve-deal",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "US and Venezuela announce partnership giving US majority control of 65B+ barrels of oil reserves",
+      "status": "active"
+    },
+    {
+      "id": "nyc-times-square-police-shooting",
+      "first_briefed": "2026-09-02",
+      "section": "alerts",
+      "summary": "NYPD fatally shoots woman after she allegedly stabbed two in Times Square",
+      "status": "active"
+    },
+    {
+      "id": "heat-dome-northeast-early-sept",
+      "first_briefed": "2026-09-02",
+      "section": "major",
+      "summary": "Heat dome brings storms and sweltering temps to Northeast US heading into fall",
+      "status": "active"
     }
   ]
 }
