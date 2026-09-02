@@ -2569,6 +2569,48 @@
       "section": "major",
       "summary": "Heat dome brings storms and sweltering temps to Northeast US heading into fall",
       "status": "active"
+    },
+    {
+      "id": "spacex-cursor-acquisition-confirmed-report",
+      "first_briefed": "2026-09-03",
+      "section": "major",
+      "summary": "Secondary source describes SpaceX-Cursor deal as announced/completed, contra earlier rumor framing",
+      "status": "active"
+    },
+    {
+      "id": "rfk-screen-time-hhs-event",
+      "first_briefed": "2026-09-03",
+      "section": "major",
+      "summary": "RFK Jr. urges reduced student screen time at HHS policy event",
+      "status": "active"
+    },
+    {
+      "id": "ny-bricks-grants-round2",
+      "first_briefed": "2026-09-03",
+      "section": "major",
+      "summary": "Hochul opens second $75M round of NY BRICKS recreation infrastructure grants",
+      "status": "active"
+    },
+    {
+      "id": "strength-training-longevity-study",
+      "first_briefed": "2026-09-03",
+      "section": "major",
+      "summary": "BJSM study finds dose-response sweet spot for strength training and longevity",
+      "status": "active"
+    },
+    {
+      "id": "heat-dome-northeast-aug31",
+      "first_briefed": "2026-09-03",
+      "section": "alerts",
+      "summary": "New heat dome brings storms and heat to Northeast including NYC",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-ai-datacenter-thesis",
+      "first_briefed": "2026-09-03",
+      "section": "opportunities",
+      "summary": "Analyst thesis: SpaceX could reach $20T via Starship-enabled orbital AI data centers",
+      "status": "active"
     }
   ]
 }

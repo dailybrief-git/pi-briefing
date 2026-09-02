@@ -714,6 +714,27 @@
       "section": "podcasts",
       "summary": "Ed Zitron argues the bear case on AI economics on Diary of a CEO.",
       "status": "active"
+    },
+    {
+      "id": "bathla-construction-collapse-2026",
+      "first_briefed": "2026-09-03",
+      "section": "alerts",
+      "summary": "Sydney builder Bathla collapses with debts up to $3.6bn, ~$20bn sector exposure feared.",
+      "status": "active"
+    },
+    {
+      "id": "chandler-nassif-inquiry-testimony",
+      "first_briefed": "2026-09-03",
+      "section": "major",
+      "summary": "David Chandler testifies at inquiry about clashes with developer Jean Nassif.",
+      "status": "active"
+    },
+    {
+      "id": "nrl-new-rules-trial-ciraldo-2026",
+      "first_briefed": "2026-09-03",
+      "section": "interest",
+      "summary": "Bulldogs notified by email they'll trial new NRL rules ahead of finals.",
+      "status": "active"
     }
   ]
 }
