@@ -2611,6 +2611,83 @@
       "section": "opportunities",
       "summary": "Analyst thesis: SpaceX could reach $20T via Starship-enabled orbital AI data centers",
       "status": "active"
+    },
+    {
+      "id": "nyc-schools-genai-moratorium",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "NYC bars student-facing generative AI, adds screen-time policy",
+      "status": "active"
+    },
+    {
+      "id": "spacex-louisiana-100b-investment",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "SpaceX confirms $100B Louisiana investment, new pad near Pecan Island",
+      "status": "active"
+    },
+    {
+      "id": "marathon-records-tesfay-assefa-2026",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Tesfay's debut WR and Assefa's women-only marathon record confirmed for 2026",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-business-advisory-council",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Mamdani launches City Hall Business Advisory Council",
+      "status": "active"
+    },
+    {
+      "id": "nyc-queens-flood-medians",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "$8.4M Queens median-to-sponge flood infrastructure funded",
+      "status": "active"
+    },
+    {
+      "id": "heat-dome-fall-northeast",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "Fourth heat dome hits Northeast into early fall",
+      "status": "active"
+    },
+    {
+      "id": "france-heatwave-deaths",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "Western Europe heatwave kills 50+ in France via omega-block pattern",
+      "status": "active"
+    },
+    {
+      "id": "zelensky-kyiv-shootout",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "Zelensky orders probe after Kyiv street shootout",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-datacenter-thesis",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "Analyst thesis: SpaceX could pursue orbital AI data centers, $20T valuation case",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ai-moratorium-edtech-opportunity",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "Hypothesis: NYC gen-AI ban favors teacher-facing/non-generative edtech vendors",
+      "status": "active"
+    },
+    {
+      "id": "kahoot-backtoschool-launch",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "Kahoot launches back-to-school engagement features",
+      "status": "active"
     }
   ]
 }

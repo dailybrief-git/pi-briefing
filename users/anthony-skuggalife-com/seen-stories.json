@@ -2163,6 +2163,76 @@
       "section": "gems",
       "summary": "Horizon3 opens first Asia-Pacific sovereign cloud in Sydney",
       "status": "active"
+    },
+    {
+      "id": "home-loan-preapprovals-decline-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "Owner-occupier loan pre-approvals down 12.6% YoY, deepening housing downturn",
+      "status": "active"
+    },
+    {
+      "id": "tobacco-excise-cut-plan-rejected-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "AMA, Labor reject Coalition's 80% tobacco excise cut plan",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tod-illawarra-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "NSW plans Transport Oriented Developments at North Wollongong, Corrimal, Dapto",
+      "status": "active"
+    },
+    {
+      "id": "canada-tariffs-effective-sept8-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Canada's retaliatory tariffs on hundreds of US goods take effect 8 Sep",
+      "status": "active"
+    },
+    {
+      "id": "nsw-data-centre-policy-framework-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "NSW publishes formal data-centre development regulatory framework",
+      "status": "active"
+    },
+    {
+      "id": "merck-kras-breakthrough-therapy-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Merck's calderasib KRAS inhibitor gets FDA Breakthrough Therapy status",
+      "status": "active"
+    },
+    {
+      "id": "grad-diploma-visa-crackdown-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Federal government blocks enrolments in visa-exploited graduate diploma",
+      "status": "active"
+    },
+    {
+      "id": "qld-epa-coal-approval-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Queensland's new EPA approves a coal project (thin detail)",
+      "status": "active"
+    },
+    {
+      "id": "civilgrid-series-a-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "CivilGrid raises $26m Series A for construction-materials tech",
+      "status": "active"
+    },
+    {
+      "id": "proptech-funding-snapshot-2026-09",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "Crunchbase snapshot: proptech funding rotates toward efficiency plays",
+      "status": "active"
     }
   ]
 }

@@ -5033,6 +5033,69 @@
       "section": "rail-today",
       "summary": "All-In Summit scheduled 13-15 September 2026",
       "status": "active"
+    },
+    {
+      "id": "gpt-56-sol-preview",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "OpenAI previews GPT-5.6 Sol next-gen model",
+      "status": "active"
+    },
+    {
+      "id": "gpt6-astra-rollout",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "OpenAI's Astra/GPT-6 rolls to business users via Daybreak, recurrent-depth reasoning raises safety flags",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-huggingface-acquisition",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Nvidia moves to acquire Hugging Face for $13B",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-enterprise-frontier-safeguards",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Anthropic launches Enterprise Frontier Safeguards, confirms US govt model-sharing",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-mhs-physical-ai",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Anthropic's Model Hardware Standard lets AI agents control physical lab equipment",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-event-hype",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Tesla teases public Cybercab robotaxi launch event",
+      "status": "active"
+    },
+    {
+      "id": "tesla-legacy-product-relaunch-sept",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "Tesla re-launching three decade-old products including Roadster this September",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wellness-35pct-economy",
+      "first_briefed": "2026-09-04",
+      "section": "opportunities",
+      "summary": "Chiang Mai targets wellness/longevity as 35% of provincial economy",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-loophole-policy",
+      "first_briefed": "2026-09-04",
+      "section": "alerts",
+      "summary": "Thailand targets data-centre loopholes after Bangkok fuel breach",
+      "status": "active"
     }
   ]
 }

@@ -735,6 +735,20 @@
       "section": "interest",
       "summary": "Bulldogs notified by email they'll trial new NRL rules ahead of finals.",
       "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-13month-high-sep2026",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "US 30-year fixed mortgage rate hits highest level in over a year amid inflation concerns.",
+      "status": "active"
+    },
+    {
+      "id": "hr6644-road-to-housing-act-us",
+      "first_briefed": "2026-09-04",
+      "section": "major",
+      "summary": "US Congress passes H.R. 6644 restricting corporate single-family home ownership.",
+      "status": "active"
     }
   ]
 }
