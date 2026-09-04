@@ -749,6 +749,55 @@
       "section": "major",
       "summary": "US Congress passes H.R. 6644 restricting corporate single-family home ownership.",
       "status": "active"
+    },
+    {
+      "id": "nsw-gangland-violence-police-powers-2026",
+      "first_briefed": "2026-09-05",
+      "section": "alerts",
+      "summary": "NSW considers stronger police powers after mistaken-identity gangland killings.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-676-sep2026",
+      "first_briefed": "2026-09-05",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate rises to 6.76% then eases to 6.74%, extending prior 6.69% reading.",
+      "status": "active"
+    },
+    {
+      "id": "us-jobs-report-aug2026",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "US adds 162k jobs in August, unemployment steady at 4.1%, wages trail inflation.",
+      "status": "active"
+    },
+    {
+      "id": "australia-ev-sales-overtake-petrol-aug2026",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "EVs outsell petrol and diesel cars in Australia for the first time in August.",
+      "status": "active"
+    },
+    {
+      "id": "ai-vc-shakeout-goldman-credit-forecast",
+      "first_briefed": "2026-09-05",
+      "section": "opportunities",
+      "summary": "Goldman revises AI-linked credit forecast; early-stage AI VC funding reportedly tightening.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-transport-illawarra-40-initiatives",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "NSW unveils 40 transport initiatives for Illawarra-Shoalhaven tied to Shellharbour Hospital.",
+      "status": "active"
+    },
+    {
+      "id": "doac-friedberg-episode-aug2026",
+      "first_briefed": "2026-09-05",
+      "section": "podcasts",
+      "summary": "Diary of a CEO hosts David Friedberg on economic/technological shifts.",
+      "status": "active"
     }
   ]
 }

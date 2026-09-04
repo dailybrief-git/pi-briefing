@@ -2688,6 +2688,48 @@
       "section": "opportunities",
       "summary": "Kahoot launches back-to-school engagement features",
       "status": "active"
+    },
+    {
+      "id": "israel-umm-al-khair-yeshiva-draft",
+      "first_briefed": "2026-09-05",
+      "section": "alerts",
+      "summary": "Settler incident at Umm al-Khair coincides with rabbis' Trump lobbying on yeshiva IDF draft",
+      "status": "active"
+    },
+    {
+      "id": "doj-scotus-mail-ballot-case",
+      "first_briefed": "2026-09-05",
+      "section": "alerts",
+      "summary": "DOJ asks Supreme Court to intervene on USPS mail-ballot rules before midterms",
+      "status": "active"
+    },
+    {
+      "id": "gates-ai-education-warning",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "Bill Gates warns unchecked classroom AI could mean less learning",
+      "status": "active"
+    },
+    {
+      "id": "ice-school-bus-stop-controversy",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "Ed-policy roundup surfaces dispute over alleged ICE presence at school bus stops",
+      "status": "active"
+    },
+    {
+      "id": "chinese-automaker-data-ban-call",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "US automaker group urges ban on Chinese car sales over data-to-Beijing risk",
+      "status": "active"
+    },
+    {
+      "id": "marathon-strength-training-dose-response",
+      "first_briefed": "2026-09-05",
+      "section": "opportunities",
+      "summary": "New dose-response strength-training/mortality study raises hybrid-training hypothesis for marathoners",
+      "status": "active"
     }
   ]
 }

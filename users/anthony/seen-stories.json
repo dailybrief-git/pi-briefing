@@ -5096,6 +5096,69 @@
       "section": "alerts",
       "summary": "Thailand targets data-centre loopholes after Bangkok fuel breach",
       "status": "active"
+    },
+    {
+      "id": "gpt6-astra-launch",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "OpenAI launches GPT-6 Astra flagship model plus $1B Daybreak cyber-defence initiative",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-fable-mythos-5-1",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "Anthropic ships Claude Fable 5.1/Mythos 5.1 and Model Hardware Standard for lab agents",
+      "status": "active"
+    },
+    {
+      "id": "tesla-china-recall-4m-vehicles",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "China's largest-ever car recall hits 4M+ vehicles including Tesla, XPeng, Xiaomi",
+      "status": "active"
+    },
+    {
+      "id": "meta-hatch-personal-agent",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "Meta reportedly testing Hatch personal AI agent ahead of launch",
+      "status": "active"
+    },
+    {
+      "id": "us-jobs-report-aug-2026",
+      "first_briefed": "2026-09-05",
+      "section": "major",
+      "summary": "US adds 162k jobs in August, unemployment flat at 4.1%, wages lag inflation",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-coliving-nomad-friction",
+      "first_briefed": "2026-09-05",
+      "section": "opportunities",
+      "summary": "Coliving founder critiques isolated nomad 'bubble' developments in Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-loophole-fuel-breach",
+      "first_briefed": "2026-09-05",
+      "section": "alerts",
+      "summary": "Thailand tightens data-centre regulatory loopholes following Bangkok fuel breach",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-cybercab-autonomy-pivot",
+      "first_briefed": "2026-09-05",
+      "section": "companies",
+      "summary": "Tesla leans into Cybercab/Roadster autonomy bet per Autonews",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-winui-native-apps-return",
+      "first_briefed": "2026-09-05",
+      "section": "companies",
+      "summary": "Microsoft rebuilding native Windows 11 apps in public, sticking with WinUI",
+      "status": "active"
     }
   ]
 }
