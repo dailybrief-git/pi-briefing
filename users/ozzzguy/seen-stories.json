@@ -2730,6 +2730,104 @@
       "section": "opportunities",
       "summary": "New dose-response strength-training/mortality study raises hybrid-training hypothesis for marathoners",
       "status": "active"
+    },
+    {
+      "id": "nyc-schools-ai-moratorium",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "NYC halts student-facing generative AI, adds screen-time policy",
+      "status": "active"
+    },
+    {
+      "id": "ai-proof-exams-reckoning",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Nature reports global reckoning over AI-resistant exam design",
+      "status": "active"
+    },
+    {
+      "id": "england-internal-exclusion-triples",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "England secondary school internal exclusions nearly triple in 3 years",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-vera-rubin-partnership",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "SpaceX/Nvidia to launch optimized Vera Rubin AI system by 2027",
+      "status": "active"
+    },
+    {
+      "id": "strength-training-sweet-spot-study",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "BJSM study finds strength-training dose sweet spot for longevity",
+      "status": "active"
+    },
+    {
+      "id": "ny-house-race-morelle-traywick",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "NY's 56th District race centers on Iran war and detention centers",
+      "status": "active"
+    },
+    {
+      "id": "grok47-spacex-data-training",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "Grok 4.7 reportedly trained partly on SpaceX company data",
+      "status": "active"
+    },
+    {
+      "id": "pwc-ai-infra-investment-forecast",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "PwC forecasts $31.6T AI infrastructure spend through 2050, power-constrained",
+      "status": "active"
+    },
+    {
+      "id": "gcse-2026-london-gap",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "England 2026 GCSE data shows London widening attainment gap",
+      "status": "active"
+    },
+    {
+      "id": "pa-measles-outbreak",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "Pennsylvania measles cluster hits 115 cases in a week",
+      "status": "active"
+    },
+    {
+      "id": "doj-mail-ballot-scotus",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "DOJ asks Supreme Court to intervene on mail-ballot rules before midterms",
+      "status": "active"
+    },
+    {
+      "id": "nyc-rental-scam-complaints",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "NYC rental-scheme complaints up 55%",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ev-data-ban-push",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "US automaker group urges ban on Chinese car sales over data concerns",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-bessent",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "Treasury vows toughest-ever sanctions on Iran as alternative to strikes",
+      "status": "active"
     }
   ]
 }

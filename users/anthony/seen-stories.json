@@ -5159,6 +5159,83 @@
       "section": "companies",
       "summary": "Microsoft rebuilding native Windows 11 apps in public, sticking with WinUI",
       "status": "active"
+    },
+    {
+      "id": "openai-gpt6-astra-launch",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "OpenAI launches GPT-6 Astra with expanded browser/computer-use capability",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-mhs-fable-mythos",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Anthropic ships Claude Fable/Mythos 5.1 and Model Hardware Standard for physical lab AI agents",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-launch-event",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Tesla reveals production Cybercab with rare-earth-free motor",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-layoffs-4800",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Microsoft cuts ~4,800 jobs (2.1% of workforce) in commercial/Xbox restructuring",
+      "status": "active"
+    },
+    {
+      "id": "thailand-anutin-carmakers-rail-threat",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "Anutin faces carmaker and rail-consortium exit threats; Toyota denies leaving",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wellness-longevity-2031-target",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "Chiang Mai targets 35% wellness-economy share, ฿150bn longevity city by 2031",
+      "status": "active"
+    },
+    {
+      "id": "soundhound-liveperson-acquisition",
+      "first_briefed": "2026-09-06",
+      "section": "gems",
+      "summary": "SoundHound closes $304M LivePerson acquisition for agentic AI messaging",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-relaunch-tease",
+      "first_briefed": "2026-09-06",
+      "section": "companies",
+      "summary": "Tesla to re-launch three decade-old products this month including Roadster framing",
+      "status": "active"
+    },
+    {
+      "id": "wine-industry-ai-adoption",
+      "first_briefed": "2026-09-06",
+      "section": "gems",
+      "summary": "AI adoption grows across the US wine industry",
+      "status": "active"
+    },
+    {
+      "id": "alzheimers-early-brain-changes-study",
+      "first_briefed": "2026-09-06",
+      "section": "interest",
+      "summary": "Study finds Alzheimer's-linked brain changes may precede detectable amyloid by 7 years",
+      "status": "active"
+    },
+    {
+      "id": "diary-of-ceo-huberman-episode",
+      "first_briefed": "2026-09-06",
+      "section": "podcasts",
+      "summary": "Huberman returns to Diary of a CEO with daily optimisation protocols and AI commentary",
+      "status": "active"
     }
   ]
 }

@@ -798,6 +798,48 @@
       "section": "podcasts",
       "summary": "Diary of a CEO hosts David Friedberg on economic/technological shifts.",
       "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-673-sept2026",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate eases to 6.73% after touching 6.76%, developing prior 6.69% story.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-community-participation-plan-sept2026",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "NSW statewide Community Participation Plan takes effect, replacing 100+ local consultation plans.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-entry-bond-proposal",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "DCCEEW proposes entry bonds and $200k/MW default fee for data-centre grid connections.",
+      "status": "active"
+    },
+    {
+      "id": "us-housing-act-hr6644-2026",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "US Congress passes 21st Century Road to Housing Act, described as biggest federal housing policy shift in decades.",
+      "status": "active"
+    },
+    {
+      "id": "illawarra-shoalhaven-transport-plan-2026",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "NSW unveils 40+ transport initiatives for Illawarra-Shoalhaven region.",
+      "status": "active"
+    },
+    {
+      "id": "str-2026-revpar-forecast",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "STR raises 2026 US hotel RevPAR forecast to 4.4% amid bifurcated demand recovery.",
+      "status": "active"
     }
   ]
 }

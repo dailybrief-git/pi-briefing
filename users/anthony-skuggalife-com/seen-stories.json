@@ -2275,6 +2275,76 @@
       "section": "opportunities",
       "summary": "Comcast launches Xfinity Shield AI home-security category",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-finalised-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "NSW finalises 20-year Sydney Plan growth framework",
+      "status": "active"
+    },
+    {
+      "id": "nsw-community-participation-plan-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "Statewide Community Participation Plan replaces 100+ council rules, effective 1 Sept",
+      "status": "active"
+    },
+    {
+      "id": "nsw-data-centre-grid-reform-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "alerts",
+      "summary": "Draft reforms propose data-centre grid entry bonds and $200k/MW fee",
+      "status": "active"
+    },
+    {
+      "id": "canva-ipo-margin-pressure-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Canva IPO complicated by slowing revenue and rising AI costs",
+      "status": "active"
+    },
+    {
+      "id": "horizon3-sovereign-cloud-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "major",
+      "summary": "Horizon3 opens first APAC sovereign cloud in Sydney",
+      "status": "active"
+    },
+    {
+      "id": "solid-carbon-doe-cement-project-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "Solid Carbon Inc leads DOE waste-stream cement project (development of ACCENT hub)",
+      "status": "active"
+    },
+    {
+      "id": "nanolope-preseed-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "Nanolope raises €800k pre-seed for phase-change wall panels",
+      "status": "active"
+    },
+    {
+      "id": "comcast-xfinity-shield-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "opportunities",
+      "summary": "Comcast launches Xfinity Shield AI home protection product",
+      "status": "active"
+    },
+    {
+      "id": "deteqt-hire-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "gems",
+      "summary": "DeteQt names new technical partnerships project manager",
+      "status": "active"
+    },
+    {
+      "id": "dwarkesh-agent-civilizations-2026-09",
+      "first_briefed": "2026-09-06",
+      "section": "podcasts",
+      "summary": "Dwarkesh episode on AI agent hijack behaviour and Hugging Face attack",
+      "status": "active"
     }
   ]
 }
