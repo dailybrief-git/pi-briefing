@@ -5236,6 +5236,83 @@
       "section": "podcasts",
       "summary": "Huberman returns to Diary of a CEO with daily optimisation protocols and AI commentary",
       "status": "active"
+    },
+    {
+      "id": "anthropic-enterprise-commerce-cluster",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Anthropic ships Enterprise Frontier Safeguards, Commerce Agent Blueprint, safer Claude Fable 5",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-production-reveal",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Tesla unveils production Cybercab with no steering wheel or pedals",
+      "status": "active"
+    },
+    {
+      "id": "chinese-ai-model-catchup",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Cheap new Chinese AI model reportedly closes gap with OpenAI/Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-hydrafusion-copilot",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "GitHub Copilot's HydraFusion adds multi-model orchestration, cuts costs 67%",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-power-framework",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "Thailand orders data-centre policy revamp as power demand hits 20GW",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wellness-longevity-economy",
+      "first_briefed": "2026-09-07",
+      "section": "opportunities",
+      "summary": "Chiang Mai targets wellness for 35% of economy, ฿150bn longevity city by 2031",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-green-guide-fest",
+      "first_briefed": "2026-09-07",
+      "section": "opportunities",
+      "summary": "Chiang Mai Green Guide Fest 2026 gathers 35+ F&B businesses for farm-to-table showcase",
+      "status": "active"
+    },
+    {
+      "id": "hylife-group-market-landmark",
+      "first_briefed": "2026-09-07",
+      "section": "opportunities",
+      "summary": "Hylife Group redevelops traditional Chiang Mai market into lifestyle landmark",
+      "status": "active"
+    },
+    {
+      "id": "google-gemma-1b-downloads",
+      "first_briefed": "2026-09-07",
+      "section": "gems",
+      "summary": "Google Gemma passes 1 billion downloads",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-pair-local-router",
+      "first_briefed": "2026-09-07",
+      "section": "gems",
+      "summary": "Nvidia's PAIR router distributes AI inference across a local network",
+      "status": "active"
+    },
+    {
+      "id": "tesla-decade-old-relaunch-tease",
+      "first_briefed": "2026-09-07",
+      "section": "companies",
+      "summary": "Tesla to re-launch three decade-old products in September as stock-pump play",
+      "status": "active"
     }
   ]
 }

@@ -840,6 +840,48 @@
       "section": "opportunities",
       "summary": "STR raises 2026 US hotel RevPAR forecast to 4.4% amid bifurcated demand recovery.",
       "status": "active"
+    },
+    {
+      "id": "nsw-community-participation-plan-2026",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "NSW's single statewide Community Participation Plan took effect 1 September 2026, replacing 100+ council plans.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-fee-reform-2026",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "DCCEEW proposes $200k/MW entry fee and connection bond for NSW data centres, developing earlier grid-access stories.",
+      "status": "active"
+    },
+    {
+      "id": "au-spring-property-season-2026-decline",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Bloomberg reports Australia's spring property season opening sharply softer than 2025, developing the house-price-correction story.",
+      "status": "active"
+    },
+    {
+      "id": "shein-hongkong-listing-drop",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Shein shares fell ~10% on its delayed Hong Kong Stock Exchange trading debut.",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-settlement-product-pipeline",
+      "first_briefed": "2026-09-07",
+      "section": "opportunities",
+      "summary": "Morgan Stanley says Meta's $18bn settlement could free up new AI product launches.",
+      "status": "active"
+    },
+    {
+      "id": "doac-friedberg-socialism-episode",
+      "first_briefed": "2026-09-07",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with David Friedberg on automation, inequality and policy shifts.",
+      "status": "active"
     }
   ]
 }

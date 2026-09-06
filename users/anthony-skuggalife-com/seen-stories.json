@@ -2345,6 +2345,90 @@
       "section": "podcasts",
       "summary": "Dwarkesh episode on AI agent hijack behaviour and Hugging Face attack",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-20yr-framework-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "Minns government finalises 20-year Sydney Plan targeting 6.6m residents by 2046",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-reform-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "DCCEEW proposes entry bond and $200k/MW fee for data-centre grid connections",
+      "status": "active"
+    },
+    {
+      "id": "novartis-myricx-australian-biotech-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Novartis's Myricx deal pays out $300m+ to Australian super funds/VCs, development on patent-cliff M&A story",
+      "status": "active"
+    },
+    {
+      "id": "us-jobs-report-fed-hike-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Stronger US August jobs report lifts Fed rate-hike odds, equities dip Friday",
+      "status": "active"
+    },
+    {
+      "id": "dwarkesh-ai-agent-hijack-episode-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "podcasts",
+      "summary": "New Dwarkesh episode covers AI agent security incident involving Hugging Face",
+      "status": "active"
+    },
+    {
+      "id": "the-daily-steinem-parton-episode-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "podcasts",
+      "summary": "The Daily covers Gloria Steinem/Dolly Parton legacy retrospective",
+      "status": "active"
+    },
+    {
+      "id": "deteqt-quantum-hire-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "gems",
+      "summary": "DeteQt hires technical partnerships lead for NSW manufacturing lab",
+      "status": "active"
+    },
+    {
+      "id": "canva-ipo-watch-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "gems",
+      "summary": "Canva weighs IPO amid slower growth and rising AI costs",
+      "status": "active"
+    },
+    {
+      "id": "wallabies-pumas-series-win-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "interest",
+      "summary": "Wallabies win first-ever series in Argentina after 28-28 draw",
+      "status": "active"
+    },
+    {
+      "id": "ai-madonna-remix-chart-topping-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "interest",
+      "summary": "AI-remixed Madonna track topped Australian charts, DJ admits use of AI",
+      "status": "active"
+    },
+    {
+      "id": "cuttlefish-population-crash-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "interest",
+      "summary": "Giant cuttlefish mating numbers crash 97% in South Australia",
+      "status": "active"
+    },
+    {
+      "id": "jumping-castle-storm-injuries-2026-09",
+      "first_briefed": "2026-09-07",
+      "section": "interest",
+      "summary": "Wind lifts jumping castles in two incidents, hospitalising five children",
+      "status": "active"
     }
   ]
 }

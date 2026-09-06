@@ -2828,6 +2828,41 @@
       "section": "alerts",
       "summary": "Treasury vows toughest-ever sanctions on Iran as alternative to strikes",
       "status": "active"
+    },
+    {
+      "id": "grok-4-7-release-window",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Grok 4.7 (~2.1T params) targeted for ~Sept 12 release, trained on SpaceX data",
+      "status": "active"
+    },
+    {
+      "id": "broadway-other-desert-cities-revival",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Other Desert Cities Broadway revival set with Harris, Janney, Louis-Dreyfus, Keery",
+      "status": "active"
+    },
+    {
+      "id": "ny-infra-schumer-details",
+      "first_briefed": "2026-09-07",
+      "section": "major",
+      "summary": "Schumer details NY-specific infrastructure deal funding for bridges, airports, water",
+      "status": "active"
+    },
+    {
+      "id": "statistical-agencies-interference-concern",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "Politico reports quiet changes at federal statistical agencies reviving independence fears",
+      "status": "active"
+    },
+    {
+      "id": "texas-senate-pac-adspend",
+      "first_briefed": "2026-09-07",
+      "section": "alerts",
+      "summary": "Trump-aligned PAC spends $10M on Texas Senate race ads per FEC filing",
+      "status": "active"
     }
   ]
 }
