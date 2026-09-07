@@ -2863,6 +2863,62 @@
       "section": "alerts",
       "summary": "Trump-aligned PAC spends $10M on Texas Senate race ads per FEC filing",
       "status": "active"
+    },
+    {
+      "id": "afd-saxony-anhalt-election",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "AfD wins Saxony-Anhalt state election in landslide, falls short of majority",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-vera-rubin-2027",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "SpaceX and Nvidia partner to orbit Vera Rubin AI system by 2027",
+      "status": "active"
+    },
+    {
+      "id": "un-climate-catastrophe-report-2026",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "UN report warns climate catastrophe avoidable only with urgent action",
+      "status": "active"
+    },
+    {
+      "id": "nyc-rental-scam-surge",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "NYC rental-scam complaints jump 55%, refund practices under scrutiny",
+      "status": "active"
+    },
+    {
+      "id": "iran-hormuz-exclusion-zone",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "Iran announces plan for exclusion zone near Strait of Hormuz",
+      "status": "active"
+    },
+    {
+      "id": "michigan-mail-voting-blocked",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "Judge blocks Trump admin mail-in voting order for second time",
+      "status": "active"
+    },
+    {
+      "id": "spacex-turbine-insourcing",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Musk insources turbine casting at SpaceX to accelerate power buildout",
+      "status": "active"
+    },
+    {
+      "id": "grok-4-7-release",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Grok 4.7 (~Sept 12) reportedly trained on SpaceX data",
+      "status": "active"
     }
   ]
 }

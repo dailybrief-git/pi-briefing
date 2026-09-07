@@ -882,6 +882,69 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with David Friedberg on automation, inequality and policy shifts.",
       "status": "active"
+    },
+    {
+      "id": "australia-solomon-islands-treaty-2026",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "Australia and Solomon Islands reach in-principle treaty; leaked text reveals negotiating lengths.",
+      "status": "active"
+    },
+    {
+      "id": "shein-hk-listing-debut-2026",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "Shein shares sink ~10% on long-delayed Hong Kong listing debut.",
+      "status": "active"
+    },
+    {
+      "id": "christian-brothers-schools-ties-review-2026",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "National Catholic schools body considers severing ties with Christian Brothers over abuse payouts.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-community-participation-plan-effective-2026",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "NSW statewide Community Participation Plan takes effect, replacing 100+ council plans.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-connection-reform-2026",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "NSW proposes entry bonds and $200k/MW fees for data-centre grid connections, developing the earlier Transgrid readiness-test story.",
+      "status": "active"
+    },
+    {
+      "id": "credit-spread-mideast-tension-alert-sep2026",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "Junk bond spreads hit post-tariff-shock highs amid renewed Middle East tensions.",
+      "status": "active"
+    },
+    {
+      "id": "mortgage-rate-676-sep2026",
+      "first_briefed": "2026-09-08",
+      "section": "markets",
+      "summary": "US 30-year fixed mortgage rate rises to 6.76%, developing prior 6.69% figure.",
+      "status": "active"
+    },
+    {
+      "id": "zapier-ai-robot-staff-2026",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Zapier CEO details AI agent 'robot staff' used for daily operations.",
+      "status": "active"
+    },
+    {
+      "id": "google-gemini-37-flash-2026",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Google highlights cost-efficient Gemini 3.7 Flash model and Pixel 11 hardware.",
+      "status": "active"
     }
   ]
 }

@@ -5313,6 +5313,48 @@
       "section": "companies",
       "summary": "Tesla to re-launch three decade-old products in September as stock-pump play",
       "status": "active"
+    },
+    {
+      "id": "anthropic-agentic-commerce-push",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "Anthropic debuts Claude agentic commerce features with Visa, Mastercard, Shopify, Accenture",
+      "status": "active"
+    },
+    {
+      "id": "tesla-robotaxi-1m-miles-milestone",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "Tesla hits 1M unsupervised robotaxi miles, rare-earth-free Cybercab motor unveiled",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-hydrafusion",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "GitHub Copilot HydraFusion multi-model orchestration cuts costs up to 67%",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-market-decline-opportunity",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "China wine consumption down 13%, opportunity flagged for European collectors",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-digital-nomad-district",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Thailand builds new digital-nomad-friendly district infrastructure in Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-chiangmai-hsr-rail-consortium-threat",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "Rail consortium reportedly threatens to walk from Bangkok-Chiang Mai HSR project amid carmaker pressure on Thai govt",
+      "status": "active"
     }
   ]
 }

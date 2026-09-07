@@ -2429,6 +2429,55 @@
       "section": "interest",
       "summary": "Wind lifts jumping castles in two incidents, hospitalising five children",
       "status": "active"
+    },
+    {
+      "id": "nsw-grid-connection-reform-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "alerts",
+      "summary": "NSW proposes data-centre grid connection entry bonds up to $200k/MW",
+      "status": "active"
+    },
+    {
+      "id": "australian-biotech-ma-novartis-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "AFR: Novartis's $2bn Myricx deal reframes Australian biotech investment case",
+      "status": "active"
+    },
+    {
+      "id": "edf-pumped-hydro-epbc-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "major",
+      "summary": "EDF seeks EPBC approval for 4GWh NSW pumped hydro plant",
+      "status": "active"
+    },
+    {
+      "id": "aroa-myriad-study-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "gems",
+      "summary": "411-patient study backs Aroa's Myriad wound product",
+      "status": "active"
+    },
+    {
+      "id": "illawarra-transport-roadmap-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "gems",
+      "summary": "Illawarra 168-page transport roadmap adds stations, TODs",
+      "status": "active"
+    },
+    {
+      "id": "nanolope-contech-funding-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Nanolope raises pre-seed for phase-change heat-storage panels",
+      "status": "active"
+    },
+    {
+      "id": "doe-cementitious-materials-2026-09",
+      "first_briefed": "2026-09-08",
+      "section": "opportunities",
+      "summary": "Solid Carbon-led team tests waste-stream cements for DOE hub",
+      "status": "active"
     }
   ]
 }
