@@ -2919,6 +2919,62 @@
       "section": "opportunities",
       "summary": "Grok 4.7 (~Sept 12) reportedly trained on SpaceX data",
       "status": "active"
+    },
+    {
+      "id": "ny-climate-superfund-act-invalidated",
+      "first_briefed": "2026-09-09",
+      "section": "alerts",
+      "summary": "Federal judge strikes down NY Climate Superfund Act",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight14-orbital",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "SpaceX FCC filing confirms Starship Flight 14 orbital attempt with Starlink V3",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ipo-depositary-receipt-shares",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "SpaceX details 17.79M-share Nasdaq depositary-receipt IPO listing",
+      "status": "active"
+    },
+    {
+      "id": "dem-2026-midterm-pritzker-wisconsin",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "Pritzker PAC targets GOP House seats amid Wisconsin redistricting fight",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-bus-lanes-infrastructure",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "Mamdani administration announces new bus lanes and infrastructure moves",
+      "status": "active"
+    },
+    {
+      "id": "marathon-strength-training-longevity-studies",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "New BJSM/BMJ studies on strength-training dose and activity variety vs mortality",
+      "status": "active"
+    },
+    {
+      "id": "grok47-spacex-data-flywheel",
+      "first_briefed": "2026-09-09",
+      "section": "opportunities",
+      "summary": "Hypothesis: Grok 4.7 training on SpaceX data strengthens Musk-empire data flywheel",
+      "status": "active"
+    },
+    {
+      "id": "fly-fishing-championship-tourism-opportunity",
+      "first_briefed": "2026-09-09",
+      "section": "opportunities",
+      "summary": "Hypothesis: 2026 World Fly Fishing Championship boosts Rockies tourism",
+      "status": "active"
     }
   ]
 }

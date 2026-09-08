@@ -945,6 +945,34 @@
       "section": "opportunities",
       "summary": "Google highlights cost-efficient Gemini 3.7 Flash model and Pixel 11 hardware.",
       "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-fees-consultation-2026",
+      "first_briefed": "2026-09-09",
+      "section": "alerts",
+      "summary": "NSW proposes entry bond and $200k/MW upgrade fee for data-centre grid connections.",
+      "status": "active"
+    },
+    {
+      "id": "haberfield-ashfield-housing-release-2026",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "NSW unveils housing development plan for vacant government land in Haberfield and Ashfield.",
+      "status": "active"
+    },
+    {
+      "id": "bessent-buyback-market-fever-2026",
+      "first_briefed": "2026-09-09",
+      "section": "major",
+      "summary": "Bessent explains bond buyback expansion as effort to quell market 'fever'.",
+      "status": "active"
+    },
+    {
+      "id": "sydenham-bankstown-metro-completion-2026",
+      "first_briefed": "2026-09-09",
+      "section": "gems",
+      "summary": "Sydenham-to-Bankstown metro extension on track for late-2026 completion.",
+      "status": "active"
     }
   ]
 }

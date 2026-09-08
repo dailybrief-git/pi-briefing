@@ -24,7 +24,6 @@
       "Local news",
       "Health & science",
       "Culture & sport",
-      "Formula 1",
       "off grid cabin",
       "chiang mai infrastructure",
       "Cars"
@@ -89,7 +88,7 @@
     {
       "name": "Formula 1",
       "note": null,
-      "weight": 2
+      "weight": 4
     },
     {
       "name": "off grid cabin",
