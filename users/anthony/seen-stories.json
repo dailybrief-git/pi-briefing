@@ -5355,6 +5355,48 @@
       "section": "alerts",
       "summary": "Rail consortium reportedly threatens to walk from Bangkok-Chiang Mai HSR project amid carmaker pressure on Thai govt",
       "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-launch",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Tesla unveils production Cybercab with rare-earth-free motor, no wheel/pedals",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-science-push",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Anthropic launches Claude Science, acquires Coefficient Bio, contributes to maths breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "apple-foldable-iphone-duo",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Apple announces foldable iPhone Duo and iPhone 18 Pro",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-glasses-privacy-update",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Meta AI glasses stop recording when LED covered, anti-covert-filming push",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wellness-35pct-target",
+      "first_briefed": "2026-09-10",
+      "section": "opportunities",
+      "summary": "Chiang Mai targets wellness sector as 35% of provincial economy",
+      "status": "active"
+    },
+    {
+      "id": "fourseasons-golden-week-thailand",
+      "first_briefed": "2026-09-10",
+      "section": "opportunities",
+      "summary": "Four Seasons markets Chiang Mai/Golden Triangle/Koh Samui for China's Golden Week",
+      "status": "active"
     }
   ]
 }

@@ -973,6 +973,48 @@
       "section": "gems",
       "summary": "Sydenham-to-Bankstown metro extension on track for late-2026 completion.",
       "status": "active"
+    },
+    {
+      "id": "woollahra-edgecliff-housing-precinct-2026",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "NSW unveils plan for up to 9,400 homes around new Woollahra/Edgecliff metro station.",
+      "status": "active"
+    },
+    {
+      "id": "m1-extension-hunter-2026",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "M1 Pacific Motorway extension between Black Hill and Raymond Terrace opens.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-reform-proposals-2026",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "DCCEEW floats entry bond and $200k/MW fee for data-centre grid connections in NSW.",
+      "status": "active"
+    },
+    {
+      "id": "construction-compliance-risk-2026",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Round-up of 2026 construction compliance changes: wage-theft criminalisation, contractor test, silica duties.",
+      "status": "active"
+    },
+    {
+      "id": "wallst-oil-selloff-sep2026",
+      "first_briefed": "2026-09-10",
+      "section": "alerts",
+      "summary": "Wall St falls as Iran war pushes oil past $100/bbl, Treasury yields jump.",
+      "status": "active"
+    },
+    {
+      "id": "au-digital-duty-of-care-algorithm-optout-2026",
+      "first_briefed": "2026-09-10",
+      "section": "alerts",
+      "summary": "Draft legislation to let Australians switch off social media algorithms due this week.",
+      "status": "active"
     }
   ]
 }

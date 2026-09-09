@@ -2975,6 +2975,62 @@
       "section": "opportunities",
       "summary": "Hypothesis: 2026 World Fly Fishing Championship boosts Rockies tourism",
       "status": "active"
+    },
+    {
+      "id": "nyc-ai-classroom-moratorium",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Mamdani/Samuels announce NYC ban on student-facing generative AI + new screen-time policy",
+      "status": "active"
+    },
+    {
+      "id": "spacex-pivotal-220-target",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Pivotal Research initiates SpaceX at Buy, $220 2027 target on orbital AI infra thesis",
+      "status": "active"
+    },
+    {
+      "id": "chicago-ice-raid-economic-cost",
+      "first_briefed": "2026-09-10",
+      "section": "major",
+      "summary": "Study finds 2025 Chicago ICE raids cost local economy $1.26B",
+      "status": "active"
+    },
+    {
+      "id": "us-canada-trade-import-ban",
+      "first_briefed": "2026-09-10",
+      "section": "alerts",
+      "summary": "US bans Canadian motorcycle, dairy, alcohol imports amid trade war",
+      "status": "active"
+    },
+    {
+      "id": "europe-heatwave-deaths-omega-block",
+      "first_briefed": "2026-09-10",
+      "section": "alerts",
+      "summary": "Omega block heatwave kills 50+ in Western Europe, mainly France",
+      "status": "active"
+    },
+    {
+      "id": "iran-saudi-houthi-escalation",
+      "first_briefed": "2026-09-10",
+      "section": "alerts",
+      "summary": "Houthi attack on Saudi Arabia, US tanker strikes, new sanctions escalate Iran conflict",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-datacenter-opportunity",
+      "first_briefed": "2026-09-10",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX becomes orbital AI datacenter operator at scale by 2035",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ai-ban-edtech-opportunity",
+      "first_briefed": "2026-09-10",
+      "section": "opportunities",
+      "summary": "Hypothesis: NYC AI classroom ban boosts demand for monitoring/authentic-assessment edtech",
+      "status": "active"
     }
   ]
 }
