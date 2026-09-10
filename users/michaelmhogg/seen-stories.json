@@ -1015,6 +1015,76 @@
       "section": "alerts",
       "summary": "Draft legislation to let Australians switch off social media algorithms due this week.",
       "status": "active"
+    },
+    {
+      "id": "nsw-fraud-syndicate-600m-banks",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "NSW Police reveal $600m fraud syndicate targeting NAB, CBA, Westpac, ANZ.",
+      "status": "active"
+    },
+    {
+      "id": "au-social-media-algorithm-optout-bill",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "Draft legislation to let Australians switch off social media algorithms.",
+      "status": "active"
+    },
+    {
+      "id": "oil-price-100-iran-war-sep2026",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "US crude tops $100/barrel first time since May on Iran war fears.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-community-participation-plan-effective",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NSW statewide Community Participation Plan takes effect 1 Sept, replaces 100+ council plans.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-reform-proposals",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NSW floats entry bond and $200k/MW fee for data-centre grid connections.",
+      "status": "active"
+    },
+    {
+      "id": "hunter-m1-extension-opens",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "New 15km M1 motorway extension opens between Black Hill and Raymond Terrace.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-678-sep2026",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "US 30-year mortgage rate rises further to 6.78%, up from 6.69%.",
+      "status": "active"
+    },
+    {
+      "id": "merino-material-innovations-matecia2026",
+      "first_briefed": "2026-09-11",
+      "section": "opportunities",
+      "summary": "Merino unveils new composite panel material and Prakriti line at MATECIA 2026.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-construction-trades-2026-law-changes",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NSW construction/trades factsheet flags wage-theft criminalisation, new contractor test, silica duties.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-zapier-ceo-ai-robot-staff",
+      "first_briefed": "2026-09-11",
+      "section": "podcasts",
+      "summary": "MFM episode covers Zapier CEO's AI 'robot staff' workflow system.",
+      "status": "active"
     }
   ]
 }

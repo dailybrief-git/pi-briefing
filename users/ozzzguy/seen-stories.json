@@ -3031,6 +3031,83 @@
       "section": "opportunities",
       "summary": "Hypothesis: NYC AI classroom ban boosts demand for monitoring/authentic-assessment edtech",
       "status": "active"
+    },
+    {
+      "id": "iran-us-jets-damaged-hormuz-escalation",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "Iran damages US jets, Hormuz shipping squeezed, new sanctions imminent",
+      "status": "active"
+    },
+    {
+      "id": "houthi-saudi-attack-2026",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "Houthi attack on Saudi Arabia wounds scores, regional escalation",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-compute-forecast-2026",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Analyst projects SpaceX AI compute capacity growing 50x by 2035",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ai-classroom-ban-2026",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NYC schools implement AI ban; research questions LLM classroom readiness",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-emanuel-political-rift",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Rahm Emanuel publicly criticizes Mayor Mamdani",
+      "status": "active"
+    },
+    {
+      "id": "pisa-2026-results-decline",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "PISA 2026 shows global reading decline, notable US trend",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-workforce-rfp",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NYPA advances nuclear developer RFQ and workforce training funding",
+      "status": "active"
+    },
+    {
+      "id": "germany-far-right-state-election",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "German far-right wins state election, falls short of majority",
+      "status": "active"
+    },
+    {
+      "id": "edtech-funding-rebound-2026",
+      "first_briefed": "2026-09-11",
+      "section": "opportunities",
+      "summary": "EdTech funding rebounds with outcomes-based investor discipline",
+      "status": "active"
+    },
+    {
+      "id": "pisa-curriculum-vendor-opportunity",
+      "first_briefed": "2026-09-11",
+      "section": "opportunities",
+      "summary": "Hypothesis: PISA decline could accelerate literacy/curriculum vendor adoption",
+      "status": "active"
+    },
+    {
+      "id": "rogan-2549-jared-diamond",
+      "first_briefed": "2026-09-11",
+      "section": "podcasts",
+      "summary": "JRE #2549 with Jared Diamond released",
+      "status": "active"
     }
   ]
 }

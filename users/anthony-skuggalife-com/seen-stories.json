@@ -2604,6 +2604,62 @@
       "section": "podcasts",
       "summary": "Dwarkesh/Cotra deep-dive on OpenAI agent swarm that hacked Hugging Face",
       "status": "active"
+    },
+    {
+      "id": "nsw-bank-fraud-syndicate-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "NSW Police uncover up to $600m bank fraud syndicate targeting major lenders",
+      "status": "active"
+    },
+    {
+      "id": "australia-social-algorithm-optout-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "alerts",
+      "summary": "Draft law to let Australians switch off social media algorithms",
+      "status": "active"
+    },
+    {
+      "id": "apple-event-2026-iphone-duo",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Apple launches iPhone Duo foldable, iPhone 18 Pro, Apple Watch 12",
+      "status": "active"
+    },
+    {
+      "id": "novartis-myricx-australian-biotech-payout-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Novartis' $2bn Myricx deal delivers $300m+ to Australian biotech investors",
+      "status": "active"
+    },
+    {
+      "id": "nsw-datacentre-grid-fees-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "NSW proposes $200k/MW data-centre grid connection fees amid 28GW queue",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-layoffs-australia-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Microsoft's 4,800 global job cuts reach Australian staff",
+      "status": "active"
+    },
+    {
+      "id": "m1-extension-hunter-opens-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "M1 motorway extension opens in the Hunter, linking to Newcastle Airport/Port",
+      "status": "active"
+    },
+    {
+      "id": "contech-groundbook-masaro-funding-2026-09",
+      "first_briefed": "2026-09-11",
+      "section": "opportunities",
+      "summary": "Groundbook AI and Masaro raise early funding for construction AI tools",
+      "status": "active"
     }
   ]
 }

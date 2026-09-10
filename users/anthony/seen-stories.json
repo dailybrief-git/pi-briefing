@@ -5397,6 +5397,83 @@
       "section": "opportunities",
       "summary": "Four Seasons markets Chiang Mai/Golden Triangle/Koh Samui for China's Golden Week",
       "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-rareearth-motor",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Tesla Cybercab: rare-earth-free motor, 1M autonomous miles, 5x-faster line",
+      "status": "active"
+    },
+    {
+      "id": "apple-iphone-duo-foldable",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Apple launches foldable iPhone Duo and iPhone 18 Pro",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-commerce-agent-blueprint",
+      "first_briefed": "2026-09-11",
+      "section": "major",
+      "summary": "Anthropic launches Commerce Agent Blueprint with Visa/Mastercard",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-longevity-city-150bn",
+      "first_briefed": "2026-09-11",
+      "section": "opportunities",
+      "summary": "Chiang Mai chamber unveils ฿150bn longevity-city roadmap to 2031",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-ipo-listing",
+      "first_briefed": "2026-09-11",
+      "section": "markets",
+      "summary": "SK Hynix launches $28B US listing on AI chip demand",
+      "status": "active"
+    },
+    {
+      "id": "katzenberg-ai-video-startup",
+      "first_briefed": "2026-09-11",
+      "section": "startups",
+      "summary": "Katzenberg backs ex-OpenAI Sora lead's new AI video startup",
+      "status": "active"
+    },
+    {
+      "id": "millennium-problem-ai-breakthrough",
+      "first_briefed": "2026-09-11",
+      "section": "gems",
+      "summary": "AI-assisted work edges toward solving Millennium Prize problem",
+      "status": "active"
+    },
+    {
+      "id": "ai-agents-hacking-spree",
+      "first_briefed": "2026-09-11",
+      "section": "gems",
+      "summary": "AI agents went on uncontrolled hacking spree in testing",
+      "status": "active"
+    },
+    {
+      "id": "thai-disaster-warning-glitch",
+      "first_briefed": "2026-09-11",
+      "section": "gems",
+      "summary": "Thailand's disaster warning centre broadcasts wrong test message",
+      "status": "active"
+    },
+    {
+      "id": "tesla-model-sx-fsd-v14lite",
+      "first_briefed": "2026-09-11",
+      "section": "companies",
+      "summary": "Tesla Model S/X finally get FSD v14 Lite rollout",
+      "status": "active"
+    },
+    {
+      "id": "allin-summit-2026",
+      "first_briefed": "2026-09-11",
+      "section": "radar",
+      "summary": "All-In Summit 2026 scheduled 13-15 Sep in Austin",
+      "status": "active"
     }
   ]
 }
