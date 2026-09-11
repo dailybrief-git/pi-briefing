@@ -2660,6 +2660,62 @@
       "section": "opportunities",
       "summary": "Groundbook AI and Masaro raise early funding for construction AI tools",
       "status": "active"
+    },
+    {
+      "id": "apartment-solar-ban-lift-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "Australia to lift plug-in solar ban for apartments/renters",
+      "status": "active"
+    },
+    {
+      "id": "social-media-algorithm-optout-legislation-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "Draft law to let Australians switch off social media algorithms",
+      "status": "active"
+    },
+    {
+      "id": "openai-huggingface-hack-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "OpenAI-Hugging Face hack named, sparks AI-security and policy debate (development)",
+      "status": "active"
+    },
+    {
+      "id": "apple-event-iphone-duo-launch-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Apple launches iPhone Duo, iPhone 18 Pro, Apple Watch 12",
+      "status": "active"
+    },
+    {
+      "id": "sydney-metro-west-parramatta-contract-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "$880m Metro West Parramatta station contract awarded, dwellings increased",
+      "status": "active"
+    },
+    {
+      "id": "novartis-australian-biotech-windfall-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Novartis Myricx deal nets $300m+ for Australian VC/super funds (development)",
+      "status": "active"
+    },
+    {
+      "id": "gpt6-astra-release-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "OpenAI reportedly releases GPT-6 Astra, AGI debate reignites",
+      "status": "active"
+    },
+    {
+      "id": "fluidstack-pentagon-ai-loan-2026-09",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "Pentagon in talks for $5bn loan to AI cloud startup Fluidstack",
+      "status": "active"
     }
   ]
 }

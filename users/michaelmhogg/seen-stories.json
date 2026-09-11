@@ -1085,6 +1085,48 @@
       "section": "podcasts",
       "summary": "MFM episode covers Zapier CEO's AI 'robot staff' workflow system.",
       "status": "active"
+    },
+    {
+      "id": "au-plugin-solar-ban-lift-2026",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Australia moves to lift ban on plug-in solar, opening access to apartment dwellers/renters.",
+      "status": "active"
+    },
+    {
+      "id": "metro-west-parramatta-station-contract-2026",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "$880m Metro West Parramatta station contract awarded to Gamuda-MTR consortium; station box complete.",
+      "status": "active"
+    },
+    {
+      "id": "parramatta-towers-plan-2026",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Four towers (24-43 storeys) proposed for Parramatta, 470 apartments + 500 student beds.",
+      "status": "active"
+    },
+    {
+      "id": "au-social-media-algorithm-optout-bill-2026",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "Draft legislation to let Australians opt out of social media algorithms, expected this week.",
+      "status": "active"
+    },
+    {
+      "id": "icac-nassif-greenwood-building-corruption-2026",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "ICAC testimony scrutinises lobbyist Jeremy Greenwood's dealings with developer Jean Nassif.",
+      "status": "active"
+    },
+    {
+      "id": "salt-deduction-cap-2026",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "US SALT deduction cap raised to $40,400 for 2026, benefiting high-tax-state homeowners.",
+      "status": "active"
     }
   ]
 }

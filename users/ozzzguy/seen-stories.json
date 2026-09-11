@@ -3108,6 +3108,69 @@
       "section": "podcasts",
       "summary": "JRE #2549 with Jared Diamond released",
       "status": "active"
+    },
+    {
+      "id": "ca-social-media-under16-law",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "California bars under-16s from addictive social media features",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-researcher-ai-risk-resignation",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "Ex-Anthropic researcher's resignation letter warns of existential AI risk",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight14-revenue",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "SpaceX targets first revenue Starship flight (Flight 14) this month carrying Starlink V3",
+      "status": "active"
+    },
+    {
+      "id": "ed-ai-classroom-restriction-policy",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Education Dept bars younger students from classroom AI use, stops short of moratorium",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ibx-renderings",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "NYC releases new $5.5B Interborough Express station renderings",
+      "status": "active"
+    },
+    {
+      "id": "ny-suicide-prevention-roadmap",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Hochul releases five-year NY suicide prevention roadmap",
+      "status": "active"
+    },
+    {
+      "id": "heart-muscle-regeneration-study",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Study shows human heart muscle can regrow after heart attack, first time demonstrated",
+      "status": "active"
+    },
+    {
+      "id": "spacex-compute-capacity-forecast",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "Analyst forecasts SpaceX compute capacity scaling 2.2GW to 110GW by 2035",
+      "status": "active"
+    },
+    {
+      "id": "edtech-teacher-facing-ai-opportunity",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "Hypothesis: AI classroom restrictions may boost teacher-facing AI tool demand",
+      "status": "active"
     }
   ]
 }

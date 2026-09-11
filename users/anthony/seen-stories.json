@@ -5474,6 +5474,55 @@
       "section": "radar",
       "summary": "All-In Summit 2026 scheduled 13-15 Sep in Austin",
       "status": "active"
+    },
+    {
+      "id": "anthropic-researcher-resignation-warning",
+      "first_briefed": "2026-09-12",
+      "section": "alerts",
+      "summary": "Ex-Anthropic/OpenAI researcher Jacob Coxon resigns, warns on AI safety pace",
+      "status": "active"
+    },
+    {
+      "id": "gpt6-astra-obsoleted",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "OpenAI's GPT-6 Astra superseded by new model days after launch, solved $1M math problem",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-5x-manufacturing",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Tesla Cybercab event: 5x manufacturing speed, 1M unsupervised robotaxi miles",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-mhs-preview",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Anthropic opens Model Hardware Standard research preview for physical AI agents",
+      "status": "active"
+    },
+    {
+      "id": "thailand-ai-datacenter-grid-bottleneck",
+      "first_briefed": "2026-09-12",
+      "section": "major",
+      "summary": "Thailand's grid capacity vs data-centre permitting bottlenecks for AI boom",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-nomad-economy-ai-food-tracks",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "Chiang Mai formalises 20,000-nomad economy into AI and food-culture tracks",
+      "status": "active"
+    },
+    {
+      "id": "thailand-longevity-alliance-100-companies",
+      "first_briefed": "2026-09-12",
+      "section": "opportunities",
+      "summary": "100-company alliance launches Thailand 'live to 100' longevity branding push",
+      "status": "active"
     }
   ]
 }
