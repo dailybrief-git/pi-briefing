@@ -3171,6 +3171,76 @@
       "section": "opportunities",
       "summary": "Hypothesis: AI classroom restrictions may boost teacher-facing AI tool demand",
       "status": "active"
+    },
+    {
+      "id": "starship-flight14-revenue-mission",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "SpaceX targets first revenue-generating Starship flight this month (Flight 14)",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-compute-deal-goldman",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "SpaceX signs $1.11B/month AI compute deal, disclosed at Goldman Sachs conference",
+      "status": "active"
+    },
+    {
+      "id": "ibx-renderings-release",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "NYC releases new renderings for $5.5B Interborough Express light rail",
+      "status": "active"
+    },
+    {
+      "id": "doe-ai-classroom-policy",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "Education Dept bars younger students from AI use, stops short of moratorium",
+      "status": "active"
+    },
+    {
+      "id": "other-desert-cities-revival",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "Star-studded Other Desert Cities Broadway revival begins previews Sept 29",
+      "status": "active"
+    },
+    {
+      "id": "houthi-saudi-escalation-sept",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "Houthis attack Saudi Arabia, scores wounded, regional escalation",
+      "status": "active"
+    },
+    {
+      "id": "trump-senate-dem-attacks",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "Trump attacks three Democratic Senate candidates with inaccurate claims",
+      "status": "active"
+    },
+    {
+      "id": "spacex-48pct-upside-target",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Analysts float 48% SpaceX stock upside contingent on Starship reusability",
+      "status": "active"
+    },
+    {
+      "id": "edtech-microlearning-trend",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Micro-learning burst design emerging as 2026 edtech standard",
+      "status": "active"
+    },
+    {
+      "id": "low-screen-edtech-opportunity",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Teacher screen-time pushback opens niche for low-screen edtech tools",
+      "status": "active"
     }
   ]
 }

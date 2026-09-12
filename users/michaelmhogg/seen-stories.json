@@ -1127,6 +1127,55 @@
       "section": "opportunities",
       "summary": "US SALT deduction cap raised to $40,400 for 2026, benefiting high-tax-state homeowners.",
       "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-7pct-fomc-sept2026",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "US mortgage rates climb toward 7% across trackers ahead of the 15-16 Sept FOMC meeting.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-metro-west-parramatta-contract-2026",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "$880m Metro West Parramatta station design-construct contract awarded to Gamuda-MTR consortium; station box structurally complete.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-tree-canopy-housing-debate",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "ABC feature on Sydney councils balancing tree-canopy commitments against infill housing targets.",
+      "status": "active"
+    },
+    {
+      "id": "hospitality-brand-shuffle-sept2026",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "JW Marriott's first all-inclusive resort, Savannah Autograph Collection rebrand, and new Hilton/IHG/Marriott signings.",
+      "status": "active"
+    },
+    {
+      "id": "merino-marine-board-plus-launch",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Merino launches one-panel HMR Marine Board Plus construction material at MATECIA 2026.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-house-court-ruling",
+      "first_briefed": "2026-09-13",
+      "section": "gems",
+      "summary": "NSW couple loses court fight over tiny home on wheels; flagged as precedent for caravan owners.",
+      "status": "active"
+    },
+    {
+      "id": "london-overnight-stay-levy",
+      "first_briefed": "2026-09-13",
+      "section": "gems",
+      "summary": "UK legislation to let London councils levy flat-fee charges on overnight accommodation stays.",
+      "status": "active"
     }
   ]
 }

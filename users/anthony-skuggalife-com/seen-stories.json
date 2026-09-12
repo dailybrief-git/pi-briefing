@@ -2716,6 +2716,62 @@
       "section": "opportunities",
       "summary": "Pentagon in talks for $5bn loan to AI cloud startup Fluidstack",
       "status": "active"
+    },
+    {
+      "id": "nsw-building-approvals-bill-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "NSW Building (Approvals and Practitioners) Bill 2026 overhauls approvals regime",
+      "status": "active"
+    },
+    {
+      "id": "sydney-housing-tree-canopy-tension-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "ABC flags council tension between housing density and tree-canopy targets",
+      "status": "active"
+    },
+    {
+      "id": "australia-social-media-algorithm-optout-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "alerts",
+      "summary": "Draft law to let Australians switch off social media algorithms",
+      "status": "active"
+    },
+    {
+      "id": "novartis-myricx-australian-biotech-windfall-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "Novartis' $2b Myricx deal delivers $300m+ to Australian biotech investors",
+      "status": "active"
+    },
+    {
+      "id": "ai-gpu-collateral-financing-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "Pentagon-Fluidstack $5bn talks and GPU-as-collateral lending trend",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-australia-layoffs-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "major",
+      "summary": "Microsoft's 4,800-job global cut hits Australian staff",
+      "status": "active"
+    },
+    {
+      "id": "bedrock-robotics-unicorn-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Bedrock Robotics raises $270m Series B, valued at $1.75bn for construction automation",
+      "status": "active"
+    },
+    {
+      "id": "contech-groundbook-masaro-2026-09",
+      "first_briefed": "2026-09-13",
+      "section": "opportunities",
+      "summary": "Groundbook AI and Masaro launch new construction-tech tools",
+      "status": "active"
     }
   ]
 }
