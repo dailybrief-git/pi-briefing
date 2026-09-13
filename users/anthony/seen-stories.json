@@ -5593,6 +5593,62 @@
       "section": "opportunities",
       "summary": "Chinese FIT tourists pay premiums for wellness, cooking schools, elephant sanctuaries",
       "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-regulatory-freeze",
+      "first_briefed": "2026-09-14",
+      "section": "alerts",
+      "summary": "Anutin orders 30-day review of 166 Thai data-centre projects",
+      "status": "active"
+    },
+    {
+      "id": "houthi-bab-el-mandeb-seizure",
+      "first_briefed": "2026-09-14",
+      "section": "alerts",
+      "summary": "Houthi forces seize strategic Red Sea island, threatening Saudi oil exports",
+      "status": "active"
+    },
+    {
+      "id": "openai-post-gpt6-maths-breakthrough",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "Unreleased OpenAI model solves 90-year-old maths problem in 88 hours via 10,000 agents",
+      "status": "active"
+    },
+    {
+      "id": "north-korea-new-uranium-facility",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "UN watchdog reports new North Korean uranium enrichment facility",
+      "status": "active"
+    },
+    {
+      "id": "thailand-seven-industries-12yr-plan",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "Thailand names 7 target industries under 12-year economic plan, flags baht/energy risk",
+      "status": "active"
+    },
+    {
+      "id": "thailand-970m-flower-expo-bet",
+      "first_briefed": "2026-09-14",
+      "section": "opportunities",
+      "summary": "Thailand's $970M flower expo replicates Chiang Mai tourism-infrastructure playbook elsewhere",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-wellness-training-hub",
+      "first_briefed": "2026-09-14",
+      "section": "opportunities",
+      "summary": "Chiang Mai cements role as SE Asia wellness-certification training hub",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct1-unveil",
+      "first_briefed": "2026-09-14",
+      "section": "rail",
+      "summary": "Tesla confirms next-gen Roadster unveil for 1 Oct 2026",
+      "status": "active"
     }
   ]
 }

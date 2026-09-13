@@ -1176,6 +1176,27 @@
       "section": "gems",
       "summary": "UK legislation to let London councils levy flat-fee charges on overnight accommodation stays.",
       "status": "active"
+    },
+    {
+      "id": "parramatta-metro-west-station-contract-2026",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "Gamuda-MTR consortium wins $880m Parramatta Metro West station contract; station box structurally complete.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-olympic-park-metro-contract-2026",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "Construction contract awarded for new Sydney Olympic Park metro station and precinct.",
+      "status": "active"
+    },
+    {
+      "id": "ai-bubble-selloff-mideast-yields-sep2026",
+      "first_briefed": "2026-09-14",
+      "section": "alerts",
+      "summary": "Development of AI-bubble warnings: US indices fall 1.5-3% on Middle East tension and rising yields.",
+      "status": "active"
     }
   ]
 }

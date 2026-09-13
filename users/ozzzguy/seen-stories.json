@@ -3241,6 +3241,55 @@
       "section": "opportunities",
       "summary": "Teacher screen-time pushback opens niche for low-screen edtech tools",
       "status": "active"
+    },
+    {
+      "id": "houthi-bab-el-mandeb-capture",
+      "first_briefed": "2026-09-14",
+      "section": "alerts",
+      "summary": "Houthis seize strategic Red Sea island threatening Saudi oil exports",
+      "status": "active"
+    },
+    {
+      "id": "west-bank-settler-sanctions-uk-fr-ca",
+      "first_briefed": "2026-09-14",
+      "section": "alerts",
+      "summary": "UK, France, Canada sanction Israeli settlers over West Bank, cite ethnic cleansing",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-workforce-rfq",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "NYPA issues SMR developer RFQ plus $40M workforce training funding",
+      "status": "active"
+    },
+    {
+      "id": "marathon-mitochondria-review",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "Springer review details mitochondrial biology behind endurance performance gains",
+      "status": "active"
+    },
+    {
+      "id": "cpi-august-2026-report",
+      "first_briefed": "2026-09-14",
+      "section": "major",
+      "summary": "BLS releases August 2026 CPI data, next report Oct 14",
+      "status": "active"
+    },
+    {
+      "id": "spacex-2trillion-valuation-analysis",
+      "first_briefed": "2026-09-14",
+      "section": "opportunities",
+      "summary": "Analyst hypothesis ties Starship cost curve to $2T SpaceX valuation case",
+      "status": "active"
+    },
+    {
+      "id": "social-security-cpie-cola-hypothesis",
+      "first_briefed": "2026-09-14",
+      "section": "opportunities",
+      "summary": "Hypothesis: CPI-E based COLA formula could modestly raise future Social Security checks",
+      "status": "active"
     }
   ]
 }
