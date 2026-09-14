@@ -3290,6 +3290,83 @@
       "section": "opportunities",
       "summary": "Hypothesis: CPI-E based COLA formula could modestly raise future Social Security checks",
       "status": "active"
+    },
+    {
+      "id": "houthi-saudi-island-escalation",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "Houthis capture strategic Bab el-Mandeb island, attack Saudi Arabia",
+      "status": "active"
+    },
+    {
+      "id": "uk-france-canada-israeli-settlement-sanctions",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "UK, France, Canada sanction Israeli West Bank settlements",
+      "status": "active"
+    },
+    {
+      "id": "yankee-stadium-legionella",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "Legionella found in Yankee Stadium cooling tower, South Bronx cluster",
+      "status": "active"
+    },
+    {
+      "id": "lic-anti-asian-attack",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "Anti-Asian slur attack on couple at Long Island City park",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-strongest-record-2026",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "El Niño strengthening, >90% chance of very strong event this fall/winter",
+      "status": "active"
+    },
+    {
+      "id": "spacex-pivotal-orbital-compute-projection",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "Analyst projects SpaceX orbital compute scaling to 110GW by 2035",
+      "status": "active"
+    },
+    {
+      "id": "musk-orbital-ai-supercomputers",
+      "first_briefed": "2026-09-15",
+      "section": "opportunities",
+      "summary": "Musk claims SpaceX will launch AI supercomputers into orbit next year",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-nypa-rfq",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "NYPA issues RFQ for upstate nuclear developers plus workforce funding",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-infra-budget-2026",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "NY budget enacts record $750M/year clean-water infrastructure grants",
+      "status": "active"
+    },
+    {
+      "id": "broadway-fall-2026-preview",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "Broadway fall season previews: Sorkin revival, Pike debut, School Girls opening",
+      "status": "active"
+    },
+    {
+      "id": "cpi-aug-2026-cola-2027-estimate",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "August CPI confirmed at 334.131; 2027 COLA estimated at 3.5%",
+      "status": "active"
     }
   ]
 }

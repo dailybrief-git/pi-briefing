@@ -1197,6 +1197,48 @@
       "section": "alerts",
       "summary": "Development of AI-bubble warnings: US indices fall 1.5-3% on Middle East tension and rising yields.",
       "status": "active"
+    },
+    {
+      "id": "us-treasury-yield-5pct-fed-week-sep2026",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "10-year Treasury yield hits 5%, AI stocks slide, Fed decision this week.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-gas-appliance-ban-expansion-2027",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "City of Sydney's new-build gas appliance ban to expand from indoor to outdoor use in 2027.",
+      "status": "active"
+    },
+    {
+      "id": "one-nation-net-negative-migration-debate-2026",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "One Nation's Barnaby Joyce says party will push net-negative migration despite economist warnings.",
+      "status": "active"
+    },
+    {
+      "id": "anz-sydney-price-rebound-forecast-2026",
+      "first_briefed": "2026-09-15",
+      "section": "opportunities",
+      "summary": "ANZ Research forecasts Sydney prices -0.7% in 2026, +2.6% in 2027.",
+      "status": "active"
+    },
+    {
+      "id": "road-to-housing-act-modular-construction-2026",
+      "first_briefed": "2026-09-15",
+      "section": "opportunities",
+      "summary": "US ROAD to Housing Act proposes easing rules to boost modular/manufactured housing construction.",
+      "status": "active"
+    },
+    {
+      "id": "tristan-harris-doac-ai-bunkers-episode",
+      "first_briefed": "2026-09-15",
+      "section": "podcasts",
+      "summary": "Tristan Harris DOAC episode on AI risk and tech elites building bunkers, via secondary recap.",
+      "status": "active"
     }
   ]
 }

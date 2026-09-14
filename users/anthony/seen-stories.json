@@ -5649,6 +5649,90 @@
       "section": "rail",
       "summary": "Tesla confirms next-gen Roadster unveil for 1 Oct 2026",
       "status": "active"
+    },
+    {
+      "id": "openai-agi-math-breakthrough",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "OpenAI's post-Astra model solves $1M math problem days after launch; Huang calls it AGI",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-sept-threat-report",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "Anthropic threat report: disrupted bio-weapons plot, Russian espionage, Chinese model-distillation routing",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-airport-passenger-surge-2026",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "Chiang Mai Airport tracking toward 10M passengers 2026, new boarding bridges live",
+      "status": "active"
+    },
+    {
+      "id": "thai-datacenter-regulatory-freeze",
+      "first_briefed": "2026-09-15",
+      "section": "major",
+      "summary": "Anutin orders emergency review of Thailand's 166 pending data-centre projects",
+      "status": "active"
+    },
+    {
+      "id": "china-functional-food-stress-wellness",
+      "first_briefed": "2026-09-15",
+      "section": "opportunities",
+      "summary": "Chinese functional-food majors BYHEALTH/a2MC pivot to stress/wellness lines",
+      "status": "active"
+    },
+    {
+      "id": "thailand-construction-market-forecast-2026-31",
+      "first_briefed": "2026-09-15",
+      "section": "opportunities",
+      "summary": "Thailand construction market growth forecast 2026-2031 on infrastructure spend",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct1-unveil-date",
+      "first_briefed": "2026-09-15",
+      "section": "companies",
+      "summary": "Tesla confirms next-gen Roadster unveil date of October 1, 2026",
+      "status": "active"
+    },
+    {
+      "id": "houthi-bab-el-mandeb-island-capture",
+      "first_briefed": "2026-09-15",
+      "section": "alerts",
+      "summary": "Houthi rebels capture strategic Bab el-Mandeb island, threatening Saudi oil exports",
+      "status": "active"
+    },
+    {
+      "id": "apple-iphone-duo-launch-2026",
+      "first_briefed": "2026-09-15",
+      "section": "interest",
+      "summary": "Apple unveils foldable iPhone Duo and iPhone 18 Pro",
+      "status": "active"
+    },
+    {
+      "id": "ai-ceos-slowdown-call",
+      "first_briefed": "2026-09-15",
+      "section": "interest",
+      "summary": "Top AI executives privately agree the industry needs to slow down",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-patch-tuesday-sept2026",
+      "first_briefed": "2026-09-15",
+      "section": "companies",
+      "summary": "Microsoft ships record-breaking September 2026 Patch Tuesday and Insider builds",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-parliament-ceiling-collapse",
+      "first_briefed": "2026-09-15",
+      "section": "gems",
+      "summary": "Ceiling collapse at Thai parliament canteen, no injuries",
+      "status": "active"
     }
   ]
 }
