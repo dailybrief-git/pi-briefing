@@ -5733,6 +5733,83 @@
       "section": "gems",
       "summary": "Ceiling collapse at Thai parliament canteen, no injuries",
       "status": "active"
+    },
+    {
+      "id": "openai-gpt6-astra-rapid-obsolescence",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "OpenAI's GPT-6 Astra obsoleted days later by new math-solving model",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-opus-4-7-claude-design",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Anthropic ships Opus 4.7 and Claude Design visual-collaboration product",
+      "status": "active"
+    },
+    {
+      "id": "ai-revenue-concentration-openai-anthropic",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Anthropic and OpenAI now hold 89% of AI startup revenue share",
+      "status": "active"
+    },
+    {
+      "id": "thailand-3-9bn-infrastructure-pipeline",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Thailand construction market forecast on $3.9B/223-project infrastructure budget",
+      "status": "active"
+    },
+    {
+      "id": "manila-34bn-ai-infrastructure-bet",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Philippines commits $34.4B to AI infrastructure over 8 years",
+      "status": "active"
+    },
+    {
+      "id": "apple-sept-2026-software-update",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Apple ships major Sept 2026 iOS/macOS update with deeper Apple Intelligence",
+      "status": "active"
+    },
+    {
+      "id": "thai-israeli-tourism-tension",
+      "first_briefed": "2026-09-16",
+      "section": "alerts",
+      "summary": "Thai anger over Israeli tourists escalates to protests, Phuket event cancelled",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct1-unveil-confirmed",
+      "first_briefed": "2026-09-16",
+      "section": "companies",
+      "summary": "Tesla confirms next-gen Roadster unveil date of Oct 1, 2026",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-smalls-wine-tasting-cmw",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "CMW founder hosts direct-import Italian wine tasting in Bangkok Sept 21",
+      "status": "active"
+    },
+    {
+      "id": "umios-pataya-food-investment",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "Japan's Umios invests in Thailand's Pataya Food Industries",
+      "status": "active"
+    },
+    {
+      "id": "byhealth-functional-food-stress",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "China functional food majors pivot to stress/wellness positioning",
+      "status": "active"
     }
   ]
 }

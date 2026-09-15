@@ -2800,6 +2800,76 @@
       "section": "major",
       "summary": "US Q2 GDP revised to 1.5%; Goldman 2026 EPS growth consensus at 31% US",
       "status": "active"
+    },
+    {
+      "id": "nsw-infrastructure-funding-leak-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "alerts",
+      "summary": "Legacy NSW contributions policy constrains infrastructure funding for new housing growth",
+      "status": "active"
+    },
+    {
+      "id": "firmus-asx-ipo-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Firmus begins ASX investor meetings at $15.5b valuation, accelerated listing path",
+      "status": "active"
+    },
+    {
+      "id": "oneventures-biotech-vc-growth-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "OneVentures: Australian biotech VC pool now $1.9b, 15x growth since 2010 amid patent-cliff M&A wave",
+      "status": "active"
+    },
+    {
+      "id": "metro-west-parramatta-contract-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "$880m Metro West Parramatta station/precinct D&C contract awarded to Gamuda-MTR consortium",
+      "status": "active"
+    },
+    {
+      "id": "airbnb-housing-accelerator-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "Airbnb launches $250m Housing Accelerator for stalled rental projects",
+      "status": "active"
+    },
+    {
+      "id": "brkz-construction-materials-funding-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "BRKZ raises $31m for AI-enabled building materials procurement in Saudi/GCC",
+      "status": "active"
+    },
+    {
+      "id": "china-smart-home-policy-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "China issues national measures to expand smart-home adoption",
+      "status": "active"
+    },
+    {
+      "id": "eftsure-acquisition-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "gems",
+      "summary": "Eftsure acquires US vendor-data validator Relish, third international move in a year",
+      "status": "active"
+    },
+    {
+      "id": "m1-hunter-extension-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "gems",
+      "summary": "M1 motorway extension opens linking Black Hill to Raymond Terrace",
+      "status": "active"
+    },
+    {
+      "id": "merino-material-innovations-2026-09",
+      "first_briefed": "2026-09-16",
+      "section": "gems",
+      "summary": "Merino previews Prakriti range and marine-board materials at MATECIA 2026",
+      "status": "active"
     }
   ]
 }

@@ -1239,6 +1239,41 @@
       "section": "podcasts",
       "summary": "Tristan Harris DOAC episode on AI risk and tech elites building bunkers, via secondary recap.",
       "status": "active"
+    },
+    {
+      "id": "sydney-property-firm-collapse-2026",
+      "first_briefed": "2026-09-16",
+      "section": "alerts",
+      "summary": "Bloomberg flags a Sydney property firm collapse impacting homebuyer finances; detail thin, developing.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-infrastructure-funding-leak-2026",
+      "first_briefed": "2026-09-16",
+      "section": "alerts",
+      "summary": "Fifth Estate: 16-year-old NSW policy caps local infrastructure contribution funding, threatening housing rollout.",
+      "status": "active"
+    },
+    {
+      "id": "parramatta-metrowest-contract-award-2026",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Gamuda-MTR consortium wins $880m Parramatta Metro West station design-and-construct contract.",
+      "status": "active"
+    },
+    {
+      "id": "ai-slowdown-call-musk-2026",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Musk and other tech leaders call for AI slowdown/regulation; Trump publicly dismisses it.",
+      "status": "active"
+    },
+    {
+      "id": "salt-cap-40400-2026",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "US SALT deduction cap confirmed at $40,400 for 2026 tax year under One Big Beautiful Bill.",
+      "status": "active"
     }
   ]
 }

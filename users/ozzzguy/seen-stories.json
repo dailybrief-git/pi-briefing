@@ -3367,6 +3367,62 @@
       "section": "major",
       "summary": "August CPI confirmed at 334.131; 2027 COLA estimated at 3.5%",
       "status": "active"
+    },
+    {
+      "id": "spacex-orbital-ai-supercomputers-plan",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "Musk claims SpaceX will launch Nvidia AI supercomputers to orbit in 2027 (unconfirmed, single-source)",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct-unveil-teaser",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Tesla confirms Roadster reveal early October, teaser hints at SpaceX thruster integration",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ibx-renderings-release",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "NYC releases new station renderings for $5.5B Interborough Express light rail",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-infra-85m",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Hochul announces $85M for statewide water infrastructure modernization",
+      "status": "active"
+    },
+    {
+      "id": "cpi-aug-2026-release",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "August 2026 CPI data released, index at 334.131",
+      "status": "active"
+    },
+    {
+      "id": "ssa-cola-2027-estimate",
+      "first_briefed": "2026-09-16",
+      "section": "major",
+      "summary": "Social Security 2027 COLA estimated at ~3.5%, up from 2.8%",
+      "status": "active"
+    },
+    {
+      "id": "houthi-bab-el-mandeb-island-capture",
+      "first_briefed": "2026-09-16",
+      "section": "alerts",
+      "summary": "Houthi rebels capture strategic island in Bab el-Mandeb Strait, threatening Saudi oil exports",
+      "status": "active"
+    },
+    {
+      "id": "nike-sis-after-dark-partnership",
+      "first_briefed": "2026-09-16",
+      "section": "opportunities",
+      "summary": "Nike names Science in Sport official fuel/hydration partner across After Dark Tour races",
+      "status": "active"
     }
   ]
 }
