@@ -3423,6 +3423,55 @@
       "section": "opportunities",
       "summary": "Nike names Science in Sport official fuel/hydration partner across After Dark Tour races",
       "status": "active"
+    },
+    {
+      "id": "spacex-starship-orbital-attempt",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "SpaceX to attempt first full Starship orbital insertion Sept 22, first revenue flight",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-infrastructure-funding",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "NY commits $85M to water/stormwater/sewer infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "world-fly-fishing-championship-2026",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Idaho Falls hosts 45th World Fly Fishing Championship, 21 nations",
+      "status": "active"
+    },
+    {
+      "id": "edtech-workplace-learning-shift",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Investors shift edtech capital toward workplace/corporate learning tools",
+      "status": "active"
+    },
+    {
+      "id": "social-security-cola-2027-estimate",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "AARP estimates 2027 Social Security COLA near 3.5%",
+      "status": "active"
+    },
+    {
+      "id": "nyc-schools-guns-found",
+      "first_briefed": "2026-09-17",
+      "section": "alerts",
+      "summary": "Loaded guns recovered at two NYC schools, alert systems expanded",
+      "status": "active"
+    },
+    {
+      "id": "nyc-covid-hospitalizations-rising",
+      "first_briefed": "2026-09-17",
+      "section": "alerts",
+      "summary": "COVID hospitalizations rising in NYC",
+      "status": "active"
     }
   ]
 }

@@ -1274,6 +1274,83 @@
       "section": "major",
       "summary": "US SALT deduction cap confirmed at $40,400 for 2026 tax year under One Big Beautiful Bill.",
       "status": "active"
+    },
+    {
+      "id": "sydney-property-firm-collapse-sep2026",
+      "first_briefed": "2026-09-17",
+      "section": "alerts",
+      "summary": "Bloomberg reports a Sydney property firm's collapse and its impact on homebuyers.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-infrastructure-funding-policy-leak",
+      "first_briefed": "2026-09-17",
+      "section": "alerts",
+      "summary": "16-year-old NSW policy found to be capping infrastructure funding for new housing.",
+      "status": "active"
+    },
+    {
+      "id": "sovereign-wealth-fund-us-pullback-warning",
+      "first_briefed": "2026-09-17",
+      "section": "alerts",
+      "summary": "World's top-performing sovereign wealth fund warns of a looming US stock pullback.",
+      "status": "active"
+    },
+    {
+      "id": "australia-international-student-family-visa-ban",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Australia immigration overhaul would ban international students bringing family.",
+      "status": "active"
+    },
+    {
+      "id": "australia-social-media-algorithm-optin-optout",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Australia plans to force social platforms to offer algorithm opt-in/opt-out.",
+      "status": "active"
+    },
+    {
+      "id": "metro-west-parramatta-880m-contract",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Gamuda-MTR consortium wins $880m Metro West Parramatta station contract; box complete.",
+      "status": "active"
+    },
+    {
+      "id": "bond-yield-alarm-sep2026",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "High government bond yields continue to alarm markets post-Bessent intervention.",
+      "status": "active"
+    },
+    {
+      "id": "datacentre-jobs-resources-debate-au",
+      "first_briefed": "2026-09-17",
+      "section": "major",
+      "summary": "Australia public debate intensifies over data centre jobs vs resource use.",
+      "status": "active"
+    },
+    {
+      "id": "openai-chatgpt-junior-bankers-tool",
+      "first_briefed": "2026-09-17",
+      "section": "opportunities",
+      "summary": "OpenAI targets junior Wall Street banker tasks with new ChatGPT tool.",
+      "status": "active"
+    },
+    {
+      "id": "merino-matecia-2026-material-innovations",
+      "first_briefed": "2026-09-17",
+      "section": "gems",
+      "summary": "Merino Industries showcases new building material innovations at MATECIA 2026.",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-ai-geopolitics",
+      "first_briefed": "2026-09-17",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Professor Jiang on AI and global power struggle.",
+      "status": "active"
     }
   ]
 }
