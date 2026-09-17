@@ -1351,6 +1351,69 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Professor Jiang on AI and global power struggle.",
       "status": "active"
+    },
+    {
+      "id": "fed-rate-hike-selloff-sept2026",
+      "first_briefed": "2026-09-18",
+      "section": "alerts",
+      "summary": "Fed unanimously raises rates, triggers brief Wall St selloff; US mortgage rate hits 6.97%.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-six-laws-construction-liability-2026",
+      "first_briefed": "2026-09-18",
+      "section": "alerts",
+      "summary": "Health and Safety at Work Amendment Act 2026 (effective 1 Apr 2027) part of six-law construction liability overhaul.",
+      "status": "active"
+    },
+    {
+      "id": "metro-west-parramatta-contract-gamuda-mtr",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Gamuda-MTR consortium wins $880m Metro West Parramatta station contract.",
+      "status": "active"
+    },
+    {
+      "id": "hsr-sydney-newcastle-extra-funding-sept2026",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Extra $230m committed to Sydney-Newcastle HSR, total planning/design spend $659.6m.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-fy2026-backlog-update",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Lendlease backlog revenue up 42% to $8.4bn, $6.4bn new work secured.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-new-funds-ceo-2026",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Mirvac appoints new CEO for its funds management business.",
+      "status": "active"
+    },
+    {
+      "id": "openai-wallst-junior-banker-tool",
+      "first_briefed": "2026-09-18",
+      "section": "opportunities",
+      "summary": "OpenAI launches ChatGPT tool targeting junior banker tasks.",
+      "status": "active"
+    },
+    {
+      "id": "salt-deduction-cap-increase-2026",
+      "first_briefed": "2026-09-18",
+      "section": "opportunities",
+      "summary": "US SALT deduction cap rises to $40,400 for 2026.",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-xueqin",
+      "first_briefed": "2026-09-18",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Professor Jiang Xueqin on AI and global power shifts.",
+      "status": "active"
     }
   ]
 }

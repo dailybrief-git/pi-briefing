@@ -3472,6 +3472,90 @@
       "section": "alerts",
       "summary": "COVID hospitalizations rising in NYC",
       "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight14-orbit-attempt",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "SpaceX targets Sept 22 for Starship's first full orbital insertion attempt",
+      "status": "active"
+    },
+    {
+      "id": "ny-floodsafe-water-infra",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Hochul launches FloodSafe NY plus $85M water infrastructure funding",
+      "status": "active"
+    },
+    {
+      "id": "ut-austin-major-cuts",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "UT Austin plans to eliminate several identity-studies majors under DEI rollback",
+      "status": "active"
+    },
+    {
+      "id": "screentime-crackdown-trend",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "Schools expand smart-glasses bans; Lower Merion parents sue over forced device use",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-strongest-record",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "NOAA sees >90% odds of very strong El Niño through fall/winter 2026-27",
+      "status": "active"
+    },
+    {
+      "id": "canada-eu-associate-membership",
+      "first_briefed": "2026-09-18",
+      "section": "major",
+      "summary": "EU official backs Canada push to become bloc's first associate member",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-mecca-attack-accusation",
+      "first_briefed": "2026-09-18",
+      "section": "alerts",
+      "summary": "Saudi Arabia accuses Houthis of red-line attack near Mecca",
+      "status": "active"
+    },
+    {
+      "id": "nato-subsea-cable-sabotage-foiled",
+      "first_briefed": "2026-09-18",
+      "section": "alerts",
+      "summary": "NATO allies foil Russian subsea cable sabotage plot",
+      "status": "active"
+    },
+    {
+      "id": "congress-massie-hegseth-impeachment-recess",
+      "first_briefed": "2026-09-18",
+      "section": "alerts",
+      "summary": "Speaker Johnson recesses House early amid Massie's Hegseth impeachment push",
+      "status": "active"
+    },
+    {
+      "id": "edtech-market-2035-projection",
+      "first_briefed": "2026-09-18",
+      "section": "opportunities",
+      "summary": "K-12 edtech market projected to reach $385.8B by 2035",
+      "status": "active"
+    },
+    {
+      "id": "marathon-threshold-dropout-hypothesis",
+      "first_briefed": "2026-09-18",
+      "section": "opportunities",
+      "summary": "Podcast anecdote of runner cutting 17 min by dropping threshold work for mileage",
+      "status": "active"
+    },
+    {
+      "id": "lightspeed-screentime-award",
+      "first_briefed": "2026-09-18",
+      "section": "opportunities",
+      "summary": "Lightspeed Insight wins award for screen-time analytics dashboard",
+      "status": "active"
     }
   ]
 }
