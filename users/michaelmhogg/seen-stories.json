@@ -1414,6 +1414,62 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Professor Jiang Xueqin on AI and global power shifts.",
       "status": "active"
+    },
+    {
+      "id": "nsw-strata-bond-deferral-2028",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "NSW defers strata building-bond increase from 2% to 3% until July 2028.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-near-7pct-sep2026",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate climbs to ~7% (Bankrate/NerdWallet/Freddie Mac).",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-backlog-update-sep2026",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Lendlease backlog revenue up 42% to $8.4bn on new work secured.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-funds-mgmt-ceo-eastvillage",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Mirvac appoints new funds-management CEO, launches Wholesale Retail Fund seeded by East Village.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-electricity-infra-bill-2026",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Electricity Infrastructure Investment Amendment Bill passes NSW Assembly, heads to Council.",
+      "status": "active"
+    },
+    {
+      "id": "hsr-extra-funding-230m-sep2026",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Extra $230m announced for Sydney-Newcastle HSR planning, total now $659.6m.",
+      "status": "active"
+    },
+    {
+      "id": "doac-jiang-xueqin-ai-geopolitics",
+      "first_briefed": "2026-09-19",
+      "section": "podcasts",
+      "summary": "DOAC episode with Jiang Xueqin on AI, surveillance and global power.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-joe-hudson-ai-doom-projection",
+      "first_briefed": "2026-09-19",
+      "section": "podcasts",
+      "summary": "My First Million: Joe Hudson on AI-doom predictions as psychological projection.",
+      "status": "active"
     }
   ]
 }

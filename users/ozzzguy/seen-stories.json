@@ -3556,6 +3556,83 @@
       "section": "opportunities",
       "summary": "Lightspeed Insight wins award for screen-time analytics dashboard",
       "status": "active"
+    },
+    {
+      "id": "dojh-blanche-political-speeches",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "AG Todd Blanche criticized for political-style speeches blurring DOJ norms",
+      "status": "active"
+    },
+    {
+      "id": "usip-trump-name-facade-motion",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "US Institute of Peace files emergency motion over Trump name carved into HQ",
+      "status": "active"
+    },
+    {
+      "id": "nyc-unga-security-plan-2026",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "NYC announces road closures/security plan for UN General Assembly week",
+      "status": "active"
+    },
+    {
+      "id": "miami-dade-gop-immigration-backlash",
+      "first_briefed": "2026-09-19",
+      "section": "alerts",
+      "summary": "GOP concern grows in Miami-Dade over immigration enforcement backlash ahead of midterms",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight14-orbital-attempt",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "SpaceX to attempt first Starship orbital insertion on Sept 22",
+      "status": "active"
+    },
+    {
+      "id": "doe-ai-classroom-guidance-2026",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "US Dept of Education issues first formal guidance on responsible AI use in classrooms",
+      "status": "active"
+    },
+    {
+      "id": "districts-ai-cellphone-ban-expansion",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "School districts expand cellphone bans to explicitly target AI use",
+      "status": "active"
+    },
+    {
+      "id": "gems-napster-ai-agents-partnership",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "GEMS Education partners with Napster to build AI learning agents for schools",
+      "status": "active"
+    },
+    {
+      "id": "world-fly-fishing-championship-2026-idaho",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "45th World Fly Fishing Championship underway in Idaho Falls region",
+      "status": "active"
+    },
+    {
+      "id": "nike-sis-after-dark-tour-partnership",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Science in Sport named official fuel/hydration partner for Nike After Dark Tour",
+      "status": "active"
+    },
+    {
+      "id": "broadway-fall-2026-season-opens",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Broadway fall 2026 season opens with School Girls; Or, The African Mean Girls Play",
+      "status": "active"
     }
   ]
 }

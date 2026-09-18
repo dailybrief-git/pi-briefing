@@ -5957,6 +5957,90 @@
       "section": "interest",
       "summary": "Essay argues wine downturn narrative is a media-industry crisis",
       "status": "active"
+    },
+    {
+      "id": "novo-anthropic-claude-science",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Novo Nordisk partners with Anthropic on Claude-driven drug discovery",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-astra-enterprise-traction",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "GPT-6 Astra reportedly out-earning Anthropic in enterprise deals; GPT-Live-1 voice API ships",
+      "status": "active"
+    },
+    {
+      "id": "thailand-construction-market-2026-2031",
+      "first_briefed": "2026-09-19",
+      "section": "major",
+      "summary": "Thailand construction market report projects 2026-2031 growth on rail/road/aviation spend",
+      "status": "active"
+    },
+    {
+      "id": "thailand-wellness-trillion-baht",
+      "first_briefed": "2026-09-19",
+      "section": "opportunities",
+      "summary": "Wellness sector tipped as Thailand's next trillion-baht industry",
+      "status": "active"
+    },
+    {
+      "id": "campari-negroni-week-sea",
+      "first_briefed": "2026-09-19",
+      "section": "opportunities",
+      "summary": "Campari Negroni Week runs SE Asia incl. Chiang Mai, 21-27 Sep",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-forbes-digital-nomad-hub",
+      "first_briefed": "2026-09-19",
+      "section": "opportunities",
+      "summary": "Forbes names Chiang Mai a top digital nomad hub, feeding 2027 events push",
+      "status": "active"
+    },
+    {
+      "id": "worldbank-thailand-fy2027-2032",
+      "first_briefed": "2026-09-19",
+      "section": "opportunities",
+      "summary": "World Bank's FY2027-2032 Thailand plan targets jobs in four sectors",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct1-reveal",
+      "first_briefed": "2026-09-19",
+      "section": "rail",
+      "summary": "Tesla confirms second-gen Roadster reveal for 1 Oct 2026",
+      "status": "active"
+    },
+    {
+      "id": "informa-buyer-intelligence",
+      "first_briefed": "2026-09-19",
+      "section": "gems",
+      "summary": "Informa TechTarget launches Buyer Intelligence B2B intent tool",
+      "status": "active"
+    },
+    {
+      "id": "becausal-martech-award",
+      "first_briefed": "2026-09-19",
+      "section": "gems",
+      "summary": "Causal-AI startup Becausal wins 2026 MarTech Breakthrough Award",
+      "status": "active"
+    },
+    {
+      "id": "sciencedaily-molten-lava-memory",
+      "first_briefed": "2026-09-19",
+      "section": "gems",
+      "summary": "New memory chip survives temperatures hotter than molten lava",
+      "status": "active"
+    },
+    {
+      "id": "sal-khan-ai-education-optimism",
+      "first_briefed": "2026-09-19",
+      "section": "interest",
+      "summary": "Sal Khan makes optimistic case for AI in classrooms amid concerns",
+      "status": "active"
     }
   ]
 }
