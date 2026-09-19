@@ -6041,6 +6041,76 @@
       "section": "interest",
       "summary": "Sal Khan makes optimistic case for AI in classrooms amid concerns",
       "status": "active"
+    },
+    {
+      "id": "thailand-dtv-visa-embassy-confusion",
+      "first_briefed": "2026-09-20",
+      "section": "alerts",
+      "summary": "DTV visa requirements applied inconsistently across Thai embassies",
+      "status": "active"
+    },
+    {
+      "id": "four-seasons-chiangmai-65th-anniversary",
+      "first_briefed": "2026-09-20",
+      "section": "opportunities",
+      "summary": "Four Seasons stages 65th-anniversary event in Chiang Mai rice fields",
+      "status": "active"
+    },
+    {
+      "id": "philippines-ai-infrastructure-plan",
+      "first_briefed": "2026-09-20",
+      "section": "opportunities",
+      "summary": "Philippines unveils $34.4B AI infrastructure master plan to 2033",
+      "status": "active"
+    },
+    {
+      "id": "wine-crisis-media-crisis-whitepaper",
+      "first_briefed": "2026-09-20",
+      "section": "opportunities",
+      "summary": "Essay argues wine industry crisis is a media-collapse story, not demand collapse",
+      "status": "active"
+    },
+    {
+      "id": "gpt-6-astra-launch",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "OpenAI launches GPT-6 Astra frontier model, strong enterprise traction",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-superapp-merge",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Anthropic merges Claude chat and Cowork into single assistant, adds Docs/Slides/Design",
+      "status": "active"
+    },
+    {
+      "id": "novo-nordisk-anthropic-drug-discovery",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Novo Nordisk partners with Anthropic on Claude-powered drug discovery",
+      "status": "active"
+    },
+    {
+      "id": "keto-diet-metabolic-trial",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Ketogenic diet trial beats Mediterranean/low-fat on metabolic health markers",
+      "status": "active"
+    },
+    {
+      "id": "gut-bacteria-postbiotic-intestinal-repair",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Gut-microbiome compound from polyphenol foods linked to intestinal repair",
+      "status": "active"
+    },
+    {
+      "id": "stanford-brain-tissue-mice",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Stanford grows human brain tissue inside living mice",
+      "status": "active"
     }
   ]
 }

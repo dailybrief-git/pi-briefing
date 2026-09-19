@@ -3633,6 +3633,69 @@
       "section": "major",
       "summary": "Broadway fall 2026 season opens with School Girls; Or, The African Mean Girls Play",
       "status": "active"
+    },
+    {
+      "id": "trump-wh-press-ban-cnn-msnow-politico",
+      "first_briefed": "2026-09-20",
+      "section": "alerts",
+      "summary": "Trump bans CNN, MS NOW, Politico from White House; credentials confiscated",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-mecca-us-iran-sanctions",
+      "first_briefed": "2026-09-20",
+      "section": "alerts",
+      "summary": "Saudi accuses Houthis of Mecca-area attack; US preps toughest-ever Iran sanctions",
+      "status": "active"
+    },
+    {
+      "id": "midterm-early-voting-nrcc-lead",
+      "first_briefed": "2026-09-20",
+      "section": "alerts",
+      "summary": "Midterm early voting begins; NRCC posts record $13M cash lead",
+      "status": "active"
+    },
+    {
+      "id": "ny-regents-exam-phaseout",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "NY moves to phase out Regents exams as graduation requirement",
+      "status": "active"
+    },
+    {
+      "id": "gates-foundation-ai-schools-1b",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Gates Foundation commits $1B to AI tools, ~$400M to education incl. AI tutoring",
+      "status": "active"
+    },
+    {
+      "id": "doe-ai-classroom-guidance",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "US Dept of Education issues formal AI classroom-use guidance",
+      "status": "active"
+    },
+    {
+      "id": "school-belonging-wellbeing-review",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "IB/Monash review: school belonging central to student wellbeing and equity",
+      "status": "active"
+    },
+    {
+      "id": "ny-water-infrastructure-85m",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "Hochul announces $85M for NY water/sewer infrastructure upgrades",
+      "status": "active"
+    },
+    {
+      "id": "nyc-smaller-buildings-pipeline",
+      "first_briefed": "2026-09-20",
+      "section": "major",
+      "summary": "NYC development pipeline shifting toward smaller/shorter buildings",
+      "status": "active"
     }
   ]
 }
