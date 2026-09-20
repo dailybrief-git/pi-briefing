@@ -3059,6 +3059,34 @@
       "section": "opportunities",
       "summary": "BRKZ raises $31m for AI-enabled building materials procurement in Saudi Arabia",
       "status": "active"
+    },
+    {
+      "id": "boj-rate-hike-2026-09",
+      "first_briefed": "2026-09-21",
+      "section": "alerts",
+      "summary": "BOJ hikes rates to 1.25%, closing the yen-crisis loop",
+      "status": "active"
+    },
+    {
+      "id": "state-ai-regulation-pushback-2026-09",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "US states, led by California's kill-switch order, push AI guardrails against Trump's hands-off stance",
+      "status": "active"
+    },
+    {
+      "id": "highspeed-rail-newcastle-funding-2026-09",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Sydney-Newcastle high-speed rail gets extra $230m planning funding",
+      "status": "active"
+    },
+    {
+      "id": "nsw-electricity-infra-bill-2026-09",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "NSW Electricity Infrastructure Investment Amendment Bill clears Legislative Assembly",
+      "status": "active"
     }
   ]
 }

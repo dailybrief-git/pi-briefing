@@ -6111,6 +6111,48 @@
       "section": "major",
       "summary": "Stanford grows human brain tissue inside living mice",
       "status": "active"
+    },
+    {
+      "id": "openai-gpt6-astra-navier-stokes",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "OpenAI's GPT-6 Astra claims Navier-Stokes breakthrough and enterprise revenue lead over Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-mythos-model-launch",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Anthropic's new Mythos model rolls out to approved US government/private users",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-novo-nordisk-drug-discovery",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Novo Nordisk partners with Anthropic's Claude for drug discovery R&D",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-superapp-merge",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Anthropic merges Claude chat and Cowork agentic products into one assistant, adds Docs/Slides",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacentre-clean-power-strain",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Thailand's data-centre boom outpacing clean power supply per Nation Thailand",
+      "status": "active"
+    },
+    {
+      "id": "thailand-dtv-visa-confusion",
+      "first_briefed": "2026-09-21",
+      "section": "alerts",
+      "summary": "Embassies applying inconsistent DTV visa rules, confusing applicants",
+      "status": "active"
     }
   ]
 }

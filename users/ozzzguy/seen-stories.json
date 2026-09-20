@@ -3696,6 +3696,90 @@
       "section": "major",
       "summary": "NYC development pipeline shifting toward smaller/shorter buildings",
       "status": "active"
+    },
+    {
+      "id": "starship-flight14-orbital-attempt",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "SpaceX to attempt first Starship orbital insertion Sept 22",
+      "status": "active"
+    },
+    {
+      "id": "spacex-o3b-mpower-complete",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "SpaceX completes non-Starlink O3b mPower network for SES",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-pothole-u20-milestone",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Mamdani hits 200,000th pothole repair, speaks at U20",
+      "status": "active"
+    },
+    {
+      "id": "nrcc-midterm-cash-advantage",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "NRCC holds record $13M cash lead heading into midterms",
+      "status": "active"
+    },
+    {
+      "id": "broadway-fall-2026-season",
+      "first_briefed": "2026-09-21",
+      "section": "major",
+      "summary": "Broadway fall 2026 season opens with star-studded revivals",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-ai-datacenters-2027",
+      "first_briefed": "2026-09-21",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX orbital AI data centers could boost SPCX valuation",
+      "status": "active"
+    },
+    {
+      "id": "ss-payroll-tax-hike-proposal",
+      "first_briefed": "2026-09-21",
+      "section": "opportunities",
+      "summary": "Proposed Social Security payroll tax hike could cost up to $3,000/yr",
+      "status": "active"
+    },
+    {
+      "id": "ny-efficiency-infrastructure-thesis",
+      "first_briefed": "2026-09-21",
+      "section": "opportunities",
+      "summary": "Op-ed argues NY should lead on efficiency over new energy buildout",
+      "status": "active"
+    },
+    {
+      "id": "trump-wh-bans-cnn-politico",
+      "first_briefed": "2026-09-21",
+      "section": "alerts",
+      "summary": "White House bars CNN, MS NOW and Politico from press access",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-riyadh-missile-attack",
+      "first_briefed": "2026-09-21",
+      "section": "alerts",
+      "summary": "Saudi Arabia says Houthis attempted missile strike on Riyadh",
+      "status": "active"
+    },
+    {
+      "id": "germany-merz-state-election-defeat",
+      "first_briefed": "2026-09-21",
+      "section": "alerts",
+      "summary": "Merz's party suffers historic defeat in two German state elections",
+      "status": "active"
+    },
+    {
+      "id": "jre-2555-ron-white-paxton",
+      "first_briefed": "2026-09-21",
+      "section": "podcasts",
+      "summary": "JRE #2555 comedian roundtable touches on Paxton/Texas Senate race",
+      "status": "active"
     }
   ]
 }
