@@ -6153,6 +6153,62 @@
       "section": "alerts",
       "summary": "Embassies applying inconsistent DTV visa rules, confusing applicants",
       "status": "active"
+    },
+    {
+      "id": "dtv-visa-requirement-confusion",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "Confusion across Thai embassies over new DTV visa requirements",
+      "status": "active"
+    },
+    {
+      "id": "openai-navier-stokes-controversy",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "OpenAI's claimed Navier-Stokes Millennium Prize solution disputed over credit/rigor",
+      "status": "active"
+    },
+    {
+      "id": "thailand-datacenter-power-strain",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Thailand's data-centre boom straining national clean-power supply",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-identity-tourism-2026",
+      "first_briefed": "2026-09-22",
+      "section": "opportunities",
+      "summary": "Chiang Rai positioned as 2026 model for identity tourism with smart tourist hub",
+      "status": "active"
+    },
+    {
+      "id": "thai-functional-food-medical-market",
+      "first_briefed": "2026-09-22",
+      "section": "opportunities",
+      "summary": "Thai functional/medical food market flagged as rising growth category",
+      "status": "active"
+    },
+    {
+      "id": "norway-europe-wellness-tourism-thailand",
+      "first_briefed": "2026-09-22",
+      "section": "opportunities",
+      "summary": "Norway/Europe wellness tourism push names Chiang Mai primary retreat hub",
+      "status": "active"
+    },
+    {
+      "id": "meta-connect-2026",
+      "first_briefed": "2026-09-22",
+      "section": "rail",
+      "summary": "Meta Connect 2026 scheduled Sept 23-24",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-windows-surface-event-oct7",
+      "first_briefed": "2026-09-22",
+      "section": "rail",
+      "summary": "Microsoft Windows/Surface hardware event scheduled Oct 7 in San Francisco",
+      "status": "active"
     }
   ]
 }

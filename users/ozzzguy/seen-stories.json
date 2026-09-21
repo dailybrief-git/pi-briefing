@@ -3780,6 +3780,69 @@
       "section": "podcasts",
       "summary": "JRE #2555 comedian roundtable touches on Paxton/Texas Senate race",
       "status": "active"
+    },
+    {
+      "id": "riyadh-houthi-missile-attack",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "Houthi rebels attempt ballistic missile strike on Riyadh, first on capital in current escalation",
+      "status": "active"
+    },
+    {
+      "id": "ontario-synagogue-shooting-yomkippur",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "Officer shot near Ontario synagogue during Yom Kippur",
+      "status": "active"
+    },
+    {
+      "id": "nyc-second-home-surcharge-lawsuit",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "NYC second-home tax surcharge rollout hits exemption fairness controversy amid litigation",
+      "status": "active"
+    },
+    {
+      "id": "trump-xi-washington-summit-2026",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Trump and Xi meet in Washington this week, AI high on agenda alongside trade",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-hosting-contract-revenue",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "SpaceX CFO discloses new AI hosting contract adding billions to revenue outlook ahead of IPO",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-infra-pivot-2026",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "NY-NJ infrastructure forum signals pivot toward nuclear power and affordable housing priorities",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-u20-conference-2026",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Mamdani engages in U20 Conference climate/affordability diplomacy sessions",
+      "status": "active"
+    },
+    {
+      "id": "russia-parliamentary-election-2026",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Russia's ruling pro-Putin party set to win tightly controlled wartime parliamentary election",
+      "status": "active"
+    },
+    {
+      "id": "nyc-smaller-buildings-pipeline-2026",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "NYC development filings shift toward more, smaller buildings per DOB data",
+      "status": "active"
     }
   ]
 }

@@ -3087,6 +3087,62 @@
       "section": "major",
       "summary": "NSW Electricity Infrastructure Investment Amendment Bill clears Legislative Assembly",
       "status": "active"
+    },
+    {
+      "id": "treasurer-budget-risk-warning-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "Treasurer previews report flagging serious economic and budget risks",
+      "status": "active"
+    },
+    {
+      "id": "migration-student-crackdown-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "alerts",
+      "summary": "Migration plan cuts pathways for international students to remain",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-roads-3bn-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "$3bn contracts signed across five Western Sydney road projects",
+      "status": "active"
+    },
+    {
+      "id": "high-speed-rail-newcastle-funding-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Extra $230m for Sydney-Newcastle high-speed rail planning",
+      "status": "active"
+    },
+    {
+      "id": "electricity-infrastructure-bill-nsw-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "NSW Electricity Infrastructure Investment Amendment Bill clears Assembly",
+      "status": "active"
+    },
+    {
+      "id": "newsom-ai-killswitch-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "major",
+      "summary": "Newsom signs AI 'kill switch' executive order in California",
+      "status": "active"
+    },
+    {
+      "id": "buildots-funding-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "opportunities",
+      "summary": "Intel-backed Buildots raises $130m for AI construction monitoring",
+      "status": "active"
+    },
+    {
+      "id": "uk-crypto-regulatory-framework-2026-09",
+      "first_briefed": "2026-09-22",
+      "section": "opportunities",
+      "summary": "UK approves crypto regulatory framework effective Oct 2027",
+      "status": "active"
     }
   ]
 }
