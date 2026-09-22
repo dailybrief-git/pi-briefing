@@ -3843,6 +3843,83 @@
       "section": "major",
       "summary": "NYC development filings shift toward more, smaller buildings per DOB data",
       "status": "active"
+    },
+    {
+      "id": "unga-iran-gaza-tension-2026",
+      "first_briefed": "2026-09-23",
+      "section": "alerts",
+      "summary": "UNGA week: Trump warns Iran, Qatar/Turkiye criticize Israel over Gaza",
+      "status": "active"
+    },
+    {
+      "id": "superelnino-record-2026",
+      "first_briefed": "2026-09-23",
+      "section": "alerts",
+      "summary": "Super El Niño bursts through temperature records months before peak, WMO mobilizes",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-riyadh-attack",
+      "first_briefed": "2026-09-23",
+      "section": "alerts",
+      "summary": "Houthi rebels attempt ballistic missile strike on Riyadh",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-orbital-attempt-flight14",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "SpaceX's 14th Starship test flight attempts first orbital insertion",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-hosting-contract-cfo",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "SpaceX CFO reveals new AI hosting contract boosting revenue outlook",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-package-date",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Tesla sets Roadster date built around SpaceX cold-gas thruster package",
+      "status": "active"
+    },
+    {
+      "id": "ny-nuclear-infrastructure-pivot",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "NY infrastructure chiefs prioritize nuclear power development",
+      "status": "active"
+    },
+    {
+      "id": "nyc-restroom-speedlimit-overhaul",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "NYC launches 10-minute public restrooms with street safety overhaul",
+      "status": "active"
+    },
+    {
+      "id": "thea-edtech-award-opportunity",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Thea AI active-learning platform wins Tech & Learning award",
+      "status": "active"
+    },
+    {
+      "id": "flyfishing-rodtech-award-opportunity",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Rod/reel manufacturing breakthrough revives Anglers' Choice Award",
+      "status": "active"
+    },
+    {
+      "id": "jre-siddharth-kara-episode",
+      "first_briefed": "2026-09-23",
+      "section": "podcasts",
+      "summary": "JRE #2556 with Siddharth Kara on cobalt mining and the Zong trial",
+      "status": "active"
     }
   ]
 }

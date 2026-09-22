@@ -6209,6 +6209,48 @@
       "section": "rail",
       "summary": "Microsoft Windows/Surface hardware event scheduled Oct 7 in San Francisco",
       "status": "active"
+    },
+    {
+      "id": "anthropic-superapp-mythos",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Anthropic merges Cowork into Claude chat, Mythos model in limited govt rollout",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-cowork-claude-tech",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Microsoft integrates Anthropic's Cowork tech into 365 Copilot",
+      "status": "active"
+    },
+    {
+      "id": "alibaba-zhenwu-v900-chip",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Alibaba unveils Zhenwu V900 AI chip, claims 3x performance",
+      "status": "active"
+    },
+    {
+      "id": "functional-ingredient-asia-benchmark",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Zhangzhou initiative sets Asia functional-ingredient benchmark, GABA/Goji pilots",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-solo-travel-pointsguy",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Chiang Mai named in Points Guy 2026 best solo-travel list",
+      "status": "active"
+    },
+    {
+      "id": "paditch-irrigation-scaleup",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Thailand-Japan Paditch smart irrigation scaling beyond pilots",
+      "status": "active"
     }
   ]
 }

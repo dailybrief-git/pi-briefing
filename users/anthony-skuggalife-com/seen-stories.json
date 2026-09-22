@@ -3143,6 +3143,69 @@
       "section": "opportunities",
       "summary": "UK approves crypto regulatory framework effective Oct 2027",
       "status": "active"
+    },
+    {
+      "id": "western-sydney-metro-pipeline-stalled-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "alerts",
+      "summary": "Labor withholding Western Sydney Metro business cases",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-roads-3bn-contracts-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Contracts signed on 5 Western Sydney road projects worth ~$3bn",
+      "status": "active"
+    },
+    {
+      "id": "trump-xi-summit-tariff-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Trump-Xi summit this week to set tariff-cut targets, businesses kept in dark",
+      "status": "active"
+    },
+    {
+      "id": "newsom-ai-killswitch-eo-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Newsom signs AI oversight/kill-switch executive order",
+      "status": "active"
+    },
+    {
+      "id": "canva-ipo-growth-concerns-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "Canva IPO complicated by slowing revenue, rising AI costs",
+      "status": "active"
+    },
+    {
+      "id": "white-house-nih-grants-control-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "major",
+      "summary": "White House drafts order to tighten control over NIH grants",
+      "status": "active"
+    },
+    {
+      "id": "tar-contech-series-a-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "TAR raises $120m Series A for construction tech at $1bn valuation",
+      "status": "active"
+    },
+    {
+      "id": "promethean-biopharma-raise-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "Sydney biotech Promethean BioPharma raises $3.2m",
+      "status": "active"
+    },
+    {
+      "id": "micob-construction-robotics-2026-09",
+      "first_briefed": "2026-09-23",
+      "section": "opportunities",
+      "summary": "MiCoB raises $3.13m for robotic 3D-printing construction platform",
+      "status": "active"
     }
   ]
 }
