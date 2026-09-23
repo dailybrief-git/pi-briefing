@@ -3920,6 +3920,90 @@
       "section": "podcasts",
       "summary": "JRE #2556 with Siddharth Kara on cobalt mining and the Zong trial",
       "status": "active"
+    },
+    {
+      "id": "nyc-dob-sst-fraud-invalidation",
+      "first_briefed": "2026-09-24",
+      "section": "alerts",
+      "summary": "NYC DOB invalidates ~2,000 Site Safety Training cards after fraud scheme uncovered",
+      "status": "active"
+    },
+    {
+      "id": "dhs-foreign-student-visa-rule-blocked",
+      "first_briefed": "2026-09-24",
+      "section": "alerts",
+      "summary": "Federal judge blocks DHS rule capping international student visas at four years",
+      "status": "active"
+    },
+    {
+      "id": "spacex-falcon9-reservation-halt",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "SpaceX stops booking Falcon 9 flights past 2028, signaling Starship-first strategy",
+      "status": "active"
+    },
+    {
+      "id": "spacex-space-cargo-unlimited-deal",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Space Cargo Unlimited signs SpaceX Starship deal for in-space manufacturing via Starfall vehicle",
+      "status": "active"
+    },
+    {
+      "id": "un-secretary-general-race-2026",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "UNGA convenes; seven candidates formally vying to succeed Guterres",
+      "status": "active"
+    },
+    {
+      "id": "other-desert-cities-broadway-revival",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Other Desert Cities Broadway revival begins previews Sept 29 with starry cast",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-record-intensify-2026",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "2026 super El Niño hits record Niño 3.4 index months ahead of peak",
+      "status": "active"
+    },
+    {
+      "id": "social-security-cola-2026-final",
+      "first_briefed": "2026-09-24",
+      "section": "markets",
+      "summary": "2026 Social Security COLA finalized at 2.8%",
+      "status": "active"
+    },
+    {
+      "id": "edtech-oecd-ai-augmentation-opportunity",
+      "first_briefed": "2026-09-24",
+      "section": "opportunities",
+      "summary": "OECD research backs pedagogy-first AI tutoring tools over generic automation",
+      "status": "active"
+    },
+    {
+      "id": "exercise-calorie-compensation-myth",
+      "first_briefed": "2026-09-24",
+      "section": "opportunities",
+      "summary": "New study challenges calorie-compensation theory of exercise, favors volume-training apps",
+      "status": "active"
+    },
+    {
+      "id": "fly-fishing-world-championship-idaho-2026",
+      "first_briefed": "2026-09-24",
+      "section": "gems",
+      "summary": "45th World Fly Fishing Championship held in Idaho Falls region",
+      "status": "active"
+    },
+    {
+      "id": "i81-viaduct-syracuse-milestone",
+      "first_briefed": "2026-09-24",
+      "section": "gems",
+      "summary": "Hochul announces milestones in Syracuse's I-81 Viaduct project",
+      "status": "active"
     }
   ]
 }

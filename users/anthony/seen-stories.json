@@ -6251,6 +6251,55 @@
       "section": "opportunities",
       "summary": "Thailand-Japan Paditch smart irrigation scaling beyond pilots",
       "status": "active"
+    },
+    {
+      "id": "gpt6-astra-sol-luna-launch",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "OpenAI ships GPT-6 Astra plus cheaper Sol/Luna models",
+      "status": "active"
+    },
+    {
+      "id": "claude-opus-5-5-launch",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Anthropic releases Claude Opus 5.5, 40% cheaper than Opus 5",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana2-darpa-debate",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Microsoft's Majorana 2 quantum claim under DARPA testing, disputed by physicists",
+      "status": "active"
+    },
+    {
+      "id": "meta-connect-2026-glasses-muse",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Meta Connect unveils camera-less smart glasses; Muse agent climbs app charts",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-deal-grok-bot",
+      "first_briefed": "2026-09-24",
+      "section": "major",
+      "summary": "Tesla Semi lands biggest US electric-truck deal; Grok Bot voice agent launched",
+      "status": "active"
+    },
+    {
+      "id": "worldbank-thai-secondary-cities",
+      "first_briefed": "2026-09-24",
+      "section": "opportunities",
+      "summary": "World Bank: Thai secondary-city infrastructure investment could lift GDP per capita 12.4% by 2050",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-asia-regulatory-framework",
+      "first_briefed": "2026-09-24",
+      "section": "opportunities",
+      "summary": "Asia regional consensus frameworks emerging for GABA/Goji functional ingredient claims",
+      "status": "active"
     }
   ]
 }
