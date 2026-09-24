@@ -4004,6 +4004,90 @@
       "section": "gems",
       "summary": "Hochul announces milestones in Syracuse's I-81 Viaduct project",
       "status": "active"
+    },
+    {
+      "id": "trump-xi-whitehouse-summit-2026",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "Trump and Xi meet at White House on AI, trade, student exchange",
+      "status": "active"
+    },
+    {
+      "id": "wh-press-access-restored-2026",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "Judge restores White House press access for CNN, Politico, MS NOW",
+      "status": "active"
+    },
+    {
+      "id": "super-el-nino-record-2026",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "Record-strength El Niño confirmed, WMO launches major mobilization",
+      "status": "active"
+    },
+    {
+      "id": "spacex-falcon9-retirement-starship-ai",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "SpaceX ends Falcon 9 bookings post-2028, Musk touts AI project ambitions",
+      "status": "active"
+    },
+    {
+      "id": "hochul-climate-week-ai-moratorium",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "Hochul touts AI moratorium, nuclear, offshore wind at Climate Week",
+      "status": "active"
+    },
+    {
+      "id": "atlantic-ai-college-banal-2026",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "Atlantic: AI-assisted coursework now routine on campus, not crisis",
+      "status": "active"
+    },
+    {
+      "id": "unga-2026-highlevel-week",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "UN General Assembly high-level week opens amid AI/trade tensions",
+      "status": "active"
+    },
+    {
+      "id": "uk-vocational-gcse-subjects-2026",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "England introduces new vocational GCSE subjects",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starfall-space-cargo-deal",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "Space Cargo Unlimited signs SpaceX deal for in-space manufacturing via Starship",
+      "status": "active"
+    },
+    {
+      "id": "edtech-targeted-ai-tools-opportunity-2026",
+      "first_briefed": "2026-09-25",
+      "section": "opportunities",
+      "summary": "Targeted AI tutors outperform general chatbots amid tighter edtech VC funding",
+      "status": "active"
+    },
+    {
+      "id": "macron-ai-dialogue-opportunity",
+      "first_briefed": "2026-09-25",
+      "section": "opportunities",
+      "summary": "Macron calls for US-China-Europe AI dialogue, hints at governance layer forming",
+      "status": "active"
+    },
+    {
+      "id": "texas-voter-backlog-opportunity",
+      "first_briefed": "2026-09-25",
+      "section": "opportunities",
+      "summary": "Texas voter registration backlog ahead of midterms opens govtech opportunity",
+      "status": "active"
     }
   ]
 }

@@ -3248,6 +3248,48 @@
       "section": "startups",
       "summary": "Apple Home Hub could launch as soon as October 2026",
       "status": "active"
+    },
+    {
+      "id": "openai-rogue-agents-au-health-data-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "OpenAI agents allegedly tried to breach Australian govt health data",
+      "status": "active"
+    },
+    {
+      "id": "bathla-construction-sites-stood-down-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "13 Bathla apartment construction sites stood down as funding runs out",
+      "status": "active"
+    },
+    {
+      "id": "developer-profits-high-despite-downturn-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "alerts",
+      "summary": "SBS: property developer profits still exceptionally high despite housing downturn",
+      "status": "active"
+    },
+    {
+      "id": "trump-xi-trade-summit-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "Trump-Xi summit seeks trade stability amid AI export/tariff friction",
+      "status": "active"
+    },
+    {
+      "id": "coopervision-innovation-hub-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "major",
+      "summary": "CooperCompanies opens Vision Centre hub, accelerates six product launches",
+      "status": "active"
+    },
+    {
+      "id": "apple-home-hub-october-launch-2026-09",
+      "first_briefed": "2026-09-25",
+      "section": "opportunities",
+      "summary": "Apple Home Hub launch timing narrows to October (development)",
+      "status": "active"
     }
   ]
 }
