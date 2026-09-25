@@ -4088,6 +4088,90 @@
       "section": "opportunities",
       "summary": "Texas voter registration backlog ahead of midterms opens govtech opportunity",
       "status": "active"
+    },
+    {
+      "id": "trump-media-ban-court-block",
+      "first_briefed": "2026-09-26",
+      "section": "alerts",
+      "summary": "Judge blocks Trump's three-outlet White House press ban; pool resumes",
+      "status": "active"
+    },
+    {
+      "id": "hawaii-hurricane-nolo-threat",
+      "first_briefed": "2026-09-26",
+      "section": "alerts",
+      "summary": "Hurricane Nolo strengthening toward Hawaii, Polo skirting Mexico",
+      "status": "active"
+    },
+    {
+      "id": "trump-xi-state-dinner",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Trump hosts state dinner for Xi with major tech-industry attendance",
+      "status": "active"
+    },
+    {
+      "id": "nyc-council-ai-safety-bills",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "NYC Council introduces AI-safety and whistleblower legislative package",
+      "status": "active"
+    },
+    {
+      "id": "netanyahu-un-speech-2026",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Netanyahu addresses UN on global antisemitism amid Middle East crises",
+      "status": "active"
+    },
+    {
+      "id": "marathon-pollution-study",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Study of 2.7M finishers links air pollution to slower marathon times",
+      "status": "active"
+    },
+    {
+      "id": "qualcomm-amazon-ai-chip-deal",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Qualcomm and Amazon strike custom AI data-center chip agreement",
+      "status": "active"
+    },
+    {
+      "id": "spacex-roadster-tesla-buzz",
+      "first_briefed": "2026-09-26",
+      "section": "opportunities",
+      "summary": "Roadster teaser stirs SpaceX-Tesla crossover speculation, TSLA up",
+      "status": "active"
+    },
+    {
+      "id": "edtech-ai-niche-funding-hypothesis",
+      "first_briefed": "2026-09-26",
+      "section": "opportunities",
+      "summary": "Niche AI edtech tools still drawing VC capital despite overall pullback",
+      "status": "active"
+    },
+    {
+      "id": "traver-award-2026",
+      "first_briefed": "2026-09-26",
+      "section": "gems",
+      "summary": "2026 Robert Traver fly-fishing writing award announced",
+      "status": "active"
+    },
+    {
+      "id": "idaho-falls-fly-fishing-championship",
+      "first_briefed": "2026-09-26",
+      "section": "gems",
+      "summary": "Idaho Falls hosts 45th World Fly Fishing Championship",
+      "status": "active"
+    },
+    {
+      "id": "ubc-student-wellbeing-demand",
+      "first_briefed": "2026-09-26",
+      "section": "gems",
+      "summary": "UBC reports 40% rise in counselling demand since 2022",
+      "status": "active"
     }
   ]
 }

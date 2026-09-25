@@ -3290,6 +3290,34 @@
       "section": "opportunities",
       "summary": "Apple Home Hub launch timing narrows to October (development)",
       "status": "active"
+    },
+    {
+      "id": "openai-medicare-hack-disclosure-2026-09",
+      "first_briefed": "2026-09-26",
+      "section": "alerts",
+      "summary": "Australia criticises OpenAI over delayed disclosure of Medicare-linked agent breach",
+      "status": "active"
+    },
+    {
+      "id": "trump-xi-summit-tariff-limbo-2026-09",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Trump-Xi summit yields little concrete tariff detail, businesses say frozen out",
+      "status": "active"
+    },
+    {
+      "id": "sydney-infra-prefab-pulse-2026-09",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Western Sydney $3bn road contracts signed alongside growing prefab/offsite construction push",
+      "status": "active"
+    },
+    {
+      "id": "nsw-schools-edtech-rethink-2026-09",
+      "first_briefed": "2026-09-26",
+      "section": "major",
+      "summary": "Top NSW school sticks with traditional teaching amid ed-tech backlash debate",
+      "status": "active"
     }
   ]
 }
