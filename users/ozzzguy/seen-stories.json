@@ -4172,6 +4172,76 @@
       "section": "gems",
       "summary": "UBC reports 40% rise in counselling demand since 2022",
       "status": "active"
+    },
+    {
+      "id": "scotus-citizenship-data-tool-ruling",
+      "first_briefed": "2026-09-27",
+      "section": "alerts",
+      "summary": "Supreme Court allows states to use citizenship data tool for voter audits",
+      "status": "active"
+    },
+    {
+      "id": "dhs-intl-student-rule-blocked",
+      "first_briefed": "2026-09-27",
+      "section": "alerts",
+      "summary": "Judge blocks DHS rule limiting international students to four-year stays",
+      "status": "active"
+    },
+    {
+      "id": "gop-gas-price-midterm-panic",
+      "first_briefed": "2026-09-27",
+      "section": "alerts",
+      "summary": "Rising gas prices spark GOP panic ahead of midterms",
+      "status": "active"
+    },
+    {
+      "id": "wrc-copenhagen-marathon-records",
+      "first_briefed": "2026-09-27",
+      "section": "major",
+      "summary": "World record and breakthrough runs at Road Running Championships in Copenhagen",
+      "status": "active"
+    },
+    {
+      "id": "grok-47-launch",
+      "first_briefed": "2026-09-27",
+      "section": "major",
+      "summary": "SpaceX's xAI unit launches Grok 4.7 focused on coding",
+      "status": "active"
+    },
+    {
+      "id": "edtech-educator-confidence-report-2026",
+      "first_briefed": "2026-09-27",
+      "section": "major",
+      "summary": "2026 Educator Confidence Report: AI use rising, coherence is next challenge",
+      "status": "active"
+    },
+    {
+      "id": "cdc-youth-health-report-2026",
+      "first_briefed": "2026-09-27",
+      "section": "major",
+      "summary": "CDC Youth Health in Focus report shows encouraging progress",
+      "status": "active"
+    },
+    {
+      "id": "edtech-grounded-ai-trust-tools",
+      "first_briefed": "2026-09-27",
+      "section": "opportunities",
+      "summary": "Grounded-AI study tools (Bookshelf+, Thea) win awards over open-web AI",
+      "status": "active"
+    },
+    {
+      "id": "grok47-vs-cursor-hypothesis",
+      "first_briefed": "2026-09-27",
+      "section": "opportunities",
+      "summary": "Grok 4.7 coding focus raises stakes on rumored SpaceX-Cursor deal",
+      "status": "active"
+    },
+    {
+      "id": "fly-rod-supershoe-hypothesis",
+      "first_briefed": "2026-09-27",
+      "section": "opportunities",
+      "summary": "Loop's Ström/Flyt rod launch likened to running supershoe tech-race economics",
+      "status": "active"
     }
   ]
 }
