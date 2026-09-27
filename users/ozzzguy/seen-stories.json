@@ -4242,6 +4242,90 @@
       "section": "opportunities",
       "summary": "Loop's Ström/Flyt rod launch likened to running supershoe tech-race economics",
       "status": "active"
+    },
+    {
+      "id": "noreaster-nyc-death",
+      "first_briefed": "2026-09-28",
+      "section": "alerts",
+      "summary": "Nor'easter kills NYCHA worker in Brooklyn, floods Northeast",
+      "status": "active"
+    },
+    {
+      "id": "trump-spending-clawback-1b",
+      "first_briefed": "2026-09-28",
+      "section": "alerts",
+      "summary": "Trump admin uses rare authority to claw back ~$1B in appropriated spending",
+      "status": "active"
+    },
+    {
+      "id": "house-dem-oversight-impeachment-option",
+      "first_briefed": "2026-09-28",
+      "section": "alerts",
+      "summary": "House Democrats plan vast oversight, keep impeachment on table",
+      "status": "active"
+    },
+    {
+      "id": "iran-hormuz-reopen-offer",
+      "first_briefed": "2026-09-28",
+      "section": "major",
+      "summary": "Iran offers to reopen Strait of Hormuz, restart nuclear talks amid new US sanctions push",
+      "status": "active"
+    },
+    {
+      "id": "russia-nato-attack-warning",
+      "first_briefed": "2026-09-28",
+      "section": "alerts",
+      "summary": "Danish intelligence warns Russia could attack a NATO country within months",
+      "status": "active"
+    },
+    {
+      "id": "spacex-grok47-launch",
+      "first_briefed": "2026-09-28",
+      "section": "major",
+      "summary": "SpaceXAI launches Grok 4.7 AI model",
+      "status": "active"
+    },
+    {
+      "id": "humanoid-robot-half-marathon-record",
+      "first_briefed": "2026-09-28",
+      "section": "major",
+      "summary": "Humanoid robot Lightning runs half-marathon in 50:26, smashing record",
+      "status": "active"
+    },
+    {
+      "id": "nyc-council-ai-safety-legislation",
+      "first_briefed": "2026-09-28",
+      "section": "major",
+      "summary": "NYC Council introduces AI-safety and whistleblower-protection bills",
+      "status": "active"
+    },
+    {
+      "id": "ny-cost-of-living-rank-2026",
+      "first_briefed": "2026-09-28",
+      "section": "major",
+      "summary": "New York ranked #6 most expensive US state for 2026",
+      "status": "active"
+    },
+    {
+      "id": "fly-fishing-loop-strom-flyt-launch",
+      "first_briefed": "2026-09-28",
+      "section": "opportunities",
+      "summary": "Loop launches Ström/Flyt next-gen fly rods",
+      "status": "active"
+    },
+    {
+      "id": "edtech-bookshelf-plus-award",
+      "first_briefed": "2026-09-28",
+      "section": "opportunities",
+      "summary": "Bookshelf+ wins Best for Back to School 2026 for grounded AI study tool",
+      "status": "active"
+    },
+    {
+      "id": "x-creator-payout-policy-change",
+      "first_briefed": "2026-09-28",
+      "section": "opportunities",
+      "summary": "X tightens creator payout rules under SpaceXAI product team",
+      "status": "active"
     }
   ]
 }
