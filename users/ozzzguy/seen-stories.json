@@ -4326,6 +4326,48 @@
       "section": "opportunities",
       "summary": "X tightens creator payout rules under SpaceXAI product team",
       "status": "active"
+    },
+    {
+      "id": "starship-flight14-orbit",
+      "first_briefed": "2026-09-29",
+      "section": "major",
+      "summary": "SpaceX Starship achieves first full orbital flight on Flight 14",
+      "status": "active"
+    },
+    {
+      "id": "google-suncatcher-spacex-transporter18",
+      "first_briefed": "2026-09-29",
+      "section": "companies",
+      "summary": "Google's first orbital AI satellite to launch on SpaceX Transporter-18",
+      "status": "active"
+    },
+    {
+      "id": "nyc-noreaster-brooklyn-death",
+      "first_briefed": "2026-09-29",
+      "section": "alerts",
+      "summary": "Nor'easter kills NYCHA worker in Brooklyn tree collapse",
+      "status": "active"
+    },
+    {
+      "id": "snap-oct1-cost-sharing",
+      "first_briefed": "2026-09-29",
+      "section": "alerts",
+      "summary": "SNAP benefits rise slightly Oct 1 but new state cost-sharing rules begin",
+      "status": "active"
+    },
+    {
+      "id": "nyc-council-ai-safeguard-bills",
+      "first_briefed": "2026-09-29",
+      "section": "major",
+      "summary": "NYC Council introduces AI-safety and whistleblower legislative package",
+      "status": "active"
+    },
+    {
+      "id": "flyfishing-team-usa-worlds-2026",
+      "first_briefed": "2026-09-29",
+      "section": "major",
+      "summary": "Team USA and Michael Bradley win 2026 FIPS-Mouche Fly Fishing World Championship",
+      "status": "active"
     }
   ]
 }
