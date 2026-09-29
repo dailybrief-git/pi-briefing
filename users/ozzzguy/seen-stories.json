@@ -4368,6 +4368,69 @@
       "section": "major",
       "summary": "Team USA and Michael Bradley win 2026 FIPS-Mouche Fly Fishing World Championship",
       "status": "active"
+    },
+    {
+      "id": "spacex-starship-orbit-14th-flight",
+      "first_briefed": "2026-09-30",
+      "section": "major",
+      "summary": "Starship achieves first full orbital flight on 14th test, deploys satellites",
+      "status": "active"
+    },
+    {
+      "id": "spacex-gpu-expansion-ai-infra",
+      "first_briefed": "2026-09-30",
+      "section": "major",
+      "summary": "SpaceX reveals significant GPU capacity expansion, hinting at AI-infra ambitions",
+      "status": "active"
+    },
+    {
+      "id": "ny-energy-infrastructure-plan-2026",
+      "first_briefed": "2026-09-30",
+      "section": "major",
+      "summary": "Hochul unveils NY energy plan: $200M solar, 8.4GW Nuclear Backbone; transmission grid discussed",
+      "status": "active"
+    },
+    {
+      "id": "ubc-student-wellbeing-surge",
+      "first_briefed": "2026-09-30",
+      "section": "major",
+      "summary": "UBC reports 40% rise in counselling demand, expands wellbeing services",
+      "status": "active"
+    },
+    {
+      "id": "cost-of-living-library-hack",
+      "first_briefed": "2026-09-30",
+      "section": "major",
+      "summary": "Libraries partner with local businesses as affordability hack amid 3.4% price rise",
+      "status": "active"
+    },
+    {
+      "id": "us-canada-trade-ban-1b",
+      "first_briefed": "2026-09-30",
+      "section": "alerts",
+      "summary": "US bans ~$1B Canadian imports, deepening trade rift",
+      "status": "active"
+    },
+    {
+      "id": "uk-airbase-explosives-arrests",
+      "first_briefed": "2026-09-30",
+      "section": "alerts",
+      "summary": "Five arrested near UK air base hosting US forces on explosives suspicion",
+      "status": "active"
+    },
+    {
+      "id": "iran-hormuz-reopening-rejected",
+      "first_briefed": "2026-09-30",
+      "section": "alerts",
+      "summary": "Trump rejects Iran's plan to reopen Strait of Hormuz",
+      "status": "active"
+    },
+    {
+      "id": "super-el-nino-record-warmth",
+      "first_briefed": "2026-09-30",
+      "section": "alerts",
+      "summary": "Super El Niño bursts through temperature records months before peak",
+      "status": "active"
     }
   ]
 }
