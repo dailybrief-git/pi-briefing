@@ -4431,6 +4431,55 @@
       "section": "alerts",
       "summary": "Super El Niño bursts through temperature records months before peak",
       "status": "active"
+    },
+    {
+      "id": "spacex-starship-first-orbit",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Starship reaches orbit for first time on 14th flight, deploys satellites",
+      "status": "active"
+    },
+    {
+      "id": "title-ix-2020-rule-reinstated",
+      "first_briefed": "2026-10-01",
+      "section": "alerts",
+      "summary": "Education Dept rescinds Biden Title IX rewrite, reinstates 2020 regulation",
+      "status": "active"
+    },
+    {
+      "id": "dhs-pro-trump-ad-spend",
+      "first_briefed": "2026-10-01",
+      "section": "alerts",
+      "summary": "DHS spends $20M taxpayer funds on pro-administration advertising",
+      "status": "active"
+    },
+    {
+      "id": "kejelcha-half-marathon-wr",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Kejelcha sets men's half-marathon world record, 56:51, Buenos Aires",
+      "status": "active"
+    },
+    {
+      "id": "coned-ny-infrastructure-impact-2025",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Con Edison reports $24.8B 2025 NY economic impact; Gateway/highway projects continue",
+      "status": "active"
+    },
+    {
+      "id": "musk-spacex-ai-gigawatt-goal",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "Musk announces goal of hundreds of gigawatts AI compute via SpaceX",
+      "status": "active"
+    },
+    {
+      "id": "starship-reuse-cadence-watch",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "Hypothesis: fast Starship reuse cadence in coming flights is the real cost catalyst",
+      "status": "active"
     }
   ]
 }

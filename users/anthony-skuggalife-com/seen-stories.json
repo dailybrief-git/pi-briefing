@@ -3388,6 +3388,69 @@
       "section": "gems",
       "summary": "Krispy Kreme launches coffee-flavoured donut ahead of National Coffee Day",
       "status": "active"
+    },
+    {
+      "id": "sydney-offsite-manufacturing-push-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "NSW construction pivots toward modular/offsite manufacturing (Freecity, Prefab Concepts, HSR Authority)",
+      "status": "active"
+    },
+    {
+      "id": "us-china-tariff-cuts-60bn-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "US-China agree to cut tariffs on $60bn of goods, development on tariff-escalation story",
+      "status": "active"
+    },
+    {
+      "id": "bank-tech-job-cuts-sydney-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Major Australian banks cut Sydney tech roles as work moves offshore",
+      "status": "active"
+    },
+    {
+      "id": "greens-new-leadership-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Shoebridge/Hodgins-May elected new federal Greens leadership",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ai-cooling-breakthrough-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Sydney scientists claim world-first AI hardware cooling technology",
+      "status": "active"
+    },
+    {
+      "id": "card-surcharge-ban-effective-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "alerts",
+      "summary": "National card surcharge ban takes effect",
+      "status": "active"
+    },
+    {
+      "id": "atsb-sydney-airport-findings-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "alerts",
+      "summary": "ATSB finds staffing gaps contributed to Sydney Airport incidents",
+      "status": "active"
+    },
+    {
+      "id": "apple-smart-home-launch-date-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "Apple confirms Oct 13 smart-home launch, development on Apple home-platform story",
+      "status": "active"
+    },
+    {
+      "id": "contech-seed-rounds-arcos-envicore-2026-09",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "Arcos (€5.5m) and EnviCore raise construction-materials seed funding",
+      "status": "active"
     }
   ]
 }

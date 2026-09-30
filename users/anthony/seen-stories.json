@@ -6391,6 +6391,90 @@
       "section": "podcasts",
       "summary": "Diary of a CEO debate episode on AI existential risk",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flood-disaster-oct2026",
+      "first_briefed": "2026-10-01",
+      "section": "alerts",
+      "summary": "Bangkok flood disaster declared after 330mm rain in 48 hours",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-2026-dots-gpt61",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "OpenAI DevDay launches Dots agents, GPT-6.1 Sol, $500/mo tier",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-sonnet-5-5-launch",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Anthropic releases cheaper, faster Sonnet 5.5",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-overhaul-2026",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Microsoft relaunches Copilot with Home, Code, Autopilot",
+      "status": "active"
+    },
+    {
+      "id": "trump-ai-superintelligence-pact",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Trump brokers AI CEO safety pact, renames AI 'superintelligence'",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-crispr-like-discovery",
+      "first_briefed": "2026-10-01",
+      "section": "major",
+      "summary": "Anthropic's Claude CRISPR-like claim disputed by scientists",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-worldbank-secondary-cities",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "World Bank names Chiang Mai key secondary-city growth lever",
+      "status": "active"
+    },
+    {
+      "id": "tceb-mice-cities-2027-renewal",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "Chiang Mai faces 2027 MICE City renewal assessment",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-market-2026-shift",
+      "first_briefed": "2026-10-01",
+      "section": "opportunities",
+      "summary": "China wine imports fall by volume, hold value in H1 2026",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-2-launch-date",
+      "first_briefed": "2026-10-01",
+      "section": "companies",
+      "summary": "Tesla Roadster 2.0 launch confirmed for Oct 15",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-nevada-factory-scale",
+      "first_briefed": "2026-10-01",
+      "section": "companies",
+      "summary": "Tesla scales Semi truck production at new Nevada factory",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-majorana2-darpa-test",
+      "first_briefed": "2026-10-01",
+      "section": "gems",
+      "summary": "DARPA independently testing Microsoft's Majorana 2 quantum claim",
+      "status": "active"
     }
   ]
 }
