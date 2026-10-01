@@ -6475,6 +6475,69 @@
       "section": "gems",
       "summary": "DARPA independently testing Microsoft's Majorana 2 quantum claim",
       "status": "active"
+    },
+    {
+      "id": "thailand-flood-disaster-oct2026",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Bangkok flooding declared disaster, national command activated first time in 15 years, Toyota halts 4 factories",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-gpt61-dots",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "OpenAI DevDay: GPT-6.1 Sol, Dots agent, $500/mo Pro tier, 1.2B weekly users",
+      "status": "active"
+    },
+    {
+      "id": "google-gemini-4-argon",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Google rolls out Gemini 4 Argon flagship model",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-home-code-autopilot",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Microsoft rebuilds Copilot around Home/Code/Autopilot structure",
+      "status": "active"
+    },
+    {
+      "id": "meta-connect-vr-glasses-2026",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Meta Connect 2026 unveils VR Glasses, camera-free Ray-Bans, Muse Charm; pivots from metaverse",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-nevada-volume-production",
+      "first_briefed": "2026-10-02",
+      "section": "companies",
+      "summary": "Tesla Semi enters volume production at new Nevada factory",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-launch-date-conflict",
+      "first_briefed": "2026-10-02",
+      "section": "companies",
+      "summary": "Tesla Roadster 2.0 launch date unconfirmed, conflicting Oct 1 vs Oct 15 reports",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-export-market-2026",
+      "first_briefed": "2026-10-02",
+      "section": "opportunities",
+      "summary": "China wine import volumes fall, value holds; new labeling rules March 2027",
+      "status": "active"
+    },
+    {
+      "id": "world-bank-chiangmai-secondary-hub",
+      "first_briefed": "2026-10-02",
+      "section": "opportunities",
+      "summary": "World Bank urges Thailand to build Chiang Mai as secondary economic hub",
+      "status": "active"
     }
   ]
 }

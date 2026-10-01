@@ -1491,6 +1491,48 @@
       "section": "gems",
       "summary": "Lendlease lists $160m of logistics assets across Sydney, Brisbane, Perth.",
       "status": "active"
+    },
+    {
+      "id": "rba-rate-hike-oct2026",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "RBA hikes cash rate to highest since 2011, Australia closing in on world's highest rates.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-ultimo-scaffolding-collapse-oct2026",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Second structural failure at Ultimo site in weeks; regulator issues prohibition notice.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-ssd-declaration-order-11-2026",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "NSW signs SSD Declaration Order No.11 2026, fast-tracking 15 projects.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-construction-pipeline-wsa-pivot",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Construction demand swells ahead of WSA's Oct 25 opening; offsite manufacturing push by Freecity/Prefab Concepts/HSRA.",
+      "status": "active"
+    },
+    {
+      "id": "us-demolition-tax-basis-reform-push",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "US industry groups lobby to reform demolition-expense tax treatment to spur rebuilding.",
+      "status": "active"
+    },
+    {
+      "id": "connect-apartments-2026-buying-opportunity",
+      "first_briefed": "2026-10-02",
+      "section": "opportunities",
+      "summary": "Trepp exec flags generational buying opportunities in US multifamily driven by debt-stack dispersion.",
+      "status": "active"
     }
   ]
 }

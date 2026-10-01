@@ -4480,6 +4480,62 @@
       "section": "opportunities",
       "summary": "Hypothesis: fast Starship reuse cadence in coming flights is the real cost catalyst",
       "status": "active"
+    },
+    {
+      "id": "starship-first-orbit-flight14",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "SpaceX Starship reaches orbit for first time on 14th flight, deploys satellites",
+      "status": "active"
+    },
+    {
+      "id": "titleix-2020-reg-reinstated",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Education Dept formally rescinds Biden Title IX rule, reinstates 2020 regulation",
+      "status": "active"
+    },
+    {
+      "id": "nike-apex-marathon-shoe",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Nike launches Apex marathon racing shoe",
+      "status": "active"
+    },
+    {
+      "id": "school-ai-screen-ban-bills",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "17 states weighing bills to restrict classroom AI/screen use amid attention-span survey",
+      "status": "active"
+    },
+    {
+      "id": "satlyt-ai-satellites-raise",
+      "first_briefed": "2026-10-02",
+      "section": "opportunities",
+      "summary": "Ex-SpaceX/Google PM raises $8M for AI-on-satellites startup Satlyt",
+      "status": "active"
+    },
+    {
+      "id": "nyc-jtrain-stabbing",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Unprovoked stabbing on Queens-bound J train injures 59-year-old man",
+      "status": "active"
+    },
+    {
+      "id": "dhs-pro-trump-ads-20m",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "DHS taps $20M taxpayer funds for pro-Trump ads",
+      "status": "active"
+    },
+    {
+      "id": "flydubai-1073-iran-sanctions",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Flydubai Flight 1073 probe with suspected Iran role, plus new toughest-ever Iran sanctions",
+      "status": "active"
     }
   ]
 }

@@ -3451,6 +3451,55 @@
       "section": "opportunities",
       "summary": "Arcos (€5.5m) and EnviCore raise construction-materials seed funding",
       "status": "active"
+    },
+    {
+      "id": "rba-rate-hike-2026-10",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "RBA hikes cash rate to highest since 2011; Australia near world's highest rates",
+      "status": "active"
+    },
+    {
+      "id": "sydney-datacentre-scrapped-2026-09",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Guardian flags a Sydney data-centre project scrapped, limited detail",
+      "status": "active"
+    },
+    {
+      "id": "bank-tech-job-cuts-2026-09",
+      "first_briefed": "2026-10-02",
+      "section": "alerts",
+      "summary": "Major Australian banks cut Sydney tech roles, offshore work",
+      "status": "active"
+    },
+    {
+      "id": "trump-tariff-court-challenge-2026-09",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Trump's 86-country tariff regime faces new trade court challenge",
+      "status": "active"
+    },
+    {
+      "id": "broadcom-anthropic-chip-lease-2026-10",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Broadcom to lend Anthropic up to $42bn for chip lease financing",
+      "status": "active"
+    },
+    {
+      "id": "greens-leadership-change-2026-10",
+      "first_briefed": "2026-10-02",
+      "section": "major",
+      "summary": "Larissa Waters resigns as Greens leader; Shoebridge succession controversy",
+      "status": "active"
+    },
+    {
+      "id": "r2crete-construction-materials-funding-2026-10",
+      "first_briefed": "2026-10-02",
+      "section": "opportunities",
+      "summary": "Melbourne's R2Crete raises pre-seed for low-carbon concrete tech",
+      "status": "active"
     }
   ]
 }
