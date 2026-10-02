@@ -1533,6 +1533,69 @@
       "section": "opportunities",
       "summary": "Trepp exec flags generational buying opportunities in US multifamily driven by debt-stack dispersion.",
       "status": "active"
+    },
+    {
+      "id": "ultimo-scaffolding-collapse-oct2026",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Second Ultimo building-site safety incident; scaffolding collapse, SafeWork NSW prohibition notice.",
+      "status": "active"
+    },
+    {
+      "id": "us-jobs-report-market-selloff-oct2026",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Weak US September payrolls (29k), unemployment 4.2%, market sell-off, Micron miss.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-near-3yr-high-oct2026",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "US 30-yr fixed mortgage rate approaches 7.5%, near three-year high.",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-airport-opening-confirmed",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "WSI Airport confirmed to open 25 Oct 2026, curfew-free 24/7 operation.",
+      "status": "active"
+    },
+    {
+      "id": "deicorp-randwick-tower-plans",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "Deicorp files plans for new apartment tower in Randwick.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-ai-search-launch",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "Apartments.com launches conversational AI search at Apartmentalize 2026.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-sept-rent-report-2026",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "US apartment rent decline moderates in September 2026 vs prior years.",
+      "status": "active"
+    },
+    {
+      "id": "transurban-sydney-infra-speculation",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "Analyst speculation on Transurban deepening Sydney infrastructure exposure.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-regulations-clarified",
+      "first_briefed": "2026-10-03",
+      "section": "gems",
+      "summary": "NSW tiny home regulations guide confirms Class 1a status for foundation-based tiny homes.",
+      "status": "active"
     }
   ]
 }

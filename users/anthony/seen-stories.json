@@ -6538,6 +6538,97 @@
       "section": "opportunities",
       "summary": "World Bank urges Thailand to build Chiang Mai as secondary economic hub",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flooding-disaster-zones",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "All 50 Bangkok districts declared disaster zones amid flash flooding; dam raising discharge",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-market-2026-data",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "China wine import price data and new exporter seminar flag March 2027 label-rule change",
+      "status": "active"
+    },
+    {
+      "id": "tceb-six-new-mice-cities",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "TCEB adds six new MICE Cities to Thailand's events-tourism network",
+      "status": "active"
+    },
+    {
+      "id": "thailand-trade-deficit-8month",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "Thailand's Jan-Aug 2026 trade deficit widens on China import surge",
+      "status": "active"
+    },
+    {
+      "id": "thailand-us-wallstreet-pact",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "PM Anutin's US visit yields closer Bangkok-Wall Street ties pact",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-gpt61-sol",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "OpenAI DevDay: GPT-6.1 Sol, $500/mo Pro tier, Dots agents, 1.2B weekly users",
+      "status": "active"
+    },
+    {
+      "id": "meta-connect-2026-raybans",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "Meta Connect 2026 unveils third-gen Ray-Ban smart glasses, continued app spree",
+      "status": "active"
+    },
+    {
+      "id": "openai-model-copying-allegation",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "OpenAI flags alleged model-copying campaign amid AI competition",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-enzyme-discovery-dispute",
+      "first_briefed": "2026-10-03",
+      "section": "gems",
+      "summary": "Scientists question originality of Claude's enzyme discovery",
+      "status": "active"
+    },
+    {
+      "id": "california-ai-robo-boss-ban",
+      "first_briefed": "2026-10-03",
+      "section": "gems",
+      "summary": "California bans AI 'robo bosses' in landmark labor law",
+      "status": "active"
+    },
+    {
+      "id": "apple-health-ai-update",
+      "first_briefed": "2026-10-03",
+      "section": "gems",
+      "summary": "Apple expands Apple Intelligence health/fitness features",
+      "status": "active"
+    },
+    {
+      "id": "boeing-strike-avoided",
+      "first_briefed": "2026-10-03",
+      "section": "interest",
+      "summary": "Boeing workers approve contract, averting strike",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-episode",
+      "first_briefed": "2026-10-03",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Professor Jiang on AI and global power",
+      "status": "active"
     }
   ]
 }

@@ -4536,6 +4536,83 @@
       "section": "alerts",
       "summary": "Flydubai Flight 1073 probe with suspected Iran role, plus new toughest-ever Iran sanctions",
       "status": "active"
+    },
+    {
+      "id": "starship-first-orbit",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "SpaceX Starship reaches orbit for first time on 14th flight",
+      "status": "active"
+    },
+    {
+      "id": "google-orbital-compute-chip-launch",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "Google launches prototype orbital compute chip aboard SpaceX rocket",
+      "status": "active"
+    },
+    {
+      "id": "mta-port-jefferson-land-acquisition",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "MTA acquires 46+ acres in Port Jefferson for future LIRR expansion",
+      "status": "active"
+    },
+    {
+      "id": "nike-apex-marathon-shoe-launch",
+      "first_briefed": "2026-10-03",
+      "section": "major",
+      "summary": "Nike launches Apex racing shoe plus Swooshfly, continuing marathon shoe-tech race",
+      "status": "active"
+    },
+    {
+      "id": "canvas-ai-tool-adoption-data",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "Instructure/Canvas data shows AI classroom tools underused despite hype",
+      "status": "active"
+    },
+    {
+      "id": "satlyt-orbital-ai-funding",
+      "first_briefed": "2026-10-03",
+      "section": "opportunities",
+      "summary": "Satlyt raises $8M for AI-on-satellites, signaling early orbital-compute investment",
+      "status": "active"
+    },
+    {
+      "id": "texas-border-wall-blocked-bigbend",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Federal court blocks border wall construction in Big Bend, Texas",
+      "status": "active"
+    },
+    {
+      "id": "trump-approval-new-low-ap-norc",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "AP-NORC poll: Trump economic approval hits new low over prices",
+      "status": "active"
+    },
+    {
+      "id": "scotus-third-country-deportations",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Supreme Court lets Trump resume third-country deportations",
+      "status": "active"
+    },
+    {
+      "id": "hegseth-drone-command-generals-cuts",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Hegseth announces new drone command and 20% cut to generals",
+      "status": "active"
+    },
+    {
+      "id": "ed-dept-communism-curriculum-letter",
+      "first_briefed": "2026-10-03",
+      "section": "alerts",
+      "summary": "Education Dept urges schools to strengthen anti-communism curriculum ahead of Nov 7",
+      "status": "active"
     }
   ]
 }
