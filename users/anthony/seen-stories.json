@@ -6629,6 +6629,55 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Professor Jiang on AI and global power",
       "status": "active"
+    },
+    {
+      "id": "openai-devday-2026-gpt61-sol",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "OpenAI DevDay: GPT-6.1 Sol, Dots agent, ChatGPT-as-platform push",
+      "status": "active"
+    },
+    {
+      "id": "meta-connect-2026-muse-glasses",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Meta Connect 2026: Muse AI agent and new smart glasses",
+      "status": "active"
+    },
+    {
+      "id": "us-jobs-report-sept-2026",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "US Sept jobs report shows cooling hiring, unemployment at 4.2%",
+      "status": "active"
+    },
+    {
+      "id": "boisset-artesa-winery-acquisition",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "Boisset Collection acquires Artesa Winery from Codorníu",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-import-shift-2026",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "China wine imports: higher avg prices but cheapest SKUs cut, new 2027 rules",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-2-launch-oct15",
+      "first_briefed": "2026-10-04",
+      "section": "rail-today",
+      "summary": "Tesla Roadster 2.0 launch confirmed for 15 October 2026",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-ai-geopolitics",
+      "first_briefed": "2026-10-04",
+      "section": "podcasts",
+      "summary": "DOAC episode with Professor Jiang on AI and global power",
+      "status": "active"
     }
   ]
 }

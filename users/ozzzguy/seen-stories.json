@@ -4613,6 +4613,48 @@
       "section": "alerts",
       "summary": "Education Dept urges schools to strengthen anti-communism curriculum ahead of Nov 7",
       "status": "active"
+    },
+    {
+      "id": "instructure-edtech-top40",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Instructure's EdTech Top 40 shows no AI tool in top 100 used LMS integrations, reinforcing tool-sprawl findings",
+      "status": "active"
+    },
+    {
+      "id": "eddept-communism-curriculum-letter",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Ed Dept Dear Colleague Letter pushes communism/socialism curriculum ahead of Nov 7 observance",
+      "status": "active"
+    },
+    {
+      "id": "google-gemini-study-tools-expansion",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Google expands Gemini study tools in Classroom to younger students",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "US announces toughest-ever sanctions on Iran as alternative to military action",
+      "status": "active"
+    },
+    {
+      "id": "student-wellbeing-research-oct",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "New research on school connectedness and digital colouring boosting student wellbeing",
+      "status": "active"
+    },
+    {
+      "id": "marathon-vinny-mauri-buildup",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "Vinny Mauri's extreme training volume ahead of Chicago Marathon raises training-model hypothesis",
+      "status": "active"
     }
   ]
 }

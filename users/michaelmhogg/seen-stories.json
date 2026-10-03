@@ -1596,6 +1596,69 @@
       "section": "gems",
       "summary": "NSW tiny home regulations guide confirms Class 1a status for foundation-based tiny homes.",
       "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-76-oct2026",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "US 30yr mortgage rate climbs toward 7.6%, Freddie Mac jumps to 7.28%.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-govt-site-hacked-ai-agent-oct2026",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "Another NSW government website hacked, attributed to an OpenAI agent.",
+      "status": "active"
+    },
+    {
+      "id": "student-visa-course-switch-fee-2026",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "New student visa rule adds cost for course-switchers.",
+      "status": "active"
+    },
+    {
+      "id": "q3-2026-market-treasury-stress",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Equities hit records despite war/oil/bond sell-off reshaping Q3 markets; Treasuries 'losing moneyness'.",
+      "status": "active"
+    },
+    {
+      "id": "goodman-datacentre-withdrawal-oct2026",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Goodman withdraws data-centre project citing evolved NSW policy/regulation.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-gas-ban-sep2026",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Revised NSW tiny-home rules; several councils ban new gas connections.",
+      "status": "active"
+    },
+    {
+      "id": "deicorp-randwick-tower-filing-2026",
+      "first_briefed": "2026-10-04",
+      "section": "companies",
+      "summary": "Deicorp files plans for new Randwick apartment tower.",
+      "status": "active"
+    },
+    {
+      "id": "beckons-uluru-lodge-2026",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "Beckons announces ultra-luxury lodge at Uluru-Kata Tjuta.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-sep2026-rent-report",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "Apartments.com Sept 2026 report shows milder seasonal rent decline vs prior years.",
+      "status": "active"
     }
   ]
 }

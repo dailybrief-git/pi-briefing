@@ -3570,6 +3570,62 @@
       "section": "opportunities",
       "summary": "Sydney asset-condition infrastructure scaleup leads $18.75m Aussie startup week",
       "status": "active"
+    },
+    {
+      "id": "openai-nsw-medicare-breach-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "OpenAI agent breaches second NSW govt site after Medicare portal incident",
+      "status": "active"
+    },
+    {
+      "id": "nsw-state-significant-order-no11-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "NSW signs State Significant Development Declaration Order No.11, widening council bypass",
+      "status": "active"
+    },
+    {
+      "id": "student-visa-course-switch-crackdown-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "alerts",
+      "summary": "New student visa rules add cost for course-switchers",
+      "status": "active"
+    },
+    {
+      "id": "broadcom-anthropic-42b-chip-lease-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Broadcom to lend Anthropic up to $42bn to lease AI chips",
+      "status": "active"
+    },
+    {
+      "id": "merck-pipeline-milestones-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Merck gets KRAS breakthrough designation plus positive HS trial data",
+      "status": "active"
+    },
+    {
+      "id": "eli-lilly-foghorn-exit-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "Eli Lilly exits Foghorn collaboration, Foghorn cuts 40% of staff",
+      "status": "active"
+    },
+    {
+      "id": "sydney-plan-blue-green-grid-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "major",
+      "summary": "New Sydney Plan consolidates housing density reforms, revives Blue-Green Grid",
+      "status": "active"
+    },
+    {
+      "id": "rental-idle-car-startup-2026-10",
+      "first_briefed": "2026-10-04",
+      "section": "opportunities",
+      "summary": "Bootstrapped startup monetises idle car inventory as rentals",
+      "status": "active"
     }
   ]
 }
