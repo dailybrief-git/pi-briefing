@@ -4655,6 +4655,83 @@
       "section": "opportunities",
       "summary": "Vinny Mauri's extreme training volume ahead of Chicago Marathon raises training-model hypothesis",
       "status": "active"
+    },
+    {
+      "id": "ap-norc-voter-dissatisfaction-poll",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "AP-NORC poll finds deep voter dissatisfaction with Trump/GOP ahead of Nov 3 midterms",
+      "status": "active"
+    },
+    {
+      "id": "g7-oil-reserve-release",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "G7 releases 100M barrels from strategic reserves under White House pressure",
+      "status": "active"
+    },
+    {
+      "id": "mta-tariff-cost-increase",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "Tariffs add $1B+ to MTA new transit vehicle costs",
+      "status": "active"
+    },
+    {
+      "id": "cost-of-living-affordability-gap",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "WaPo analysis: 3.4% inflation masks widening affordability gap",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-orbit-milestone",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "SpaceX Starship reaches orbit for first time; Google tests orbital compute satellite",
+      "status": "active"
+    },
+    {
+      "id": "hudson-tunnel-boring-begins",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Tunnel boring begins on Hudson Tunnel Project despite frozen federal transit funds",
+      "status": "active"
+    },
+    {
+      "id": "nyc-box-street-nostrand-houses",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Mamdani admin advances Greenpoint park and $607M NYCHA modernization",
+      "status": "active"
+    },
+    {
+      "id": "ultramarathon-rbc-study",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Study finds ultramarathons may damage red blood cells and accelerate aging",
+      "status": "active"
+    },
+    {
+      "id": "nike-swooshfly-supershoe",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Nike unveils Swooshfly shoe with breakthrough SkyX foam",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-compute-ai-opportunity",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Musk's terawatt-scale orbital AI compute goal plus Satlyt funding signal new sector",
+      "status": "active"
+    },
+    {
+      "id": "mta-domestic-manufacturing-hypothesis",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Hypothesis: tariff cost shock could push MTA toward domestic rail suppliers",
+      "status": "active"
     }
   ]
 }

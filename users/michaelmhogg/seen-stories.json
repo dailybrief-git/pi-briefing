@@ -1659,6 +1659,76 @@
       "section": "opportunities",
       "summary": "Apartments.com Sept 2026 report shows milder seasonal rent decline vs prior years.",
       "status": "active"
+    },
+    {
+      "id": "ultimo-scaffolding-second-collapse",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "Second structural safety incident at same Ultimo site within weeks; SafeWork NSW issues prohibition notice.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-76pct-oct2026",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "US 30-year fixed mortgage rate climbs to 7.6%, near 3-year high, up from 6.69% in August.",
+      "status": "active"
+    },
+    {
+      "id": "dollar-18mo-high-oil-iran-volatility",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "Dollar index near 18-month high, bond yields up, oil swings on US-Iran standoff.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-ssd-declaration-order-no11-2026",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "NSW signs SSD Declaration Order (No 11) 2026 widening fast-track project eligibility.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-gas-ban-update-2026",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "September 2026 guide shows spreading gas-connection bans in inner-Sydney council tiny-home/residential rules.",
+      "status": "active"
+    },
+    {
+      "id": "transurban-sydney-infra-outlook",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Analysts flag Transurban likely to deepen Sydney toll-road infrastructure exposure.",
+      "status": "active"
+    },
+    {
+      "id": "us-apartment-rent-sept2026-data",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "US September 2026 apartment rents fall just -0.08% MoM, mildest seasonal decline in three years.",
+      "status": "active"
+    },
+    {
+      "id": "wapo-affordability-illusion-analysis",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Washington Post analysis argues 3.4% headline inflation masks deeper cost-of-living gap.",
+      "status": "active"
+    },
+    {
+      "id": "applied-materials-besi-epic-center",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Applied Materials and Besi expand $5bn AI chip-packaging R&D partnership via new EPIC Center.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-ai-conversational-search",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Apartments.com launches conversational AI leasing search at Apartmentalize 2026.",
+      "status": "active"
     }
   ]
 }

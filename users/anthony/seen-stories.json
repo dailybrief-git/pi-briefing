@@ -6678,6 +6678,104 @@
       "section": "podcasts",
       "summary": "DOAC episode with Professor Jiang on AI and global power",
       "status": "active"
+    },
+    {
+      "id": "chiangmai-phuket-airport-boeing-777x-readiness",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Chiang Mai, Phuket airports upgrade systems ahead of Boeing 777X ops",
+      "status": "active"
+    },
+    {
+      "id": "thai-airways-wine-scandal",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "Thai Airways CEO suspended over 860,000-bottle wine procurement probe",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-export-seminar-guide",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Seminar maps China wine export compliance rules for exporters",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-import-price-data-2026",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "China wine import data shows falling shelf prices in H1 2026",
+      "status": "active"
+    },
+    {
+      "id": "tceb-six-mice-cities-2026",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "TCEB names six new MICE Cities for 2026",
+      "status": "active"
+    },
+    {
+      "id": "singapore-scaleup-bio-future-food",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Singapore's ScaleUp Bio offers future-food scale-up model",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-michelin-wine-pairing",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Michelin-noted Chiang Mai restaurants expand premium wine pairing",
+      "status": "active"
+    },
+    {
+      "id": "tesla-china-model3y-v2l-update",
+      "first_briefed": "2026-10-05",
+      "section": "rail",
+      "summary": "China-made Tesla Model 3/Y gain V2L bidirectional charging",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-enzyme-credit-dispute",
+      "first_briefed": "2026-10-05",
+      "section": "rail",
+      "summary": "Dispute over credit for Claude's enzyme discovery",
+      "status": "active"
+    },
+    {
+      "id": "affordability-illusion-inflation-gap",
+      "first_briefed": "2026-10-05",
+      "section": "rail",
+      "summary": "Washington Post: inflation vs real cost-of-living affordability gap",
+      "status": "active"
+    },
+    {
+      "id": "fdat-goat-milk-regulation",
+      "first_briefed": "2026-10-05",
+      "section": "rail",
+      "summary": "Thailand tightens goat milk/flavoured milk standards",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-hailstorm-weather",
+      "first_briefed": "2026-10-05",
+      "section": "rail",
+      "summary": "Unusual hailstorms hit Bangkok districts",
+      "status": "active"
+    },
+    {
+      "id": "trump-ai-superintelligence-rename",
+      "first_briefed": "2026-10-05",
+      "section": "interest",
+      "summary": "Trump signs order renaming AI to 'Superintelligence'",
+      "status": "active"
+    },
+    {
+      "id": "doac-huberman-post-meal-walk-episode",
+      "first_briefed": "2026-10-05",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Huberman on metabolism/post-meal walks",
+      "status": "active"
     }
   ]
 }

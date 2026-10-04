@@ -3626,6 +3626,83 @@
       "section": "opportunities",
       "summary": "Bootstrapped startup monetises idle car inventory as rentals",
       "status": "active"
+    },
+    {
+      "id": "nsw-sso-declaration-order-11-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "NSW signs 11th State Significant Development Declaration Order",
+      "status": "active"
+    },
+    {
+      "id": "usd-index-18month-high-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "US Dollar Index nears 102, 18-month high",
+      "status": "active"
+    },
+    {
+      "id": "eo-14434-superintelligence-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "alerts",
+      "summary": "White House Executive Order 14434 on 'Era of Super Intelligence'",
+      "status": "active"
+    },
+    {
+      "id": "apple-smart-home-launch-date-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Apple confirms 13 Oct smart-home launch (development)",
+      "status": "active"
+    },
+    {
+      "id": "ai-infra-asx-ipo-valuation-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "AI infra float to be biggest ASX debut since Telstra (development)",
+      "status": "active"
+    },
+    {
+      "id": "merck-tulisokibart-calderasib-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Merck Phase 2b HS win and KRAS breakthrough designation",
+      "status": "active"
+    },
+    {
+      "id": "lilly-foghorn-collaboration-end-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "major",
+      "summary": "Eli Lilly exits Foghorn collaboration, 40% layoffs",
+      "status": "active"
+    },
+    {
+      "id": "elise-ai-350m-funding-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "EliseAI raises $350M at $4B for AI rental housing",
+      "status": "active"
+    },
+    {
+      "id": "arcos-contech-seed-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Arcos raises €5.5m seed for contech European expansion",
+      "status": "active"
+    },
+    {
+      "id": "doe-critical-minerals-accelerator-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "DOE opens $69m Critical Minerals and Materials Accelerator",
+      "status": "active"
+    },
+    {
+      "id": "idle-car-rental-startup-2026-10",
+      "first_briefed": "2026-10-05",
+      "section": "opportunities",
+      "summary": "Bootstrapped startup turns idle car inventory into rental revenue",
+      "status": "active"
     }
   ]
 }
