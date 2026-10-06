@@ -6776,6 +6776,104 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Huberman on metabolism/post-meal walks",
       "status": "active"
+    },
+    {
+      "id": "thai-airways-wine-procurement-scandal",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Thai Airways CEO denies corruption over 860,000-bottle, ฿1bn wine procurement",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-gpt61-sol-dots",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "OpenAI DevDay: Dots agent, GPT-6.1 Sol, $500/mo Pro tier, 1.2B weekly users",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-sonnet-5-5-release",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Anthropic ships Sonnet 5.5, retires Sonnet 4.5 on Nov 30",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-nucleus",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Microsoft rebuilds Copilot around new Nucleus reasoning engine",
+      "status": "active"
+    },
+    {
+      "id": "google-argon-frontier-model",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Google's Argon model claims benchmark edge over OpenAI/Anthropic",
+      "status": "active"
+    },
+    {
+      "id": "mivana-coffee-cherry-shot-drink",
+      "first_briefed": "2026-10-07",
+      "section": "opportunities",
+      "summary": "MiVana launches coffee-cherry wellness shot drink",
+      "status": "active"
+    },
+    {
+      "id": "tesla-model2-preorders-15990",
+      "first_briefed": "2026-10-07",
+      "section": "companies",
+      "summary": "Tesla Model 2 preorders reportedly open at $15,990 (unconfirmed by Tesla)",
+      "status": "active"
+    },
+    {
+      "id": "meta-muse-shopping-checkout",
+      "first_briefed": "2026-10-07",
+      "section": "companies",
+      "summary": "Meta's Muse adds shopping/checkout capability",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-word-citations",
+      "first_briefed": "2026-10-07",
+      "section": "companies",
+      "summary": "Microsoft adds citations to Copilot in Word",
+      "status": "active"
+    },
+    {
+      "id": "memory-chip-molten-lava-heat",
+      "first_briefed": "2026-10-07",
+      "section": "gems",
+      "summary": "New memory device operates above molten-lava temperatures",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-ai-power",
+      "first_briefed": "2026-10-07",
+      "section": "podcasts",
+      "summary": "DOAC episode with Professor Jiang on AI and global power struggle",
+      "status": "active"
+    },
+    {
+      "id": "internet-fragmentation-web-of-walls",
+      "first_briefed": "2026-10-07",
+      "section": "interest",
+      "summary": "Politico on country-by-country internet/age-verification fragmentation",
+      "status": "active"
+    },
+    {
+      "id": "thailand-trade-deficit-china-imports",
+      "first_briefed": "2026-10-07",
+      "section": "interest",
+      "summary": "Thailand's 8-month trade deficit widens on China imports",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-hailstorms-october",
+      "first_briefed": "2026-10-07",
+      "section": "interest",
+      "summary": "Unusual hailstorms hit Bangkok districts",
+      "status": "active"
     }
   ]
 }

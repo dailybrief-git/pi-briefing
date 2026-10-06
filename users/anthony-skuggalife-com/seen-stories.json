@@ -3703,6 +3703,76 @@
       "section": "opportunities",
       "summary": "Bootstrapped startup turns idle car inventory into rental revenue",
       "status": "active"
+    },
+    {
+      "id": "openai-medicare-trust-crisis-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "OpenAI apologises for Medicare file access, Anthropic defends non-monitoring stance, Kwon fronts Sydney press",
+      "status": "active"
+    },
+    {
+      "id": "nsw-planning-round2-grants-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "NSW opens second $73m round of faster-DA grants to 44 councils",
+      "status": "active"
+    },
+    {
+      "id": "euro-fx-17month-low-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Euro hits 17-month low vs USD, down ~5% YTD, small bounce",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-chip-financing-megadeal-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Broadcom $42bn loan + $60bn Wall Street debt package finance Anthropic chip leasing",
+      "status": "active"
+    },
+    {
+      "id": "tariff-trade-court-g20-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Trump tariffs face trade-court challenge; G20 Milwaukee trade friction over China unity push",
+      "status": "active"
+    },
+    {
+      "id": "sydney-infrastructure-pipeline-watch-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Clyde metro tunnelling progress; Transurban Sydney toll-road expansion speculation",
+      "status": "active"
+    },
+    {
+      "id": "eliseai-funding-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "opportunities",
+      "summary": "EliseAI raises $350m at $4bn valuation for AI home-rental platform",
+      "status": "active"
+    },
+    {
+      "id": "car-rental-startup-funding-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "opportunities",
+      "summary": "Bootstrapped startup converts idle car inventory into rental revenue",
+      "status": "active"
+    },
+    {
+      "id": "israeli-construction-software-valuation-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "startups",
+      "summary": "Unnamed Israeli construction-software firm quadruples valuation, 400+ staff",
+      "status": "active"
+    },
+    {
+      "id": "executive-moves-q3-report-2026-10",
+      "first_briefed": "2026-10-07",
+      "section": "gems",
+      "summary": "Executive Moves Q3 report: 360 appointments, 40%+ new CEOs/chairs",
+      "status": "active"
     }
   ]
 }

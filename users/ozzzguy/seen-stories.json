@@ -4732,6 +4732,48 @@
       "section": "opportunities",
       "summary": "Hypothesis: tariff cost shock could push MTA toward domestic rail suppliers",
       "status": "active"
+    },
+    {
+      "id": "spacex-stock-trillionaire-starship-orbit",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "SpaceX stock hits post-IPO high, Musk back to trillionaire status, Starship reaches orbit on 14th flight",
+      "status": "active"
+    },
+    {
+      "id": "inflation-affordability-gap-aug2026",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "August 2026 inflation holds at 3.4% but affordability gap analysis shows deeper cost pressure; COLA 2027 tracking ~$69/mo",
+      "status": "active"
+    },
+    {
+      "id": "spacex-orbital-computing-goal",
+      "first_briefed": "2026-10-07",
+      "section": "opportunities",
+      "summary": "Musk floats orbital computing goal linking Starlink/Tesla/Nvidia; Google data suggests 1,800 launches needed first",
+      "status": "active"
+    },
+    {
+      "id": "kyiv-drone-escalation-oct2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Russia escalates jet-powered drone strikes on Kyiv bridges",
+      "status": "active"
+    },
+    {
+      "id": "quebec-separatist-election-2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Quebec separatists win election but fall short of independence mandate",
+      "status": "active"
+    },
+    {
+      "id": "spain-flooding-oct2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Eastern Spain braces for torrential rain and flooding, up to 300mm forecast",
+      "status": "active"
     }
   ]
 }

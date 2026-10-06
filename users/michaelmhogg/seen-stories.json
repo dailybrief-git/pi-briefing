@@ -1729,6 +1729,55 @@
       "section": "opportunities",
       "summary": "Apartments.com launches conversational AI leasing search at Apartmentalize 2026.",
       "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-738-oct2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate jumps to 7.38% on Iran-war risk and sticky inflation.",
+      "status": "active"
+    },
+    {
+      "id": "au-inflation-4pct-rate-climb-oct2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "Australia closing in on world's highest interest rates as inflation hits 4%.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-hpc-levy-effective-2026",
+      "first_briefed": "2026-10-07",
+      "section": "alerts",
+      "summary": "NSW Housing and Productivity Contribution levy now applies to new DAs from 1 July 2026.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-supalai-funds-leader-oct2026",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Mirvac appoints new funds chief; commits further $115m to Supalai housing JV.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-faster-program-round2-73m",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "NSW allocates $73m to 44 councils under round two of Faster planning program.",
+      "status": "active"
+    },
+    {
+      "id": "tesla-30bn-credit-optimus-cybercab",
+      "first_briefed": "2026-10-07",
+      "section": "major",
+      "summary": "Tesla secures $30bn in fresh credit to scale Optimus and Cybercab.",
+      "status": "active"
+    },
+    {
+      "id": "digi-international-disruptive-tech-acquisition",
+      "first_briefed": "2026-10-07",
+      "section": "opportunities",
+      "summary": "Digi International acquires sensor-tech firm Disruptive Technologies for $130m.",
+      "status": "active"
     }
   ]
 }
