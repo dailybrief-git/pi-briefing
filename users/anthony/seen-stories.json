@@ -6874,6 +6874,55 @@
       "section": "interest",
       "summary": "Unusual hailstorms hit Bangkok districts",
       "status": "active"
+    },
+    {
+      "id": "thai-airways-wine-corruption-denial",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Thai Airways CEO denies graft over 860,000-bottle, ~฿1bn wine purchase",
+      "status": "active"
+    },
+    {
+      "id": "phuket-licence-lab-sme-accommodation",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Phuket launches Licence Lab to ease SME accommodation licensing",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-2026-dots-sol",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "OpenAI DevDay: Dots agent, GPT-6.1 Sol, $500/mo Pro plan, 1.2B weekly users",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-sonnet-5-5-claude-design",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "Anthropic ships Sonnet 5.5 and Claude Design product",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-windows-copilot-ai-push-oct26",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "Microsoft Oct 7 Windows event + Copilot Home/Code/Autopilot relaunch",
+      "status": "active"
+    },
+    {
+      "id": "nyc-council-ai-governance-hearing",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "AI lab researchers testify at NYC Council hearing on AI risk/race",
+      "status": "active"
+    },
+    {
+      "id": "tesla-model3-y-spec-refresh-oct26",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "Tesla upgrades Model 3/Y screen, range, 0-60 across US/PR/Mexico",
+      "status": "active"
     }
   ]
 }

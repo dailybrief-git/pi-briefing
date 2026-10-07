@@ -4774,6 +4774,104 @@
       "section": "alerts",
       "summary": "Eastern Spain braces for torrential rain and flooding, up to 300mm forecast",
       "status": "active"
+    },
+    {
+      "id": "cornell-gang-rape-allegations",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Alleged Cornell gang rape sparks campus-safety reckoning",
+      "status": "active"
+    },
+    {
+      "id": "nyc-bronx-apartment-fall",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Bronx apartment fall kills mother, infant critical",
+      "status": "active"
+    },
+    {
+      "id": "tropical-storm-isaias-gulf",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Isaias forecast to hit hurricane strength, threatens Gulf Coast",
+      "status": "active"
+    },
+    {
+      "id": "ed-dept-woke-intl-funding-cut",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Ed Dept cancels $69.6M international-education funding",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-orbit-trillionaire",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "Starship reaches orbit on 14th flight; SPCX stock near June highs, Musk trillionaire again",
+      "status": "active"
+    },
+    {
+      "id": "ed-policy-shakeup-fy26-review",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "ED FY2026 review + K12Dive roundup of new federal K-12 policy guidance",
+      "status": "active"
+    },
+    {
+      "id": "marathon-science-roundup-oct",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "NPR cartilage-recovery study + Frontiers physiology vol II on marathon research",
+      "status": "active"
+    },
+    {
+      "id": "ss-cola-2027-tiny-increase",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "2027 Social Security COLA projected near $69/month, retirement confidence falling",
+      "status": "active"
+    },
+    {
+      "id": "elnino-2026-2027-forecast",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "UN warns 2026-27 El Niño may be among strongest on record",
+      "status": "active"
+    },
+    {
+      "id": "ny-infra-nymtc-parsons-portfolio",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "NYMTC draft work program + Parsons $12B NY/NJ infra portfolio highlighted",
+      "status": "active"
+    },
+    {
+      "id": "christa-pike-execution-survivor",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "Death row inmate survives botched execution, now conscious and speaking",
+      "status": "active"
+    },
+    {
+      "id": "edtech-2027-tools-competition",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "2027 Learning Engineering Tools Competition opens with $4.5M for evidence-based EdTech",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai1-orbital-compute-opportunity",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX's AI1 satellite could outpace Google into space data centers",
+      "status": "active"
+    },
+    {
+      "id": "marathon-treadmill-training-hypothesis",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Hypothesis: treadmill heat/altitude simulation as new marathon training lever",
+      "status": "active"
     }
   ]
 }

@@ -3773,6 +3773,55 @@
       "section": "gems",
       "summary": "Executive Moves Q3 report: 360 appointments, 40%+ new CEOs/chairs",
       "status": "active"
+    },
+    {
+      "id": "nsw-housing-approvals-73m-2026-09",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "NSW faster housing approvals unlock $73m for local infrastructure (29 Sep release)",
+      "status": "active"
+    },
+    {
+      "id": "australia-rates-world-highest-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "alerts",
+      "summary": "Australia reportedly closing in on world's highest interest rates per SBS",
+      "status": "active"
+    },
+    {
+      "id": "us-trade-deficit-17month-high-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "US trade deficit hits 17-month high ($105.6bn Aug) despite tariffs",
+      "status": "active"
+    },
+    {
+      "id": "nsw-road-corridor-174bn-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "major",
+      "summary": "NSW commits $1.74bn to three regional road corridor upgrades",
+      "status": "active"
+    },
+    {
+      "id": "miter-construction-ai-funding-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Miter raises $40m for AI construction workforce platform",
+      "status": "active"
+    },
+    {
+      "id": "rental-idle-inventory-startup-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Bootstrapped startup converts idle car inventory into rental revenue",
+      "status": "active"
+    },
+    {
+      "id": "pavilion-vacation-rental-launch-2026-10",
+      "first_briefed": "2026-10-08",
+      "section": "opportunities",
+      "summary": "Pavilion launches as founder-owned national vacation rental company",
+      "status": "active"
     }
   ]
 }
