@@ -6923,6 +6923,76 @@
       "section": "major",
       "summary": "Tesla upgrades Model 3/Y screen, range, 0-60 across US/PR/Mexico",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flooding-recovery-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "Bangkok flood recovery continues, markets partly submerged",
+      "status": "active"
+    },
+    {
+      "id": "thai-airways-wine-corruption-ceo-denial",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "Thai Airways CEO denies corruption over 860,000-bottle wine purchase",
+      "status": "active"
+    },
+    {
+      "id": "openai-devday-gpt6-dots-2026",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "OpenAI launches GPT-6 Sol/Luna and Dots agent system at DevDay",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-biology-discovery",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Anthropic claims Claude-led discovery of possible gene-editing mechanism, contested by scientists",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-surface-laptop-ultra-copilot-nucleus",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Microsoft launches Nvidia-powered Surface Laptop Ultra and Copilot Nucleus reasoning engine",
+      "status": "active"
+    },
+    {
+      "id": "ai-chip-demand-skhynix-tsmc-surge",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "SK Hynix $28B US listing and TSMC September sales surge on AI chip demand",
+      "status": "active"
+    },
+    {
+      "id": "four-seasons-chiangmai-conde-nast-2026",
+      "first_briefed": "2026-10-09",
+      "section": "opportunities",
+      "summary": "Four Seasons Chiang Mai leads Thailand's 2026 Condé Nast reader rankings",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster2-launch-window-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "rail-today",
+      "summary": "Tesla Roadster 2.0 launch window reported for mid-October 2026",
+      "status": "active"
+    },
+    {
+      "id": "manus-ai-500m-raise",
+      "first_briefed": "2026-10-09",
+      "section": "startups",
+      "summary": "Manus AI raises $500M, first round since Meta breakup",
+      "status": "active"
+    },
+    {
+      "id": "claude-haiku-5-5-launch",
+      "first_briefed": "2026-10-09",
+      "section": "companies",
+      "summary": "Anthropic launches Claude Haiku 5.5, cuts Sonnet 5.5 cache pricing",
+      "status": "active"
     }
   ]
 }

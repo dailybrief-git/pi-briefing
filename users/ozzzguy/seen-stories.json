@@ -4872,6 +4872,83 @@
       "section": "opportunities",
       "summary": "Hypothesis: treadmill heat/altitude simulation as new marathon training lever",
       "status": "active"
+    },
+    {
+      "id": "spacex-starmind-reveal",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "SpaceX reveals Starmind: plan for up to 1M AI satellites plus Space Safety site",
+      "status": "active"
+    },
+    {
+      "id": "marathon-physiology-lab-study-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "NPR/Frontiers coverage of marathon training physiological effects and reversal",
+      "status": "active"
+    },
+    {
+      "id": "blummenfelt-vo2max-claim",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Unverified claim Blummenfelt posted VO2 max above 100 ml/kg/min",
+      "status": "active"
+    },
+    {
+      "id": "k12-defend-the-spend-policy",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Federal 'defend the spend' directive and new K-12 guidance wave",
+      "status": "active"
+    },
+    {
+      "id": "dhs-cpt-lawsuit",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Universities sue DHS over narrowed CPT international-student training rules",
+      "status": "active"
+    },
+    {
+      "id": "classlink-insights-launch",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "ClassLink launches Insights analytics tool tying edtech use to outcomes",
+      "status": "active"
+    },
+    {
+      "id": "iran-toughest-sanctions-announced",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "Treasury announces historically severe new Iran sanctions package",
+      "status": "active"
+    },
+    {
+      "id": "bronx-balcony-death-charges",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "Ex-boyfriend charged with murder in Bronx balcony death of Nathaly Ramirez",
+      "status": "active"
+    },
+    {
+      "id": "chalkie-seed-funding",
+      "first_briefed": "2026-10-09",
+      "section": "opportunities",
+      "summary": "Chalkie raises $4M seed for pedagogy-grounded AI edtech tool",
+      "status": "active"
+    },
+    {
+      "id": "tools-competition-2027-funding",
+      "first_briefed": "2026-10-09",
+      "section": "opportunities",
+      "summary": "$4.5M+ 2027 Learning Engineering Tools Competition opens",
+      "status": "active"
+    },
+    {
+      "id": "google-space-datacenter-starship-dependency",
+      "first_briefed": "2026-10-09",
+      "section": "opportunities",
+      "summary": "Google estimate implies long SpaceX launch-cadence dependency for space data centers",
+      "status": "active"
     }
   ]
 }

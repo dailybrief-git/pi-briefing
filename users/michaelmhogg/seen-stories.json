@@ -1841,6 +1841,48 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Shawn Ryan, 'There's a battle for your soul'.",
       "status": "active"
+    },
+    {
+      "id": "mirvac-funds-chief-margin-recovery-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "Mirvac's new funds chief starts as FY26 residential margin recovers to 23.9%.",
+      "status": "active"
+    },
+    {
+      "id": "us-stocks-record-high-bond-turmoil-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "US stocks hit record highs despite ongoing bond-market turmoil.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-regional-road-freight-investment-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "major",
+      "summary": "$1.74bn federal-NSW investment in regional freight road corridors.",
+      "status": "active"
+    },
+    {
+      "id": "mortgage-rate-geopolitical-volatility-oct2026",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "US mortgage rates whipsawed by geopolitics, signalling higher-for-longer environment.",
+      "status": "active"
+    },
+    {
+      "id": "us-suspends-msft-adobe-greencard-labor-program",
+      "first_briefed": "2026-10-09",
+      "section": "alerts",
+      "summary": "US suspends Microsoft and Adobe from green-card labor program amid visa crackdown.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-rent-growth-report-sept2026",
+      "first_briefed": "2026-10-09",
+      "section": "opportunities",
+      "summary": "US multifamily rent growth turns slightly negative monthly in Sept 2026 despite improved annual figure.",
+      "status": "active"
     }
   ]
 }
