@@ -4949,6 +4949,48 @@
       "section": "opportunities",
       "summary": "Google estimate implies long SpaceX launch-cadence dependency for space data centers",
       "status": "active"
+    },
+    {
+      "id": "manhattan-ice-shooting-transparency",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "ICE agent shoots Manhattan driver with child in car; transparency demands follow",
+      "status": "active"
+    },
+    {
+      "id": "measles-4000-cases-2026",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "US measles cases surpass 4,000 for 2026",
+      "status": "active"
+    },
+    {
+      "id": "fed-cook-investigation-committee",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "Trump forms committee to investigate Fed Governor Lisa Cook allegations",
+      "status": "active"
+    },
+    {
+      "id": "spacex-stock-trillionaire-oct2026",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "SpaceX stock at post-June high, Musk back to trillionaire status",
+      "status": "active"
+    },
+    {
+      "id": "ny-eidp-kickoff-dec2026",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "NY Energy Infrastructure Development Plan process launched, board meets Dec 9",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-fcc-update",
+      "first_briefed": "2026-10-10",
+      "section": "opportunities",
+      "summary": "Starlink Mobile nears FCC approval with dual-band terrestrial plan",
+      "status": "active"
     }
   ]
 }

@@ -6993,6 +6993,76 @@
       "section": "companies",
       "summary": "Anthropic launches Claude Haiku 5.5, cuts Sonnet 5.5 cache pricing",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flooding-recovery",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "Bangkok markets reopen amid lingering flood disruption in Bang Kapi district",
+      "status": "active"
+    },
+    {
+      "id": "thailand-us-trade-deal-talks",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "Thailand-US trade deal talks nearing close ahead of November target",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-1-sol-launch",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "OpenAI ships GPT-6.1 Sol and Dots agents at DevDay 2026",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-bio-discovery",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Anthropic claims Claude-led biology/gene-editing discovery, scientists skeptical",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-haiku-5-5",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Anthropic cuts Claude Haiku costs 75% with v5.5 launch",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-surface-laptop-ultra-nvidia",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Microsoft launches NVIDIA-powered Surface AI PCs and Windows 11 agent features",
+      "status": "active"
+    },
+    {
+      "id": "nobel-peace-prize-2026-pillay",
+      "first_briefed": "2026-10-10",
+      "section": "interest",
+      "summary": "Navi Pillay wins 2026 Nobel Peace Prize",
+      "status": "active"
+    },
+    {
+      "id": "apple-watch-health-sensing",
+      "first_briefed": "2026-10-10",
+      "section": "interest",
+      "summary": "Apple overhauls Watch health sensing with new Readiness Score",
+      "status": "active"
+    },
+    {
+      "id": "manus-ai-funding",
+      "first_briefed": "2026-10-10",
+      "section": "opportunities",
+      "summary": "Manus AI raises $500M for agentic AI tools, first round since Meta breakup",
+      "status": "active"
+    },
+    {
+      "id": "tesla-headlight-software-update",
+      "first_briefed": "2026-10-10",
+      "section": "gems",
+      "summary": "Tesla adds Dynamic Headlight Leveling via software update",
+      "status": "active"
     }
   ]
 }

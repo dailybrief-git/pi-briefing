@@ -1883,6 +1883,55 @@
       "section": "opportunities",
       "summary": "US multifamily rent growth turns slightly negative monthly in Sept 2026 despite improved annual figure.",
       "status": "active"
+    },
+    {
+      "id": "nsw-freight-corridor-investment-oct2026",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "$1.74bn joint federal-NSW investment across three regional freight road corridors.",
+      "status": "active"
+    },
+    {
+      "id": "accor-freecity-buildtorent-sydney",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Accor partners with Sydney developer Freecity on build-to-rent, co-living and student accommodation.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-funds-chief-margin-recovery",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Mirvac's new funds-management chief starts as FY26 residential margin recovers to 23.9%.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-753-oct2026",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "US 30-year fixed mortgage rate climbs to 7.44-7.53%, reversing recent declines.",
+      "status": "active"
+    },
+    {
+      "id": "abs-dwelling-approvals-fall-aug2026",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "ABS data shows national dwelling approvals fell 6.1% in August 2026 to 16,953 units.",
+      "status": "active"
+    },
+    {
+      "id": "doac-dana-white-episode",
+      "first_briefed": "2026-10-10",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Dana White on remote-work myths in entrepreneurship.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-business-ideas-2027-episode",
+      "first_briefed": "2026-10-10",
+      "section": "podcasts",
+      "summary": "My First Million: Shaan Puri and Sam Parr on business ideas and 2027 outlook.",
+      "status": "active"
     }
   ]
 }

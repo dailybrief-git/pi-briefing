@@ -3892,6 +3892,69 @@
       "section": "gems",
       "summary": "Costa Coffee returns to profit on iced drinks/matcha trend",
       "status": "active"
+    },
+    {
+      "id": "ai-workplace-oversight-survey-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "Survey finds workers want human oversight restored after AI mistakes at work",
+      "status": "active"
+    },
+    {
+      "id": "nsw-freight-corridor-investment-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "$1.74bn committed to NSW regional freight-corridor road upgrades",
+      "status": "active"
+    },
+    {
+      "id": "china-eu-trade-thaw-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "major",
+      "summary": "China and EU reach initial deal easing trade tensions and tariffs",
+      "status": "active"
+    },
+    {
+      "id": "ato-creditcard-ban-postponed-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "ATO postpones planned credit-card payment ban",
+      "status": "active"
+    },
+    {
+      "id": "australia-un-data-breach-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "Australia discloses data breach at UN amid tightening platform regulation",
+      "status": "active"
+    },
+    {
+      "id": "nsw-construction-labour-pipeline-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "alerts",
+      "summary": "NSW details labour/factory capacity plan for construction pipeline",
+      "status": "active"
+    },
+    {
+      "id": "eliseai-rental-funding-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "opportunities",
+      "summary": "EliseAI raises $350m at $4bn valuation for AI rental-housing platform",
+      "status": "active"
+    },
+    {
+      "id": "sensible-biotech-mrna-funding-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "opportunities",
+      "summary": "Sensible Biotechnologies raises $47m Series A for mRNA manufacturing",
+      "status": "active"
+    },
+    {
+      "id": "openai-math-papers-batch-2026-10",
+      "first_briefed": "2026-10-10",
+      "section": "opportunities",
+      "summary": "OpenAI releases 722 AI-generated maths papers, three retracted",
+      "status": "active"
     }
   ]
 }
