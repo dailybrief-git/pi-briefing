@@ -7063,6 +7063,41 @@
       "section": "gems",
       "summary": "Tesla adds Dynamic Headlight Leveling via software update",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flooding-oct2026",
+      "first_briefed": "2026-10-11",
+      "section": "alerts",
+      "summary": "Bangkok flooding persists, Bang Kapi market half-submerged",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-sol-luna-launch",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "OpenAI ships GPT-6 Sol and Luna with Intelligent UI",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-nvidia-surface-laptop-ultra",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "Microsoft/Nvidia launch AI-native Surface Laptop Ultra and RTX Spark",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-cyber-mission-launch",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "Anthropic launches long-term Cyber Mission for infrastructure defenders",
+      "status": "active"
+    },
+    {
+      "id": "skhynix-28b-us-listing",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "SK Hynix pursues $28B US listing amid AI chip boom",
+      "status": "active"
     }
   ]
 }

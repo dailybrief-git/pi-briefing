@@ -4991,6 +4991,27 @@
       "section": "opportunities",
       "summary": "Starlink Mobile nears FCC approval with dual-band terrestrial plan",
       "status": "active"
+    },
+    {
+      "id": "spacex-starlink-spectrum-fcc",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "SpaceX secures 65MHz nationwide spectrum, moves toward mobile carrier status",
+      "status": "active"
+    },
+    {
+      "id": "ed-dept-fy2026-policy-roundup",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "Education Dept FY2026 review plus K-12 Dive weekly policy roundup",
+      "status": "active"
+    },
+    {
+      "id": "ice-enforcement-backlash-nyc-tx",
+      "first_briefed": "2026-10-11",
+      "section": "alerts",
+      "summary": "ICE enforcement incidents in Marble Hill NYC and Harris County TX draw political backlash",
+      "status": "active"
     }
   ]
 }

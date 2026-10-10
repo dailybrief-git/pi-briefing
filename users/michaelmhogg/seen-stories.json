@@ -1932,6 +1932,55 @@
       "section": "podcasts",
       "summary": "My First Million: Shaan Puri and Sam Parr on business ideas and 2027 outlook.",
       "status": "active"
+    },
+    {
+      "id": "nsw-tod-rezoning-sepp-2026",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "NSW TOD SEPP permanently rezones around 37 stations, towers to 30 storeys in accelerated precincts.",
+      "status": "active"
+    },
+    {
+      "id": "au-house-price-falls-affordability-debate-oct2026",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "SBS reports Australian house prices falling, questions whether it improves affordability.",
+      "status": "active"
+    },
+    {
+      "id": "accor-freecity-build-to-rent-partnership",
+      "first_briefed": "2026-10-11",
+      "section": "opportunities",
+      "summary": "Accor partners with Sydney developer Freecity on build-to-rent, co-living, student housing.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-new-funds-chief-margin-recovery",
+      "first_briefed": "2026-10-11",
+      "section": "major",
+      "summary": "Mirvac's new funds management chief starts as residential margin recovers to 23.9%.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-740-oct2026",
+      "first_briefed": "2026-10-11",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate rises to ~7.40-7.53%, up from 6.69% in August.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-crown-estate-24bn-partnership",
+      "first_briefed": "2026-10-11",
+      "section": "gems",
+      "summary": "Legal press references a £24bn Crown Estate-Lendlease partnership; detail thin/secondary.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-174bn-freight-road-investment",
+      "first_briefed": "2026-10-11",
+      "section": "gems",
+      "summary": "Commonwealth-NSW $1.74bn investment in regional freight road corridors.",
+      "status": "active"
     }
   ]
 }
