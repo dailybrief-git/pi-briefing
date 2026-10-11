@@ -7098,6 +7098,55 @@
       "section": "major",
       "summary": "SK Hynix pursues $28B US listing amid AI chip boom",
       "status": "active"
+    },
+    {
+      "id": "anthropic-claude-bio-discovery-claim",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Anthropic claims Claude-led discovery of gene-editing molecular machine, unverified",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-surface-laptop-ultra-aipc",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Microsoft launches Nvidia-powered Surface Laptop Ultra and AI-first Windows 11",
+      "status": "active"
+    },
+    {
+      "id": "thai-airways-wine-scandal-ceo-suspended",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Thai Airways CEO suspended amid 860,000-bottle wine purchase corruption probe",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-startups-program-expansion",
+      "first_briefed": "2026-10-12",
+      "section": "opportunities",
+      "summary": "Anthropic expands free Claude Team + credits for startups",
+      "status": "active"
+    },
+    {
+      "id": "reflection-ai-beam-model",
+      "first_briefed": "2026-10-12",
+      "section": "startups",
+      "summary": "Reflection debuts open-weight Beam model to rival Chinese AI at lower cost",
+      "status": "active"
+    },
+    {
+      "id": "tesla-semi-mass-production-nevada",
+      "first_briefed": "2026-10-12",
+      "section": "gems",
+      "summary": "Tesla Semi enters mass production at Nevada Gigafactory",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-j-food-festival-2026",
+      "first_briefed": "2026-10-12",
+      "section": "interest",
+      "summary": "Joy of J vegetarian food festival at Central Chiang Mai, runs to 18 Oct",
+      "status": "active"
     }
   ]
 }

@@ -5012,6 +5012,62 @@
       "section": "alerts",
       "summary": "ICE enforcement incidents in Marble Hill NYC and Harris County TX draw political backlash",
       "status": "active"
+    },
+    {
+      "id": "spacex-spectrum-acquisition-2026",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "SpaceX acquires $8B low-band spectrum from Grain Management; FCC proposes new flexible-use auction; stock near 4-month high",
+      "status": "active"
+    },
+    {
+      "id": "midterm-house-races-spending-2026",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Both parties spending heavily in ~60 competitive House districts ahead of 2026 midterms",
+      "status": "active"
+    },
+    {
+      "id": "ny-energy-infrastructure-plan-kickoff",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "NY State Energy Planning Board to convene Dec 9 launching new Energy Infrastructure Development Plan",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-war-escalation",
+      "first_briefed": "2026-10-12",
+      "section": "alerts",
+      "summary": "Houthi attacks surge on Saudi targets after coalition offensive; deadliest strike on Saudi soil in a decade",
+      "status": "active"
+    },
+    {
+      "id": "doj-network-investigation",
+      "first_briefed": "2026-10-12",
+      "section": "alerts",
+      "summary": "DOJ sends civil investigative demands to CNN, NBC, ABC, CBS and Fox News",
+      "status": "active"
+    },
+    {
+      "id": "marathon-supershoe-anniversary-nike",
+      "first_briefed": "2026-10-12",
+      "section": "opportunities",
+      "summary": "Nike's super-shoe decade retrospective reinforces sub-1:55 marathon shoe-tech hypothesis",
+      "status": "active"
+    },
+    {
+      "id": "edtech-2027-tools-competition-funding",
+      "first_briefed": "2026-10-12",
+      "section": "opportunities",
+      "summary": "2027 Learning Engineering Tools Competition opens with $4.5M+ for evidence-based EdTech",
+      "status": "active"
+    },
+    {
+      "id": "wellbeing-report-hundred-oxford",
+      "first_briefed": "2026-10-12",
+      "section": "opportunities",
+      "summary": "HundrED/Oxford wellbeing report could drive school procurement of wellbeing tools",
+      "status": "active"
     }
   ]
 }

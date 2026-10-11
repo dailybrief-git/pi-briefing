@@ -1981,6 +1981,76 @@
       "section": "gems",
       "summary": "Commonwealth-NSW $1.74bn investment in regional freight road corridors.",
       "status": "active"
+    },
+    {
+      "id": "nsw-tod-rezoning-2026",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "NSW TOD rezoning SEPP now live across 45 station precincts, towers past 20 storeys in accelerated zones.",
+      "status": "active"
+    },
+    {
+      "id": "wallstreet-ai-jitters-oct2026",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Nasdaq's worst day since August on OpenAI revenue scrutiny, followed by 400pt Friday rebound.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-funds-chief-margin-rebound",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Mirvac new funds-management chief starts as residential margin recovers to 23.9%.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-freight-corridor-investment-174bn",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "$1.74bn Commonwealth-NSW investment in regional freight road corridors.",
+      "status": "active"
+    },
+    {
+      "id": "nadella-ai-emergency-brake",
+      "first_briefed": "2026-10-12",
+      "section": "major",
+      "summary": "Microsoft's Nadella calls for human-controlled AI 'emergency brake'.",
+      "status": "active"
+    },
+    {
+      "id": "oil-surge-houthi-saudi-oct2026",
+      "first_briefed": "2026-10-12",
+      "section": "alerts",
+      "summary": "Brent crude surges past $101 after Houthi attacks on Saudi Arabia.",
+      "status": "active"
+    },
+    {
+      "id": "datacentre-donations-scrutiny",
+      "first_briefed": "2026-10-12",
+      "section": "alerts",
+      "summary": "Guardian reports scrutiny of data-centre firms' political donations.",
+      "status": "active"
+    },
+    {
+      "id": "morgan-stanley-gold-metal-rotation",
+      "first_briefed": "2026-10-12",
+      "section": "opportunities",
+      "summary": "Morgan Stanley reportedly questions gold's portfolio role, flags another metal to outperform.",
+      "status": "active"
+    },
+    {
+      "id": "doac-dana-white-oct2026",
+      "first_briefed": "2026-10-12",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Dana White on remote-work scepticism, released 5 Oct.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-ep868-business-ideas",
+      "first_briefed": "2026-10-12",
+      "section": "podcasts",
+      "summary": "My First Million Ep.868: Puri and Parr discuss their business-ideas database.",
+      "status": "active"
     }
   ]
 }
