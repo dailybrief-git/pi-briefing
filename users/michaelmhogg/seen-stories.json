@@ -2051,6 +2051,55 @@
       "section": "podcasts",
       "summary": "My First Million Ep.868: Puri and Parr discuss their business-ideas database.",
       "status": "active"
+    },
+    {
+      "id": "firmus-technologies-datacentre-raise-fail",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Firmus Technologies' failed data-centre capital raise raises doubts about Australia's AI-infrastructure competitiveness.",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-councils-infrastructure-rethink-2026",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Seven Western Sydney councils call for metro, freight and employment-land investment overhaul.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-174bn-road-freight-corridors-2026",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "$1.74bn federal-NSW investment targets three regional freight road corridors.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-new-funds-chief-2026",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Mirvac installs new funds management chief, stock +1.42%, following FY26 margin recovery.",
+      "status": "active"
+    },
+    {
+      "id": "us-markets-winning-week-bull-market-4yr-2026",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Dow closes winning week at 51,655 as four-year bull market faces earnings/CPI test.",
+      "status": "active"
+    },
+    {
+      "id": "uk-noncompete-curb-ai-startups-2026",
+      "first_briefed": "2026-10-13",
+      "section": "opportunities",
+      "summary": "UK government signals plans to curb non-compete clauses affecting AI startups.",
+      "status": "active"
+    },
+    {
+      "id": "spacex-750bn-rally-2026",
+      "first_briefed": "2026-10-13",
+      "section": "opportunities",
+      "summary": "SpaceX valuation rallies to $750bn, breaking out of post-IPO funk per Bloomberg.",
+      "status": "active"
     }
   ]
 }

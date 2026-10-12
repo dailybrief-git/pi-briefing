@@ -7147,6 +7147,76 @@
       "section": "interest",
       "summary": "Joy of J vegetarian food festival at Central Chiang Mai, runs to 18 Oct",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flooding-2026",
+      "first_briefed": "2026-10-13",
+      "section": "alerts",
+      "summary": "Days of heavy flooding disrupt Bangkok markets and daily life",
+      "status": "active"
+    },
+    {
+      "id": "thailand-us-trade-deal-nov",
+      "first_briefed": "2026-10-13",
+      "section": "alerts",
+      "summary": "Thailand-US trade deal talks reportedly nearing completion ahead of Nov target",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-sol-luna",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "OpenAI ships GPT-6 Sol/Luna with new Intelligent UI in ChatGPT",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-reimagine-surface-ultra",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Microsoft launches reimagined Copilot and Nvidia-chip Surface Laptop Ultra",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-cyber-mission",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Anthropic launches long-term Cyber Mission for critical system defence",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-austin-fleet",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Tesla driverless Cybercab fleet expands rapidly in Austin",
+      "status": "active"
+    },
+    {
+      "id": "meta-rayban-neural-band",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "Meta pushes Ray-Ban Display glasses and Neural Band as platform bet",
+      "status": "active"
+    },
+    {
+      "id": "sk-hynix-28bn-listing",
+      "first_briefed": "2026-10-13",
+      "section": "major",
+      "summary": "SK Hynix launches $28B US listing riding AI chip demand",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-oct15-unveil",
+      "first_briefed": "2026-10-13",
+      "section": "interest",
+      "summary": "Tesla next-gen Roadster unveil scheduled Oct 15, Waco TX",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-ocp-summit-ai-infra",
+      "first_briefed": "2026-10-13",
+      "section": "gems",
+      "summary": "NVIDIA unveils AI infrastructure partnerships at OCP Global Summit",
+      "status": "active"
     }
   ]
 }
