@@ -2100,6 +2100,90 @@
       "section": "opportunities",
       "summary": "SpaceX valuation rallies to $750bn, breaking out of post-IPO funk per Bloomberg.",
       "status": "active"
+    },
+    {
+      "id": "nsw-regional-freight-road-investment-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "$1.74bn committed to three NSW regional freight-corridor road upgrades.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-backlog-profit-commentary-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "Analyst commentary questions whether Lendlease's record development backlog converts to profit.",
+      "status": "active"
+    },
+    {
+      "id": "tudor-jones-2027-market-warning",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Paul Tudor Jones warns 2027 could be a challenging year for stocks.",
+      "status": "active"
+    },
+    {
+      "id": "mortgage-rate-higher-for-longer-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Mortgage commentary shifts toward a 'higher-for-longer' US rate outlook.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-regs-update-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "gems",
+      "summary": "NSW tiny-home/granny-flat regulation guide revised October 2026.",
+      "status": "active"
+    },
+    {
+      "id": "au-worker-deaths-jobsite-13yr-high",
+      "first_briefed": "2026-10-14",
+      "section": "gems",
+      "summary": "Reported 13-year high in Australian construction job-site worker deaths (headline-level, unverified detail).",
+      "status": "active"
+    },
+    {
+      "id": "meriton-horse-bag-charm-merch",
+      "first_briefed": "2026-10-14",
+      "section": "gems",
+      "summary": "Meriton Suites adds Horse Bag Charm to branded merchandise line.",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-homegrown-ai-chips-shift",
+      "first_briefed": "2026-10-14",
+      "section": "interest",
+      "summary": "Microsoft expands homegrown AI chip programme to reduce Nvidia dependence.",
+      "status": "active"
+    },
+    {
+      "id": "meta-muse-wonder-paid-ai-test",
+      "first_briefed": "2026-10-14",
+      "section": "interest",
+      "summary": "Meta tests willingness-to-pay with new Muse Wonder AI model.",
+      "status": "active"
+    },
+    {
+      "id": "hanoi-apartment-launch-rebound-2026",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "Hanoi apartment launches hit 6-year H1 high per CBRE Vietnam data.",
+      "status": "active"
+    },
+    {
+      "id": "doac-eric-weinstein-ai-geopolitics",
+      "first_briefed": "2026-10-14",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Eric Weinstein on AI and geopolitical risk.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-shaan-puri-embarrassing-moments",
+      "first_briefed": "2026-10-14",
+      "section": "podcasts",
+      "summary": "My First Million solo episode: Shaan Puri on personal lessons and self-confidence vs narcissism.",
+      "status": "active"
     }
   ]
 }

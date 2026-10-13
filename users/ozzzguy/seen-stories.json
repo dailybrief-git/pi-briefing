@@ -5124,6 +5124,41 @@
       "section": "opportunities",
       "summary": "Living-wage data outpacing COLA raises policy-reform pressure hypothesis",
       "status": "active"
+    },
+    {
+      "id": "cola-2027-announcement",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "2027 Social Security COLA announced alongside weak retirement-confidence survey",
+      "status": "active"
+    },
+    {
+      "id": "saudi-houthi-airport-strike-escalation",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Houthi strike on King Khalid airport marks major Saudi-war escalation",
+      "status": "active"
+    },
+    {
+      "id": "ny-energy-infrastructure-development-plan-2026",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "NY sets Dec 9 kickoff for long-term grid Energy Infrastructure Development Plan",
+      "status": "active"
+    },
+    {
+      "id": "spacex-fcc-spectrum-auction-proposal",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "SpaceX spectrum purchase prompts FCC to propose new flexible-use auction",
+      "status": "active"
+    },
+    {
+      "id": "spacex-iss-cargo-solar-arrays-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "SpaceX launches NASA ISS resupply with new solar arrays and X-ray comms experiment",
+      "status": "active"
     }
   ]
 }

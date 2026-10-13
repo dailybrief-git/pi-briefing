@@ -7217,6 +7217,111 @@
       "section": "gems",
       "summary": "NVIDIA unveils AI infrastructure partnerships at OCP Global Summit",
       "status": "active"
+    },
+    {
+      "id": "bangkok-flood-emergency-oct2026",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Bangkok flood emergency deepens, nationwide alert declared",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ai-self-replication-warning",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Anthropic warns AI could self-replicate on home devices within months",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-homegrown-ai-chips",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "Microsoft increases reliance on homegrown AI chips over Nvidia",
+      "status": "active"
+    },
+    {
+      "id": "apple-homeview-smart-home",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "Apple unveils $299 HomeView AI smart home hub",
+      "status": "active"
+    },
+    {
+      "id": "nutrition-health-ma-surge-2026",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "Nutrition/health M&A and financing hit record mid-year growth",
+      "status": "active"
+    },
+    {
+      "id": "thailand-j-food-festival-chiangmai",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "Joy of J vegetarian food festival at Central Chiang Mai, Oct 9-18",
+      "status": "active"
+    },
+    {
+      "id": "ningxia-wine-base-china",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "China convenes wine industry cooperation push from Ningxia base",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-seo-conference-2026",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "Chiang Mai SEO Conference 2026 speaker lineup announced",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-unveil-oct15",
+      "first_briefed": "2026-10-14",
+      "section": "rail-today",
+      "summary": "Tesla Roadster unveil scheduled Oct 15 in Waco, Texas",
+      "status": "active"
+    },
+    {
+      "id": "tesla-cybercab-semi-momentum",
+      "first_briefed": "2026-10-14",
+      "section": "rail-companies",
+      "summary": "Tesla Cybercab fleet expands in Austin, Semi enters mass production",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-surface-laptop-ultra-launch",
+      "first_briefed": "2026-10-14",
+      "section": "rail-companies",
+      "summary": "Microsoft launches Surface Laptop Ultra and Windows Hybrid Intelligence",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-glasses-breakthrough",
+      "first_briefed": "2026-10-14",
+      "section": "rail-companies",
+      "summary": "Zuckerberg unveils Meta's next-gen AI VR glasses",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-startups-free-credits",
+      "first_briefed": "2026-10-14",
+      "section": "rail-companies",
+      "summary": "Anthropic gives startups free Claude Team year plus $1,000 credits",
+      "status": "active"
+    },
+    {
+      "id": "queen-suthida-fighter-jet",
+      "first_briefed": "2026-10-14",
+      "section": "rail-interest",
+      "summary": "Queen Suthida makes first solo fighter jet flight",
+      "status": "active"
+    },
+    {
+      "id": "mit-techreview-robotics-hype-critique",
+      "first_briefed": "2026-10-14",
+      "section": "rail-interest",
+      "summary": "MIT Tech Review tempers humanoid robotics hype",
+      "status": "active"
     }
   ]
 }

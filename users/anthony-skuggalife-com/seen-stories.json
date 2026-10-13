@@ -4067,6 +4067,48 @@
       "section": "major",
       "summary": "Swiss franc and Indian rupee move as follow-on from yen intervention saga",
       "status": "active"
+    },
+    {
+      "id": "job-site-deaths-13yr-high-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Australian job-site deaths hit 13-year high",
+      "status": "active"
+    },
+    {
+      "id": "brent-crude-107-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "alerts",
+      "summary": "Brent crude approaches US$107, pressuring petrol prices",
+      "status": "active"
+    },
+    {
+      "id": "yen-chf-spillover-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "Yen-rescue intervention spills into weaker Swiss franc",
+      "status": "active"
+    },
+    {
+      "id": "dhl-globalization-tracker-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "major",
+      "summary": "DHL: AI-driven trade growth outpacing tariffs",
+      "status": "active"
+    },
+    {
+      "id": "prefabrication-stanstead-funding-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "NZ's Prefabrication Stanstead raises $2m seed for robotic timber-frame factories",
+      "status": "active"
+    },
+    {
+      "id": "biotech-asx-fairvalue-stocks-2026-10",
+      "first_briefed": "2026-10-14",
+      "section": "opportunities",
+      "summary": "Simply Wall St flags 3 ASX biotech stocks with 60%+ fair-value upside",
+      "status": "active"
     }
   ]
 }
