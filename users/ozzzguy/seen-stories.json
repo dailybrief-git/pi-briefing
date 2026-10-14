@@ -5159,6 +5159,83 @@
       "section": "major",
       "summary": "SpaceX launches NASA ISS resupply with new solar arrays and X-ray comms experiment",
       "status": "active"
+    },
+    {
+      "id": "ssa-cola-2027",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Social Security COLA set at 3.6% for 2027",
+      "status": "active"
+    },
+    {
+      "id": "earths-vital-signs-report",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "WaPo/NOAA report calls Earth's climate vital signs concerning amid record El Niño",
+      "status": "active"
+    },
+    {
+      "id": "politico-trump-liability-poll",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Politico poll shows Trump's brand as midterm liability",
+      "status": "active"
+    },
+    {
+      "id": "cornell-frat-suspension",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Cornell suspends frat parties, adds state police to assault investigations",
+      "status": "active"
+    },
+    {
+      "id": "starlink-mobile-fcc-workaround",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Development: SpaceX's 65MHz spectrum buy and FCC's new auction proposal advance Starlink Mobile carrier ambitions",
+      "status": "active"
+    },
+    {
+      "id": "spacex-crs35-launch-stock-dip",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "SpaceX completes CRS-35 on reused Falcon 9; stock dips 4% ahead of Starship reuse test",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-antisemitism-plan-defense",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Mamdani defends antisemitism plan against Jewish group criticism",
+      "status": "active"
+    },
+    {
+      "id": "ny-eidp-dec9-kickoff",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "NY sets Dec 9 kickoff meeting for new grid Energy Infrastructure Development Plan",
+      "status": "active"
+    },
+    {
+      "id": "nyc-college-walk-voucher-bundle",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Columbia College Walk access push and NYC childcare voucher waitlist news",
+      "status": "active"
+    },
+    {
+      "id": "edweek-materials-list-influence",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "EdWeek data shows state-approved materials lists steer district curriculum adoption",
+      "status": "active"
+    },
+    {
+      "id": "broadway-fall-wave-previews",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Wanted, Downstate, and Helen Hayes revival all begin previews this week",
+      "status": "active"
     }
   ]
 }

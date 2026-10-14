@@ -2184,6 +2184,48 @@
       "section": "podcasts",
       "summary": "My First Million solo episode: Shaan Puri on personal lessons and self-confidence vs narcissism.",
       "status": "active"
+    },
+    {
+      "id": "chinese-spy-network-widens-oct2026",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Alleged Chinese foreign-interference network reached 100+ people including a former state premier and a police commander.",
+      "status": "active"
+    },
+    {
+      "id": "private-health-rebate-cut-scrapped-oct2026",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Planned cut to older Australians' private health rebate reportedly scrapped.",
+      "status": "active"
+    },
+    {
+      "id": "western-sydney-aerotropolis-investment-triples",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Private investment in Western Sydney Aerotropolis triples to $34.6bn, overtaking government infrastructure spend.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-gas-peaker-tender-batteries-excluded",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "NSW's 1.5GW gas-firming tender explicitly excludes batteries.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-regulations-revised-oct2026",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "NSW tiny-home/granny-flat compliance rules revised, easing path for SEPP-approved builds.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-backlog-profit-analysis-oct2026",
+      "first_briefed": "2026-10-15",
+      "section": "gems",
+      "summary": "Commentary on Lendlease converting record backlog into profit with risk-sharing partners.",
+      "status": "active"
     }
   ]
 }

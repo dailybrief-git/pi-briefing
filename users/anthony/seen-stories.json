@@ -7322,6 +7322,97 @@
       "section": "rail-interest",
       "summary": "MIT Tech Review tempers humanoid robotics hype",
       "status": "active"
+    },
+    {
+      "id": "openai-gpt6-sol-luna-math",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "OpenAI's unreleased GPT-6 Sol/Luna produced hundreds of new math results",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-azure-maia-multigw",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Microsoft scaling Azure Maia chips to multi-gigawatt deployments",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-windows-hybrid-intelligence",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Microsoft unveils agentic 'Hybrid Intelligence' Windows redesign",
+      "status": "active"
+    },
+    {
+      "id": "google-argon4-gemini-antigravity",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Google's Argon 4 launch with Antigravity agentic coding built into Gemini",
+      "status": "active"
+    },
+    {
+      "id": "meta-nextgen-vr-glasses",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Meta unveils next-gen VR and audio-only smart glasses",
+      "status": "active"
+    },
+    {
+      "id": "apple-homeview-smarthome",
+      "first_briefed": "2026-10-15",
+      "section": "major",
+      "summary": "Apple launches HomeView smart home hub showcasing Siri AI",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-flash-flood-continuation",
+      "first_briefed": "2026-10-15",
+      "section": "alerts",
+      "summary": "Bangkok flooding persists; flash-flood warnings extend toward northern Thailand",
+      "status": "active"
+    },
+    {
+      "id": "vietnam-alcohol-import-surge",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "Vietnam alcohol imports up 51% in value, wine premiumizing faster than volume",
+      "status": "active"
+    },
+    {
+      "id": "functional-fiber-trend-mainstream",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "Functional fibre formulation moving beyond marketing claims toward clinical science",
+      "status": "active"
+    },
+    {
+      "id": "nutrition-health-ma-record-growth",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "Nutrition/health M&A and financing at record mid-year pace",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-jfood-festival",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "Chiang Mai J Food Festival highlights plant-based dining demand",
+      "status": "active"
+    },
+    {
+      "id": "china-macau-wine-tourism-push",
+      "first_briefed": "2026-10-15",
+      "section": "opportunities",
+      "summary": "China/Macau expand wine tourism bets via Beijing judging and 2027 awards",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-reveal-waco",
+      "first_briefed": "2026-10-15",
+      "section": "rail",
+      "summary": "Tesla unveils production-ready Roadster at Waco, Texas event today",
+      "status": "active"
     }
   ]
 }
