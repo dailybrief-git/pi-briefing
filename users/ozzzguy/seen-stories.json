@@ -5236,6 +5236,48 @@
       "section": "major",
       "summary": "Wanted, Downstate, and Helen Hayes revival all begin previews this week",
       "status": "active"
+    },
+    {
+      "id": "spacex-fcc-spectrum-starlink-mobile",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "SpaceX spectrum workaround prompts FCC to propose new 25MHz flexible-use auction",
+      "status": "active"
+    },
+    {
+      "id": "spacex-crs35-falcon9-stock-dip",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "SpaceX completes CRS-35 on reused Falcon 9, stock dips 4.2% as market eyes Starship",
+      "status": "active"
+    },
+    {
+      "id": "climate-vital-signs-2026-elnino",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "New report: Earth's climate vital signs at record extremes amid strongest-ever El Niño",
+      "status": "active"
+    },
+    {
+      "id": "sex-ed-bills-2026-wave",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "174 state sex-ed bills introduced in H1 2026, 54% restrictive, per K-12 Dive",
+      "status": "active"
+    },
+    {
+      "id": "stanford-ai-index-2026",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Stanford 2026 AI Index: Anthropic leads China's top model by just 2.7%",
+      "status": "active"
+    },
+    {
+      "id": "spacex-ai-bundle-subscription",
+      "first_briefed": "2026-10-16",
+      "section": "opportunities",
+      "summary": "SpaceX bundles Grok, Cursor, X into $200/mo five-tier subscription",
+      "status": "active"
     }
   ]
 }

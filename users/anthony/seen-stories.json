@@ -7413,6 +7413,69 @@
       "section": "rail",
       "summary": "Tesla unveils production-ready Roadster at Waco, Texas event today",
       "status": "active"
+    },
+    {
+      "id": "bangkok-blueprint-digital-fraud",
+      "first_briefed": "2026-10-16",
+      "section": "alerts",
+      "summary": "Thailand launches Bangkok Blueprint to curb digital financial fraud",
+      "status": "active"
+    },
+    {
+      "id": "sea-wine-import-surge-vietnam",
+      "first_briefed": "2026-10-16",
+      "section": "opportunities",
+      "summary": "Vietnam alcohol imports up 51% value YoY, wine premiumisation signal",
+      "status": "active"
+    },
+    {
+      "id": "functional-fiber-gut-health-trend",
+      "first_briefed": "2026-10-16",
+      "section": "opportunities",
+      "summary": "Functional fiber moves from claims to formulation science",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-maia-300-scale",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Microsoft scales Azure Maia 300 chip to multi-gigawatt, reducing Nvidia reliance",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-launch",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "OpenAI rolls out GPT-6 Sol/Luna to all ChatGPT users, plus 377 math breakthroughs",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-reveal",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Tesla unveils next-gen Roadster at Waco event",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-geneediting-discovery-scrutiny",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Anthropic's Claude-led gene-editing discovery questioned by scientists",
+      "status": "active"
+    },
+    {
+      "id": "meta-ai-feed-vr-breakthrough",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Meta launches Your Algorithm feed control, teases next-gen VR glasses",
+      "status": "active"
+    },
+    {
+      "id": "thailand-debt-ceiling-imf-wb-summit",
+      "first_briefed": "2026-10-16",
+      "section": "major",
+      "summary": "Thailand debt ceiling pressure surfaces at IMF-World Bank summit in Bangkok",
+      "status": "active"
     }
   ]
 }
