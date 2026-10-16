@@ -2317,6 +2317,41 @@
       "section": "podcasts",
       "summary": "My First Million Episode 868 business-idea brainstorm with Parr and Puri.",
       "status": "active"
+    },
+    {
+      "id": "au-algorithm-optout-bill-2026",
+      "first_briefed": "2026-10-17",
+      "section": "alerts",
+      "summary": "Australia tables bill forcing platforms to allow users to switch off recommendation algorithms.",
+      "status": "active"
+    },
+    {
+      "id": "us-markets-warning-signs-oct2026",
+      "first_briefed": "2026-10-17",
+      "section": "alerts",
+      "summary": "US bank stocks worst weekly run since 2008, job growth cools, mortgage rates climb toward 7.4%.",
+      "status": "active"
+    },
+    {
+      "id": "au-house-prices-falling-confirmed",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "SBS reports Australian house prices are now actually falling, developing the earlier correction/poll story.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-capital-release-unit-stuck",
+      "first_briefed": "2026-10-17",
+      "section": "gems",
+      "summary": "Lendlease's Capital Release Unit has failed to recycle A$4.5bn, lingering drag on offshore exit.",
+      "status": "active"
+    },
+    {
+      "id": "cxmt-dram-breakthrough-claim",
+      "first_briefed": "2026-10-17",
+      "section": "opportunities",
+      "summary": "China's CXMT claims 4F² DRAM breakthrough; Western analysts skeptical of near-term impact.",
+      "status": "active"
     }
   ]
 }

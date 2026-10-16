@@ -7476,6 +7476,104 @@
       "section": "major",
       "summary": "Thailand debt ceiling pressure surfaces at IMF-World Bank summit in Bangkok",
       "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-reveal",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Tesla unveils flying, SpaceX-thruster-powered next-gen Roadster, production 2028",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-azure-maia-cobalt-scaleup",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Microsoft scales Azure Maia to multi-gigawatt, unveils Cobalt 200 at Build 2026",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-q3-revenue-margins",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Anthropic discloses $16.8B revenue run-rate, 92% gross margins",
+      "status": "active"
+    },
+    {
+      "id": "meta-your-algorithm-feature",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Meta launches prompt-based 'Your Algorithm' feed control on Facebook",
+      "status": "active"
+    },
+    {
+      "id": "apple-homeview-launch",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Apple launches HomeView smart home hub built on Siri AI",
+      "status": "active"
+    },
+    {
+      "id": "reflection-beam-open-weight-model",
+      "first_briefed": "2026-10-17",
+      "section": "major",
+      "summary": "Reflection debuts Beam open-weight model to undercut Chinese AI on compute cost",
+      "status": "active"
+    },
+    {
+      "id": "functional-fiber-formulation-trend",
+      "first_briefed": "2026-10-17",
+      "section": "opportunities",
+      "summary": "Functional fiber ingredient innovation moves beyond high-fiber claims",
+      "status": "active"
+    },
+    {
+      "id": "vietnam-asia-wine-import-boom",
+      "first_briefed": "2026-10-17",
+      "section": "opportunities",
+      "summary": "Vietnam/Asia alcoholic beverage imports up 51% value, wine premiumisation trend",
+      "status": "active"
+    },
+    {
+      "id": "swiss-president-thailand-visit",
+      "first_briefed": "2026-10-17",
+      "section": "opportunities",
+      "summary": "Swiss president's first Thailand visit in 22 years",
+      "status": "active"
+    },
+    {
+      "id": "china-wine-ningxia-summit",
+      "first_briefed": "2026-10-17",
+      "section": "opportunities",
+      "summary": "Global wine delegates convene at Ningxia to discuss industry cooperation",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-joyofj-festival",
+      "first_briefed": "2026-10-17",
+      "section": "rail-today",
+      "summary": "Thailand J Food Festival (Joy of J) runs 9-18 Oct at Central Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "mit-insect-robot-speedup",
+      "first_briefed": "2026-10-17",
+      "section": "gems",
+      "summary": "MIT tiny flying robot gets 450% speed boost via new AI control system",
+      "status": "active"
+    },
+    {
+      "id": "queen-suthida-aviation-feats",
+      "first_briefed": "2026-10-17",
+      "section": "gems",
+      "summary": "Queen Suthida pilots passenger plane and fighter jet in same week",
+      "status": "active"
+    },
+    {
+      "id": "workday-c1ai-agent-launch",
+      "first_briefed": "2026-10-17",
+      "section": "gems",
+      "summary": "Workday launches C1.ai agentic access-control tool at Rising 2026",
+      "status": "active"
     }
   ]
 }
