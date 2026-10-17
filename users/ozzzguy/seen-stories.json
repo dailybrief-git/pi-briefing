@@ -5278,6 +5278,48 @@
       "section": "opportunities",
       "summary": "SpaceX bundles Grok, Cursor, X into $200/mo five-tier subscription",
       "status": "active"
+    },
+    {
+      "id": "spacex-tesla-roadster-reveal",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Tesla reveals SpaceX-thruster Roadster that flies and barrel-rolls at Texas demo",
+      "status": "active"
+    },
+    {
+      "id": "edtech-state-materials-lists-influence",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "EdWeek data: state-approved materials lists heavily influence district curriculum purchases",
+      "status": "active"
+    },
+    {
+      "id": "sex-ed-bills-2026-landscape",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "174 state sex-ed bills filed in 2026, 54% restrictive per K-12 Dive",
+      "status": "active"
+    },
+    {
+      "id": "marathon-nyrr-symposium-recap",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "NYRR Runner Health Symposium stresses fundamentals over hype; CPR training at NYC Marathon Expo",
+      "status": "active"
+    },
+    {
+      "id": "broadway-downstate-opening",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Bruce Norris's Downstate begins Broadway previews at the Booth Theatre, opens Nov 15",
+      "status": "active"
+    },
+    {
+      "id": "ny-grid-investment-plan-dec-meeting",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "NY sets Dec 9 meeting to begin long-term grid investment planning via NYSERDA",
+      "status": "active"
     }
   ]
 }

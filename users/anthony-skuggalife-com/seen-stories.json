@@ -4312,6 +4312,48 @@
       "section": "major",
       "summary": "Democrats prepare congressional oversight push into Trump trade deals",
       "status": "active"
+    },
+    {
+      "id": "apple-homeview-smart-hub-2026-10",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Apple reportedly launching first dedicated smart-home hub, HomeView",
+      "status": "active"
+    },
+    {
+      "id": "australia-migration-caps-debate-2026-10",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "OECD head/former minister urge Australia against migration caps",
+      "status": "active"
+    },
+    {
+      "id": "reebuild-construction-ai-seed-2026-10",
+      "first_briefed": "2026-10-18",
+      "section": "opportunities",
+      "summary": "Vienna's reebuild raises €3m seed for construction AI back-office",
+      "status": "active"
+    },
+    {
+      "id": "opendebt-sydney-fintech-preseed-2026-10",
+      "first_briefed": "2026-10-18",
+      "section": "gems",
+      "summary": "Sydney's OpenDebt raises $2m pre-seed led by Blackbird Ventures",
+      "status": "active"
+    },
+    {
+      "id": "storm-outbreak-australia-oct2026",
+      "first_briefed": "2026-10-18",
+      "section": "alerts",
+      "summary": "Thunderstorm outbreak forecast across central/eastern Australia",
+      "status": "active"
+    },
+    {
+      "id": "housing-affordability-debate-development-2026-10",
+      "first_briefed": "2026-10-18",
+      "section": "alerts",
+      "summary": "SBS questions whether falling prices actually improve affordability",
+      "status": "active"
     }
   ]
 }

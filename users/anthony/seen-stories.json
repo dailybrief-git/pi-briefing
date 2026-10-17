@@ -7574,6 +7574,139 @@
       "section": "gems",
       "summary": "Workday launches C1.ai agentic access-control tool at Rising 2026",
       "status": "active"
+    },
+    {
+      "id": "tesla-roadster-flying-reveal",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Tesla unveils flying Roadster with SpaceX thrusters, 2028 production target",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-azure-maia-multigigawatt",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Microsoft scales Azure Maia chip system to multi-gigawatt deployments",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-code-latency-cut",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Anthropic cuts Claude Code latency nearly 3x",
+      "status": "active"
+    },
+    {
+      "id": "meta-your-algorithm-feed-control",
+      "first_briefed": "2026-10-18",
+      "section": "major",
+      "summary": "Facebook launches prompt-based 'Your Algorithm' feed control",
+      "status": "active"
+    },
+    {
+      "id": "thailand-rain-flood-risk-oct2026",
+      "first_briefed": "2026-10-18",
+      "section": "alerts",
+      "summary": "Heavy rain and flash-flood risk across 20 Thai provinces",
+      "status": "active"
+    },
+    {
+      "id": "thailand-airport-baggage-search-rules",
+      "first_briefed": "2026-10-18",
+      "section": "alerts",
+      "summary": "New Thai airport baggage-search rules take effect Oct 16",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-voyage-of-light-2026",
+      "first_briefed": "2026-10-18",
+      "section": "opportunities",
+      "summary": "Chiang Mai lantern festival adds premium Elite/golf packages for Nov 25",
+      "status": "active"
+    },
+    {
+      "id": "vietnam-wine-spirits-import-surge",
+      "first_briefed": "2026-10-18",
+      "section": "opportunities",
+      "summary": "Vietnam alcohol imports up 51% YoY value, premiumisation signal",
+      "status": "active"
+    },
+    {
+      "id": "functional-fiber-reformulation-trend",
+      "first_briefed": "2026-10-18",
+      "section": "opportunities",
+      "summary": "Functional fiber innovation shifts to fermentation/microbiome formulation",
+      "status": "active"
+    },
+    {
+      "id": "bangkok-imf-worldbank-meeting",
+      "first_briefed": "2026-10-18",
+      "section": "opportunities",
+      "summary": "Bangkok hosts IMF/World Bank meetings amid global uncertainty",
+      "status": "active"
+    },
+    {
+      "id": "devday-exchange-codex-chiangmai",
+      "first_briefed": "2026-10-18",
+      "section": "interest",
+      "summary": "OpenAI Codex ambassador runs DevDay meetup in Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "apple-homeview-smart-hub",
+      "first_briefed": "2026-10-18",
+      "section": "gems",
+      "summary": "Apple unveils HomeView smart home hub with Siri showcase",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-quantum-circuit-claim",
+      "first_briefed": "2026-10-18",
+      "section": "gems",
+      "summary": "Unverified single-source claim of Claude redesigning quantum circuits",
+      "status": "active"
+    },
+    {
+      "id": "sciencedaily-fatty-liver-drug",
+      "first_briefed": "2026-10-18",
+      "section": "gems",
+      "summary": "Experimental drug reverses fatty liver disease via gut health in animal models",
+      "status": "active"
+    },
+    {
+      "id": "sciencedaily-autophagy-aging",
+      "first_briefed": "2026-10-18",
+      "section": "gems",
+      "summary": "Autophagy behaves unexpectedly during aging, sometimes linked to worse health",
+      "status": "active"
+    },
+    {
+      "id": "antofagasta-copper-strike-end",
+      "first_briefed": "2026-10-18",
+      "section": "markets",
+      "summary": "Antofagasta Chile copper strike ends, easing supply tension",
+      "status": "active"
+    },
+    {
+      "id": "openai-rosalind-academic-plan",
+      "first_briefed": "2026-10-18",
+      "section": "companies",
+      "summary": "OpenAI launches Rosalind Academic Plan for researchers",
+      "status": "active"
+    },
+    {
+      "id": "meta-vr-glasses-breakthrough",
+      "first_briefed": "2026-10-18",
+      "section": "companies",
+      "summary": "Zuckerberg teases next-gen Meta VR glasses as breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-ai-episode",
+      "first_briefed": "2026-10-18",
+      "section": "podcasts",
+      "summary": "Diary of a CEO episode with Professor Jiang on AI and global power",
+      "status": "active"
     }
   ]
 }
