@@ -4354,6 +4354,48 @@
       "section": "alerts",
       "summary": "SBS questions whether falling prices actually improve affordability",
       "status": "active"
+    },
+    {
+      "id": "apple-ceo-transition-ternus-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "John Ternus confirmed Apple CEO effective 1 Sep 2026, Cook to Executive Chairman",
+      "status": "active"
+    },
+    {
+      "id": "california-ai-healthcare-rules-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "California sets human-in-the-loop AI rules for healthcare, follows AB 1609 chatbot law",
+      "status": "active"
+    },
+    {
+      "id": "us-fiscal-deficit-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "US FY2026 budget deficit nears $2 trillion, up 12% y/y",
+      "status": "active"
+    },
+    {
+      "id": "wallstreet-selloff-tech-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "Wall St closes week lower on tech weakness, yields dip",
+      "status": "active"
+    },
+    {
+      "id": "palomma-real-estate-ai-opportunity-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "opportunities",
+      "summary": "YC-backed Palomma builds AI agents for landlord/property-manager operations",
+      "status": "active"
+    },
+    {
+      "id": "opendebt-sydney-fintech-2026-10",
+      "first_briefed": "2026-10-19",
+      "section": "opportunities",
+      "summary": "Sydney fintech OpenDebt raises $2m pre-seed for AI debt recovery",
+      "status": "active"
     }
   ]
 }

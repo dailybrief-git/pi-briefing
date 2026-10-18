@@ -7707,6 +7707,48 @@
       "section": "podcasts",
       "summary": "Diary of a CEO episode with Professor Jiang on AI and global power",
       "status": "active"
+    },
+    {
+      "id": "anthropic-q3-revenue-16-8bn",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Anthropic posts $16.8B revenue run-rate, ~92% gross margin",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-airport-731m-expansion",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Chiang Mai Airport breaks ground on ฿731M fire/rescue/cargo facilities, June 2028 completion",
+      "status": "active"
+    },
+    {
+      "id": "thailand-airport-baggage-search-rule",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "New Thai airport rules allow baggage search without passenger present, effective Oct 16",
+      "status": "active"
+    },
+    {
+      "id": "hongkong-wine-boom-cooling",
+      "first_briefed": "2026-10-19",
+      "section": "opportunities",
+      "summary": "Hong Kong wine trade cools post-boom, Bordeaux pricing may soften",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-copilot-reimagine-launch",
+      "first_briefed": "2026-10-19",
+      "section": "companies",
+      "summary": "Microsoft restructures Copilot into Home/Code/Autopilot modes",
+      "status": "active"
+    },
+    {
+      "id": "diary-ceo-eric-weinstein-episode",
+      "first_briefed": "2026-10-19",
+      "section": "podcasts",
+      "summary": "Diary of a CEO: Eric Weinstein on AI and geopolitics",
+      "status": "active"
     }
   ]
 }

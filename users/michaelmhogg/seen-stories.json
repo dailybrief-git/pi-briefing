@@ -2401,6 +2401,62 @@
       "section": "gems",
       "summary": "Seeking Alpha analyst note frames Lendlease as deep value despite Capital Release Unit shortfall.",
       "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-regs-oct2026",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "Revised NSW tiny-home guide clarifies Sydney Water sign-off requirements for granny flats.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-74pct-oct2026",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "Hot US inflation print pushes 30-year fixed mortgage rates back above 7.4%, up from 6.69% in August.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-capital-release-unit-stall",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Lendlease's Capital Release Unit fails to recycle A$4.5bn as planned, per Seeking Alpha analysis.",
+      "status": "active"
+    },
+    {
+      "id": "wallstreet-inflation-selloff-oct2026",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Hot September CPI triggers fresh Wall St selloff, AI stocks lead declines; Berkshire bucks trend.",
+      "status": "active"
+    },
+    {
+      "id": "oecd-migration-caps-warning-oct2026",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Former minister/OECD head urges Australia to reject migration caps.",
+      "status": "active"
+    },
+    {
+      "id": "market-rotation-berkshire-dell-oct2026",
+      "first_briefed": "2026-10-19",
+      "section": "opportunities",
+      "summary": "Hypothesis: capital rotating from AI-growth stocks into value as Dell slides, Berkshire rallies.",
+      "status": "active"
+    },
+    {
+      "id": "doac-ai-extinction-risk-episode",
+      "first_briefed": "2026-10-19",
+      "section": "podcasts",
+      "summary": "DOAC episode on AI extinction risk, job disruption and global power struggle.",
+      "status": "active"
+    },
+    {
+      "id": "mfm-lab-grown-diamonds-episode",
+      "first_briefed": "2026-10-19",
+      "section": "podcasts",
+      "summary": "My First Million episode on lab-grown diamonds becoming a $148M business.",
+      "status": "active"
     }
   ]
 }

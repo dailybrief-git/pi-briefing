@@ -5320,6 +5320,62 @@
       "section": "major",
       "summary": "NY sets Dec 9 meeting to begin long-term grid investment planning via NYSERDA",
       "status": "active"
+    },
+    {
+      "id": "tesla-spacex-flying-roadster",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Tesla unveils SpaceX-thruster Roadster that flies and barrel-rolls, fueling merger speculation",
+      "status": "active"
+    },
+    {
+      "id": "social-security-cola-2027",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "SSA sets 3.6% COLA for 2027, wage base rises to $192,300",
+      "status": "active"
+    },
+    {
+      "id": "mamdani-mental-health-connect-ig-budget",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Mamdani launches NYC Mental Health Connect, reopens Lost Battalion Hall, triples NYPD IG budget",
+      "status": "active"
+    },
+    {
+      "id": "ny-county-infrastructure-grant-round3",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Hochul opens third $76M County Infrastructure Grant round",
+      "status": "active"
+    },
+    {
+      "id": "midterms-democrat-trifecta-push",
+      "first_briefed": "2026-10-19",
+      "section": "major",
+      "summary": "Democrats target eight state trifectas ahead of 2026 midterms",
+      "status": "active"
+    },
+    {
+      "id": "trump-russia-sanctions-waiver",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "Trump waives Russia sanctions, drawing bipartisan backlash",
+      "status": "active"
+    },
+    {
+      "id": "poll-wrong-track-record",
+      "first_briefed": "2026-10-19",
+      "section": "alerts",
+      "summary": "NBC poll: wrong-track sentiment hits record high for Trump's term",
+      "status": "active"
+    },
+    {
+      "id": "tesla-spacex-merger-speculation",
+      "first_briefed": "2026-10-19",
+      "section": "opportunities",
+      "summary": "Flying Roadster reveal fuels Tesla-SpaceX merger speculation hypothesis",
+      "status": "active"
     }
   ]
 }
