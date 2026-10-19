@@ -2457,6 +2457,48 @@
       "section": "podcasts",
       "summary": "My First Million episode on lab-grown diamonds becoming a $148M business.",
       "status": "active"
+    },
+    {
+      "id": "wallstreet-ai-selloff-oct2026",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "Nasdaq -4.5%, S&P -2% in worst week since June amid AI-trade unwind and oil price spike.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-drift-oct2026",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "US mortgage trackers diverge (6.95%-7.47%) but trend up from August's 6.69%; 'higher-for-longer' outlook forming.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-capital-release-unit-shortfall",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Lendlease's Capital Release Unit fails to recycle planned A$4.5bn, pressuring its Australia-only pivot.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-plan-technical-amendment-oct2026",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Sydney Plan technical appendices A, B, D, H amended 15 October - first adjustment since launch.",
+      "status": "active"
+    },
+    {
+      "id": "doac-professor-jiang-ai-power",
+      "first_briefed": "2026-10-20",
+      "section": "podcasts",
+      "summary": "DOAC episode on AI, surveillance and global power struggle (partial, show-notes based).",
+      "status": "active"
+    },
+    {
+      "id": "mfm-labgrown-diamonds-episode",
+      "first_briefed": "2026-10-20",
+      "section": "podcasts",
+      "summary": "My First Million covers the rise of the $148bn lab-grown diamond market.",
+      "status": "active"
     }
   ]
 }

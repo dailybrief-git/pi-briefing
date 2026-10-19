@@ -5376,6 +5376,48 @@
       "section": "opportunities",
       "summary": "Flying Roadster reveal fuels Tesla-SpaceX merger speculation hypothesis",
       "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-thrusters-reveal",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Tesla reveals SpaceX-thruster Roadster that flies in livestreamed demo",
+      "status": "active"
+    },
+    {
+      "id": "nyc-services-expansion-oct2026",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Mamdani/Hochul expand 2-K access, launch Mental Health Connect, reopen Lost Battalion Hall",
+      "status": "active"
+    },
+    {
+      "id": "trump-approval-record-low-midterms",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "NBC poll: 71% say US on wrong track, Trump approval record low ahead of midterms",
+      "status": "active"
+    },
+    {
+      "id": "earth-vital-signs-report-2026",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Global climate vital-signs report shows record extremes in 2026",
+      "status": "active"
+    },
+    {
+      "id": "nyc-midtown-subway-shooting",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "Fatal shooting on Midtown subway platform, gunman at large",
+      "status": "active"
+    },
+    {
+      "id": "california-climate-upheaval-warning",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "NYT report warns of major upheaval to California climate/way of life by mid-century",
+      "status": "active"
     }
   ]
 }

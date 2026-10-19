@@ -4396,6 +4396,34 @@
       "section": "opportunities",
       "summary": "Sydney fintech OpenDebt raises $2m pre-seed for AI debt recovery",
       "status": "active"
+    },
+    {
+      "id": "sydney-student-housing-planning-consult-2026-10",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "City of Sydney consults on student-accommodation planning controls; Sydney Plan amended 15 Oct",
+      "status": "active"
+    },
+    {
+      "id": "ausbiotech-2026-funding-reality-check",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "AusBiotech 2026 opens amid funding 'reality check' for Australian biotech",
+      "status": "active"
+    },
+    {
+      "id": "australia-autonomous-submarine-program-2026-10",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Details revealed of Australia's autonomous submarine drone program",
+      "status": "active"
+    },
+    {
+      "id": "opendebt-sydney-fintech-raise-2026-10",
+      "first_briefed": "2026-10-20",
+      "section": "opportunities",
+      "summary": "Sydney's OpenDebt raises $2m pre-seed for AI debt-recovery, led by Blackbird",
+      "status": "active"
     }
   ]
 }

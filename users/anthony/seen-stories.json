@@ -7749,6 +7749,48 @@
       "section": "podcasts",
       "summary": "Diary of a CEO: Eric Weinstein on AI and geopolitics",
       "status": "active"
+    },
+    {
+      "id": "thailand-flash-flood-warning-oct26",
+      "first_briefed": "2026-10-20",
+      "section": "alerts",
+      "summary": "TMD heavy rain/flash-flood warning nationwide 18-25 Oct",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-flight-reveal",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Tesla unveils flying next-gen Roadster at SpaceX facility, 2028 production",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-maia-300-chip",
+      "first_briefed": "2026-10-20",
+      "section": "major",
+      "summary": "Microsoft launches Maia 300 AI inference chip, multi-gigawatt Azure plan",
+      "status": "active"
+    },
+    {
+      "id": "vietnam-wine-import-growth-2026",
+      "first_briefed": "2026-10-20",
+      "section": "opportunities",
+      "summary": "Vietnam alcohol imports up 51% YoY, wine value growth outpaces volume",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-sleep-category-gap",
+      "first_briefed": "2026-10-20",
+      "section": "opportunities",
+      "summary": "Functional food industry still struggling to crack sleep category",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-airport-support-facility-build",
+      "first_briefed": "2026-10-20",
+      "section": "opportunities",
+      "summary": "฿731M fire/rescue/cargo facility project at Chiang Mai Airport, due 2028",
+      "status": "active"
     }
   ]
 }
