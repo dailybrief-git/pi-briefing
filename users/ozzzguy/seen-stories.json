@@ -5418,6 +5418,27 @@
       "section": "alerts",
       "summary": "NYT report warns of major upheaval to California climate/way of life by mid-century",
       "status": "active"
+    },
+    {
+      "id": "tesla-spacex-roadster-reveal",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Tesla unveils SpaceX-thruster-powered flying Roadster at McGregor, TX event",
+      "status": "active"
+    },
+    {
+      "id": "alberta-referendum-remain",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Alberta votes to remain in Canada, boosting Carney unity agenda",
+      "status": "active"
+    },
+    {
+      "id": "climate-vital-signs-report-2026",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "New report finds Earth's climate vital signs at record extremes in 2026",
+      "status": "active"
     }
   ]
 }

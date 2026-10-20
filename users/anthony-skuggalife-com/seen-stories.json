@@ -4424,6 +4424,55 @@
       "section": "opportunities",
       "summary": "Sydney's OpenDebt raises $2m pre-seed for AI debt-recovery, led by Blackbird",
       "status": "active"
+    },
+    {
+      "id": "sydney-plan-appendices-update-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "alerts",
+      "summary": "NSW amends Sydney Plan technical appendices 15 Oct",
+      "status": "active"
+    },
+    {
+      "id": "city-of-sydney-student-accommodation-consult-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "alerts",
+      "summary": "City of Sydney opens consultation on student-accommodation planning rules",
+      "status": "active"
+    },
+    {
+      "id": "ausbiotech-2026-gold-coast",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "AusBiotech/AusMedtech 2026 conference opens Gold Coast, Capital Sprint pitches",
+      "status": "active"
+    },
+    {
+      "id": "apple-iphone-duo-homeview-launch-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Apple ships iPhone Duo and unveils Apple HomeView smart-home hub",
+      "status": "active"
+    },
+    {
+      "id": "tariff-tracker-taiwan-rate-cut-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Tax Foundation: Taiwan tariff cut to 15%, Canada/Mexico estimates revised",
+      "status": "active"
+    },
+    {
+      "id": "swiss-franc-yen-intervention-spillover-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Swiss franc weakens as side-effect of US-Japan yen intervention",
+      "status": "active"
+    },
+    {
+      "id": "opendebt-sydney-fintech-funding-2026-10",
+      "first_briefed": "2026-10-21",
+      "section": "opportunities",
+      "summary": "Sydney fintech OpenDebt raises $2m pre-seed for autonomous debt recovery",
+      "status": "active"
     }
   ]
 }

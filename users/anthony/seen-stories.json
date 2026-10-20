@@ -7791,6 +7791,83 @@
       "section": "opportunities",
       "summary": "฿731M fire/rescue/cargo facility project at Chiang Mai Airport, due 2028",
       "status": "active"
+    },
+    {
+      "id": "tesla-roadster-flying-car-reveal",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "Tesla unveils flying Roadster with SpaceX air-thruster tech, 2028 production target",
+      "status": "active"
+    },
+    {
+      "id": "openai-humanoid-robots-plan",
+      "first_briefed": "2026-10-21",
+      "section": "major",
+      "summary": "OpenAI confirms humanoid robot program, 2027 demo target",
+      "status": "active"
+    },
+    {
+      "id": "thailand-rain-flashflood-oct2026",
+      "first_briefed": "2026-10-21",
+      "section": "alerts",
+      "summary": "Thai Met Dept heavy rain/flash-flood warning nationwide 18-25 Oct",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-airport-expansion-15pct",
+      "first_briefed": "2026-10-21",
+      "section": "opportunities",
+      "summary": "Chiang Mai Airport expansion support facilities ~15% complete",
+      "status": "active"
+    },
+    {
+      "id": "vietnam-wine-spirits-import-growth",
+      "first_briefed": "2026-10-21",
+      "section": "opportunities",
+      "summary": "Vietnam alcoholic-beverage imports up 51% value Jan-Aug 2026",
+      "status": "active"
+    },
+    {
+      "id": "american-fair-chiangmai-festival",
+      "first_briefed": "2026-10-21",
+      "section": "opportunities",
+      "summary": "American Fair brings 3-day free festival with 40+ booths to Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-sleep-struggle",
+      "first_briefed": "2026-10-21",
+      "section": "opportunities",
+      "summary": "Sleep remains underperforming category in functional foods per survey",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-riders-pavement-backlash",
+      "first_briefed": "2026-10-21",
+      "section": "interest",
+      "summary": "Chiang Mai delivery riders criticised for pavement parking",
+      "status": "active"
+    },
+    {
+      "id": "knightscope-signals-digital-twin",
+      "first_briefed": "2026-10-21",
+      "section": "gems",
+      "summary": "Knightscope launches Signals physical-security digital twin",
+      "status": "active"
+    },
+    {
+      "id": "motive-agentic-ai-launch",
+      "first_briefed": "2026-10-21",
+      "section": "gems",
+      "summary": "Motive launches proactive agentic AI for physical operations",
+      "status": "active"
+    },
+    {
+      "id": "diary-of-a-ceo-60m-revenue",
+      "first_briefed": "2026-10-21",
+      "section": "podcasts",
+      "summary": "Diary of a CEO reportedly on track for ~$60M revenue this year",
+      "status": "active"
     }
   ]
 }
