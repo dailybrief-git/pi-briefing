@@ -7868,6 +7868,62 @@
       "section": "podcasts",
       "summary": "Diary of a CEO reportedly on track for ~$60M revenue this year",
       "status": "active"
+    },
+    {
+      "id": "thailand-flash-flood-oct2026",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "National heavy-rain/flash-flood warning through 25 Oct, risk to Chiang Mai region",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-flying-car-unveil",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Tesla unveils flying Roadster built with SpaceX, 2028 production target",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-mythos-quantum-breakthrough",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Claude Fable/Mythos 5.1 ship; Anthropic claims autonomous quantum-circuit design breakthrough",
+      "status": "active"
+    },
+    {
+      "id": "meta-your-algorithm-facebook",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Meta launches 'Your Algorithm' natural-language feed control on Facebook",
+      "status": "active"
+    },
+    {
+      "id": "thailand-hospital-upgrade-302m",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "$302M investment to upgrade five regional Thai hospitals including Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-sleep-gap",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Survey shows functional food adoption strong but sleep category underperforming",
+      "status": "active"
+    },
+    {
+      "id": "chishui-river-wine-forum",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Global wine leaders debate value reconfiguration at China's Chishui River Forum",
+      "status": "active"
+    },
+    {
+      "id": "thai-foreign-investment-surge-2026",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Thailand authorises 971 foreign-linked firms worth ฿271bn YTD amid nominee crackdown",
+      "status": "active"
     }
   ]
 }

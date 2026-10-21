@@ -2569,6 +2569,48 @@
       "section": "gems",
       "summary": "Analyst note flags Lendlease's stalled $4.5bn capital recycling plan.",
       "status": "active"
+    },
+    {
+      "id": "helen-haines-car-attack-2026",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "Independent MP Helen Haines allegedly hit by car outside Victorian electorate office; man charged.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-plan-oct-amendments-2026",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Sydney Plan technical appendices A/B/D/H amended 15 October 2026.",
+      "status": "active"
+    },
+    {
+      "id": "morgan-stanley-sp500-8500-call",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Morgan Stanley's Mike Wilson says correction nearly over, forecasts S&P 500 at 8,500.",
+      "status": "active"
+    },
+    {
+      "id": "campbelltown-tod-pipeline-2026",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Campbelltown-Macarthur TOD corridor pipeline exceeds $2bn amid zoning uplift.",
+      "status": "active"
+    },
+    {
+      "id": "meriton-lost-property-startup-rollout",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Melbourne lost-property startup rolls out across all 24 Meriton Suites properties.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-regs-refresh-oct2026",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "NSW tiny-home/granny-flat compliance guidance refreshed for October 2026.",
+      "status": "active"
     }
   ]
 }

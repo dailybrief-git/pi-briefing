@@ -5439,6 +5439,83 @@
       "section": "major",
       "summary": "New report finds Earth's climate vital signs at record extremes in 2026",
       "status": "active"
+    },
+    {
+      "id": "spacex-starship-double-catch-attempt",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "SpaceX to attempt first double Starship booster-and-ship catch on next test flight",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-tease",
+      "first_briefed": "2026-10-22",
+      "section": "opportunities",
+      "summary": "Musk teases SpaceX/Tesla Terafab chip breakthroughs, 2028 production target",
+      "status": "active"
+    },
+    {
+      "id": "alabama-hb580-curriculum-authority",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Alabama HB580 shifts university curriculum authority to trustees, effective Oct 1",
+      "status": "active"
+    },
+    {
+      "id": "nyc-ballot-proposals-2026",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "NYC's five Nov ballot proposals, incl. permit-consolidation hub",
+      "status": "active"
+    },
+    {
+      "id": "trump-400m-midterm-spending",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Trump pledges $400M midterm spending; new polling on endorsement impact",
+      "status": "active"
+    },
+    {
+      "id": "nyc-transportation-abreu-qa",
+      "first_briefed": "2026-10-22",
+      "section": "major",
+      "summary": "Council Transportation Chair Abreu previews transit/infrastructure priorities",
+      "status": "active"
+    },
+    {
+      "id": "scotus-trans-inmate-care-ruling",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "SCOTUS requires continued gender-affirming care for federal inmates pending litigation",
+      "status": "active"
+    },
+    {
+      "id": "doj-ca-noncitizen-voter-list-unreliable",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "DOJ's California noncitizen voter list called unreliable by officials",
+      "status": "active"
+    },
+    {
+      "id": "climate-vital-signs-2026-record",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "New report + NOAA data confirm record warm months across 2026",
+      "status": "active"
+    },
+    {
+      "id": "cost-of-living-squeeze-oct2026",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "SoFi survey + inflation data show Americans delaying major purchases",
+      "status": "active"
+    },
+    {
+      "id": "nyc-manhole-fires-record-pace",
+      "first_briefed": "2026-10-22",
+      "section": "alerts",
+      "summary": "NYC on pace for most manhole fires in 11 years",
+      "status": "active"
     }
   ]
 }
