@@ -5516,6 +5516,76 @@
       "section": "alerts",
       "summary": "NYC on pace for most manhole fires in 11 years",
       "status": "active"
+    },
+    {
+      "id": "spacex-starfall-capsule",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "SpaceX unveils Starfall reusable reentry capsule for microgravity service",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-teaser",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "Musk teases Terafab chip breakthrough targeting 2028 production",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-double-catch",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "SpaceX to attempt first double Starship catch on next test flight",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-thrusters",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "Tesla reveals Roadster with SpaceX thrusters, fuels merger speculation",
+      "status": "active"
+    },
+    {
+      "id": "alabama-hb580-curriculum",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "Alabama HB580 expands university board control over curriculum",
+      "status": "active"
+    },
+    {
+      "id": "edutech-asia-2026-singapore",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "EDUtech Asia 2026 draws 8,000 educators to Singapore",
+      "status": "active"
+    },
+    {
+      "id": "russia-ukraine-peace-signal-oct",
+      "first_briefed": "2026-10-23",
+      "section": "alerts",
+      "summary": "Russia signals readiness to resume Ukraine peace talks",
+      "status": "active"
+    },
+    {
+      "id": "france-protests-curfews-oct",
+      "first_briefed": "2026-10-23",
+      "section": "alerts",
+      "summary": "France imposes curfews after protest violence",
+      "status": "active"
+    },
+    {
+      "id": "el-nino-behemoth-2026",
+      "first_briefed": "2026-10-23",
+      "section": "alerts",
+      "summary": "UN warns of extremely strong El Nino peaking late 2026",
+      "status": "active"
+    },
+    {
+      "id": "asu-area-shooting-oct2026",
+      "first_briefed": "2026-10-23",
+      "section": "alerts",
+      "summary": "Visiting Brazilian professor killed in Arizona shooting",
+      "status": "active"
     }
   ]
 }

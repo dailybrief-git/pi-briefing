@@ -7924,6 +7924,83 @@
       "section": "opportunities",
       "summary": "Thailand authorises 971 foreign-linked firms worth ฿271bn YTD amid nominee crackdown",
       "status": "active"
+    },
+    {
+      "id": "anthropic-claude-duet-launch",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "Anthropic launches proactive background agent Claude Duet in research preview",
+      "status": "active"
+    },
+    {
+      "id": "openai-php-vulnerability-coalition",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "OpenAI models found and helped patch major PHP exploit, also linked to breaches",
+      "status": "active"
+    },
+    {
+      "id": "nvidia-gtc-berlin-retail-ai",
+      "first_briefed": "2026-10-23",
+      "section": "major",
+      "summary": "Nvidia GTC Berlin showcases agentic commerce cutting retail inference costs 90%",
+      "status": "active"
+    },
+    {
+      "id": "thai-q4-flight-capacity-growth",
+      "first_briefed": "2026-10-23",
+      "section": "opportunities",
+      "summary": "Kasikorn forecasts Thai Q4 flight capacity up 5.8% YoY, trailing regional rivals",
+      "status": "active"
+    },
+    {
+      "id": "chishui-river-wine-forum-2026",
+      "first_briefed": "2026-10-23",
+      "section": "opportunities",
+      "summary": "China's Moutai-backed forum debates value reconfiguration for global wine/spirits",
+      "status": "active"
+    },
+    {
+      "id": "asia-wine-market-signals-oct2026",
+      "first_briefed": "2026-10-23",
+      "section": "opportunities",
+      "summary": "Newsletter flags five divergent Asia wine/spirits market signals",
+      "status": "active"
+    },
+    {
+      "id": "facebook-your-algorithm-feed-control",
+      "first_briefed": "2026-10-23",
+      "section": "companies",
+      "summary": "Facebook lets users steer feed via natural-language 'Your Algorithm'",
+      "status": "active"
+    },
+    {
+      "id": "arda-ai-manufacturing-startup",
+      "first_briefed": "2026-10-23",
+      "section": "startups",
+      "summary": "Ex-OpenAI exec Bob McGrew's Arda hits $1.5B valuation for AI manufacturing",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-matcha-seizure",
+      "first_briefed": "2026-10-23",
+      "section": "gems",
+      "summary": "Customs seize ฿500,000 of smuggled matcha at Chiang Mai airport",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-delivery-riders-backlash",
+      "first_briefed": "2026-10-23",
+      "section": "gems",
+      "summary": "Chiang Mai delivery riders face backlash over pavement parking",
+      "status": "active"
+    },
+    {
+      "id": "diary-ceo-zelenskyy-episode",
+      "first_briefed": "2026-10-23",
+      "section": "podcasts",
+      "summary": "Zelenskyy gives candid 110-minute Diary of a CEO interview",
+      "status": "active"
     }
   ]
 }
