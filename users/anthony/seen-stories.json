@@ -8001,6 +8001,48 @@
       "section": "podcasts",
       "summary": "Zelenskyy gives candid 110-minute Diary of a CEO interview",
       "status": "active"
+    },
+    {
+      "id": "thailand-flood-oct-2026",
+      "first_briefed": "2026-10-24",
+      "section": "alerts",
+      "summary": "Thai flood toll 64 dead, 375k+ households affected, rain warning through 25 Oct",
+      "status": "active"
+    },
+    {
+      "id": "srt-airport-rail-link-lawsuit",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "SRT sues CP-backed Asia Era One for ฿13.3bn over Airport Rail Link dispute",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-flying-car",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Tesla unveils flying Roadster with SpaceX thrusters, 2028 production target",
+      "status": "active"
+    },
+    {
+      "id": "tesla-optimus-production-start",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Tesla begins Optimus humanoid robot production at Fremont",
+      "status": "active"
+    },
+    {
+      "id": "openai-humanoid-robot-2027",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Altman confirms OpenAI humanoid robot program, targeting 2027 demo",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-tourism-plan-2028-2032",
+      "first_briefed": "2026-10-24",
+      "section": "opportunities",
+      "summary": "4th National Tourism Development Plan enters action phase with Chiang Mai input",
+      "status": "active"
     }
   ]
 }

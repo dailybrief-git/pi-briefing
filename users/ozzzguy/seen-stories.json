@@ -5586,6 +5586,83 @@
       "section": "alerts",
       "summary": "Visiting Brazilian professor killed in Arizona shooting",
       "status": "active"
+    },
+    {
+      "id": "nyc-ballot-propositions-2026",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Five NYC charter ballot propositions on permitting/land use go before voters Nov 3",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-double-catch",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "SpaceX teases 2028 chip production at Terafab, plans first double Starship catch",
+      "status": "active"
+    },
+    {
+      "id": "nc-literacy-middle-school-expansion",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "NC science-of-reading reform extends into middle school",
+      "status": "active"
+    },
+    {
+      "id": "edtech-tobacco-comparison-admin-split",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Trump ed-tech official's tobacco comparison exposes AI-in-schools policy rift",
+      "status": "active"
+    },
+    {
+      "id": "kiplimo-marathon-record-push",
+      "first_briefed": "2026-10-24",
+      "section": "major",
+      "summary": "Kiplimo's 57:20 half and 2:00:28 marathon extend the speed-ceiling hypothesis",
+      "status": "active"
+    },
+    {
+      "id": "west-bank-soldiers-killed-escalation",
+      "first_briefed": "2026-10-24",
+      "section": "alerts",
+      "summary": "Two Israeli soldiers killed in West Bank; Netanyahu threatens major offensive",
+      "status": "active"
+    },
+    {
+      "id": "nyc-brick-child-injury",
+      "first_briefed": "2026-10-24",
+      "section": "alerts",
+      "summary": "Falling bricks from NYC building strike and injure a child",
+      "status": "active"
+    },
+    {
+      "id": "hurricane-vance-mexico",
+      "first_briefed": "2026-10-24",
+      "section": "alerts",
+      "summary": "Storm Vance may strengthen to Category 3 nearing Mexico",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-superintelligence-partner-network",
+      "first_briefed": "2026-10-24",
+      "section": "opportunities",
+      "summary": "SpaceX x Nvidia launch enterprise agentic-AI partner network",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-merger-speculation",
+      "first_briefed": "2026-10-24",
+      "section": "opportunities",
+      "summary": "Roadster's SpaceX thrusters fuel Tesla-SpaceX merger chatter",
+      "status": "active"
+    },
+    {
+      "id": "edtech-authentic-tools-opportunity-development",
+      "first_briefed": "2026-10-24",
+      "section": "opportunities",
+      "summary": "Admin AI/edtech rift may favor outcomes-proven, low-screen-time tools",
+      "status": "active"
     }
   ]
 }
