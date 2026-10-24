@@ -2737,6 +2737,48 @@
       "section": "gems",
       "summary": "Meriton completes lost-property tech rollout across all 24 properties.",
       "status": "active"
+    },
+    {
+      "id": "nsw-strata-acts-not-in-force-oct2026",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "NSW's 2026 building/strata Acts remain assented but strata provisions not yet commenced.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-above-7-oct2026",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "US 30-year mortgage rate eases to 7.18-7.39% but stays above 7% for fifth straight week, up from August's 6.69%.",
+      "status": "active"
+    },
+    {
+      "id": "market-internals-bear-market-oct2026",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "60% of S&P 500 stocks in bear market despite index highs; Apple reclaims market-cap crown from Nvidia.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-rules-revised-oct2026",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "NSW revises tiny home/granny flat compliance certificate rules for Sydney Water area.",
+      "status": "active"
+    },
+    {
+      "id": "marriott-studiores-brand-launch",
+      "first_briefed": "2026-10-25",
+      "section": "opportunities",
+      "summary": "Marriott pushes new mid-scale StudioRes brand for cost-conscious travellers.",
+      "status": "active"
+    },
+    {
+      "id": "au-flash-flood-storm-warning-oct2026",
+      "first_briefed": "2026-10-25",
+      "section": "alerts",
+      "summary": "Severe storm and flash flood warnings issued across much of Australia.",
+      "status": "active"
     }
   ]
 }

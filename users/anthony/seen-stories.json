@@ -8043,6 +8043,48 @@
       "section": "opportunities",
       "summary": "4th National Tourism Development Plan enters action phase with Chiang Mai input",
       "status": "active"
+    },
+    {
+      "id": "microsoft-maia-300",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "Microsoft announces Maia 300 AI inference chip",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-duet",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "Anthropic launches proactive agent app Claude Duet",
+      "status": "active"
+    },
+    {
+      "id": "blood-cell-reprogramming-aging-reversal",
+      "first_briefed": "2026-10-25",
+      "section": "major",
+      "summary": "80-year-old blood cells reprogrammed into young neural stem cells",
+      "status": "active"
+    },
+    {
+      "id": "thailand-flash-flood-warning-oct",
+      "first_briefed": "2026-10-25",
+      "section": "alerts",
+      "summary": "TMD heavy rain/flash flood warning 18-25 Oct covering north Thailand",
+      "status": "active"
+    },
+    {
+      "id": "awc-chiangmai-sustainable-framework",
+      "first_briefed": "2026-10-25",
+      "section": "opportunities",
+      "summary": "AWC signs sustainable-development cooperation framework for Chiang Mai",
+      "status": "active"
+    },
+    {
+      "id": "tourism-plan-2028-2032",
+      "first_briefed": "2026-10-25",
+      "section": "opportunities",
+      "summary": "4th National Tourism Development Plan (2028-2032) kickoff meeting",
+      "status": "active"
     }
   ]
 }
