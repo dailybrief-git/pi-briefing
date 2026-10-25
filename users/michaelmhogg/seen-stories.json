@@ -2779,6 +2779,34 @@
       "section": "alerts",
       "summary": "Severe storm and flash flood warnings issued across much of Australia.",
       "status": "active"
+    },
+    {
+      "id": "western-sydney-airport-passenger-launch-2026",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "Western Sydney (Nancy-Bird Walton) Airport begins passenger operations 25 Oct 2026, following July freight launch.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-tiny-home-granny-flat-rules-oct2026",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Updated NSW guidance removes Section 73 certificate requirement for compliant granny flats in Sydney Water's area.",
+      "status": "active"
+    },
+    {
+      "id": "pinsent-masons-sydney-infra-partner-oct2026",
+      "first_briefed": "2026-10-26",
+      "section": "gems",
+      "summary": "Pinsent Masons appoints contractor-side infrastructure specialist as Sydney partner.",
+      "status": "active"
+    },
+    {
+      "id": "doac-bartlett-revenue-milestone-oct2026",
+      "first_briefed": "2026-10-26",
+      "section": "podcasts",
+      "summary": "Fortune: Diary of a CEO on track for ~$60M revenue this year.",
+      "status": "active"
     }
   ]
 }

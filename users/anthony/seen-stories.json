@@ -8085,6 +8085,48 @@
       "section": "opportunities",
       "summary": "4th National Tourism Development Plan (2028-2032) kickoff meeting",
       "status": "active"
+    },
+    {
+      "id": "gpt6-sol-luna-launch",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "OpenAI launches GPT-6 Sol and Luna model pair",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-launch-week-duet-fable-mythos",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "Anthropic ships Claude Duet agent, Fable/Mythos 5.1, continuous security scanning",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-ai-agent-insider-threat-framing",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "Microsoft frames AI agents as insider threats via Project Perception",
+      "status": "active"
+    },
+    {
+      "id": "arda-manufacturing-startup",
+      "first_briefed": "2026-10-26",
+      "section": "startups",
+      "summary": "Ex-OpenAI exec Bob McGrew's Arda hits $1.5B valuation for AI manufacturing",
+      "status": "active"
+    },
+    {
+      "id": "thai-stocks-3week-low",
+      "first_briefed": "2026-10-26",
+      "section": "markets",
+      "summary": "Thai SET50 eases to 3-week low amid weak consumer confidence",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-matcha-customs-seizure",
+      "first_briefed": "2026-10-26",
+      "section": "gems",
+      "summary": "Chiang Mai airport customs seize ฿500,000 of smuggled matcha",
+      "status": "active"
     }
   ]
 }

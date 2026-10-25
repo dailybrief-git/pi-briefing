@@ -4697,6 +4697,27 @@
       "section": "opportunities",
       "summary": "Brewers/distillers lobby for crackdown on THC-infused drinks",
       "status": "active"
+    },
+    {
+      "id": "nab-job-cuts-nextdc-halt-2026-10",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "NAB plans 2,500 job cuts by mid-2027; NextDC enters trading halt",
+      "status": "active"
+    },
+    {
+      "id": "intel-chip-capacity-dwarkesh-2026-10",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "Intel CTO tells Dwarkesh chip output cannot scale 10x with current tools",
+      "status": "active"
+    },
+    {
+      "id": "contech-funding-roundup-oct-2026-10",
+      "first_briefed": "2026-10-26",
+      "section": "opportunities",
+      "summary": "Icon, Origin, Solvera raise fresh construction-tech funding",
+      "status": "active"
     }
   ]
 }

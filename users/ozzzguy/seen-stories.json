@@ -5663,6 +5663,76 @@
       "section": "opportunities",
       "summary": "Admin AI/edtech rift may favor outcomes-proven, low-screen-time tools",
       "status": "active"
+    },
+    {
+      "id": "israel-west-bank-operation-escalation",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Israel expands West Bank operation with arrests/demolitions, follow-on from July alert",
+      "status": "active"
+    },
+    {
+      "id": "france-protests-spread-europe",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Protests tied to France unrest spread to Milan, Rome, Madrid, Lisbon, Tirana",
+      "status": "active"
+    },
+    {
+      "id": "nyc-central-park-assault",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Knifepoint sexual assault near Central Park, suspect at large",
+      "status": "active"
+    },
+    {
+      "id": "brazil-bolsonaro-runoff",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Flávio Bolsonaro tops first round, Brazil runoff set",
+      "status": "active"
+    },
+    {
+      "id": "wyden-unemployment-bill",
+      "first_briefed": "2026-10-26",
+      "section": "alerts",
+      "summary": "Wyden bill would double unemployment benefits to 52 weeks in downturn",
+      "status": "active"
+    },
+    {
+      "id": "spacex-chip-tease-nvidia-partner-network",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "SpaceX teases chip breakthroughs/Terafab 2028, launches Nvidia-linked AI partner network",
+      "status": "active"
+    },
+    {
+      "id": "midterms-2026-early-voting-surge",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "21M+ early midterm ballots cast, Dems eye Senate gains in red states",
+      "status": "active"
+    },
+    {
+      "id": "google-classroom-gemini-ai-tools",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "Google expands Gemini-powered AI tools across Classroom",
+      "status": "active"
+    },
+    {
+      "id": "billat-rpe-calibration-study",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "New Billat study on RPE calibration reliability for marathoners",
+      "status": "active"
+    },
+    {
+      "id": "ss-cola-2027-increase",
+      "first_briefed": "2026-10-26",
+      "section": "major",
+      "summary": "SSA confirms 3.6% COLA for Jan 2027, SSI bump starts Dec 31 2026",
+      "status": "active"
     }
   ]
 }
