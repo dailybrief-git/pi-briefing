@@ -4718,6 +4718,41 @@
       "section": "opportunities",
       "summary": "Icon, Origin, Solvera raise fresh construction-tech funding",
       "status": "active"
+    },
+    {
+      "id": "western-sydney-airport-passenger-ops-2026-10",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Western Sydney Airport begins passenger operations after July freight start",
+      "status": "active"
+    },
+    {
+      "id": "coalition-climate-digital-duty-care-2026-10",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Coalition pledges climate-policy rollback for inflation fight; Digital Duty of Care bill to Senate inquiry",
+      "status": "active"
+    },
+    {
+      "id": "genius-act-final-rule-2026-10",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "OCC finalises GENIUS Act stablecoin rule, effective 18 Jan 2027",
+      "status": "active"
+    },
+    {
+      "id": "contech-funding-wave-oct-2026",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "Icon $200m Series D leads a wave of contech funding (Origin, Solvera, Hexagon/Rocscience)",
+      "status": "active"
+    },
+    {
+      "id": "bioagilytix-sydney-lab-2026-10",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "BioAgilytix opens new Sydney bioanalytical lab via 360biolabs",
+      "status": "active"
     }
   ]
 }

@@ -2807,6 +2807,62 @@
       "section": "podcasts",
       "summary": "Fortune: Diary of a CEO on track for ~$60M revenue this year.",
       "status": "active"
+    },
+    {
+      "id": "mirvac-fy27-trading-update-oct2026",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Mirvac holds FY27 guidance despite cooling residential sales; recurring portfolio strong.",
+      "status": "active"
+    },
+    {
+      "id": "spacex-40bn-debt-deal-ai-chips",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "SpaceX closes $40bn debt deal to fund AI-chip infrastructure.",
+      "status": "active"
+    },
+    {
+      "id": "softbank-50bn-malaysia-ai-nation",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "SoftBank reportedly committing $50bn to position Malaysia as an AI hub.",
+      "status": "active"
+    },
+    {
+      "id": "meta-stock-selloff-spending-plans",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Meta market value falls ~$124bn after AI spending-plan announcement.",
+      "status": "active"
+    },
+    {
+      "id": "ai-funding-fears-coreweave-credit-risk",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "AI funding fears widen; CoreWeave default-insurance cost tops 10%/year.",
+      "status": "active"
+    },
+    {
+      "id": "coalition-climate-policy-dismantle-budget-costings",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Coalition releases budget costings proposing to dismantle climate policy to fight inflation.",
+      "status": "active"
+    },
+    {
+      "id": "digital-duty-of-care-bill-senate-inquiry",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Labor's Digital Duty of Care bill referred to Senate inquiry after bipartisan opposition.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-new-normal-oct2026",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "US 30-year mortgage rate eases to 7.39% but described as 'new normal' above 7%.",
+      "status": "active"
     }
   ]
 }

@@ -5733,6 +5733,76 @@
       "section": "major",
       "summary": "SSA confirms 3.6% COLA for Jan 2027, SSI bump starts Dec 31 2026",
       "status": "active"
+    },
+    {
+      "id": "europe-protests-spread-beyond-france",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Protests spread to Milan, Rome, Madrid, Lisbon, Tirana",
+      "status": "active"
+    },
+    {
+      "id": "ny-appeals-court-mail-in-ballot-dispute",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Federal appeals court weighs 20,000 contested NY mail-in ballots pre-election",
+      "status": "active"
+    },
+    {
+      "id": "midterm-early-voting-surge-21m",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "21M Americans vote early ahead of Nov 3 midterms",
+      "status": "active"
+    },
+    {
+      "id": "spacex-super-intelligence-partner-network",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "SpaceX/xAI launch enterprise Grok AI partner network with Nvidia, 130 tech leaders",
+      "status": "active"
+    },
+    {
+      "id": "nyc-2026-ballot-proposals",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Five NYC charter ballot proposals head to Nov 3 vote",
+      "status": "active"
+    },
+    {
+      "id": "ss-cola-2027-36pct",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "SSA confirms 2027 COLA at 3.6%, called inadequate by retirees",
+      "status": "active"
+    },
+    {
+      "id": "un-wmo-el-nino-behemoth-2026",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "UN WMO warns of extremely strong El Niño through 2026-27",
+      "status": "active"
+    },
+    {
+      "id": "electricity-prices-outpace-earnings-31states",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Urban Institute finds electricity bills outpacing wages in 31 states",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-2028-teaser",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "Musk teases SpaceX/Tesla chip breakthroughs, targets 2028 Terafab volume production",
+      "status": "active"
+    },
+    {
+      "id": "nyc-permit-consolidation-ballot-proposal",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "NYC ballot measure could consolidate 40 permits across 18 agencies, govtech opening",
+      "status": "active"
     }
   ]
 }

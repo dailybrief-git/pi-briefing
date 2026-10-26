@@ -8127,6 +8127,48 @@
       "section": "gems",
       "summary": "Chiang Mai airport customs seize ฿500,000 of smuggled matcha",
       "status": "active"
+    },
+    {
+      "id": "thai-visa-overstayer-crackdown",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Nationwide crackdown targets 10,000 visa overstayers",
+      "status": "active"
+    },
+    {
+      "id": "thai-travel-tax-postponed",
+      "first_briefed": "2026-10-27",
+      "section": "alerts",
+      "summary": "Government postpones proposed ฿1,000 overseas travel tax",
+      "status": "active"
+    },
+    {
+      "id": "thailand-4th-tourism-plan-2028",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "4th National Tourism Development Plan (2028-32) implementation kickoff",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-airport-capacity-restored",
+      "first_briefed": "2026-10-27",
+      "section": "opportunities",
+      "summary": "Airline capacity into Chiang Mai restored to pre-pandemic levels amid wider visa-exempt access",
+      "status": "active"
+    },
+    {
+      "id": "tesla-roadster-spacex-unveil",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Tesla unveils Roadster with SpaceX thrusters at Texas site",
+      "status": "active"
+    },
+    {
+      "id": "functional-food-trend-shift",
+      "first_briefed": "2026-10-27",
+      "section": "major",
+      "summary": "Functional food R&D shifting to cognition, sleep, longevity",
+      "status": "active"
     }
   ]
 }
