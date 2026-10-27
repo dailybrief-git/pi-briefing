@@ -5803,6 +5803,62 @@
       "section": "opportunities",
       "summary": "NYC ballot measure could consolidate 40 permits across 18 agencies, govtech opening",
       "status": "active"
+    },
+    {
+      "id": "israel-west-bank-op-renewed-oct2026",
+      "first_briefed": "2026-10-28",
+      "section": "alerts",
+      "summary": "Israel renews West Bank operation vow after deadly checkpoint attack killing two soldiers",
+      "status": "active"
+    },
+    {
+      "id": "us-iran-toughest-sanctions-threat",
+      "first_briefed": "2026-10-28",
+      "section": "alerts",
+      "summary": "Treasury threatens 'toughest sanctions in history' on Iran",
+      "status": "active"
+    },
+    {
+      "id": "electricity-bills-outpace-earnings-2026",
+      "first_briefed": "2026-10-28",
+      "section": "alerts",
+      "summary": "Urban Institute: electricity bills outpacing earnings in 31 states",
+      "status": "active"
+    },
+    {
+      "id": "spacex-superintelligence-partner-network",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "SpaceX/xAI launch Super Intelligence Partner Network with Nvidia for Grok AI enterprise deployment",
+      "status": "active"
+    },
+    {
+      "id": "nasa-artemis-lunar-lander-mad-dash",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "NASA races to test lunar landers; SpaceX to fly bare-bones Starship variant next year",
+      "status": "active"
+    },
+    {
+      "id": "midterms-record-early-voting-2026",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "21M+ early votes cast ahead of midterms; Trump campaigns in MS/MI",
+      "status": "active"
+    },
+    {
+      "id": "spacex-terafab-chip-hypothesis",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: SpaceX in-house chip production (Terafab, 2028) could reduce Nvidia dependency",
+      "status": "active"
+    },
+    {
+      "id": "cost-of-living-affordability-tech-hypothesis",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "Hypothesis: sustained affordability squeeze favors budgeting/fintech tools",
+      "status": "active"
     }
   ]
 }

@@ -2863,6 +2863,104 @@
       "section": "alerts",
       "summary": "US 30-year mortgage rate eases to 7.39% but described as 'new normal' above 7%.",
       "status": "active"
+    },
+    {
+      "id": "helen-haines-attack-security-boost",
+      "first_briefed": "2026-10-28",
+      "section": "alerts",
+      "summary": "Parliament to speed up security review after attack on independent MP Helen Haines.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-let-court-developer-battle-2026",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "SMH investigation: NSW Land and Environment Court overturned hundreds of council development refusals in 2025.",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-buyout-60k-staff-2026",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "Microsoft offers buyouts to ~60,000 staff, extending August job cuts.",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-prospectus-2026",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "Anthropic files 355-page IPO prospectus disclosing new financial detail.",
+      "status": "active"
+    },
+    {
+      "id": "amex-5pct-workforce-ai-cuts",
+      "first_briefed": "2026-10-28",
+      "section": "major",
+      "summary": "American Express cuts 5% of workforce citing AI preparation.",
+      "status": "active"
+    },
+    {
+      "id": "airtrunk-syd3-datacentre-financing",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "AirTrunk secures $4.25bn green loan for SYD3 Western Sydney data-centre expansion.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-metro-rail-corridor-housing-push",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "NSW rezones suburbs along Metro corridors for higher-density housing.",
+      "status": "active"
+    },
+    {
+      "id": "venhub-automated-retail-apartments",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "VenHub installs autonomous retail store inside new apartment development.",
+      "status": "active"
+    },
+    {
+      "id": "adept-materials-lilypad-paint",
+      "first_briefed": "2026-10-28",
+      "section": "opportunities",
+      "summary": "Brown University spinout launches sustainable Lilypad paint/primer system for buildings.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-fy27-guidance-held-despite-slowdown",
+      "first_briefed": "2026-10-28",
+      "section": "gems",
+      "summary": "Mirvac holds FY27 settlement guidance despite cooling residential sales.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-decline-oct2026",
+      "first_briefed": "2026-10-28",
+      "section": "gems",
+      "summary": "US 30-year mortgage rate eased to 7.39%, 15-year to 6.68%.",
+      "status": "active"
+    },
+    {
+      "id": "rlwc-australia-fiji-semifinal",
+      "first_briefed": "2026-10-28",
+      "section": "interest",
+      "summary": "Australia beat Fiji 36-22 to reach Rugby League World Cup semi-finals.",
+      "status": "active"
+    },
+    {
+      "id": "uss-colorado-aukus-deployment",
+      "first_briefed": "2026-10-28",
+      "section": "gems",
+      "summary": "USS Colorado is first submarine to deploy to Australia under AUKUS.",
+      "status": "active"
+    },
+    {
+      "id": "apple-foldable-screen-fault-reports",
+      "first_briefed": "2026-10-28",
+      "section": "gems",
+      "summary": "Users report screen faults on Apple's first foldable iPhone.",
+      "status": "active"
     }
   ]
 }
