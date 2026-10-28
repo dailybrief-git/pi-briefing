@@ -2961,6 +2961,55 @@
       "section": "gems",
       "summary": "Users report screen faults on Apple's first foldable iPhone.",
       "status": "active"
+    },
+    {
+      "id": "nsw-lec-court-override-council-refusals-2026",
+      "first_briefed": "2026-10-29",
+      "section": "alerts",
+      "summary": "SMH investigation: NSW Land and Environment Court approved hundreds of council-refused developments in 2025.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-fy27-guidance-held-oct2026",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "Mirvac holds FY27 settlement guidance despite cooling residential sales; develops earlier FY26/FY27 coverage.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-metro-corridor-redevelopment-2026",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "SMH details transit-oriented development reshaping outer Sydney suburbs along metro corridor.",
+      "status": "active"
+    },
+    {
+      "id": "lgnsw-5bn-infrastructure-loan-scheme",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "LGNSW proposes $5bn interest-free council infrastructure loan scheme to unlock housing.",
+      "status": "active"
+    },
+    {
+      "id": "venhub-apartment-automated-retail",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "VenHub installs autonomous retail store inside new Bend, Oregon apartment development.",
+      "status": "active"
+    },
+    {
+      "id": "costar-apartment-submarket-data-tool",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "Apartments.com/CoStar releases granular submarket-level apartment performance data.",
+      "status": "active"
+    },
+    {
+      "id": "nrl-world-cup-australia-fiji-semifinal",
+      "first_briefed": "2026-10-29",
+      "section": "interest",
+      "summary": "Australia beats Fiji 36-22 in Rugby League World Cup, advances to semifinals.",
+      "status": "active"
     }
   ]
 }

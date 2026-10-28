@@ -8218,6 +8218,90 @@
       "section": "companies",
       "summary": "Meta's Edits app crosses 50M users, Muse monetization debate continues",
       "status": "active"
+    },
+    {
+      "id": "thai-auto-production-flood-drop",
+      "first_briefed": "2026-10-29",
+      "section": "alerts",
+      "summary": "Thai vehicle production falls 6.08% YoY on Chonburi flood disruption",
+      "status": "active"
+    },
+    {
+      "id": "chiangmai-vc-311bn-deposits",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "Chiang Mai VC scene flagged with 311bn baht in deposits meeting global investors",
+      "status": "active"
+    },
+    {
+      "id": "gowholesale-cheese-chiangmai",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "GO WHOLESALE brings premium California cheese line to Chiang Mai F&B trade",
+      "status": "active"
+    },
+    {
+      "id": "root-to-rich-heritage-tourism",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "Root to Rich heritage campaign links Bangkok and Chiang Mai provincial tourism spend",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-overpass-project",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "Chiang Rai launches Mae Khao Tom overpass infrastructure project",
+      "status": "active"
+    },
+    {
+      "id": "oracle-openai-enterprise-collab",
+      "first_briefed": "2026-10-29",
+      "section": "opportunities",
+      "summary": "Oracle and OpenAI launch major enterprise AI computing collaboration",
+      "status": "active"
+    },
+    {
+      "id": "openai-gpt6-terra-sol-luna",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "OpenAI ships GPT-6.1 Terra and GPT-6 Sol/Luna model lines in one week",
+      "status": "active"
+    },
+    {
+      "id": "openai-ai-scientific-discoveries",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "OpenAI claims AI made original discoveries in math, complexity theory, physics",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-claude-duet-fable-mythos",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "Anthropic launches Claude Duet agent plus Fable/Mythos 5.1 models",
+      "status": "active"
+    },
+    {
+      "id": "anthropic-ipo-filing-strategy",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "Anthropic IPO filing reveals enterprise cross-sell strategy and incident disclosures",
+      "status": "active"
+    },
+    {
+      "id": "apple-touchscreen-macbookpro",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "Apple unveils first touchscreen MacBook Pro with PROLED XDR display",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-decision1-model",
+      "first_briefed": "2026-10-29",
+      "section": "major",
+      "summary": "Microsoft launches Decision-1, a 9B Qwen3.5-based decision-scoring model",
+      "status": "active"
     }
   ]
 }
