@@ -8302,6 +8302,55 @@
       "section": "major",
       "summary": "Microsoft launches Decision-1, a 9B Qwen3.5-based decision-scoring model",
       "status": "active"
+    },
+    {
+      "id": "thai-fuel-subsidy-cut-oct29",
+      "first_briefed": "2026-10-30",
+      "section": "alerts",
+      "summary": "Thai Oil Fund lowers retail fuel prices via subsidy adjustment effective Oct 29",
+      "status": "active"
+    },
+    {
+      "id": "thai-hotel-closures-42pct",
+      "first_briefed": "2026-10-30",
+      "section": "alerts",
+      "summary": "Thai hotel/accommodation closures up 42% in first nine months of 2026",
+      "status": "active"
+    },
+    {
+      "id": "go-wholesale-cheese-chiangmai",
+      "first_briefed": "2026-10-30",
+      "section": "opportunities",
+      "summary": "GO WHOLESALE launches A-Choice California cheese line for Chiang Mai F&B trade",
+      "status": "active"
+    },
+    {
+      "id": "ptt-or-q3-profit-rebound",
+      "first_briefed": "2026-10-30",
+      "section": "opportunities",
+      "summary": "PTT OR forecast to post two-year-high Q3 profit, Café Amazon steady",
+      "status": "active"
+    },
+    {
+      "id": "chiangrai-maekhaotom-overpass",
+      "first_briefed": "2026-10-30",
+      "section": "opportunities",
+      "summary": "Chiang Rai launches Mae Khao Tom overpass infrastructure project",
+      "status": "active"
+    },
+    {
+      "id": "microsoft-fy27-q1-earnings",
+      "first_briefed": "2026-10-30",
+      "section": "major",
+      "summary": "Microsoft posts FY27 Q1 results under new segment reporting",
+      "status": "active"
+    },
+    {
+      "id": "meta-forum-app-ad-products",
+      "first_briefed": "2026-10-30",
+      "section": "major",
+      "summary": "Meta launches Forum app and four new ad products; Edits hits 50M users",
+      "status": "active"
     }
   ]
 }

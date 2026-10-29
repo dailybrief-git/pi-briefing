@@ -4851,6 +4851,62 @@
       "section": "opportunities",
       "summary": "CNBC reports broad biotech stock rally on clinical wins and M&A",
       "status": "active"
+    },
+    {
+      "id": "sydney-housing-for-all-plan-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "alerts",
+      "summary": "City of Sydney releases interim Housing for All plan",
+      "status": "active"
+    },
+    {
+      "id": "lgnsw-5b-loan-scheme-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "alerts",
+      "summary": "LGNSW proposes $5bn interest-free council loan scheme for housing delays",
+      "status": "active"
+    },
+    {
+      "id": "us-canada-tariff-relief-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "alerts",
+      "summary": "US eases tariffs on select Canadian goods effective 30 Oct",
+      "status": "active"
+    },
+    {
+      "id": "nsw-southwest-metro-opens-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "major",
+      "summary": "Southwest Metro opens; $6.8bn South Coast Rail Plan pledged",
+      "status": "active"
+    },
+    {
+      "id": "airtrunk-syd3-financing-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "major",
+      "summary": "AirTrunk secures $4.25bn green loan for SYD3 data centre",
+      "status": "active"
+    },
+    {
+      "id": "dream-construction-ai-startup-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "opportunities",
+      "summary": "Ex-Palantir team's Dream raises $17m for construction AI world models",
+      "status": "active"
+    },
+    {
+      "id": "contech-funding-roundup-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "opportunities",
+      "summary": "Coast and Mach9 lead weekly contech funding roundup",
+      "status": "active"
+    },
+    {
+      "id": "apple-iphone-duo-leasing-2026-10",
+      "first_briefed": "2026-10-30",
+      "section": "gems",
+      "summary": "Apple Upgrade leasing extends to new iPhone Duo",
+      "status": "active"
     }
   ]
 }
