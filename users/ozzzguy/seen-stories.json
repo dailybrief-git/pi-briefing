@@ -5887,6 +5887,83 @@
       "section": "alerts",
       "summary": "Tri-state air quality alert; weekend rain expected through wildfire smoke",
       "status": "active"
+    },
+    {
+      "id": "israel-election-deadlock-2026",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Israeli election leaves both Netanyahu and Eisenkot blocs short of Knesset majority",
+      "status": "active"
+    },
+    {
+      "id": "nyc-marathon-2026-almgren",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "NYC Marathon weekend features Almgren contender storyline and AI body-scanning expo tech",
+      "status": "active"
+    },
+    {
+      "id": "spacex-starship-flight15-doublecatch",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "SpaceX preparing to attempt historic double-booster catch on Starship Flight 15",
+      "status": "active"
+    },
+    {
+      "id": "spacex-nvidia-gpu-lease-40b",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "SpaceX signs $40B GPU leasing deal with Nvidia for xAI build-out",
+      "status": "active"
+    },
+    {
+      "id": "florida-ai-classroom-rules",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Florida enacts first binding statewide AI classroom rules",
+      "status": "active"
+    },
+    {
+      "id": "nj-student-wellbeing-funding",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "NJ commits $125M for student mental health; AIA links school design to wellbeing",
+      "status": "active"
+    },
+    {
+      "id": "setda-edtech-evidence-standards",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "SETDA survey shows states raising evidence bar for edtech purchases",
+      "status": "active"
+    },
+    {
+      "id": "florida-ai-rules-compliance-opportunity",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "Florida's binding AI rules may create compliance-tooling niche for edtech vendors",
+      "status": "active"
+    },
+    {
+      "id": "crypto-exchange-hack-2026",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "World's largest crypto exchange hit by largest known hack in history",
+      "status": "active"
+    },
+    {
+      "id": "aca-insurer-marketplace-exit-2027",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "11 insurers announce exits from state ACA marketplaces for 2027",
+      "status": "active"
+    },
+    {
+      "id": "dea-fentanyl-enforcement-failure",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "DEA agent says enforcement gaps let millions of fentanyl pills reach streets",
+      "status": "active"
     }
   ]
 }

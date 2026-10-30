@@ -4907,6 +4907,62 @@
       "section": "gems",
       "summary": "Apple Upgrade leasing extends to new iPhone Duo",
       "status": "active"
+    },
+    {
+      "id": "nsw-southwest-metro-opening-rezoning-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "Southwest Metro opens, NSW fast-tracks housing rezoning along corridor",
+      "status": "active"
+    },
+    {
+      "id": "construction-materials-tariff-squeeze-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "Tariffs keep raising construction materials costs; new investment-pledge carve-out emerges",
+      "status": "active"
+    },
+    {
+      "id": "csl-chair-transition-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "CSL names Gordon Naylor incoming chair as McNamee retires",
+      "status": "active"
+    },
+    {
+      "id": "ai-datacentre-grid-backlash-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Bloomberg finds most of $70bn AU data-centre pipeline lacks confirmed grid connections",
+      "status": "active"
+    },
+    {
+      "id": "merck-moderna-esmo-interpath-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Merck/Moderna melanoma vaccine cuts recurrence/death risk 42% in Phase 3, headlines ESMO",
+      "status": "active"
+    },
+    {
+      "id": "nsw-south-coast-rail-pledge-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Minns pledges $6.8bn South Coast Rail electrification ahead of March election",
+      "status": "active"
+    },
+    {
+      "id": "dream-construction-ai-funding-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "Ex-Palantir team's Dream raises $17m for AI construction world models",
+      "status": "active"
+    },
+    {
+      "id": "lette-ai-leasing-funding-2026-10",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "Dublin's Lette raises $6.5m seed for AI property leasing",
+      "status": "active"
     }
   ]
 }

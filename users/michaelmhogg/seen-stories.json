@@ -3059,6 +3059,62 @@
       "section": "opportunities",
       "summary": "Apartments.com/CoStar granular market-level apartment data tool.",
       "status": "active"
+    },
+    {
+      "id": "wallstreet-techselloff-oct2026",
+      "first_briefed": "2026-10-31",
+      "section": "alerts",
+      "summary": "Nasdaq falls ~3% in tech-led sell-off, worst day since June, ahead of midterms/jobs/earnings week.",
+      "status": "active"
+    },
+    {
+      "id": "southwest-metro-south-coast-rail-2026",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Southwest Metro opens (66km); Minns pledges $6.8bn South Coast Rail electrification election promise.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-let-court-housing-overturns-2026",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "NSW Land and Environment Court overturning hundreds of council housing refusals in 2025.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-berkeley-fire-defect-lawsuit",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Lendlease sues Berkeley Group for £95m over UK fire-safety defects across 20 buildings.",
+      "status": "active"
+    },
+    {
+      "id": "mirvac-brisbane-towers-sale-alceon",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "Mirvac sells two Brisbane office towers to Alceon for $124m.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-ssd-4000-homes-townhall-square",
+      "first_briefed": "2026-10-31",
+      "section": "major",
+      "summary": "NSW declares Town Hall square project State Significant, part of 4,000+ homes pipeline.",
+      "status": "active"
+    },
+    {
+      "id": "apartments-com-hyperlocal-data-2026",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "CoStar/Apartments.com granular market data lets developers target submarket rent growth pockets.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-737-oct2026",
+      "first_briefed": "2026-10-31",
+      "section": "opportunities",
+      "summary": "US 30-yr mortgage rate eases to 7.37%, applications rebound 3.4%.",
+      "status": "active"
     }
   ]
 }
