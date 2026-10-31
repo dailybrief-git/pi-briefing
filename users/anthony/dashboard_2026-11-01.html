@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PI &mdash; Daily Briefing &middot; 1 November 2026</title>
+<style>
+  :root{
+    --bg:#0a0f16;
+    --bg2:#0d131c;
+    --panel:#121a26;
+    --panel2:#16202e;
+    --border:#1f2a3a;
+    --border2:#28374c;
+    --text:#e8edf4;
+    --body:#c3cddb;
+    --muted:#7f8ea3;
+    --faint:#5a6778;
+    --alert:#e0574a;
+    --opportunity:#d9a441;
+    --major:#4a90d9;
+    --gem:#5fb8a8;
+    --interest:#9d8fe0;
+    --podcast:#d97ba6;
+    --company:#4fb8d9;
+    --startup:#a8c95f;
+    --market:#7f9ec9;
+    --good:#57b98a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+    background:linear-gradient(160deg,#0a0f16 0%,#0c1320 55%,#0a1018 100%);
+    color:var(--text);
+    line-height:1.55;
+    min-height:100vh;
+  }
+  a{color:#6f9bc9;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .app{display:flex;min-height:100vh;}
+
+  /* ── Sidebar ─────────────────────────── */
+  .sidebar{
+    width:216px;flex-shrink:0;
+    border-right:1px solid var(--border);
+    background:rgba(10,15,22,.6);
+    padding:26px 16px;
+    position:sticky;top:0;height:100vh;
+    display:flex;flex-direction:column;
+  }
+  .logo{display:flex;align-items:center;gap:10px;margin-bottom:34px;padding:0 8px;}
+  .logo-mark{
+    width:34px;height:34px;border-radius:9px;flex-shrink:0;
+    background:linear-gradient(135deg,#4a90d9,#5fb8a8);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:14px;color:#0a0f16;letter-spacing:-.5px;
+  }
+  .logo-name{font-weight:700;font-size:16px;letter-spacing:.02em;}
+  .logo-sub{font-size:10.5px;color:var(--muted);margin-top:1px;}
+  .nav a{
+    display:flex;align-items:center;gap:10px;
+    padding:9px 12px;border-radius:8px;margin-bottom:2px;
+    font-size:13.5px;color:var(--muted);cursor:pointer;
+  }
+  .nav a:hover{text-decoration:none;background:var(--panel);color:var(--text);}
+  .nav a.active{background:var(--panel2);color:var(--text);font-weight:600;}
+  .nav .soon{
+    margin-left:auto;font-size:9px;font-weight:700;letter-spacing:.06em;
+    color:var(--faint);border:1px solid var(--border);border-radius:4px;padding:1px 5px;
+  }
+  .nav svg{width:16px;height:16px;flex-shrink:0;opacity:.85;}
+  .sidebar-foot{margin-top:auto;padding:14px 12px 0;border-top:1px solid var(--border);}
+  .profile-line{font-size:12px;color:var(--muted);margin-bottom:4px;}
+  .profile-line b{color:var(--body);font-weight:600;}
+
+  /* ── Main ────────────────────────────── */
+  .main{flex:1;min-width:0;padding:34px 38px 70px;max-width:1240px;}
+
+  header.masthead{margin-bottom:26px;}
+  .eyebrow{color:var(--muted);font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;}
+  h1{font-size:27px;font-weight:700;margin:6px 0 3px;letter-spacing:-.01em;}
+  .subhead{color:#ffffff;font-size:14.5px;}
+
+  /* attention budget */
+  .budget{
+    margin-top:20px;background:var(--panel);border:1px solid var(--border);
+    border-radius:12px;padding:14px 18px;
+  }
+  .budget-top{display:flex;align-items:baseline;gap:10px;margin-bottom:10px;flex-wrap:wrap;}
+  .budget-top .label{font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+  .budget-top .status{font-size:13px;color:var(--good);font-weight:600;margin-left:auto;}
+  .budget-track{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--bg2);}
+  .budget-track span{height:100%;}
+  .budget-legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:10px;}
+  .budget-legend .item{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;}
+  .budget-legend .swatch{width:8px;height:8px;border-radius:2px;}
+  .budget-legend b{color:var(--body);font-weight:600;}
+
+  /* layout grid */
+  .grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:22px;align-items:start;}
+
+  section{margin-bottom:28px;}
+  .section-head{display:flex;align-items:center;gap:9px;margin-bottom:12px;}
+  .dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+  .section-head h2{font-size:15px;font-weight:700;letter-spacing:.02em;}
+  .section-note{color:var(--muted);font-size:12px;margin-left:auto;}
+
+  /* ── Cards ───────────────────────────── */
+  .card{
+    background:var(--panel);border:1px solid var(--border);
+    border-left:3px solid var(--accent,var(--major));
+    border-radius:12px;padding:16px 18px;margin-bottom:12px;
+    transition:border-color .15s;
+  }
+  .card:hover{border-color:var(--border2);border-left-color:var(--accent,var(--major));}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px;}
+  .chip{
+    font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+    padding:2.5px 8px;border-radius:5px;
+  }
+  .chip.mode{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent);}
+  .chip.rel-high{background:rgba(87,185,138,.14);color:var(--good);}
+  .chip.rel-med{background:rgba(217,164,65,.13);color:var(--opportunity);}
+  .chip.rel-low{background:rgba(127,142,163,.13);color:var(--muted);}
+  .chip.conf{background:var(--bg2);color:var(--muted);border:1px solid var(--border);}
+  .chip.mkt{background:rgba(127,158,201,.14);color:var(--market);border:1px solid rgba(127,158,201,.35);}
+  .card h3{font-size:15px;font-weight:650;margin-bottom:7px;line-height:1.4;}
+  .card p.summary{font-size:13.5px;color:var(--body);}
+
+  /* expandable what/why/uncertain/watch */
+  details.wwuw{margin-top:10px;border-top:1px solid var(--border);}
+  details.wwuw summary{
+    list-style:none;cursor:pointer;padding:9px 0 2px;
+    font-size:12.5px;font-weight:600;color:var(--muted);
+    display:flex;align-items:center;gap:6px;user-select:none;
+  }
+  details.wwuw summary::-webkit-details-marker{display:none;}
+  details.wwuw summary .tri{transition:transform .15s;font-size:9px;}
+  details.wwuw[open] summary .tri{transform:rotate(90deg);}
+  .wwuw-row{display:flex;gap:10px;padding:7px 0;font-size:13px;border-bottom:1px solid rgba(31,42,58,.55);}
+  .wwuw-row:last-child{border-bottom:none;}
+  .wwuw-row .k{
+    flex-shrink:0;width:76px;font-size:10.5px;font-weight:700;letter-spacing:.05em;
+    text-transform:uppercase;color:var(--muted);padding-top:2px;
+  }
+  .wwuw-row .v{color:var(--body);}
+  .sources{font-size:11.5px;margin-top:10px;}
+  .sources a{margin-right:12px;color:#5f88b5;}
+
+  /* alert card */
+  .alerts .card{--accent:var(--alert);background:linear-gradient(180deg,rgba(224,87,74,.055),transparent 60%),var(--panel);}
+  .pulse{
+    display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--alert);
+    margin-right:7px;animation:pulse 1.8s ease-in-out infinite;vertical-align:1px;
+  }
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+  .opportunities .card{--accent:var(--opportunity);}
+  .major .card{--accent:var(--major);}
+  .podcasts .card{--accent:var(--podcast);}
+  .podcasts .dot{background:var(--podcast);}
+  .alerts .dot{background:var(--alert);}
+  .opportunities .dot{background:var(--opportunity);}
+  .major .dot{background:var(--major);}
+  .gems .dot{background:var(--gem);}
+  .interest .dot{background:var(--interest);}
+
+  /* empty-state */
+  .empty{
+    background:var(--bg2);border:1px dashed var(--border);border-radius:12px;
+    padding:16px 18px;font-size:13px;color:#e6ecf5;
+  }
+
+  /* ── Right rail ──────────────────────── */
+  .rail .panel{
+    background:var(--panel);border:1px solid var(--border);border-radius:12px;
+    padding:16px 18px;margin-bottom:18px;
+  }
+  .rail .panel-head{display:flex;align-items:center;gap:8px;margin-bottom:12px;}
+  .rail .panel-head h2{font-size:14px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#ffffff;}
+  .today-item{display:flex;gap:11px;padding:9px 0;border-bottom:1px solid rgba(31,42,58,.55);font-size:14.5px;}
+  .today-item:last-child{border-bottom:none;}
+  .today-item .time{flex-shrink:0;width:56px;color:#aebccf;font-size:13px;padding-top:1px;font-variant-numeric:tabular-nums;}
+  .today-item .bar{width:3px;border-radius:2px;flex-shrink:0;}
+  .today-item .what{color:#ffffff;}
+  .today-item .what small{display:block;color:#b6c2d4;font-size:13px;margin-top:2px;}
+
+  .gem-item,.interest-item{padding:11px 0;border-bottom:1px solid rgba(31,42,58,.55);}
+  .gem-item:last-child,.interest-item:last-child{border-bottom:none;}
+  .gem-item h4,.interest-item h4{font-size:15px;font-weight:650;line-height:1.45;margin-bottom:5px;color:#ffffff;}
+  .gem-item p,.interest-item p{font-size:14px;color:#e6ecf5;line-height:1.6;}
+  .gem-item .chips,.interest-item .chips{margin-bottom:6px;}
+  .icon-tile{
+    width:30px;height:30px;border-radius:8px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;font-size:15px;
+  }
+  .interest-row{display:flex;gap:11px;align-items:flex-start;}
+
+  /* ── "More if you have time" tier ── */
+  details.more{margin-top:2px;margin-bottom:4px;}
+  details.more summary{
+    list-style:none;cursor:pointer;user-select:none;
+    display:flex;align-items:center;gap:8px;padding:8px 4px;
+    font-size:12px;font-weight:600;color:var(--muted);
+  }
+  details.more summary::-webkit-details-marker{display:none;}
+  details.more summary:hover{color:var(--body);}
+  details.more summary .tri{font-size:9px;transition:transform .15s;}
+  details.more[open] summary .tri{transform:rotate(90deg);}
+  details.more summary .n{
+    font-size:10px;font-weight:700;color:var(--faint);
+    border:1px solid var(--border);border-radius:9px;padding:1px 7px;
+  }
+  .more-item{
+    background:var(--bg2);border:1px solid var(--border);
+    border-radius:9px;padding:10px 13px;margin-bottom:8px;
+  }
+  .more-item h4{font-size:13px;font-weight:600;line-height:1.4;margin-bottom:3px;}
+  .more-item p{font-size:12.5px;color:var(--muted);line-height:1.5;}
+  .more-item .sources{margin-top:6px;}
+  .rail details.more summary{padding:8px 0 4px;font-size:13px;}
+  .rail .more-item{padding:10px 12px;}
+  .rail .more-item h4{font-size:14px;color:#ffffff;}
+  .rail .more-item p{font-size:13.5px;color:#dbe3ee;}
+  .rail .sources{font-size:12.5px;}
+  .rail .sources a{color:#8fb4dc;}
+
+  /* ── Feedback controls ── */
+  .fb{margin-top:11px;padding-top:9px;border-top:1px dashed rgba(40,55,76,.8);}
+  .fb-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap;}
+  .fb-label{font-size:10px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase;font-weight:700;margin-right:2px;}
+  .fb button{
+    font:inherit;font-size:11.5px;color:var(--muted);background:var(--bg2);
+    border:1px solid var(--border);border-radius:6px;padding:3px 10px;cursor:pointer;
+  }
+  .fb button:hover{color:var(--body);border-color:var(--border2);}
+  .fb button.on-more{background:rgba(87,185,138,.15);color:var(--good);border-color:rgba(87,185,138,.4);}
+  .fb button.on-less{background:rgba(224,87,74,.14);color:var(--alert);border-color:rgba(224,87,74,.4);}
+  .fb .reasons{display:none;gap:5px;flex-wrap:wrap;margin-top:7px;}
+  .fb .reasons.show{display:flex;}
+  .fb .reasons button{font-size:10.5px;padding:2px 9px;border-radius:10px;}
+  .fb .reasons button.sel{background:rgba(217,164,65,.15);color:var(--opportunity);border-color:rgba(217,164,65,.4);}
+  .fb input.note{
+    display:none;margin-top:7px;width:100%;font:inherit;font-size:12px;color:var(--body);
+    background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none;
+  }
+  .fb input.note.show{display:block;}
+  .fb input.note:focus{border-color:var(--border2);}
+  .fb input.note::placeholder{color:var(--faint);}
+  .fb.fb-sm{margin-top:7px;padding-top:7px;}
+  .fb.fb-sm .fb-label{display:none;}
+  .fb.fb-sm button{font-size:10.5px;padding:2px 8px;}
+  .fb.fb-sm .reasons button{font-size:10px;padding:2px 7px;}
+  .fb-export{margin-top:16px;}
+  .fb-export button{
+    font:inherit;font-size:12.5px;font-weight:600;color:var(--body);background:var(--panel2);
+    border:1px solid var(--border2);border-radius:8px;padding:7px 16px;cursor:pointer;
+  }
+  .fb-export button:hover{color:var(--text);}
+  .fb-export .hint{font-size:11.5px;color:var(--faint);margin-top:6px;}
+
+  footer{
+    margin-top:36px;padding-top:22px;border-top:1px solid var(--border);
+    color:var(--muted);font-size:12.5px;text-align:center;
+  }
+  footer .done{
+    display:inline-flex;align-items:center;gap:8px;
+    color:var(--text);font-weight:650;font-size:14.5px;margin-bottom:7px;
+  }
+  footer .done .check{
+    width:20px;height:20px;border-radius:50%;background:rgba(87,185,138,.15);color:var(--good);
+    display:inline-flex;align-items:center;justify-content:center;font-size:11px;
+  }
+
+  .mobile-nav-toggle{
+    display:none;position:fixed;top:14px;left:14px;z-index:70;
+    width:38px;height:38px;border-radius:9px;
+    background:var(--panel);border:1px solid var(--border2);
+    align-items:center;justify-content:center;cursor:pointer;
+  }
+  .mobile-nav-toggle svg{width:18px;height:18px;color:var(--text);}
+  .sidebar-backdrop{
+    display:none;position:fixed;inset:0;background:rgba(6,10,16,.6);z-index:59;
+  }
+  .sidebar-backdrop.show{display:block;}
+
+  @media (max-width:1080px){
+    .grid{grid-template-columns:1fr;}
+    .sidebar{
+      position:fixed;top:0;left:0;z-index:60;
+      transform:translateX(-100%);transition:transform .25s ease;
+    }
+    .sidebar.open{transform:translateX(0);}
+    .mobile-nav-toggle{display:flex;}
+    .main{padding-top:70px;}
+  }
+
+  .modal-overlay{
+    position:fixed;inset:0;background:rgba(6,10,16,.72);
+    display:none;align-items:center;justify-content:center;z-index:50;padding:20px;
+  }
+  .modal-overlay.show{display:flex;}
+  .modal-panel{
+    background:var(--panel);border:1px solid var(--border2);border-radius:14px;
+    width:100%;max-width:560px;max-height:85vh;overflow-y:auto;padding:22px 24px;
+  }
+  .modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;}
+  .modal-head h3{margin:0;font-size:16px;color:var(--text);}
+  .modal-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;line-height:1;padding:2px 6px;}
+  .modal-close:hover{color:var(--text);}
+  .modal-sub{color:var(--muted);font-size:12.5px;margin-bottom:18px;}
+  .plist-group{margin-bottom:18px;}
+  .plist-group h4{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--faint);margin:0 0 8px;font-weight:600;}
+  .plist{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+  .pchip{display:inline-flex;align-items:center;gap:6px;background:var(--panel2);border:1px solid var(--border);border-radius:999px;padding:4px 6px 4px 12px;font-size:12.5px;color:var(--body);}
+  .pchip button{background:none;border:none;color:var(--faint);cursor:pointer;font-size:13px;width:16px;height:16px;line-height:1;border-radius:50%;}
+  .pchip button:hover{color:var(--alert);background:rgba(224,87,74,.14);}
+  .pchip.added{border-color:rgba(87,185,138,.4);color:var(--good);}
+  .padd-row{display:flex;gap:6px;}
+  .padd-row input{flex:1;font:inherit;font-size:12.5px;color:var(--text);background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none;}
+  .padd-row input:focus{border-color:var(--border2);}
+  .padd-row button{font:inherit;font-size:12.5px;font-weight:600;color:var(--body);background:var(--panel2);border:1px solid var(--border2);border-radius:6px;padding:6px 12px;cursor:pointer;}
+  .padd-row button:hover{color:var(--text);}
+  .modal-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:6px;padding-top:16px;border-top:1px solid var(--border);}
+  .modal-save{font:inherit;font-size:13px;font-weight:600;color:var(--bg);background:var(--good);border:none;border-radius:8px;padding:8px 18px;cursor:pointer;}
+  .modal-save:hover{opacity:.9;}
+  .modal-hint{color:var(--muted);font-size:11.5px;}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+    <div class="logo">
+      <div class="logo-mark">PI</div>
+      <div>
+        <div class="logo-name">Personal Intel</div>
+        <div class="logo-sub">Daily briefing system</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a class="active" href="#top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        Today's Briefing
+      </a>
+      <a href="#alerts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+        Alerts
+      </a>
+      <a href="#opportunities">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        Opportunities
+      </a>
+      <a href="#major">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        Major Developments
+      </a>
+      <a href="#gems">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9z"/><path d="M2 9h20"/><path d="M12 21L8 9l4-6 4 6-4 12"/></svg>
+        Hidden Gems
+      </a>
+      <a href="#interest">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        Interests
+      </a>
+      <a href="#podcasts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        Podcasts
+      </a>
+      <a href="#companies">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        Company News
+      </a>
+      <a href="#startups">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        Startup Radar
+      </a>
+      <a href="#markets">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+        Market Signals
+      </a>
+      <a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        Watchlist <span class="soon">soon</span>
+      </a>
+      <a>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        Saved <span class="soon">soon</span>
+      </a>
+      <a id="nav-profile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Profile &amp; Settings
+      </a>
+    </nav>
+    <div class="sidebar-foot"><div class="profile-line"><b>Chiang Mai, Thailand</b></div><div class="profile-line">+Wine &amp; Functional Food &amp; Chocolate &amp; Hospitality &amp; Tourism &amp; Coffee</div><div class="profile-line">Your country & national politics &middot; Local news — your city &middot; Major world events &middot; Cost of living & personal money</div></div></aside>
+<div class="main" id="top">
+<header class="masthead"><div class="eyebrow">Personal Intelligence &middot; Sunday Morning Brief</div><h1>Morning, Anthony</h1><div class="subhead">A quiet news Sunday in the macro sense but a busy one on your watchlists: <b>Skugga Estate Vineyard</b> gets name-checked as the benchmark of Chiang Mai's wine-tourism scene, Bangkok flip-flops on tourist taxes again, and flooding keeps hammering Phuket and Pattaya. In tech, OpenAI shipped GPT-6 Sol/Luna and claims three genuine research discoveries, Anthropic doubled down on enterprise analytics and in-house drug discovery, and Tesla had a big week — a flying SpaceX-built Roadster and the first Optimus humanoids rolling off the line in Fremont. Microsoft trimmed ~4,800 jobs even as FY27 Q1 results landed. Locally, Chiang Mai's F&B trade is seeing fresh activity from cheese distributors, modern-trade grocers and a halal food festival pairing cuisine with organic farming.</div><div class="budget"><div class="budget-top"><span class="label">Attention budget</span><span class="status">&#10003; 27 stories &middot; 1 sections empty by design</span></div><div class="budget-track"><span style="width:11%;background:var(--alert)"></span><span style="width:19%;background:var(--opportunity)"></span><span style="width:26%;background:var(--major)"></span><span style="width:7%;background:var(--company)"></span><span style="width:0%;background:var(--startup)"></span><span style="width:4%;background:var(--market)"></span><span style="width:15%;background:var(--gem)"></span><span style="width:11%;background:var(--interest)"></span><span style="width:7%;background:var(--podcast)"></span></div><div class="budget-legend"><span class="item"><span class="swatch" style="background:var(--alert)"></span>Alerts <b>3/3</b></span><span class="item"><span class="swatch" style="background:var(--opportunity)"></span>Opportunities <b>5/5</b></span><span class="item"><span class="swatch" style="background:var(--major)"></span>Major <b>7/7</b></span><span class="item"><span class="swatch" style="background:var(--company)"></span>Company news <b>2</b></span><span class="item"><span class="swatch" style="background:var(--startup)"></span>Startup radar <b>0</b></span><span class="item"><span class="swatch" style="background:var(--market)"></span>Market signals <b>1 moved</b></span><span class="item"><span class="swatch" style="background:var(--gem)"></span>Hidden gems <b>4/4</b></span><span class="item"><span class="swatch" style="background:var(--interest)"></span>Interest <b>3/0</b></span><span class="item"><span class="swatch" style="background:var(--podcast)"></span>Podcasts <b>2 new</b></span></div></div></header>
+<div class="grid"><div class="briefing"><section class="alerts" id="alerts"><div class="section-head"><div class="dot"></div><h2>Alerts</h2><div class="section-note">Bypasses the normal briefing</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--alert)"><span class="pulse"></span>Local business feature</span><span class="chip rel-high">Relevance: High</span><span class="chip conf">Primary - Chiang Rai Times</span></div><h3>Skugga Estate Vineyard named benchmark of Chiang Mai's wine-tourism scene</h3><p class="summary">A regional wine-trail roundup singles out Skugga's Mae On valley estate as the flagship example of modern Thai lifestyle viticulture, blending fine wine, artisanal dining and scenic tourism — exactly the kind of earned-media visibility you track.</p><details class="wwuw" open><summary><span class="tri">&#9654;</span> Why it matters / what to watch</summary><div class="wwuw-row"><div class="k">What</div><div class="v">Skugga profiled as Chiang Mai's premier wine-tourism destination</div></div><div class="wwuw-row"><div class="k">Why</div><div class="v">Direct hit on your alert topic; useful for brand/partnership positioning</div></div></details><div class="sources"><a href="https://www.chiangraitimes.com/destinations/northern-thailand-wine/" target="_blank">Chiang Rai Times</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--alert)"><span class="pulse"></span>Policy</span><span class="chip rel-high">Relevance: High</span><span class="chip conf">Secondary - Pattaya News / Thaiger</span></div><h3>Bangkok shelves ฿1,000 travel tax, pivots to a ฿450 tourist fee instead</h3><p class="summary">After backlash from tourists and operators, the government has postponed the proposed 1,000-baht overseas travel levy 'for the time being'. A lighter 450-baht tourist fee is now gaining industry support as the preferred alternative — worth watching for cost pass-through to your hospitality pricing.</p><details class="wwuw" open><summary><span class="tri">&#9654;</span> Why it matters / what to watch</summary><div class="wwuw-row"><div class="k">What</div><div class="v">฿1,000 tax postponed; ฿450 fee proposal gains traction</div></div><div class="wwuw-row"><div class="k">Why</div><div class="v">Directly affects tourism cost structure and arrivals sentiment</div></div></details><div class="sources"><a href="https://thepattayanews.com/top-national-thailand-stories-from-the-past-week-government-postpones-for-the-time-being-introducing-proposed-1000-baht-overseas-travel-tax-and-more/" target="_blank">The Pattaya News</a>
+<a href="https://thethaiger.com/video-podcasts/thailand-video-news-30-10-2026" target="_blank">Thaiger</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--alert)"><span class="pulse"></span>Weather / infrastructure risk</span><span class="chip rel-med">Relevance: Med</span><span class="chip conf">Secondary - Thaiger</span></div><h3>Heavy rain warning across 35 provinces as Phuket and Pattaya flood again</h3><p class="summary">National weather alerts cover 35 provinces this week, with Phuket's Kata Noi and Patong and Pattaya's streets submerged — part of a pattern of flash flooding that's already contributing to rising hotel closures nationally.</p><details class="wwuw" open><summary><span class="tri">&#9654;</span> Why it matters / what to watch</summary><div class="wwuw-row"><div class="k">What</div><div class="v">Fresh flooding in southern beach towns, wide rain warning</div></div><div class="wwuw-row"><div class="k">Why</div><div class="v">Tourism infrastructure risk; watch for northern spillover</div></div></details><div class="sources"><a href="https://thethaiger.com/video-podcasts/thailand-video-news-27-10-2026" target="_blank">Thaiger</a>
+<a href="https://thethaiger.com/video-podcasts/thailand-video-news-29-10-2026" target="_blank">Thaiger</a>
+</div></div></section><section class="opportunities" id="opportunities"><div class="section-head"><div class="dot"></div><h2>Your Opportunities</h2><div class="section-note">Hypotheses, not predictions</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--opportunity)">Market entry</span><span class="chip rel-med">Relevance: Med</span><span class="chip conf">Primary - Kaohoon International</span></div><h3>GO WHOLESALE brings premium California cheese into Chiang Mai's F&B trade</h3><p class="summary">A-Choice California Cheese is being pushed to restaurants, cafés, hotels and bakeries in Chiang Mai, with hands-on cost-management support for operators — a potential ingredient/sourcing angle for functional food or hospitality plays.</p><details class="wwuw" open><summary><span class="tri">&#9654;</span> Hypothesis &amp; what to check</summary><div class="wwuw-row"><div class="k">What</div><div class="v">New premium cheese distribution push into Chiang Mai F&B</div></div><div class="wwuw-row"><div class="k">Why</div><div class="v">Possible sourcing or co-branding opportunity for hospitality/food ventures</div></div></details><div class="sources"><a href="https://www.kaohooninternational.com/markets/593379" target="_blank">Kaohoon International</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--opportunity)">Retail / distribution</span><span class="chip rel-med">Relevance: Med</span><span class="chip conf">Primary - Kaohoon International</span></div><h3>TOPS pitches Food Hall modern trade as a growth engine for Thai SMEs, Chiang Mai performing strongly</h3><p class="summary">Strong sales at TOPS Food Hall locations including Chiang Mai are framed as evidence modern trade can scale Thai SME food brands globally — a potential distribution channel for functional food or chocolate products.</p><div class="sources"><a href="https://www.kaohooninternational.com/markets/593593" target="_blank">Kaohoon International</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--opportunity)">Tourism / F&B</span><span class="chip rel-med">Relevance: Med</span><span class="chip conf">Secondary - Indonesian outlets</span></div><h3>Chiang Mai pairs a halal food festival with organic-farm tourism to court Muslim travellers</h3><p class="summary">A joint effort between the tourism department and local Muslim community/hotel associations blends halal cuisine with organic agriculture experiences — a niche demand segment aligned with your tourism and functional-food interests.</p><div class="sources"><a href="https://investortalk.id/detail/593953/chiang-mai-gelar-festival-halal-food-padukan-kuliner-dan-pertanian-organik" target="_blank">InvestorTalk</a>
+<a href="https://deteksi.co/menikmati-thailand-dari-chiangmai-festival-halal-food/" target="_blank">Deteksi</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--opportunity)">Tourism demand</span><span class="chip rel-low">Relevance: Low</span><span class="chip conf">Primary - Travel And Tour World</span></div><h3>Sri Lankan outbound spending jumps 62.4% in 2026, with Chiang Mai cited among top Thai draws</h3><p class="summary">Rising Sri Lankan outbound travel spend is flagged alongside Bangkok, Phuket and Pattaya as destinations — a modest but growing new-market signal for Chiang Mai hospitality.</p><div class="sources"><a href="https://www.travelandtourworld.com/news/article/8xi3ek34c9w6/" target="_blank">Travel And Tour World</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--opportunity)">Hospitality risk/opportunity</span><span class="chip rel-high">Relevance: High</span><span class="chip conf">Secondary - Thaiger</span></div><h3>Thai hotel closures are rising — the occupancy squeeze flagged in July is now biting</h3><p class="summary">Video coverage this week reports rising hotel closures as tourism demand weakens, confirming the budget-traveller shift and occupancy pressure first noted in July. For well-capitalised operators this could mean distressed-asset opportunities in oversupplied markets.</p><details class="wwuw" open><summary><span class="tri">&#9654;</span> Hypothesis &amp; what to check</summary><div class="wwuw-row"><div class="k">What</div><div class="v">Hotel closures increasing amid soft demand</div></div><div class="wwuw-row"><div class="k">Why</div><div class="v">Signals possible acquisition/repositioning windows, also a demand-side warning</div></div></details><div class="sources"><a href="https://thethaiger.com/video-podcasts/thailand-video-news-29-10-2026" target="_blank">Thaiger</a>
+</div></div></section><section class="major" id="major"><div class="section-head"><div class="dot"></div><h2>Major Developments</h2><div class="section-note">What / why / uncertain / watch</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">AI capability</span><span class="chip rel-high">Impact on you: High</span><span class="chip conf">Primary - OpenAI</span></div><h3>OpenAI ships GPT-6 Sol and Luna, splitting frontier power from everyday cost-efficiency</h3><p class="summary">Two new models bring frontier intelligence to everyday work at different capability/cost tradeoffs, succeeding the GPT-5.6 generation and reportedly powering a new computer-use era, per Altman.</p><div class="sources"><a href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank">OpenAI</a>
+<a href="https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26" target="_blank">Fox News</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">AI capability</span><span class="chip rel-high">Impact on you: High</span><span class="chip conf">Primary - OpenAI, corroborated Al Jazeera</span></div><h3>OpenAI says its models produced three original research results, including a disproof tied to the Exponential Time Hypothesis</h3><p class="summary">OpenAI claims internal models generated genuine findings in harmonic analysis, complexity theory and quantum field theory — an early signal of AI contributing novel research rather than just synthesising known work.</p><div class="sources"><a href="https://www.aljazeera.com/economy/2026/10/27/ai-makes-discoveries-in-mathematics-computer-science-physics-openai-says" target="_blank">Al Jazeera</a>
+<a href="https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/" target="_blank">Unite.AI</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">Company</span><span class="chip rel-med">Impact on you: Med</span><span class="chip conf">Primary - TechCrunch</span></div><h3>Anthropic launches spend-analytics tools to prove enterprise ROI on Claude usage</h3><p class="summary">New reporting tools give enterprise customers granular visibility into what their token spend is actually buying — a retention play as AI budgets face more scrutiny.</p><div class="sources"><a href="https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/" target="_blank">TechCrunch</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">Company</span><span class="chip rel-med">Impact on you: Med</span><span class="chip conf">Secondary - The Next Web / WIRED</span></div><h3>Anthropic acquires one-person biotech Mithril, formalises in-house drug discovery</h3><p class="summary">Anthropic says it has begun its own drug-discovery efforts, reporting Claude results from six partners — though WIRED notes the company remains vague on timelines for turning research potential into actual medicines.</p><div class="sources"><a href="https://thenextweb.com/news/anthropic-mithril-acquisition-claude-drug-development" target="_blank">The Next Web</a>
+<a href="https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/" target="_blank">WIRED</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">Company</span><span class="chip rel-high">Impact on you: High</span><span class="chip conf">Primary - TechCrunch</span></div><h3>Tesla's SpaceX-built Roadster finally flies — literally — at Texas unveil</h3><p class="summary">The redesigned Roadster used thrusters to leap over a Cybercab, Cybertruck, Semi, Model Y and Model 3 at a demo nearly nine years after it was first previewed.</p><div class="sources"><a href="https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/" target="_blank">TechCrunch</a>
+<a href="https://www.foxbusiness.com/markets/teslas-long-awaited-roadster-gets-its-moment-after-years-delays" target="_blank">Fox Business</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">Company</span><span class="chip rel-high">Impact on you: High</span><span class="chip conf">Primary - Manufacturing Dive</span></div><h3>Tesla starts 'early production' of Optimus humanoid in Fremont</h3><p class="summary">Musk says customer shipments are targeted for next year as Tesla begins early-stage manufacturing of its Optimus humanoid robot.</p><div class="sources"><a href="https://www.manufacturingdive.com/news/tesla-begins-optimus-humanoid-production-california-shipments-2027/872864/" target="_blank">Manufacturing Dive</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--major)">Company</span><span class="chip rel-med">Impact on you: Med</span><span class="chip conf">Primary - Reuters / Microsoft</span></div><h3>Microsoft posts FY27 Q1 results while cutting ~4,800 jobs (2.1% of staff)</h3><p class="summary">The cuts restructure parts of Microsoft's commercial and Xbox businesses, joining the broader wave of tech layoffs even as the company reports quarterly results under its new FY27 segment structure.</p><div class="sources"><a href="https://www.reuters.com/business/" target="_blank">Reuters</a>
+<a href="https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/" target="_blank">Microsoft</a>
+</div></div></section><section class="podcasts" id="podcasts"><div class="section-head"><div class="dot"></div><h2>Podcast Digest</h2><div class="section-note">Your shows &mdash; new episodes only</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--podcast)">All-In</span><span class="chip conf">Show notes</span></div><h3>All-In quietly drops the 'superintelligence' talk</h3><p class="summary">Semafor's word-count tracking shows the besties said 'superintelligence' 23 times on Oct 2 but zero times on the Oct 23 episode, even as plain 'AI' mentions held steady — a subtle signal the hype cycle's rhetoric is cooling.</p><p class="summary" style="margin-top:8px;"><span class="chip rel-low" style="margin-right:6px;">Worth a skim</span><span class="chip conf">Confidence: show-notes based</span></p><div class="sources"><a href="https://www.semafor.com/article/10/28/2026/all-in-podcast-cools-on-super-intelligence" target="_blank">Semafor</a>
+</div></div><div class="card"><div class="chips"><span class="chip mode" style="--accent:var(--podcast)">Diary of a CEO</span><span class="chip conf">Show notes</span></div><h3>Mark Cuban on Diary of a CEO: 'This is bigger than the internet'</h3><p class="summary">Cuban's episode ranges from AI's scale versus the internet to geopolitics — Ukraine, a possible Trump-Putin ceasefire path, and Zelensky's message to America.</p><p class="summary" style="margin-top:8px;"><span class="chip rel-med" style="margin-right:6px;">Worth a listen</span><span class="chip conf">Confidence: show-notes based</span></p><div class="sources"><a href="https://www.goloudnow.com/podcasts/the-diary-of-a-ceo-with-steven-bartlett-836/mark-cuban-this-is-bigger-than-the-internet-but-people-keep-the-edge-615457" target="_blank">GoLoudNow</a>
+</div></div></section><footer><div><span class="done"><span class="check">&#10003;</span> Sunday brief complete.</span></div>That's today's sweep across Chiang Mai, your company watchlist and the wider world.<br><b>Next briefing:</b> tomorrow, same time — flag anything you want more or less of.</footer></div><aside class="rail"><div class="panel"><div class="panel-head"><h2>On the Radar</h2></div><div class="today-item"><div class="time">6 Nov</div><div class="bar" style="background:var(--interest)"></div><div class="what">Apple begins shipping new devices (iPad mini 8, M6 iMac, M6 MacBook Pro)<small>AppleInsider</small></div></div><div class="today-item"><div class="time">2027</div><div class="bar" style="background:var(--company)"></div><div class="what">Tesla targets first customer Optimus humanoid shipments<small>Early production underway at Fremont</small></div></div></div><div class="panel companies" id="companies"><div class="panel-head"><div class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--company)"></div><h2>Company News</h2></div><div class="gem-item"><div class="chips"><span class="chip conf">Microsoft Partner Center, 29 Oct</span></div><h4>Microsoft offers 30% off Microsoft 365 E3 for partners (300+ seats)</h4><p>Running through June 2027 — a channel incentive worth tracking if you use Microsoft 365 at scale. <a href="https://learn.microsoft.com/en-us/partner-center/announcements/2026-october" target="_blank">Microsoft Learn</a></p></div><div class="gem-item"><div class="chips"><span class="chip conf">Tesla Oracle, 23 Oct</span></div><h4>Tesla expands Robotaxi to four more cities, publishes safety data site</h4><p>A new public safety-data website accompanies the expansion, part of Tesla's push to build trust in autonomous rides. <a href="https://tech-insider.org/tesla-website-robotaxi-semi-roadster-three-hardware-bets-2026/" target="_blank">Tech Insider</a></p></div></div><div class="panel startups" id="startups"><div class="panel-head"><div class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--startup)"></div><h2>Startup Radar</h2></div><div class="empty" style="margin:0;">No qualifying new startup funding or launch news surfaced in today's sweep.</div></div><div class="panel markets" id="markets"><div class="panel-head"><div class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--market)"></div><h2>Market Signals</h2></div><div class="gem-item"><div class="chips"><span class="chip conf">BBC, 2 days ago</span></div><h4>Intel shares keep falling, Nasdaq opens at two-month low</h4><p>Broader tech-sector wobble worth watching if it spills into AI capex sentiment. <a href="https://www.bbc.com/technology/artificial-intelligence" target="_blank">BBC</a></p></div></div><div class="panel gems" id="gems"><div class="panel-head"><div class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--gem)"></div><h2>Hidden Gems</h2></div><div class="gem-item"><div class="chips"><span class="chip conf">Shattered.io, 29 Oct</span></div><h4>Microsoft's Decision-1: a 9B-parameter Qwen model built purely for AI decision-scoring</h4><p>A narrow, cheap model for decision-scoring tasks rather than general chat — an interesting counter-trend to giant frontier models. <a href="https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/" target="_blank">Shattered.io</a></p></div><div class="gem-item"><div class="chips"><span class="chip conf">ScienceDaily, 30 Oct</span></div><h4>Six months of diet + exercise reverses type 2 diabetes in over half of younger adults</h4><p>A structured low-calorie diet combined with exercise achieved remission in a majority of younger adult participants — relevant to functional-food positioning. <a href="https://www.sciencedaily.com/news/health_medicine/" target="_blank">ScienceDaily</a></p></div><div class="gem-item"><div class="chips"><span class="chip conf">ScienceDaily, 29 Oct</span></div><h4>Heavy artificial-sweetener use tied to 62% faster memory decline</h4><p>A study of nearly 13,000 adults links high artificial-sweetener intake to roughly 1.6 extra years of cognitive aging — useful ammunition for natural-ingredient functional food messaging. <a href="https://www.sciencedaily.com/news/top/health/" target="_blank">ScienceDaily</a></p></div><div class="gem-item"><div class="chips"><span class="chip conf">Company update, 27 Oct</span></div><h4>Meta's Edits video app crosses 50 million users</h4><p>Zuckerberg touts faster product shipping as Edits scales, alongside new standalone Forum and Seller apps. <a href="https://lapaasvoice.com/mark-zuckerberg-touts-faster-product-development-as-metas-edits-app-crosses-50-million-users/" target="_blank">Lapaas Voice</a></p></div></div><div class="panel interest" id="interest"><div class="panel-head"><div class="dot" style="width:8px;height:8px;border-radius:50%;background:var(--interest)"></div><h2>Interest &mdash; no analysis needed</h2></div><div class="interest-item"><div class="interest-row"><div class="icon-tile" style="background:rgba(157,143,224,.14)">🖥️</div><div><h4>Apple reverses years-old stance, brings touch to the Mac</h4><p>Under new CEO John Ternus, Apple unveiled a touchscreen MacBook alongside iPad mini 8 and M6 iMac/MacBook Pro refreshes. <a href="https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html" target="_blank">CNBC</a></p></div></div></div><div class="interest-item"><div class="interest-row"><div class="icon-tile" style="background:rgba(157,143,224,.14)">🎨</div><div><h4>Astronomers pinpoint the actual night behind Van Gogh's Starry Night</h4><p>Researchers claim to have identified which specific night in summer 1889 inspired the iconic painting. <a href="https://www.sciencenews.org/" target="_blank">Science News</a></p></div></div></div><div class="interest-item"><div class="interest-row"><div class="icon-tile" style="background:rgba(157,143,224,.14)">🌉</div><div><h4>Chiang Rai breaks ground on Mae Khao Tom overpass</h4><p>A three-party agreement between residents, officials and the contractor was signed in September, part of wider northern Thai infrastructure activity to watch. <a href="https://www.chiangraitimes.com/chiang-rai/chiang-rai-major-overpass/" target="_blank">Chiang Rai Times</a></p></div></div></div></div></aside></div>
+</div>
+</div>
+<script>
+var PROFILE_LISTS = {"sectors":[],"watch_topics":[],"personal_interests":[],"intelligence_topics":[],"deprioritize":[],"companies":[],"startup_spaces":[]};
+var PROFILE_USER = "";
+var GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfUDl70GFBSTlnRDqalzIWz8KpvTmTQuBpCb9C9gKY27To_mA/formResponse';
+var GOOGLE_FORM_ENTRY_USER = 'entry.1970668832';
+var GOOGLE_FORM_ENTRY_CHANGES = 'entry.287169611';
+(function(){
+  const KEY='pi-feedback-2026-11-01';
+  const REASONS=['Not my world','No action for me','Too vague / process story','Old news','Wrong section'];
+  let state={};
+  try{state=JSON.parse(localStorage.getItem(KEY))||{};}catch(e){}
+  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}};
+  const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,60);
+
+  // Export button (built first so updateCount can reference the hint)
+  const foot=document.querySelector('footer');
+  const ex=document.createElement('div');ex.className='fb-export';
+  ex.innerHTML='<button type="button">Submit feedback to Claude</button><div class="hint"></div>';
+  foot.appendChild(ex);
+  const hint=ex.querySelector('.hint');
+
+  function updateCount(){
+    const n=Object.values(state).filter(s=>s.vote||s.note).length;
+    hint.textContent=n
+      ? n+' item'+(n>1?'s':'')+' with feedback — copy, then paste into chat and your profile gets updated.'
+      : 'Rate a few stories above, then copy the feedback here.';
+  }
+
+  const items=document.querySelectorAll('.briefing .card, .rail .gem-item, .rail .interest-item, .rail .today-item, .more-item');
+  items.forEach(el=>{
+    const inRail=!!el.closest('.rail')||el.classList.contains('more-item');
+    const isToday=el.classList.contains('today-item');
+    const titleEl=el.querySelector('h3,h4')||(isToday?el.querySelector('.what'):null);
+    if(!titleEl)return;
+    const title=(isToday?titleEl.childNodes[0].textContent:titleEl.textContent).trim();
+    const id=slug(title);
+    state[id]=Object.assign({title:title,vote:null,reasons:[],note:''},state[id]||{});
+    const fb=document.createElement('div');fb.className='fb'+(inRail?' fb-sm':'');
+    fb.innerHTML='<div class="fb-row"><span class="fb-label">Tune feed</span>'
+      +'<button type="button" data-v="more">&#9650; More like this</button>'
+      +'<button type="button" data-v="less">&#9660; Less like this</button></div>'
+      +'<div class="reasons">'+REASONS.map(r=>'<button type="button" data-r="'+r+'">'+r+'</button>').join('')+'</div>'
+      +'<input class="note" placeholder="Why? (optional — one line teaches the feed the most)">';
+    (isToday?titleEl:el).appendChild(fb);
+    const bMore=fb.querySelector('[data-v=more]'),bLess=fb.querySelector('[data-v=less]');
+    const reasons=fb.querySelector('.reasons'),note=fb.querySelector('.note');
+    const render=()=>{
+      const s=state[id];
+      bMore.classList.toggle('on-more',s.vote==='more');
+      bLess.classList.toggle('on-less',s.vote==='less');
+      reasons.classList.toggle('show',s.vote==='less');
+      note.classList.toggle('show',!!s.vote||!!s.note);
+      reasons.querySelectorAll('button').forEach(b=>b.classList.toggle('sel',s.reasons.includes(b.dataset.r)));
+      if(note.value!==(s.note||''))note.value=s.note||'';
+      updateCount();
+    };
+    bMore.onclick=()=>{const s=state[id];s.vote=s.vote==='more'?null:'more';if(s.vote!=='less')s.reasons=[];save();render();};
+    bLess.onclick=()=>{const s=state[id];s.vote=s.vote==='less'?null:'less';if(!s.vote)s.reasons=[];save();render();};
+    reasons.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+      const r=b.dataset.r,a=state[id].reasons;
+      a.includes(r)?a.splice(a.indexOf(r),1):a.push(r);save();render();
+    });
+    note.oninput=()=>{state[id].note=note.value;save();updateCount();};
+    render();
+  });
+
+  ex.querySelector('button').onclick=()=>{
+    const lines=['Briefing feedback — 11 July 2026:'];
+    Object.values(state).forEach(s=>{
+      if(!s.vote&&!s.note)return;
+      let l='- '+(s.vote==='more'?'MORE':s.vote==='less'?'LESS':'NOTE')+': "'+s.title+'"';
+      if(s.reasons.length)l+=' ['+s.reasons.join('; ')+']';
+      if(s.note)l+=' — "'+s.note+'"';
+      lines.push(l);
+    });
+    if(lines.length===1){hint.textContent='Nothing rated yet — vote on a story first.';return;}
+    const txt=lines.join('\n');
+    const done=()=>{hint.textContent='Copied. Paste it into chat with Claude to update your profile.';};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done).catch(()=>prompt('Copy this:',txt));
+    }else{prompt('Copy this:',txt);}
+  };
+  updateCount();
+
+  // nav: mark the clicked section as active
+  const navLinks=document.querySelectorAll('.nav a[href^="#"]');
+  const navProfileLink=document.getElementById('nav-profile');
+  navLinks.forEach(a=>a.addEventListener('click',()=>{
+    navLinks.forEach(x=>x.classList.remove('active'));
+    if(navProfileLink)navProfileLink.classList.remove('active');
+    a.classList.add('active');
+  }));
+  if(navProfileLink){
+    navProfileLink.addEventListener('click',()=>{
+      navLinks.forEach(x=>x.classList.remove('active'));
+      navProfileLink.classList.add('active');
+    });
+  }
+
+  // gems/interest live in the right rail: flash the panel so the jump is obvious
+  navLinks.forEach(a=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t&&t.closest&&t.closest('.rail')){
+      a.addEventListener('click',()=>{
+        t.style.transition='border-color .3s';
+        t.style.borderColor='var(--border2)';
+        setTimeout(()=>{t.style.borderColor='';},1200);
+      });
+    }
+  });
+})();
+
+(function(){
+  var LABELS={
+    personal_interests:'Personal Interests',
+    intelligence_topics:'Intelligence Topics',
+    sectors:'Sectors',
+    watch_topics:'Watch Topics',
+    companies:'Company Watchlist',
+    startup_spaces:'Startup Radar Spaces',
+    deprioritize:'Deprioritize (avoid)'
+  };
+  var ORDER=['personal_interests','intelligence_topics','sectors','watch_topics','companies','startup_spaces','deprioritize'];
+  var dateMatch=document.documentElement.innerHTML.match(/pi-feedback-(\d{4}-\d{2}-\d{2})/);
+  var dateIso=dateMatch?dateMatch[1]:'unknown';
+  var PKEY='pi-profile-'+dateIso;
+
+  var pstate={};
+  try{pstate=JSON.parse(localStorage.getItem(PKEY))||{};}catch(e){}
+  ORDER.forEach(function(k){ if(!pstate[k])pstate[k]={removed:[],added:[]}; });
+  var psave=function(){try{localStorage.setItem(PKEY,JSON.stringify(pstate));}catch(e){}};
+
+  var overlay=document.createElement('div');
+  overlay.className='modal-overlay';
+  overlay.innerHTML=
+    '<div class="modal-panel">'+
+      '<div class="modal-head"><h3>Profile &amp; Settings</h3><button type="button" class="modal-close">&times;</button></div>'+
+      '<div class="modal-sub">Add or remove what the briefing looks for. Changes are submitted directly \u2014 they\u2019ll show up in tomorrow\u2019s briefing.</div>'+
+      '<div class="plist-groups"></div>'+
+      '<div class="modal-actions"><button type="button" class="modal-save">Save changes</button><div class="modal-hint"></div></div>'+
+    '</div>';
+  document.body.appendChild(overlay);
+  var groupsEl=overlay.querySelector('.plist-groups');
+  var hint=overlay.querySelector('.modal-hint');
+
+  function currentList(k){
+    var base=(window.PROFILE_LISTS&&window.PROFILE_LISTS[k])||[];
+    var s=pstate[k];
+    return base.filter(function(v){return s.removed.indexOf(v)===-1;}).concat(s.added);
+  }
+
+  function renderGroup(k){
+    var wrap=document.createElement('div');wrap.className='plist-group';
+    var list=document.createElement('div');list.className='plist';
+    currentList(k).forEach(function(v){
+      var isAdded=pstate[k].added.indexOf(v)!==-1;
+      var chip=document.createElement('span');
+      chip.className='pchip'+(isAdded?' added':'');
+      chip.innerHTML='<span></span><button type="button">&times;</button>';
+      chip.querySelector('span').textContent=v;
+      chip.querySelector('button').onclick=function(){
+        if(isAdded){pstate[k].added=pstate[k].added.filter(function(x){return x!==v;});}
+        else if(pstate[k].removed.indexOf(v)===-1){pstate[k].removed.push(v);}
+        psave();refresh();
+      };
+      list.appendChild(chip);
+    });
+    var addRow=document.createElement('div');addRow.className='padd-row';
+    addRow.innerHTML='<input type="text" placeholder="Add to '+LABELS[k].toLowerCase()+'&hellip;"><button type="button">Add</button>';
+    var input=addRow.querySelector('input'),btn=addRow.querySelector('button');
+    var doAdd=function(){
+      var v=input.value.trim();
+      if(!v)return;
+      if(currentList(k).indexOf(v)===-1)pstate[k].added.push(v);
+      input.value='';psave();refresh();
+    };
+    btn.onclick=doAdd;
+    input.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();doAdd();}};
+    var h4=document.createElement('h4');h4.textContent=LABELS[k];
+    wrap.appendChild(h4);wrap.appendChild(list);wrap.appendChild(addRow);
+    return wrap;
+  }
+
+  function refresh(){
+    groupsEl.innerHTML='';
+    ORDER.forEach(function(k){groupsEl.appendChild(renderGroup(k));});
+    var n=0;
+    ORDER.forEach(function(k){n+=pstate[k].added.length+pstate[k].removed.length;});
+    hint.textContent=n?(n+' change'+(n>1?'s':'')+' pending'):'';
+  }
+  refresh();
+
+  var navLink=document.getElementById('nav-profile');
+  if(navLink){
+    navLink.addEventListener('click',function(e){e.preventDefault();overlay.classList.add('show');});
+  }
+  overlay.querySelector('.modal-close').onclick=function(){overlay.classList.remove('show');};
+  overlay.addEventListener('click',function(e){if(e.target===overlay)overlay.classList.remove('show');});
+
+  function clipboardFallback(txt,msg){
+    var done=function(){hint.textContent=msg;};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done).catch(function(){prompt('Copy this and send it to the dashboard owner:',txt);});
+    }else{prompt('Copy this and send it to the dashboard owner:',txt);}
+  }
+
+  overlay.querySelector('.modal-save').onclick=function(){
+    var lines=[];
+    ORDER.forEach(function(k){
+      pstate[k].added.forEach(function(v){lines.push('- ADD '+k+': "'+v+'"');});
+      pstate[k].removed.forEach(function(v){lines.push('- REMOVE '+k+': "'+v+'"');});
+    });
+    if(!lines.length){hint.textContent='No changes yet \u2014 add or remove something first.';return;}
+    var changesText=lines.join('\n');
+    var params=new URLSearchParams();
+    params.set(GOOGLE_FORM_ENTRY_USER,window.PROFILE_USER||'unknown');
+    params.set(GOOGLE_FORM_ENTRY_CHANGES,changesText);
+    hint.textContent='Sending\u2026';
+    var saveBtn=overlay.querySelector('.modal-save');
+    saveBtn.disabled=true;
+    // Google Forms' submit endpoint doesn't send CORS headers, so the
+    // response is opaque with mode:'no-cors' - we can't read success/failure
+    // from it, only whether the request itself went out. That's an inherent
+    // limit of client-side Forms submission, not a bug: say "sent", not
+    // "confirmed saved".
+    fetch(GOOGLE_FORM_URL,{
+      method:'POST',
+      mode:'no-cors',
+      headers:{'Content-Type':'application/x-www-form-urlencoded'},
+      body:params.toString()
+    }).then(function(){
+      saveBtn.disabled=false;
+      ORDER.forEach(function(k){pstate[k]={removed:[],added:[]};});
+      psave();refresh();
+      hint.textContent='Sent \u2014 this will show up in tomorrow\u2019s briefing.';
+    }).catch(function(){
+      saveBtn.disabled=false;
+      hint.textContent='Could not send (connection issue) \u2014 copying instead.';
+      clipboardFallback('user: '+(window.PROFILE_USER||'unknown')+'\n'+changesText,'Copied \u2014 send this to the dashboard owner.');
+    });
+  };
+})();
+
+(function(){
+  var sidebar=document.querySelector('.sidebar');
+  if(!sidebar)return;
+  var backdrop=document.createElement('div');
+  backdrop.className='sidebar-backdrop';
+  document.body.appendChild(backdrop);
+  var toggle=document.createElement('button');
+  toggle.type='button';toggle.className='mobile-nav-toggle';
+  toggle.setAttribute('aria-label','Menu');
+  toggle.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+  document.body.appendChild(toggle);
+  function openNav(){sidebar.classList.add('open');backdrop.classList.add('show');}
+  function closeNav(){sidebar.classList.remove('open');backdrop.classList.remove('show');}
+  toggle.onclick=function(){sidebar.classList.contains('open')?closeNav():openNav();};
+  backdrop.onclick=closeNav;
+  sidebar.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeNav);});
+})();
+</script>
+</body>
+</html>
