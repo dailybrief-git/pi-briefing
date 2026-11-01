@@ -5992,6 +5992,69 @@
       "section": "major",
       "summary": "NJ commits $125M+ to student mental health; CDC and AIA reports add wellbeing data",
       "status": "active"
+    },
+    {
+      "id": "nyc-marathon-almgren-win-2026",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "Self-coached debutant Andreas Almgren wins NYC Marathon in 2:06:01",
+      "status": "active"
+    },
+    {
+      "id": "nike-apex-shoe-launch",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "Nike launches Apex marathon super-shoe",
+      "status": "active"
+    },
+    {
+      "id": "spacex-gpu-lease-deal-40b",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "SpaceX strikes $40B Nvidia GPU lease deal for xAI infrastructure",
+      "status": "active"
+    },
+    {
+      "id": "starship-15-catch-attempt",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "SpaceX confirms Starship 15 launch window, first ship-catch attempt",
+      "status": "active"
+    },
+    {
+      "id": "israel-knesset-coalition-stalemate",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "Israeli election leaves Netanyahu without majority, coalition talks ongoing",
+      "status": "active"
+    },
+    {
+      "id": "g20-atlanta-no-consensus",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "G20 finance talks in Atlanta end without consensus",
+      "status": "active"
+    },
+    {
+      "id": "flu-season-surge-2026",
+      "first_briefed": "2026-11-02",
+      "section": "alerts",
+      "summary": "CDC estimates ~1M flu illnesses, 900 deaths this season already",
+      "status": "active"
+    },
+    {
+      "id": "army-general-fired-polygraph",
+      "first_briefed": "2026-11-02",
+      "section": "alerts",
+      "summary": "Top Army general fired after failing polygraph tests",
+      "status": "active"
+    },
+    {
+      "id": "cost-of-living-crisis-spreading",
+      "first_briefed": "2026-11-02",
+      "section": "alerts",
+      "summary": "49% of Americans can't afford true cost of living per new analysis",
+      "status": "active"
     }
   ]
 }

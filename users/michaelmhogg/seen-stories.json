@@ -3178,6 +3178,41 @@
       "section": "podcasts",
       "summary": "Diary of a CEO: Mark Cuban on market crashes as wealth-building opportunities.",
       "status": "active"
+    },
+    {
+      "id": "minns-density-infrastructure-debate-nov2026",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "Minns reaffirms vertical-growth strategy; SMH/SSBCrack cover infrastructure-funding tension.",
+      "status": "active"
+    },
+    {
+      "id": "southwest-metro-launch-south-coast-rail-plan",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "Southwest Metro full 66km line opens; $6.8bn South Coast Rail Plan flagged; corridor rezoning underway.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-land-environment-court-developer-overturns",
+      "first_briefed": "2026-11-02",
+      "section": "major",
+      "summary": "SMH investigation: NSW Land and Environment Court routinely overturning council development refusals.",
+      "status": "active"
+    },
+    {
+      "id": "lendlease-docklands-berkeley-litigation",
+      "first_briefed": "2026-11-02",
+      "section": "alerts",
+      "summary": "Lendlease sued over Docklands promenade defects; separately sues Berkeley Group for £95m over UK fire defects.",
+      "status": "active"
+    },
+    {
+      "id": "us-mortgage-rate-739-new-normal",
+      "first_briefed": "2026-11-02",
+      "section": "alerts",
+      "summary": "US 30yr mortgage rate eases to 7.39% but framed as a structural 'new normal' above 7%, developing the Aug 6.69% story.",
+      "status": "active"
     }
   ]
 }
