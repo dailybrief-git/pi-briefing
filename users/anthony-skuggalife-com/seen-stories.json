@@ -5089,6 +5089,55 @@
       "section": "opportunities",
       "summary": "Weekly contech funding roundup: Coast $35m, Mach9 $34m lead",
       "status": "active"
+    },
+    {
+      "id": "rba-rate-decision-inflation-surge-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "alerts",
+      "summary": "CPI jumps to 4.3%, RBA widely expected to hike cash rate from 4.6% today",
+      "status": "active"
+    },
+    {
+      "id": "meriton-little-bay-resubmission-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "alerts",
+      "summary": "Meriton resubmits 505-home Little Bay plan after years of opposition",
+      "status": "active"
+    },
+    {
+      "id": "minns-density-infrastructure-friction-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "alerts",
+      "summary": "Commentary/policy friction over Minns government density push vs infrastructure funding",
+      "status": "active"
+    },
+    {
+      "id": "china-ai-regulation-overhaul-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "China advances comprehensive AI law plus anthropomorphic-AI and cybersecurity rules",
+      "status": "active"
+    },
+    {
+      "id": "nsw-southwest-metro-opening-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "Southwest Metro opens; NSW announces $6.8bn South Coast Rail Plan",
+      "status": "active"
+    },
+    {
+      "id": "bedrock-robotics-600m-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "opportunities",
+      "summary": "Bedrock Robotics raises $600m for autonomous construction equipment retrofits",
+      "status": "active"
+    },
+    {
+      "id": "eliseai-350m-rental-ai-2026-11",
+      "first_briefed": "2026-11-03",
+      "section": "opportunities",
+      "summary": "EliseAI raises $350m for AI in rental housing",
+      "status": "active"
     }
   ]
 }

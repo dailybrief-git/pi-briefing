@@ -3213,6 +3213,62 @@
       "section": "alerts",
       "summary": "US 30yr mortgage rate eases to 7.39% but framed as a structural 'new normal' above 7%, developing the Aug 6.69% story.",
       "status": "active"
+    },
+    {
+      "id": "rba-decision-property-slump-nov2026",
+      "first_briefed": "2026-11-03",
+      "section": "alerts",
+      "summary": "Westpac flags elevated rates as nationwide property values slide; RBA decision looms this week.",
+      "status": "active"
+    },
+    {
+      "id": "qantas-amadeus-data-breach-nov2026",
+      "first_briefed": "2026-11-03",
+      "section": "alerts",
+      "summary": "Qantas booking provider Amadeus suffers data breach.",
+      "status": "active"
+    },
+    {
+      "id": "sydney-southwest-metro-opens-south-coast-rail-plan",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "Southwest Metro opens (66km line); $6.8bn South Coast Rail Plan announced.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-density-infrastructure-debate-minns-oct2026",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "Minns pushes vertical growth via TOD; infrastructure-funding critique continues.",
+      "status": "active"
+    },
+    {
+      "id": "nsw-land-environment-court-planning-override",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "SMH investigation: Land and Environment Court frequently overturns council development refusals.",
+      "status": "active"
+    },
+    {
+      "id": "ai-stock-selloff-rebound-nov2026",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "Wall Street rebounds Monday after Friday's AI-stock sell-off.",
+      "status": "active"
+    },
+    {
+      "id": "mckinnon-index-trust-plunge-2026",
+      "first_briefed": "2026-11-03",
+      "section": "major",
+      "summary": "McKinnon Index finds trust in Australian politicians sliding sharply.",
+      "status": "active"
+    },
+    {
+      "id": "southwest-metro-rezoning-apartment-opportunity",
+      "first_briefed": "2026-11-03",
+      "section": "opportunities",
+      "summary": "Rail-corridor upzoning along Southwest Metro flagged as apartment-supply opportunity hypothesis.",
+      "status": "active"
     }
   ]
 }
